@@ -1,0 +1,9 @@
+spacy
+pandas
+inflect
+selenium
+matplotlib
+jupyter
+datasketch
+nltk
+mlconjug3
