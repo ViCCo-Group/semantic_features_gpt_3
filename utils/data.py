@@ -6,8 +6,9 @@ import numpy as np
 from scipy.spatial.distance import squareform
 import math 
 from os.path import join as pjoin
+import os 
 
-DATA_DIR = '../../data'
+DATA_DIR = os.getenv('DATA_DIR')
 
 def similarity_join(values):
     feature = ''
@@ -24,7 +25,7 @@ def join_to_string(values):
 def load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, run_nr, duplicates):
     # Read GPT3 features
     #gpt_df = pd.read_csv('../output_data/things/decoded_answers.csv')
-    gpt_df = pd.read_csv('./decoded_answers.csv')
+    gpt_df = pd.read_csv(f'{DATA_DIR}/gpt_3_feature_norm/decoded_answers.csv')
     #gpt_df = gpt_df[gpt_df['run_nr'] == run_nr]
     gpt_df = gpt_df.rename(columns={'decoded_feature': 'feature'})
 
@@ -41,7 +42,8 @@ def load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_r
 
 def load_mcrae(group_to_one_concept, duplicates):
     # Read McRae features
-    mc_df = pd.read_excel(pjoin(DATA_DIR, '/mcrae/CONCS_FEATS_concstats_brm.xlsx'))
+    print(DATA_DIR)
+    mc_df = pd.read_excel(pjoin(DATA_DIR, 'mcrae/CONCS_FEATS_concstats_brm.xlsx'))
     mc_df = mc_df.rename(columns={'Concept': 'concept_id', 'Feature': 'feature'})
     def remove_beh(feature):
         if feature.startswith('beh') or feature.startswith('inbeh'):
@@ -64,7 +66,7 @@ def load_mcrae(group_to_one_concept, duplicates):
         mc_df = mc_df.groupby('concept_id', as_index=False).agg({'feature': join_to_string})
     
     # Mapping Mc Rae Things concepts
-    mapping_df = pd.read_csv('./evaluation/mapping.csv')
+    mapping_df = pd.read_csv(f'{DATA_DIR}/mapping.csv')
     for row in mapping_df.itertuples():
         mc_df.loc[mc_df['concept_id'] == row.mcrae_concept, 'concept_id'] = row.things_concept_id
 
@@ -72,33 +74,33 @@ def load_mcrae(group_to_one_concept, duplicates):
 
 def load_behav():
     # Read similarity data from THINGS behaviourial data
-    behv_sim = scipy.io.loadmat(pjoin(DATA_DIR, '/things/spose_similarity.mat'))['spose_sim']
+    behv_sim = scipy.io.loadmat(pjoin(DATA_DIR, 'things/spose_similarity.mat'))['spose_sim']
     return behv_sim
 
 def load_dimension_labels():
-    labels = scipy.io.loadmat(pjoin(DATA_DIR, '/things/labels.mat'))['labels']
+    labels = scipy.io.loadmat(pjoin(DATA_DIR, 'things/labels.mat'))['labels']
     return [label[0][0] for label in labels]
 
 def load_sorting():
     # Read things concept sorting
-    sorting_df = pd.read_csv(pjoin(DATA_DIR, '/things/unique_id.txt'), header=None, names=['concept_id'])
+    sorting_df = pd.read_csv(pjoin(DATA_DIR, 'things/unique_id.txt'), header=None, names=['concept_id'])
     return sorting_df
 
 def load_cslb(group_to_one_concept):
-    cslb_df = pd.read_csv(pjoin(DATA_DIR, '/cslb/norms.dat'), sep='\t')
+    cslb_df = pd.read_csv(pjoin(DATA_DIR, 'cslb/norms.dat'), sep='\t')
     cslb_df = cslb_df.rename(columns={'concept': 'concept_id', 'feature type': 'label'})
     cslb_df = cslb_df[['concept_id', 'feature', 'label']]
     if group_to_one_concept:
         cslb_df = cslb_df.groupby('concept_id', as_index=False).agg({'feature': join_to_string})
 
-    mapping_df = pd.read_csv('./evaluation/mapping.csv')
+    mapping_df = pd.read_csv(f'{DATA_DIR}/mapping.csv')
     for row in mapping_df.itertuples():
         cslb_df.loc[cslb_df['concept_id'] == row.cslb_concept, 'concept_id'] = row.things_concept_id
 
     return cslb_df 
 
 def load_cslb_count_vec():
-    df = pd.read_csv('input_data/cslb/feature_matrix.dat', header=0, sep='\t')
+    df = pd.read_csv(f'{DATA_DIR}/cslb/feature_matrix.dat', header=0, sep='\t')
     df = df.rename(columns={'Vectors': 'concept_id'})
     mapping_df = pd.read_csv('./evaluation/mapping.csv')
     for row in mapping_df.itertuples():
@@ -175,7 +177,7 @@ def export_matched_data(gpt_df, mc_df, behv_sim, clsb_df):
 
 def load_dimension_embeddings():
     concept_ids = list(load_sorting()['concept_id'])
-    dimensions = pd.read_csv('./input_data/things/spose_embedding_49d_sorted.txt', sep=' ', header=None, names=load_dimension_labels(), index_col=False)
+    dimensions = pd.read_csv(f'{DATA_DIR}/things/spose_embedding_49d_sorted.txt', sep=' ', header=None, names=load_dimension_labels(), index_col=False)
     dimensions.index = concept_ids
     return dimensions
 
@@ -187,14 +189,14 @@ def load_bert(group_to_one_concept):
         return math.exp(row.act_no) / (math.exp(row.act_yes) + math.exp(row.act_no))
     
 
-    df = pd.read_csv('input_data/bhatia/data.csv')
+    df = pd.read_csv(f'{DATA_DIR}/bhatia/data.csv')
     df['prediction_yes'] = df.apply(calc_pred, axis=1)
     df['prediction_no'] = df.apply(calc_pred2, axis=1)
     df = df[df['prediction_yes'] > df['prediction_no']]
 
     df = df[['item', 'feature']]
     df = df.rename(columns={'item': 'concept_id'})
-    mapping_df = pd.read_csv('./evaluation/mapping.csv')
+    mapping_df = pd.read_csv(f'{DATA_DIR}/mapping.csv')
     df['concept_id'] = df['concept_id'].apply(lambda concept_id: concept_id.replace(' ', '_'))
     for row in mapping_df.itertuples():
         df.loc[df['concept_id'] == row.cslb_concept, 'concept_id'] = row.things_concept_id
@@ -229,7 +231,7 @@ def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_am
         if clsb:
             clsb_df = match_cslb(clsb_df, concepts_to_keep)
 
-    export_matched_data(gpt_df, mc_df, behv_sim, clsb_df)
+    #export_matched_data(gpt_df, mc_df, behv_sim, clsb_df)
 
     return gpt_df, mc_df, behv_sim, clsb_df, sorting_df, bert_df
 

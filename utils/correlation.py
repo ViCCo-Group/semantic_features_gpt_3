@@ -7,9 +7,7 @@ import numpy as np
 from scipy.spatial.distance import squareform
 import math 
 import matplotlib.pyplot as plt
-from sklearn.model_selection import KFold
-from evaluation.data import match_behv_sim, match_gpt, match_mc, match_cslb, load_data
-from scipy.stats import spearmanr
+
 
 def vectorize_concepts(df, sorting_df, name, vectorizer):
     # Calculate Vectors of all concepts based on the features
@@ -35,16 +33,15 @@ def vectorize_concepts(df, sorting_df, name, vectorizer):
     #    feature_frequency = df.loc[df['feature'] == column][0]
     #    pred_count_df[column] = pred_count_df[column] * feature_frequency
 
-    data_dir = './evaluation/check_data'
-    pred_count_df.to_csv('%s/vectorized_concepts_%s.csv' % (data_dir, name))
+    #data_dir = './evaluation/check_data'
+    #pred_count_df.to_csv('%s/vectorized_concepts_%s.csv' % (data_dir, name))
     return pred_count_df
 
 def get_similiarity_vector(df_vec, name):
     # Build cosine similarity matrices of features and flatten triangular part
-
-    data_dir = './evaluation/check_data'
+    #data_dir = './evaluation/check_data'
     pred_sim_matrix = cosine_similarity(df_vec, df_vec)
-    pd.DataFrame(pred_sim_matrix).to_csv('%s/similarity_matrix_%s.csv' % (data_dir, name))
+    #pd.DataFrame(pred_sim_matrix).to_csv('%s/similarity_matrix_%s.csv' % (data_dir, name))
     sim = squareform(pred_sim_matrix, force='tovector', checks=False)
     return sim
 
