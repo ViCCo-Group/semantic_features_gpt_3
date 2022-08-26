@@ -1,0 +1,1855 @@
+,concept,question,id
+1,abacus,What are the properties of an abacus?,abacus
+2,accordion,What are the properties of an accordion?,accordion
+4,air conditioner,What are the properties of an air conditioner?,air_conditioner
+5,air mattress,What are the properties of an air mattress?,air_mattress
+6,air pump,What are the properties of an air pump?,air_pump
+7,airbag,What are the properties of an airbag?,airbag
+8,airboat,What are the properties of an airboat?,airboat
+9,aircraft carrier,What are the properties of an aircraft carrier?,aircraft_carrier
+10,airplane,What are the properties of an airplane?,airplane
+12,alligator,What are the properties of an alligator?,alligator
+13,almond,What are the properties of an almond?,almond
+14,aloe,What are the properties of an aloe?,aloe
+15,alpaca,What are the properties of an alpaca?,alpaca
+16,altar,What are the properties of an altar?,altar
+18,amber,What are the properties of an amber?,amber
+19,ambulance,What are the properties of an ambulance?,ambulance
+20,amplifier,What are the properties of an amplifier?,amplifier
+21,anchor,What are the properties of an anchor?,anchor
+22,ankle,What are the properties of an ankle?,ankle
+23,anklet,What are the properties of an anklet?,anklet
+24,ant,What are the properties of an ant?,ant
+25,anteater,What are the properties of an anteater?,anteater
+26,antelope,What are the properties of an antelope?,antelope
+27,antenna,What are the properties of an antenna?,antenna
+28,anvil,What are the properties of an anvil?,anvil
+29,appetizer,What are the properties of an appetizer?,appetizer
+30,apple,What are the properties of an apple?,apple
+31,apple tree,What are the properties of an apple tree?,apple_tree
+32,applesauce,What are the properties of an applesauce?,applesauce
+33,apron,What are the properties of an apron?,apron
+34,aquarium,What are the properties of an aquarium?,aquarium
+35,arch,What are the properties of an arch (architectural element)?,arch
+36,arm,What are the properties of an arm?,arm
+37,armor,What are the properties of an armor?,armor
+38,arrow,What are the properties of an arrow?,arrow
+39,artichoke,What are the properties of an artichoke?,artichoke
+40,arugula,What are the properties of an arugula?,arugula
+41,ashtray,What are the properties of an ashtray?,ashtray
+42,asparagus,What are the properties of an asparagus?,asparagus
+43,avocado,What are the properties of an avocado?,avocado
+44,awning,What are the properties of an awning?,awning
+45,axe,What are the properties of an axe?,axe
+46,baby,What are the properties of a baby?,baby
+47,backdrop,What are the properties of a backdrop?,backdrop
+48,backgammon,What are the properties of a backgammon?,backgammon
+49,backpack,What are the properties of a backpack?,backpack
+50,backscratcher,What are the properties of a backscratcher?,backscratcher
+51,bacon,What are the properties of a bacon?,bacon
+52,badge,What are the properties of a badge?,badge
+53,badger,What are the properties of a badger?,badger
+54,bag,What are the properties of a bag?,bag
+55,bagel,What are the properties of a bagel?,bagel
+56,bagpipe,What are the properties of a bagpipe?,bagpipe
+57,baklava,What are the properties of a baklava?,baklava
+59,ball,What are the properties of a ball?,ball
+60,balloon,What are the properties of a balloon (party supply)?,balloon
+61,ballot box,What are the properties of a ballot box?,ballot_box
+62,bamboo,What are the properties of a bamboo?,bamboo
+63,banana,What are the properties of a banana?,banana
+64,banana peel,What are the properties of a banana peel?,banana_peel
+65,banana split,What are the properties of a banana split?,banana_split
+66,bandage,What are the properties of a bandage?,bandage
+67,bandanna,What are the properties of a bandanna?,bandanna
+68,banjo,What are the properties of a banjo?,banjo
+71,barbed wire,What are the properties of a barbed wire?,barbed_wire
+72,barbell,What are the properties of a barbell?,barbell
+73,barcode,What are the properties of a barcode?,barcode
+74,bark,What are the properties of a bark?,bark
+75,barnacle,What are the properties of a barnacle?,barnacle
+76,barrel,What are the properties of a barrel?,barrel
+77,barrette,What are the properties of a barrette?,barrette
+79,baseball bat,What are the properties of a baseball bat?,baseball_bat
+80,baseball glove,What are the properties of a baseball glove?,baseball_glove
+81,basil,What are the properties of a basil?,basil
+82,basket,What are the properties of a basket?,basket
+84,basketball hoop,What are the properties of a basketball hoop?,basketball_hoop
+85,bassinet,What are the properties of a bassinet?,bassinet
+86,bassoon,What are the properties of a bassoon?,bassoon
+87,bathmat,What are the properties of a bathmat?,bathmat
+88,bathrobe,What are the properties of a bathrobe?,bathrobe
+89,bathtub,What are the properties of a bathtub?,bathtub
+90,batter,What are the properties of a batter?,batter
+91,battery,What are the properties of a battery?,battery
+92,bazooka,What are the properties of a bazooka?,bazooka
+93,beachball,What are the properties of a beachball?,beachball
+94,bead,What are the properties of a bead?,bead
+95,beaker,What are the properties of a beaker?,beaker
+96,bean,"What are the properties of a bean (food, legume)?",bean
+97,beanbag,What are the properties of a beanbag?,beanbag
+98,beanie,What are the properties of a beanie?,beanie
+99,bear,What are the properties of a bear?,bear
+100,beard,What are the properties of a beard?,beard
+101,beaver,What are the properties of a beaver?,beaver
+102,bed,What are the properties of a bed?,bed
+103,bedpan,What are the properties of a bedpan?,bedpan
+104,bedpost,What are the properties of a bedpost?,bedpost
+105,bee,What are the properties of a bee?,bee
+106,beehive,What are the properties of a beehive?,beehive
+107,beer,What are the properties of a beer?,beer
+108,beet,What are the properties of a beet?,beet
+109,beetle,What are the properties of a beetle?,beetle
+110,bell,What are the properties of a bell?,bell
+111,bell pepper,What are the properties of a bell pepper?,bell_pepper
+112,belt,What are the properties of a belt?,belt
+113,belt buckle,What are the properties of a belt buckle?,belt_buckle
+114,bench,What are the properties of a bench?,bench
+115,berry,What are the properties of a berry?,berry
+116,bib,What are the properties of a bib?,bib
+117,bike,What are the properties of a bike?,bike
+118,bikini,What are the properties of a bikini?,bikini
+120,binder,What are the properties of a binder?,binder
+121,binoculars,What are the properties of binoculars?,binoculars
+122,bird,What are the properties of a bird?,bird
+123,birdbath,What are the properties of a birdbath?,birdbath
+124,birdcage,What are the properties of a birdcage?,birdcage
+125,birdhouse,What are the properties of a birdhouse?,birdhouse
+126,birthday cake,What are the properties of a birthday cake?,birthday_cake
+127,biscuit,What are the properties of a biscuit?,biscuit
+128,bison,What are the properties of a bison?,bison
+129,blackberry,What are the properties of a blackberry?,blackberry
+130,blanket,What are the properties of a blanket?,blanket
+131,blazer,What are the properties of a blazer?,blazer
+132,blender,What are the properties of a blender?,blender
+133,blimp,What are the properties of a blimp?,blimp
+136,blindfold,What are the properties of a blindfold?,blindfold
+137,block,What are the properties of a block?,block
+138,blouse,What are the properties of a blouse?,blouse
+139,blower,What are the properties of a blower?,blower
+140,blowfish,What are the properties of a blowfish?,blowfish
+141,blowgun,What are the properties of a blowgun?,blowgun
+142,blowtorch,What are the properties of a blowtorch?,blowtorch
+143,blueberry,What are the properties of a blueberry?,blueberry
+145,boar,What are the properties of a boar?,boar
+147,board game,What are the properties of a board game?,board_game
+148,boat,What are the properties of a boat?,boat
+149,bobsled,What are the properties of a bobsled?,bobsled
+150,bok choy,What are the properties of a bok choy?,bok_choy
+151,bolo tie,What are the properties of a bolo tie?,bolo_tie
+152,bologna,What are the properties of a bologna?,bologna
+154,bomb,What are the properties of a bomb?,bomb
+155,bone,What are the properties of a bone?,bone
+157,bonnet,What are the properties of a bonnet?,bonnet
+158,bonsai,What are the properties of a bonsai?,bonsai
+159,book,What are the properties of a book?,book
+160,bookmark,What are the properties of a bookmark?,bookmark
+161,bookshelf,What are the properties of a bookshelf?,bookshelf
+162,boomerang,What are the properties of a boomerang?,boomerang
+163,boot,What are the properties of a boot?,boot
+164,bottle,What are the properties of a bottle?,bottle
+165,bottle opener,What are the properties of a bottle opener?,bottle_opener
+166,boulder,What are the properties of a boulder?,boulder
+167,bouquet,What are the properties of a bouquet?,bouquet
+168,bowl,What are the properties of a bowl?,bowl
+169,bowler hat,What are the properties of a bowler hat?,bowler_hat
+170,bowling ball,What are the properties of a bowling ball?,bowling_ball
+171,bowtie,What are the properties of a bowtie?,bowtie
+172,box,What are the properties of a box?,box
+173,boxer shorts,What are the properties of boxer shorts?,boxer_shorts
+174,boxing gloves,What are the properties of boxing gloves?,boxing_gloves
+175,boy,What are the properties of a boy?,boy
+176,bra,What are the properties of a bra?,bra
+177,brace,What are the properties of a brace?,brace
+178,bracket,What are the properties of a bracket?,bracket
+179,braid,What are the properties of a braid?,braid
+180,brake,What are the properties of a brake?,brake
+181,branch,What are the properties of a branch?,branch
+182,brass knuckles,What are the properties of brass knuckles?,brass_knuckles
+183,bread,What are the properties of a bread?,bread
+184,breadbox,What are the properties of a breadbox?,breadbox
+185,breadstick,What are the properties of a breadstick?,breadstick
+186,breakfast,What are the properties of a breakfast?,breakfast
+187,breathalyzer,What are the properties of a breathalyzer?,breathalyzer
+188,brick,What are the properties of a brick?,brick
+189,briefcase,What are the properties of a briefcase?,briefcase
+190,broccoli,What are the properties of a broccoli?,broccoli
+191,brooch,What are the properties of a brooch?,brooch
+192,broom,What are the properties of a broom?,broom
+193,brownie,What are the properties of a brownie?,brownie
+195,brussels sprouts,What are the properties of brussels sprouts?,brussels_sprouts
+196,bubble,What are the properties of a bubble?,bubble
+197,bubble wrap,What are the properties of a bubble wrap?,bubble_wrap
+198,bucket,What are the properties of a bucket?,bucket
+199,buckle,What are the properties of a buckle?,buckle
+200,buffet,What are the properties of a buffet (food)?,buffet
+201,bug,What are the properties of a bug?,bug
+202,buggy,What are the properties of a buggy?,buggy
+203,bull,What are the properties of a bull?,bull
+204,bulldozer,What are the properties of a bulldozer?,bulldozer
+205,bullet,What are the properties of a bullet?,bullet
+206,bulletin board,What are the properties of a bulletin board?,bulletin_board
+207,bulletproof vest,What are the properties of a bulletproof vest?,bulletproof_vest
+209,bun,What are the properties of a bun?,bun
+210,bungee,What are the properties of a bungee?,bungee
+211,bunkbed,What are the properties of a bunkbed?,bunkbed
+212,buoy,What are the properties of a buoy?,buoy
+213,burner,What are the properties of a burner?,burner
+214,burrito,What are the properties of a burrito?,burrito
+215,bus,What are the properties of a bus?,bus
+216,bush,What are the properties of a bush?,bush
+217,butter,What are the properties of a butter?,butter
+218,butterfly,What are the properties of a butterfly?,butterfly
+219,cabbage,What are the properties of a cabbage?,cabbage
+221,cable,What are the properties of a cable (electrical equipment)?,cable
+222,cactus,What are the properties of a cactus?,cactus
+223,cage,What are the properties of a cage?,cage
+224,cake,What are the properties of a cake?,cake
+225,cake mix,What are the properties of a cake mix?,cake_mix
+226,calamari,What are the properties of calamari?,calamari
+227,calculator,What are the properties of a calculator?,calculator
+228,calzone,What are the properties of a calzone?,calzone
+229,camcorder,What are the properties of a camcorder?,camcorder
+230,camel,What are the properties of a camel?,camel
+231,camera lens,What are the properties of a camera lens?,camera_lens
+232,camper,What are the properties of a camper?,camper
+234,can opener,What are the properties of a can opener?,can_opener
+235,candelabra,What are the properties of a candelabra?,candelabra
+236,candle,What are the properties of a candle?,candle
+237,candlestick,What are the properties of a candlestick?,candlestick
+238,candy,What are the properties of a candy?,candy
+239,candy bar,What are the properties of a candy bar?,candy_bar
+240,candy cane,What are the properties of a candy cane?,candy_cane
+242,canister,What are the properties of a canister?,canister
+243,cannon,What are the properties of a cannon (weapon)?,cannon
+244,cannonball,What are the properties of a cannonball?,cannonball
+245,canoe,What are the properties of a canoe?,canoe
+246,cantaloupe,What are the properties of a cantaloupe?,cantaloupe
+248,cap,What are the properties of a cap (bottle top)?,cap
+250,car,What are the properties of a car?,car
+251,car door,What are the properties of a car door?,car_door
+253,caramel,What are the properties of a caramel?,caramel
+255,cardboard,What are the properties of a cardboard?,cardboard
+256,cardigan,What are the properties of a cardigan?,cardigan
+257,cardinal,What are the properties of a cardinal?,cardinal
+258,carousel,What are the properties of a carousel?,carousel
+259,carriage,What are the properties of a carriage?,carriage
+260,carrot,What are the properties of a carrot?,carrot
+261,cart,What are the properties of a cart (vehicle)?,cart
+262,cash machine,What are the properties of a cash machine?,cash_machine
+263,cash register,What are the properties of a cash register?,cash_register
+264,cashew,What are the properties of a cashew?,cashew
+265,casserole,What are the properties of a casserole (food)?,casserole
+266,cassette,What are the properties of a cassette?,cassette
+267,cat,What are the properties of a cat?,cat
+268,catapult,What are the properties of a catapult?,catapult
+269,caterpillar,What are the properties of a caterpillar?,caterpillar
+270,catfish,What are the properties of a catfish?,catfish
+271,cauliflower,What are the properties of a cauliflower?,cauliflower
+272,caviar,What are the properties of a caviar?,caviar
+273,cd player,What are the properties of a cd player?,cd_player
+274,celery,What are the properties of a celery?,celery
+275,cello,What are the properties of a cello?,cello
+276,cellphone,What are the properties of a cellphone?,cellphone
+277,cement mixer,What are the properties of a cement mixer?,cement_mixer
+278,centerpiece,What are the properties of a centerpiece?,centerpiece
+279,centrifuge,What are the properties of a centrifuge?,centrifuge
+280,cereal,"What are the properties of a cereal (breakfast food, food)?",cereal
+281,chain,"What are the properties of a chain (tool, tethering device)?",chain
+282,chainsaw,What are the properties of a chainsaw?,chainsaw
+283,chair,What are the properties of a chair?,chair
+284,chalice,What are the properties of a chalice?,chalice
+285,chalk,What are the properties of a chalk?,chalk
+286,chalkboard,What are the properties of a chalkboard?,chalkboard
+287,champagne,What are the properties of a champagne?,champagne
+288,chandelier,What are the properties of a chandelier?,chandelier
+289,chaps,What are the properties of chaps?,chaps
+290,charcoal,What are the properties of a charcoal?,charcoal
+292,chariot,What are the properties of a chariot?,chariot
+293,checkbook,What are the properties of a checkbook?,checkbook
+294,checkers,What are the properties of a checkers?,checkers
+295,cheese,What are the properties of a cheese?,cheese
+296,cheeseburger,What are the properties of a cheeseburger?,cheeseburger
+297,cheesecake,What are the properties of a cheesecake?,cheesecake
+298,cheetah,What are the properties of a cheetah?,cheetah
+299,cherry,What are the properties of a cherry?,cherry
+300,chess piece,What are the properties of a chess piece?,chess_piece
+301,chessboard,What are the properties of a chessboard?,chessboard
+302,chick,What are the properties of a chick?,chick
+303,chicken wire,What are the properties of a chicken wire?,chicken_wire
+304,chickpea,What are the properties of a chickpea?,chickpea
+305,chihuahua,What are the properties of a chihuahua?,chihuahua
+306,chili,What are the properties of a chili (meal)?,chili
+307,chime,What are the properties of a chime?,chime
+308,chimney,What are the properties of a chimney?,chimney
+309,chin,What are the properties of a chin?,chin
+310,chinaware,What are the properties of a chinaware?,chinaware
+311,chinchilla,What are the properties of a chinchilla?,chinchilla
+313,chipmunk,What are the properties of a chipmunk?,chipmunk
+314,chips,What are the properties of chips?,chips
+315,chisel,What are the properties of a chisel?,chisel
+316,chive,What are the properties of a chive?,chive
+317,chocolate,What are the properties of a chocolate?,chocolate
+318,chopsticks,What are the properties of chopsticks?,chopsticks
+319,christmas card,What are the properties of a christmas card?,christmas_card
+320,christmas tree,What are the properties of a christmas tree?,christmas_tree
+321,chute,What are the properties of a chute?,chute
+322,cigar,What are the properties of a cigar?,cigar
+323,cigarette,What are the properties of a cigarette?,cigarette
+324,cigarette butt,What are the properties of a cigarette butt?,cigarette_butt
+325,cigarette holder,What are the properties of a cigarette holder?,cigarette_holder
+326,cilantro,What are the properties of a cilantro?,cilantro
+327,cinnamon,What are the properties of cinnamon (spice)?,cinnamon
+328,clam,What are the properties of a clam?,clam
+329,clarinet,What are the properties of a clarinet?,clarinet
+330,clasp,What are the properties of a clasp?,clasp
+331,clay,What are the properties of a clay?,clay
+333,cleaver,What are the properties of a cleaver?,cleaver
+334,clipboard,What are the properties of a clipboard?,clipboard
+335,cloak,What are the properties of a cloak?,cloak
+336,clock,What are the properties of a clock?,clock
+337,closet,What are the properties of a closet?,closet
+338,clothes,What are the properties of clothes?,clothes
+339,clothesline,What are the properties of a clothesline?,clothesline
+340,clothespin,What are the properties of a clothespin?,clothespin
+341,cloud,What are the properties of a cloud?,cloud
+342,clove,What are the properties of a clove?,clove
+343,clover,What are the properties of a clover?,clover
+344,coal,What are the properties of a coal?,coal
+345,coaster,What are the properties of a coaster?,coaster
+346,coat,What are the properties of a coat?,coat
+347,coat rack,What are the properties of a coat rack?,coat_rack
+348,cobra,What are the properties of a cobra?,cobra
+349,cockatoo,What are the properties of a cockatoo?,cockatoo
+350,cockroach,What are the properties of a cockroach?,cockroach
+351,cocktail,What are the properties of a cocktail?,cocktail
+352,coconut,What are the properties of a coconut?,coconut
+353,cocoon,What are the properties of a cocoon?,cocoon
+354,coffee,What are the properties of a coffee?,coffee
+355,coffee bean,What are the properties of a coffee bean?,coffee_bean
+356,coffee filter,What are the properties of a coffee filter?,coffee_filter
+357,coffee pot,What are the properties of a coffee pot?,coffee_pot
+358,coffee table,What are the properties of a coffee table?,coffee_table
+359,coffeemaker,What are the properties of a coffeemaker?,coffeemaker
+360,coffin,What are the properties of a coffin?,coffin
+361,coil,"What are the properties of a coil (spring, tool)?",coil
+362,coin,What are the properties of a coin?,coin
+363,coleslaw,What are the properties of a coleslaw?,coleslaw
+364,collar,What are the properties of a collar?,collar
+366,comb,What are the properties of a comb?,comb
+367,combination lock,What are the properties of a combination lock?,combination_lock
+368,comic book,What are the properties of a comic book?,comic_book
+369,compass,What are the properties of a compass?,compass
+370,compost,What are the properties of a compost?,compost
+371,computer,What are the properties of a computer?,computer
+372,computer screen,What are the properties of a computer screen?,computer_screen
+373,confetti,What are the properties of a confetti?,confetti
+374,contact lens,What are the properties of a contact lens?,contact_lens
+375,container,What are the properties of a container?,container
+376,cooker,What are the properties of a cooker?,cooker
+377,cookie,What are the properties of a cookie?,cookie
+378,cookie cutter,What are the properties of a cookie cutter?,cookie_cutter
+379,cookie sheet,What are the properties of a cookie sheet?,cookie_sheet
+380,cooler,What are the properties of a cooler?,cooler
+381,coop,What are the properties of a coop?,coop
+382,copier,What are the properties of a copier?,copier
+383,coral,What are the properties of a coral?,coral
+384,cord,What are the properties of a cord (electrical equipment)?,cord
+385,cordon bleu,What are the properties of a cordon bleu?,cordon_bleu
+386,cork,What are the properties of a cork?,cork
+387,corkboard,What are the properties of a corkboard?,corkboard
+388,corkscrew,What are the properties of a corkscrew?,corkscrew
+389,corn,What are the properties of a corn?,corn
+390,cornbread,What are the properties of a cornbread?,cornbread
+391,cornhusk,What are the properties of a cornhusk?,cornhusk
+392,cornmeal,What are the properties of a cornmeal?,cornmeal
+393,cornucopia,What are the properties of a cornucopia?,cornucopia
+394,corsage,What are the properties of a corsage?,corsage
+395,corset,What are the properties of a corset?,corset
+396,costume,What are the properties of a costume (clothing)?,costume
+397,cot,What are the properties of a cot?,cot
+398,cotton candy,What are the properties of a cotton candy?,cotton_candy
+399,couch,What are the properties of a couch?,couch
+400,cougar,What are the properties of a cougar?,cougar
+401,counter,What are the properties of a counter?,counter
+402,coverall,What are the properties of a coverall?,coverall
+403,cow,What are the properties of a cow?,cow
+404,coyote,What are the properties of a coyote?,coyote
+405,crab,What are the properties of a crab?,crab
+406,cracker,What are the properties of a cracker?,cracker
+407,cranberry,What are the properties of a cranberry?,cranberry
+409,crank,What are the properties of a crank?,crank
+411,crayfish,What are the properties of a crayfish?,crayfish
+412,crayon,What are the properties of a crayon?,crayon
+414,cream cheese,What are the properties of a cream cheese?,cream_cheese
+415,credit card,What are the properties of a credit card?,credit_card
+416,creme brulee,What are the properties of a creme brulee?,creme_brulee
+417,crepe,What are the properties of a crepe?,crepe
+418,crib,What are the properties of a crib?,crib
+419,croissant,What are the properties of a croissant?,croissant
+420,cross,What are the properties of a cross?,cross
+421,crossbow,What are the properties of a crossbow?,crossbow
+422,crouton,What are the properties of a crouton?,crouton
+423,crow,What are the properties of a crow?,crow
+424,crowbar,What are the properties of a crowbar?,crowbar
+426,crucifix,What are the properties of a crucifix?,crucifix
+427,cruise ship,What are the properties of a cruise ship?,cruise_ship
+428,crumb,What are the properties of a crumb?,crumb
+429,crutch,What are the properties of a crutch?,crutch
+430,crystal ball,What are the properties of a crystal ball?,crystal_ball
+431,cuckoo clock,What are the properties of a cuckoo clock?,cuckoo_clock
+432,cucumber,What are the properties of a cucumber?,cucumber
+433,cufflink,What are the properties of a cufflink?,cufflink
+434,cummerbund,What are the properties of a cummerbund?,cummerbund
+435,cup,What are the properties of a cup?,cup
+436,cupcake,What are the properties of a cupcake?,cupcake
+437,curb,What are the properties of a curb?,curb
+438,curling iron,What are the properties of a curling iron?,curling_iron
+439,curry,What are the properties of a curry (meal)?,curry
+440,curtain,What are the properties of a curtain?,curtain
+441,cushion,What are the properties of a cushion?,cushion
+442,cutting board,What are the properties of a cutting board?,cutting_board
+443,cymbal,What are the properties of a cymbal?,cymbal
+444,dagger,What are the properties of a dagger?,dagger
+445,daisy,What are the properties of a daisy?,daisy
+446,dalmatian,What are the properties of a dalmatian?,dalmatian
+447,dandelion,What are the properties of a dandelion?,dandelion
+448,dart,What are the properties of a dart?,dart
+449,dartboard,What are the properties of a dartboard?,dartboard
+450,dashboard,What are the properties of a dashboard?,dashboard
+451,deer,What are the properties of a deer?,deer
+452,defibrillator,What are the properties of a defibrillator?,defibrillator
+453,denture,What are the properties of a denture?,denture
+454,deodorant,What are the properties of a deodorant?,deodorant
+455,desk,What are the properties of a desk?,desk
+456,dessert,What are the properties of a dessert?,dessert
+457,detonator,What are the properties of a detonator?,detonator
+458,dial,What are the properties of a dial (part of telephone)?,dial
+459,diamond,What are the properties of a diamond?,diamond
+460,diaper,What are the properties of a diaper?,diaper
+461,dice,What are the properties of a dice?,dice
+462,dip,What are the properties of a dip?,dip
+463,dirt bike,What are the properties of a dirt bike?,dirt_bike
+464,dish,What are the properties of a dish?,dish
+465,dishrag,What are the properties of a dishrag?,dishrag
+466,dishwasher,What are the properties of a dishwasher?,dishwasher
+467,dishwashing liquid,What are the properties of a dishwashing liquid?,dishwashing_liquid
+468,diskette,What are the properties of a diskette?,diskette
+469,diving board,What are the properties of a diving board?,diving_board
+470,dog,What are the properties of a dog?,dog
+471,dogfood,What are the properties of a dogfood?,dogfood
+472,doghouse,What are the properties of a doghouse?,doghouse
+473,doily,What are the properties of a doily?,doily
+474,doll,What are the properties of a doll?,doll
+475,dollhouse,What are the properties of a dollhouse?,dollhouse
+477,dolphin,What are the properties of a dolphin?,dolphin
+478,domino,What are the properties of a domino?,domino
+479,donkey,What are the properties of a donkey?,donkey
+480,donut,What are the properties of a donut?,donut
+481,door,What are the properties of a door?,door
+482,doorbell,What are the properties of a doorbell?,doorbell
+483,doorhandle,What are the properties of a doorhandle?,doorhandle
+484,doorknob,What are the properties of a doorknob?,doorknob
+485,doorknocker,What are the properties of a doorknocker?,doorknocker
+486,doormat,What are the properties of a doormat?,doormat
+487,doorstop,What are the properties of a doorstop?,doorstop
+488,dough,What are the properties of a dough?,dough
+489,dragonfly,What are the properties of a dragonfly?,dragonfly
+490,drain,What are the properties of a drain?,drain
+491,drawer,What are the properties of a drawer?,drawer
+492,dreidel,What are the properties of a dreidel?,dreidel
+493,dress,What are the properties of a dress?,dress
+494,dresser,What are the properties of a dresser?,dresser
+495,drill,What are the properties of a drill?,drill
+496,drink,What are the properties of a drink?,drink
+497,drum,What are the properties of a drum (musical instrument)?,drum
+499,dryer,What are the properties of a dryer?,dryer
+500,duck,What are the properties of a duck?,duck
+501,duckling,What are the properties of a duckling?,duckling
+502,duct,What are the properties of a duct?,duct
+503,duct tape,What are the properties of a duct tape?,duct_tape
+504,duffel bag,What are the properties of a duffel bag?,duffel_bag
+505,dumbbell,What are the properties of a dumbbell?,dumbbell
+506,dumbwaiter,What are the properties of a dumbwaiter?,dumbwaiter
+507,dumpling,What are the properties of a dumpling?,dumpling
+508,dumpster,What are the properties of a dumpster?,dumpster
+509,duster,What are the properties of a duster?,duster
+510,dustpan,What are the properties of a dustpan?,dustpan
+512,eagle,What are the properties of an eagle?,eagle
+513,ear,What are the properties of an ear?,ear
+514,earplug,What are the properties of an earplug?,earplug
+515,earring,What are the properties of an earring?,earring
+516,earwig,What are the properties of an earwig?,earwig
+517,easel,What are the properties of an easel?,easel
+518,easter egg,What are the properties of an easter egg?,easter_egg
+520,eel,What are the properties of an eel?,eel
+521,egg,What are the properties of an egg?,egg
+522,egg roll,What are the properties of an egg roll?,egg_roll
+523,eggbeater,What are the properties of an eggbeater?,eggbeater
+524,eggnog,What are the properties of an eggnog?,eggnog
+525,eggplant,What are the properties of an eggplant?,eggplant
+526,eggshell,What are the properties of an eggshell?,eggshell
+527,elbow,What are the properties of an elbow?,elbow
+528,electric chair,What are the properties of an electric chair?,electric_chair
+529,elephant,What are the properties of an elephant?,elephant
+530,emerald,What are the properties of an emerald?,emerald
+531,enchilada,What are the properties of an enchilada?,enchilada
+532,engine,What are the properties of an engine?,engine
+533,envelope,What are the properties of an envelope?,envelope
+534,eraser,What are the properties of an eraser?,eraser
+535,espresso,What are the properties of an espresso?,espresso
+536,exerciser,What are the properties of an exerciser?,exerciser
+537,exhaust pipe,What are the properties of an exhaust pipe?,exhaust_pipe
+538,extinguisher,What are the properties of an extinguisher?,extinguisher
+539,eye,What are the properties of an eye?,eye
+540,eye patch,What are the properties of an eye patch?,eye_patch
+541,eyedropper,What are the properties of an eyedropper?,eyedropper
+542,eyeliner,What are the properties of an eyeliner?,eyeliner
+543,eyepiece,What are the properties of an eyepiece?,eyepiece
+544,face,What are the properties of a face?,face
+546,fan,What are the properties of a fan?,fan
+547,fast food,What are the properties of a fast food?,fast_food
+548,faucet,What are the properties of a faucet?,faucet
+549,feather,What are the properties of a feather?,feather
+550,fence,What are the properties of a fence?,fence
+551,fencepost,What are the properties of a fencepost?,fencepost
+552,fern,What are the properties of a fern?,fern
+553,ferret,What are the properties of a ferret?,ferret
+554,ferris wheel,What are the properties of a ferris wheel?,ferris_wheel
+555,ferry,What are the properties of a ferry?,ferry
+556,fig,What are the properties of a fig?,fig
+557,figurine,What are the properties of a figurine?,figurine
+558,filing cabinet,What are the properties of a filing cabinet?,filing_cabinet
+560,filter,What are the properties of a filter?,filter
+561,finger,What are the properties of a finger?,finger
+562,fingerprint,What are the properties of a fingerprint?,fingerprint
+563,fire,What are the properties of a fire?,fire
+564,fire alarm,What are the properties of a fire alarm?,fire_alarm
+565,fire hydrant,What are the properties of a fire hydrant?,fire_hydrant
+566,fire pit,What are the properties of a fire pit?,fire_pit
+567,firecracker,What are the properties of a firecracker?,firecracker
+568,fireplace,What are the properties of a fireplace?,fireplace
+569,firetruck,What are the properties of a firetruck?,firetruck
+570,firewood,What are the properties of a firewood?,firewood
+571,fireworks,What are the properties of fireworks?,fireworks
+572,first-aid kit,What are the properties of a first-aid kit?,first-aid_kit
+573,fish,What are the properties of a fish?,fish
+574,fishbowl,What are the properties of a fishbowl?,fishbowl
+575,fishhook,What are the properties of a fishhook?,fishhook
+576,fishing pole,What are the properties of a fishing pole?,fishing_pole
+577,fishnet stockings,What are the properties of fishnet stockings?,fishnet_stockings
+578,flag,What are the properties of a flag?,flag
+579,flagpole,What are the properties of a flagpole?,flagpole
+580,flamethrower,What are the properties of a flamethrower?,flamethrower
+581,flamingo,What are the properties of a flamingo?,flamingo
+582,flan,What are the properties of a flan?,flan
+583,flashbulb,What are the properties of a flashbulb?,flashbulb
+584,flashlight,What are the properties of a flashlight?,flashlight
+585,flask,What are the properties of a flask?,flask
+586,flatiron,What are the properties of a flatiron?,flatiron
+587,flip-flop,What are the properties of a flip-flop?,flip_flop
+589,float,What are the properties of a float (pool accessory)?,float
+590,floss,What are the properties of a floss?,floss
+591,flour,What are the properties of a flour?,flour
+592,flower,What are the properties of a flower?,flower
+593,flute,What are the properties of a flute?,flute
+594,fly,What are the properties of a fly?,fly
+595,flypaper,What are the properties of a flypaper?,flypaper
+596,flyswatter,What are the properties of a flyswatter?,flyswatter
+597,foam,What are the properties of a foam (packing material)?,foam
+598,folder,What are the properties of a folder?,folder
+599,fondue,What are the properties of a fondue?,fondue
+600,food processor,What are the properties of a food processor?,food_processor
+601,foot,What are the properties of a foot?,foot
+602,football,What are the properties of a football?,football
+603,football helmet,What are the properties of a football helmet?,football_helmet
+604,footbath,What are the properties of a footbath?,footbath
+605,footprint,What are the properties of a footprint?,footprint
+606,footrest,What are the properties of a footrest?,footrest
+607,fork,What are the properties of a fork?,fork
+608,forklift,What are the properties of a forklift?,forklift
+609,fossil,What are the properties of a fossil?,fossil
+610,fountain pen,What are the properties of a fountain pen?,fountain_pen
+611,fox,What are the properties of a fox?,fox
+613,freezer,What are the properties of a freezer?,freezer
+614,french fries,What are the properties of french fries?,french_fries
+615,french horn,What are the properties of a french horn?,french_horn
+616,frisbee,What are the properties of a frisbee?,frisbee
+617,frog,What are the properties of a frog?,frog
+618,fruit,What are the properties of a fruit?,fruit
+619,fruitcake,What are the properties of a fruitcake?,fruitcake
+620,fudge,What are the properties of a fudge?,fudge
+621,fungus,What are the properties of a fungus?,fungus
+622,funnel,What are the properties of a funnel?,funnel
+623,fur coat,What are the properties of a fur coat?,fur_coat
+624,furnace,What are the properties of a furnace?,furnace
+625,fuse,What are the properties of a fuse (electrical component)?,fuse
+626,gallows,What are the properties of gallows?,gallows
+627,game,What are the properties of a game (entertainment)?,game
+628,garbage,What are the properties of a garbage (waste)?,garbage
+629,garbage truck,What are the properties of a garbage truck?,garbage_truck
+630,gargoyle,What are the properties of a gargoyle?,gargoyle
+631,garlic,What are the properties of a garlic?,garlic
+633,gas mask,What are the properties of a gas mask?,gas_mask
+634,gasket,What are the properties of a gasket?,gasket
+635,gate,What are the properties of a gate?,gate
+636,gauge,What are the properties of a gauge?,gauge
+637,gauze,What are the properties of a gauze?,gauze
+638,gavel,What are the properties of a gavel?,gavel
+639,gazelle,What are the properties of a gazelle?,gazelle
+640,gear,What are the properties of a gear?,gear
+641,gearshift,What are the properties of a gearshift?,gearshift
+642,gel,What are the properties of a gel?,gel
+643,gem,What are the properties of a gem?,gem
+644,generator,What are the properties of a generator?,generator
+645,gift,What are the properties of a gift?,gift
+646,ginger,What are the properties of ginger (spice)?,ginger
+647,gingerbread man,What are the properties of a gingerbread man?,gingerbread_man
+648,giraffe,What are the properties of a giraffe?,giraffe
+649,girl,What are the properties of a girl?,girl
+651,glasses,What are the properties of glasses?,glasses
+653,glove,What are the properties of a glove?,glove
+654,glue,What are the properties of a glue?,glue
+655,go-kart,What are the properties of a go-kart?,go-kart
+656,goalpost,What are the properties of a goalpost?,goalpost
+657,goat,What are the properties of a goat?,goat
+658,goblet,What are the properties of a goblet?,goblet
+659,goggles,What are the properties of goggles?,goggles
+660,gold,What are the properties of a gold?,gold
+661,goldfish,What are the properties of a goldfish?,goldfish
+662,golf cart,What are the properties of a golf cart?,golf_cart
+663,golf club,What are the properties of a golf club?,golf_club
+664,gondola,What are the properties of a gondola?,gondola
+665,gong,What are the properties of a gong?,gong
+666,goose,What are the properties of a goose?,goose
+667,gopher,What are the properties of a gopher?,gopher
+668,gorilla,What are the properties of a gorilla?,gorilla
+670,graffiti,What are the properties of a graffiti?,graffiti
+671,grain,What are the properties of a grain?,grain
+672,gramophone,What are the properties of a gramophone?,gramophone
+673,granite,What are the properties of a granite?,granite
+674,granola,What are the properties of a granola?,granola
+675,grape,What are the properties of a grape?,grape
+676,grapefruit,What are the properties of a grapefruit?,grapefruit
+677,grapevine,What are the properties of a grapevine?,grapevine
+678,grass,What are the properties of a grass?,grass
+679,grasshopper,What are the properties of a grasshopper?,grasshopper
+680,grate,What are the properties of a grate (covering)?,grate
+681,grater,What are the properties of a grater?,grater
+682,gravel,What are the properties of a gravel?,gravel
+683,gravestone,What are the properties of a gravestone?,gravestone
+684,gravy,What are the properties of a gravy?,gravy
+685,green beans,What are the properties of green beans?,green_beans
+686,grenade,What are the properties of a grenade?,grenade
+687,grill,What are the properties of a grill?,grill
+689,grinder,What are the properties of a grinder?,grinder
+690,grits,What are the properties of grits?,grits
+691,groundhog,What are the properties of a groundhog?,groundhog
+692,guacamole,What are the properties of a guacamole?,guacamole
+693,guardrail,What are the properties of a guardrail?,guardrail
+694,guillotine,What are the properties of a guillotine?,guillotine
+695,guinea pig,What are the properties of a guinea pig?,guinea_pig
+696,guitar,What are the properties of a guitar?,guitar
+697,gum,What are the properties of a gum?,gum
+698,gumball,What are the properties of a gumball?,gumball
+699,gumdrop,What are the properties of a gumdrop?,gumdrop
+700,gun,What are the properties of a gun?,gun
+701,gurney,What are the properties of a gurney?,gurney
+702,gutter,What are the properties of a gutter?,gutter
+703,gyro,What are the properties of a gyro?,gyro
+704,gyroscope,What are the properties of a gyroscope?,gyroscope
+705,hail,What are the properties of a hail?,hail
+706,hair,What are the properties of a hair?,hair
+707,hairbrush,What are the properties of a hairbrush?,hairbrush
+708,hairdryer,What are the properties of a hairdryer?,hairdryer
+709,hairnet,What are the properties of a hairnet?,hairnet
+711,hairspray,What are the properties of a hairspray?,hairspray
+712,ham,What are the properties of a ham?,ham
+713,hamburger,What are the properties of a hamburger?,hamburger
+714,hammer,What are the properties of a hammer?,hammer
+715,hammock,What are the properties of a hammock?,hammock
+716,hamster,What are the properties of a hamster?,hamster
+717,hand,What are the properties of a hand (body part)?,hand
+718,handbrake,What are the properties of a handbrake?,handbrake
+719,handcuff,What are the properties of a handcuff?,handcuff
+720,handkerchief,What are the properties of a handkerchief?,handkerchief
+721,handle,What are the properties of a handle?,handle
+723,handprint,What are the properties of a handprint?,handprint
+724,hanger,What are the properties of a hanger?,hanger
+725,hard disk,What are the properties of a hard disk?,hard_disk
+726,harmonica,What are the properties of a harmonica?,harmonica
+727,harness,"What are the properties of a harness (safety equipment, safety device)?",harness
+728,harp,What are the properties of a harp?,harp
+730,hat,What are the properties of a hat?,hat
+731,hatbox,What are the properties of a hatbox?,hatbox
+732,hatchet,What are the properties of a hatchet?,hatchet
+733,hawk,What are the properties of a hawk?,hawk
+734,hay,What are the properties of a hay?,hay
+735,headband,What are the properties of a headband?,headband
+736,headdress,What are the properties of a headdress?,headdress
+737,headlamp,What are the properties of a headlamp?,headlamp
+738,headlight,What are the properties of a headlight?,headlight
+739,headphones,What are the properties of headphones?,headphones
+740,headrest,What are the properties of a headrest?,headrest
+741,headscarf,What are the properties of a headscarf?,headscarf
+742,headset,What are the properties of a headset?,headset
+743,hearing aid,What are the properties of a hearing aid?,hearing_aid
+744,hearse,What are the properties of a hearse?,hearse
+745,heater,What are the properties of a heater?,heater
+746,hedge,What are the properties of a hedge?,hedge
+747,hedgehog,What are the properties of a hedgehog?,hedgehog
+748,helicopter,What are the properties of a helicopter?,helicopter
+749,helmet,What are the properties of a helmet?,helmet
+750,highchair,What are the properties of a highchair?,highchair
+751,highlighter,What are the properties of a highlighter?,highlighter
+752,hinge,What are the properties of a hinge?,hinge
+753,hip,What are the properties of a hip?,hip
+754,hippopotamus,What are the properties of a hippopotamus?,hippopotamus
+755,hobbyhorse,What are the properties of a hobbyhorse?,hobbyhorse
+756,hockey stick,What are the properties of a hockey stick?,hockey_stick
+757,hoe,What are the properties of a hoe?,hoe
+758,hole,What are the properties of a hole?,hole
+759,holster,What are the properties of a holster (gun accessory)?,holster
+760,home plate,What are the properties of a home plate?,home_plate
+761,honey,What are the properties of a honey?,honey
+762,honeycomb,What are the properties of a honeycomb?,honeycomb
+764,hood,What are the properties of a hood?,hood
+765,hoodie,What are the properties of a hoodie?,hoodie
+766,hookah,What are the properties of a hookah?,hookah
+767,hopscotch,What are the properties of a hopscotch?,hopscotch
+768,horn,What are the properties of a horn (musical instrument)?,horn
+769,horse,What are the properties of a horse?,horse
+770,horseshoe,What are the properties of a horseshoe?,horseshoe
+771,hose,What are the properties of a hose?,hose
+772,hot chocolate,What are the properties of a hot chocolate?,hot_chocolate
+773,hot tub,What are the properties of a hot tub?,hot_tub
+774,hot-air balloon,What are the properties of a hot-air balloon?,hot-air_balloon
+775,hot-water bottle,What are the properties of a hot-water bottle?,hot-water_bottle
+776,hotdog,What are the properties of a hotdog?,hotdog
+777,hotplate,What are the properties of a hotplate?,hotplate
+778,hourglass,What are the properties of a hourglass?,hourglass
+779,hovercraft,What are the properties of a hovercraft?,hovercraft
+780,hubcap,What are the properties of a hubcap?,hubcap
+781,hula hoop,What are the properties of a hula hoop?,hula_hoop
+782,hummingbird,What are the properties of a hummingbird?,hummingbird
+783,hummus,What are the properties of a hummus?,hummus
+784,humvee,What are the properties of a humvee?,humvee
+785,hydrant,What are the properties of a hydrant?,hydrant
+786,hyena,What are the properties of a hyena?,hyena
+787,ice,What are the properties of an ice?,ice
+788,ice cream,What are the properties of an ice cream?,ice_cream
+789,ice cube,What are the properties of an ice cube?,ice_cube
+790,ice pack,What are the properties of an ice pack?,ice_pack
+791,ice-cream cone,What are the properties of an ice-cream cone?,ice-cream_cone
+792,icemaker,What are the properties of an icemaker?,icemaker
+793,icepick,What are the properties of an icepick?,icepick
+794,iceskate,What are the properties of an iceskate?,iceskate
+795,icicle,What are the properties of an icicle?,icicle
+796,iguana,What are the properties of an iguana?,iguana
+797,incense,What are the properties of an incense?,incense
+798,incubator,What are the properties of an incubator?,incubator
+799,inhaler,What are the properties of an inhaler?,inhaler
+800,ink,What are the properties of an ink?,ink
+801,inkwell,What are the properties of an inkwell?,inkwell
+802,insole,What are the properties of an insole?,insole
+804,ironing board,What are the properties of an ironing board?,ironing_board
+805,ivy,What are the properties of an ivy?,ivy
+807,jacket,What are the properties of a jacket?,jacket
+808,jackhammer,What are the properties of a jackhammer?,jackhammer
+809,jalapeno,What are the properties of a jalapeno?,jalapeno
+810,jam,What are the properties of a jam?,jam
+811,jar,What are the properties of a jar?,jar
+812,javelin,What are the properties of a javelin?,javelin
+813,jeans,What are the properties of jeans?,jeans
+814,jeep,What are the properties of a jeep?,jeep
+815,jelly bean,What are the properties of a jelly bean?,jelly_bean
+816,jellyfish,What are the properties of a jellyfish?,jellyfish
+817,jersey,What are the properties of a jersey?,jersey
+818,jet,What are the properties of a jet?,jet
+819,jetski,What are the properties of a jetski?,jetski
+820,jewel,What are the properties of a jewel?,jewel
+821,jewelry,What are the properties of a jewelry?,jewelry
+822,jigsaw puzzle,What are the properties of a jigsaw puzzle?,jigsaw_puzzle
+823,joystick,What are the properties of a joystick?,joystick
+824,jug,What are the properties of a jug?,jug
+825,juice,What are the properties of a juice?,juice
+826,jukebox,What are the properties of a jukebox?,jukebox
+827,jump rope,What are the properties of a jump rope?,jump_rope
+828,jumpsuit,What are the properties of a jumpsuit?,jumpsuit
+829,kale,What are the properties of a kale?,kale
+830,kaleidoscope,What are the properties of a kaleidoscope?,kaleidoscope
+831,kangaroo,What are the properties of a kangaroo?,kangaroo
+832,kayak,What are the properties of a kayak?,kayak
+833,kazoo,What are the properties of a kazoo?,kazoo
+834,kebab,What are the properties of a kebab?,kebab
+835,keg,What are the properties of a keg?,keg
+836,ketchup,What are the properties of a ketchup?,ketchup
+837,kettle,What are the properties of a kettle?,kettle
+838,key,What are the properties of a key?,key
+840,keyhole,What are the properties of a keyhole?,keyhole
+841,kilt,What are the properties of a kilt?,kilt
+842,kimono,What are the properties of a kimono?,kimono
+843,kite,What are the properties of a kite?,kite
+844,kitten,What are the properties of a kitten?,kitten
+845,kiwi,What are the properties of a kiwi (fruit)?,kiwi
+846,knee,What are the properties of a knee?,knee
+847,kneepad,What are the properties of a kneepad?,kneepad
+848,knife,What are the properties of a knife?,knife
+849,knitting,What are the properties of a knitting?,knitting
+850,knitting needle,What are the properties of a knitting needle?,knitting_needle
+851,knob,What are the properties of a knob?,knob
+852,knot,What are the properties of a knot?,knot
+853,koala,What are the properties of a koala?,koala
+854,lab coat,What are the properties of a lab coat?,lab_coat
+855,ladder,What are the properties of a ladder?,ladder
+856,ladle,What are the properties of a ladle?,ladle
+857,ladybug,What are the properties of a ladybug?,ladybug
+858,lamb,What are the properties of a lamb?,lamb
+859,lamb chop,What are the properties of a lamb chop?,lamb_chop
+860,lamp,What are the properties of a lamp?,lamp
+861,lamppost,What are the properties of a lamppost?,lamppost
+862,lampshade,What are the properties of a lampshade?,lampshade
+863,landmine,What are the properties of a landmine?,landmine
+864,lantern,What are the properties of a lantern?,lantern
+865,lanyard,What are the properties of a lanyard (accessory)?,lanyard
+866,laptop,What are the properties of a laptop?,laptop
+867,lasagna,What are the properties of a lasagna?,lasagna
+868,laser pointer,What are the properties of a laser pointer?,laser_pointer
+869,latch,What are the properties of a latch?,latch
+870,latte,What are the properties of a latte?,latte
+871,laundry basket,What are the properties of a laundry basket?,laundry_basket
+872,lava,What are the properties of a lava?,lava
+873,lavender,What are the properties of a lavender?,lavender
+874,lawnmower,What are the properties of a lawnmower?,lawnmower
+875,leaf,"What are the properties of a leaf (part of plant, part of tree)?",leaf
+876,leash,What are the properties of a leash?,leash
+877,lectern,What are the properties of a lectern?,lectern
+878,leech,What are the properties of a leech?,leech
+879,leek,What are the properties of a leek?,leek
+880,leg,What are the properties of a leg?,leg
+881,leggings,What are the properties of leggings?,leggings
+882,lego,What are the properties of a lego?,lego
+883,lemon,What are the properties of a lemon?,lemon
+884,lemonade,What are the properties of a lemonade?,lemonade
+885,lens,What are the properties of a lens?,lens
+886,leopard,What are the properties of a leopard?,leopard
+887,leotard,What are the properties of a leotard?,leotard
+888,letter opener,What are the properties of a letter opener?,letter_opener
+889,lettuce,What are the properties of a lettuce?,lettuce
+890,license plate,What are the properties of a license plate?,license_plate
+891,licorice,What are the properties of a licorice?,licorice
+892,lid,What are the properties of a lid?,lid
+893,life jacket,What are the properties of a life jacket?,life_jacket
+895,light switch,What are the properties of a light switch?,light_switch
+896,lightbulb,What are the properties of a lightbulb?,lightbulb
+897,lighter,What are the properties of a lighter?,lighter
+898,lightning bug,What are the properties of a lightning bug?,lightning_bug
+899,lime,What are the properties of a lime?,lime
+900,limousine,What are the properties of a limousine?,limousine
+901,lingerie,What are the properties of a lingerie?,lingerie
+902,lion,What are the properties of a lion?,lion
+903,lip balm,What are the properties of a lip balm?,lip_balm
+904,lip gloss,What are the properties of a lip gloss?,lip_gloss
+905,lipstick,What are the properties of a lipstick?,lipstick
+906,lizard,What are the properties of a lizard?,lizard
+907,llama,What are the properties of a llama?,llama
+908,lobster,What are the properties of a lobster?,lobster
+909,lock,What are the properties of a lock?,lock
+910,locker,What are the properties of a locker?,locker
+911,locket,What are the properties of a locket?,locket
+912,log,What are the properties of a log?,log
+913,loincloth,What are the properties of a loincloth?,loincloth
+914,lollipop,What are the properties of a lollipop?,lollipop
+915,loom,What are the properties of a loom?,loom
+916,loveseat,What are the properties of a loveseat?,loveseat
+917,luggage,What are the properties of a luggage?,luggage
+918,lumber,What are the properties of a lumber?,lumber
+919,lunchbox,What are the properties of a lunchbox?,lunchbox
+920,macadamia,What are the properties of a macadamia?,macadamia
+921,macaroni,What are the properties of a macaroni?,macaroni
+922,machete,What are the properties of a machete?,machete
+923,machine gun,What are the properties of a machine gun?,machine_gun
+924,maggot,What are the properties of a maggot?,maggot
+925,magnet,What are the properties of a magnet?,magnet
+926,magnifier,What are the properties of a magnifier?,magnifier
+927,magnifying glass,What are the properties of a magnifying glass?,magnifying_glass
+928,mail,What are the properties of a mail?,mail
+929,mailbox,What are the properties of a mailbox?,mailbox
+930,makeup,What are the properties of a makeup?,makeup
+931,mallet,What are the properties of a mallet?,mallet
+932,man,What are the properties of a man?,man
+933,manatee,What are the properties of a manatee?,manatee
+934,mandolin,What are the properties of a mandolin?,mandolin
+935,mango,What are the properties of a mango?,mango
+936,manhole,What are the properties of a manhole?,manhole
+937,mannequin,What are the properties of a mannequin?,mannequin
+939,map,What are the properties of a map?,map
+940,maple syrup,What are the properties of a maple syrup?,maple_syrup
+941,marble,What are the properties of a marble?,marble
+942,margarita,What are the properties of a margarita?,margarita
+943,marijuana,What are the properties of a marijuana?,marijuana
+944,marker,What are the properties of a marker?,marker
+945,marmalade,What are the properties of a marmalade?,marmalade
+946,marshmallow,What are the properties of a marshmallow?,marshmallow
+947,mascara,What are the properties of a mascara?,mascara
+948,mashed potato,What are the properties of a mashed potato?,mashed_potato
+949,mask,What are the properties of a mask?,mask
+952,match,What are the properties of a match?,match
+953,matchbox,What are the properties of a matchbox?,matchbox
+954,mattress,What are the properties of a mattress?,mattress
+955,measuring cup,What are the properties of a measuring cup?,measuring_cup
+956,meat,What are the properties of a meat?,meat
+957,meat grinder,What are the properties of a meat grinder?,meat_grinder
+958,meatball,What are the properties of a meatball?,meatball
+959,meatloaf,What are the properties of a meatloaf?,meatloaf
+960,medal,What are the properties of a medal?,medal
+961,meerkat,What are the properties of a meerkat?,meerkat
+962,megaphone,What are the properties of a megaphone?,megaphone
+963,melon,What are the properties of a melon?,melon
+964,memory stick,What are the properties of a memory stick?,memory_stick
+965,metal detector,What are the properties of a metal detector?,metal_detector
+966,metronome,What are the properties of a metronome?,metronome
+967,microphone,What are the properties of a microphone?,microphone
+968,microscope,What are the properties of a microscope?,microscope
+969,microwave,What are the properties of a microwave?,microwave
+970,milk,What are the properties of a milk?,milk
+971,milkshake,What are the properties of a milkshake?,milkshake
+972,minivan,What are the properties of a minivan?,minivan
+973,mint,What are the properties of a mint?,mint
+974,mirror,What are the properties of a mirror?,mirror
+975,missile,What are the properties of a missile?,missile
+976,mistletoe,What are the properties of a mistletoe?,mistletoe
+977,mitten,What are the properties of a mitten?,mitten
+980,modem,What are the properties of a modem?,modem
+981,mole,What are the properties of a mole?,mole
+982,money,What are the properties of a money?,money
+983,mongoose,What are the properties of a mongoose?,mongoose
+984,monkey,What are the properties of a monkey?,monkey
+985,moose,What are the properties of a moose?,moose
+986,mop,What are the properties of a mop?,mop
+987,mosquito,What are the properties of a mosquito?,mosquito
+988,mosquito net,What are the properties of a mosquito net?,mosquito_net
+989,moss,What are the properties of a moss?,moss
+990,moth,What are the properties of a moth?,moth
+991,motherboard,What are the properties of a motherboard?,motherboard
+992,motorcycle,What are the properties of a motorcycle?,motorcycle
+993,mousepad,What are the properties of a mousepad?,mousepad
+994,mousetrap,What are the properties of a mousetrap?,mousetrap
+995,mousse,What are the properties of a mousse?,mousse
+996,mouth,What are the properties of a mouth?,mouth
+998,mud,What are the properties of a mud?,mud
+999,muff,What are the properties of a muff?,muff
+1000,muffin,What are the properties of a muffin?,muffin
+1001,mug,What are the properties of a mug?,mug
+1002,mulberry,What are the properties of a mulberry?,mulberry
+1003,mulch,What are the properties of a mulch?,mulch
+1005,mushroom,What are the properties of a mushroom?,mushroom
+1006,music box,What are the properties of a music box?,music_box
+1007,mussel,What are the properties of a mussel?,mussel
+1008,mustache,What are the properties of a mustache?,mustache
+1009,mustard,What are the properties of a mustard?,mustard
+1010,nacho,What are the properties of a nacho?,nacho
+1012,nail clippers,What are the properties of nail clippers?,nail_clippers
+1013,nail file,What are the properties of a nail file?,nail_file
+1014,nail polish,What are the properties of a nail polish?,nail_polish
+1015,napkin,What are the properties of a napkin?,napkin
+1016,napkin ring,What are the properties of a napkin ring?,napkin_ring
+1017,navel,What are the properties of a navel?,navel
+1018,neck,What are the properties of a neck?,neck
+1019,necklace,What are the properties of a necklace?,necklace
+1020,needle,What are the properties of a needle?,needle
+1021,nest,What are the properties of a nest?,nest
+1022,net,What are the properties of a net?,net
+1023,nightshirt,What are the properties of a nightshirt?,nightshirt
+1024,nightstand,What are the properties of a nightstand?,nightstand
+1026,noodle,What are the properties of a noodle?,noodle
+1027,noose,What are the properties of a noose?,noose
+1028,nose,What are the properties of a nose?,nose
+1029,notebook,"What are the properties of a notebook (office supply, school supply)?",notebook
+1030,notepad,What are the properties of a notepad?,notepad
+1031,nut,What are the properties of a nut?,nut
+1033,oar,What are the properties of an oar?,oar
+1034,oatmeal,What are the properties of an oatmeal?,oatmeal
+1035,octopus,What are the properties of an octopus?,octopus
+1036,odometer,What are the properties of an odometer?,odometer
+1037,oil,What are the properties of an oil?,oil
+1038,oilcan,What are the properties of an oilcan?,oilcan
+1039,okra,What are the properties of an okra?,okra
+1040,olive,What are the properties of an olive?,olive
+1041,omelet,What are the properties of an omelet?,omelet
+1042,onion,What are the properties of an onion?,onion
+1043,orange,What are the properties of an orange?,orange
+1044,orange rind,What are the properties of an orange rind?,orange_rind
+1045,orangutan,What are the properties of an orangutan?,orangutan
+1046,orchid,What are the properties of an orchid?,orchid
+1048,origami,What are the properties of an origami?,origami
+1049,ostrich,What are the properties of an ostrich?,ostrich
+1050,otter,What are the properties of an otter?,otter
+1051,ottoman,What are the properties of an ottoman?,ottoman
+1052,outfit,What are the properties of an outfit?,outfit
+1053,outlet,What are the properties of an outlet?,outlet
+1054,oven,What are the properties of an oven?,oven
+1055,overalls,What are the properties of overalls?,overalls
+1056,owl,What are the properties of an owl?,owl
+1057,oyster,What are the properties of an oyster?,oyster
+1058,pacifier,What are the properties of a pacifier?,pacifier
+1059,paddle,What are the properties of a paddle?,paddle
+1060,padlock,What are the properties of a padlock?,padlock
+1061,paint,What are the properties of a paint?,paint
+1062,paintbrush,What are the properties of a paintbrush?,paintbrush
+1063,painting,What are the properties of a painting?,painting
+1064,pajamas,What are the properties of pajamas?,pajamas
+1065,palette,What are the properties of a palette?,palette
+1066,pallet,What are the properties of a pallet?,pallet
+1067,palm tree,What are the properties of a palm tree?,palm_tree
+1068,pan,What are the properties of a pan?,pan
+1069,pancake,What are the properties of a pancake?,pancake
+1070,panda,What are the properties of a panda?,panda
+1071,panther,What are the properties of a panther?,panther
+1072,panties,What are the properties of panties?,panties
+1073,pants,What are the properties of pants?,pants
+1074,pantsuit,What are the properties of a pantsuit?,pantsuit
+1075,pantyhose,What are the properties of a pantyhose?,pantyhose
+1076,papaya,What are the properties of a papaya?,papaya
+1077,paper,What are the properties of a paper?,paper
+1078,paper bag,What are the properties of a paper bag?,paper_bag
+1079,paper plate,What are the properties of a paper plate?,paper_plate
+1080,paper towel,What are the properties of a paper towel?,paper_towel
+1081,paperclip,What are the properties of a paperclip?,paperclip
+1082,paperweight,What are the properties of a paperweight?,paperweight
+1083,parachute,What are the properties of a parachute?,parachute
+1084,parfait,What are the properties of a parfait?,parfait
+1085,parking meter,What are the properties of a parking meter?,parking_meter
+1086,parrot,What are the properties of a parrot?,parrot
+1087,parsley,What are the properties of a parsley?,parsley
+1088,pasta,What are the properties of a pasta?,pasta
+1089,pastry,What are the properties of a pastry?,pastry
+1091,patty,What are the properties of a patty?,patty
+1092,payphone,What are the properties of a payphone?,payphone
+1093,pea,What are the properties of a pea?,pea
+1094,peach,What are the properties of a peach?,peach
+1095,peacock,What are the properties of a peacock?,peacock
+1096,peanut,What are the properties of a peanut?,peanut
+1097,peanut butter,What are the properties of a peanut butter?,peanut_butter
+1098,pear,What are the properties of a pear?,pear
+1099,pearl,What are the properties of a pearl?,pearl
+1100,pecan,What are the properties of a pecan?,pecan
+1101,pedal,What are the properties of a pedal?,pedal
+1102,pedometer,What are the properties of a pedometer?,pedometer
+1103,peeler,What are the properties of a peeler?,peeler
+1104,peg,What are the properties of a peg (wooden fastener)?,peg
+1105,pelican,What are the properties of a pelican?,pelican
+1106,pen,What are the properties of a pen?,pen
+1107,pencil,What are the properties of a pencil?,pencil
+1108,pencil sharpener,What are the properties of a pencil sharpener?,pencil_sharpener
+1109,pendulum,What are the properties of a pendulum?,pendulum
+1110,penguin,What are the properties of a penguin?,penguin
+1111,penholder,What are the properties of a penholder?,penholder
+1112,penlight,What are the properties of a penlight?,penlight
+1113,pennant,What are the properties of a pennant?,pennant
+1114,pepper mill,What are the properties of a pepper mill?,pepper_mill
+1115,peppermint,What are the properties of a peppermint (candy)?,peppermint
+1116,pepperoni,What are the properties of a pepperoni (meat)?,pepperoni
+1117,perfume,What are the properties of a perfume?,perfume
+1118,periscope,What are the properties of a periscope?,periscope
+1119,pesto,What are the properties of a pesto?,pesto
+1120,pet food,What are the properties of a pet food?,pet_food
+1121,petal,What are the properties of a petal?,petal
+1122,petri dish,What are the properties of a petri dish?,petri_dish
+1123,pheasant,What are the properties of a pheasant?,pheasant
+1124,phone,What are the properties of a phone?,phone
+1125,phone booth,What are the properties of a phone booth?,phone_booth
+1126,photo booth,What are the properties of a photo booth?,photo_booth
+1127,photograph,What are the properties of a photograph?,photograph
+1128,piano,What are the properties of a piano?,piano
+1129,pickax,What are the properties of a pickax?,pickax
+1130,pickle,What are the properties of a pickle?,pickle
+1131,pie,What are the properties of a pie?,pie
+1132,piecrust,What are the properties of a piecrust?,piecrust
+1133,pig,What are the properties of a pig?,pig
+1134,pigeon,What are the properties of a pigeon?,pigeon
+1135,piggy bank,What are the properties of a piggy bank?,piggy_bank
+1136,piglet,What are the properties of a piglet?,piglet
+1137,pill,What are the properties of a pill?,pill
+1138,pillbox,What are the properties of a pillbox?,pillbox
+1139,pillow,What are the properties of a pillow?,pillow
+1141,pinball,What are the properties of a pinball?,pinball
+1142,pincushion,What are the properties of a pincushion?,pincushion
+1143,pine needle,What are the properties of a pine needle?,pine_needle
+1144,pine tree,What are the properties of a pine tree?,pine_tree
+1145,pineapple,What are the properties of a pineapple?,pineapple
+1146,pinecone,What are the properties of a pinecone?,pinecone
+1147,ping-pong table,What are the properties of a ping-pong table?,ping-pong_table
+1148,pinwheel,What are the properties of a pinwheel?,pinwheel
+1149,pistachio,What are the properties of a pistachio?,pistachio
+1150,pita,What are the properties of a pita?,pita
+1151,pitcher,What are the properties of a pitcher?,pitcher
+1152,pitchfork,What are the properties of a pitchfork?,pitchfork
+1153,pizza,What are the properties of a pizza?,pizza
+1154,place mat,What are the properties of a place mat?,place_mat
+1155,plant,What are the properties of a plant?,plant
+1156,plaster cast,What are the properties of a plaster cast?,plaster_cast
+1157,plastic film,What are the properties of a plastic film?,plastic_film
+1159,platypus,What are the properties of a platypus?,platypus
+1160,playing card,What are the properties of a playing card?,playing_card
+1161,playpen,What are the properties of a playpen?,playpen
+1162,pliers,What are the properties of pliers?,pliers
+1163,plug,What are the properties of a plug?,plug
+1164,plum,What are the properties of a plum?,plum
+1165,plunger,What are the properties of a plunger?,plunger
+1166,pocket,What are the properties of a pocket?,pocket
+1167,pocket watch,What are the properties of a pocket watch?,pocket_watch
+1168,pocketknife,What are the properties of a pocketknife?,pocketknife
+1169,pogo stick,What are the properties of a pogo stick?,pogo_stick
+1170,poinsettia,What are the properties of a poinsettia?,poinsettia
+1172,polar bear,What are the properties of a polar bear?,polar_bear
+1173,polaroid,What are the properties of a polaroid?,polaroid
+1174,pole,What are the properties of a pole?,pole
+1175,police car,What are the properties of a police car?,police_car
+1177,polo shirt,What are the properties of a polo shirt?,polo_shirt
+1178,polygraph,What are the properties of a polygraph?,polygraph
+1179,pom-pom,What are the properties of a pom-pom?,pom-pom
+1180,pomegranate,What are the properties of a pomegranate?,pomegranate
+1181,pony,What are the properties of a pony?,pony
+1182,poodle,What are the properties of a poodle?,poodle
+1183,pool table,What are the properties of a pool table?,pool_table
+1184,popcorn,What are the properties of a popcorn?,popcorn
+1185,poppy,What are the properties of a poppy?,poppy
+1186,popsicle,What are the properties of a popsicle?,popsicle
+1187,porcupine,What are the properties of a porcupine?,porcupine
+1188,porthole,What are the properties of a porthole?,porthole
+1189,possum,What are the properties of a possum?,possum
+1190,poster,What are the properties of a poster?,poster
+1191,pot,What are the properties of a pot?,pot
+1192,potato,What are the properties of a potato?,potato
+1193,potholder,What are the properties of a potholder?,potholder
+1194,pothole,What are the properties of a pothole?,pothole
+1195,potpie,What are the properties of a potpie?,potpie
+1196,potpourri,What are the properties of a potpourri?,potpourri
+1197,powder,What are the properties of a powder?,powder
+1198,power line,What are the properties of a power line?,power_line
+1199,praying mantis,What are the properties of a praying mantis?,praying_mantis
+1200,pretzel,What are the properties of a pretzel?,pretzel
+1201,printer,What are the properties of a printer?,printer
+1202,prism,What are the properties of a prism?,prism
+1203,projector,What are the properties of a projector?,projector
+1204,propeller,What are the properties of a propeller?,propeller
+1205,prune,What are the properties of a prune?,prune
+1206,puck,What are the properties of a puck?,puck
+1207,pudding,What are the properties of a pudding (dessert)?,pudding
+1208,puddle,What are the properties of a puddle?,puddle
+1209,puffin,What are the properties of a puffin?,puffin
+1210,pug,What are the properties of a pug?,pug
+1211,pulley,What are the properties of a pulley?,pulley
+1212,pulpit,What are the properties of a pulpit?,pulpit
+1213,pump,What are the properties of a pump?,pump
+1214,pumpkin,What are the properties of a pumpkin?,pumpkin
+1215,punching bag,What are the properties of a punching bag?,punching_bag
+1216,puppet,What are the properties of a puppet?,puppet
+1217,puppy,What are the properties of a puppy?,puppy
+1218,purse,What are the properties of a purse?,purse
+1219,quad,What are the properties of a quad?,quad
+1220,quesadilla,What are the properties of a quesadilla?,quesadilla
+1221,quiche,What are the properties of a quiche?,quiche
+1222,quill,What are the properties of a quill?,quill
+1223,quilt,What are the properties of a quilt?,quilt
+1224,rabbit,What are the properties of a rabbit?,rabbit
+1225,raccoon,What are the properties of a raccoon?,raccoon
+1226,racehorse,What are the properties of a racehorse?,racehorse
+1227,racket,What are the properties of a racket?,racket
+1228,radar,What are the properties of a radar?,radar
+1230,radio,What are the properties of a radio?,radio
+1231,radish,What are the properties of a radish?,radish
+1232,raft,What are the properties of a raft?,raft
+1233,rag,What are the properties of a rag?,rag
+1234,railing,What are the properties of a railing?,railing
+1235,rain gauge,What are the properties of a rain gauge?,rain_gauge
+1236,raincoat,What are the properties of a raincoat?,raincoat
+1237,raisin,What are the properties of a raisin?,raisin
+1238,rake,What are the properties of a rake?,rake
+1239,ram,What are the properties of a ram (animal)?,ram
+1241,raspberry,What are the properties of a raspberry?,raspberry
+1242,rat,What are the properties of a rat?,rat
+1243,ratchet,What are the properties of a ratchet?,ratchet
+1244,rattle,What are the properties of a rattle?,rattle
+1245,rattlesnake,What are the properties of a rattlesnake?,rattlesnake
+1246,ravioli,What are the properties of a ravioli?,ravioli
+1247,razor,What are the properties of a razor?,razor
+1248,razor blade,What are the properties of a razor blade?,razor_blade
+1249,ready meal,What are the properties of a ready meal?,ready_meal
+1250,rearview mirror,What are the properties of a rearview mirror?,rearview_mirror
+1251,recliner,What are the properties of a recliner?,recliner
+1252,record,What are the properties of a record?,record
+1253,record player,What are the properties of a record player?,record_player
+1254,recorder,What are the properties of a recorder (musical instrument)?,recorder
+1255,red carpet,What are the properties of a red carpet?,red_carpet
+1257,refrigerator,What are the properties of a refrigerator?,refrigerator
+1258,reindeer,What are the properties of a reindeer?,reindeer
+1259,remote control,What are the properties of a remote control?,remote_control
+1261,revolver,What are the properties of a revolver?,revolver
+1262,revolving door,What are the properties of a revolving door?,revolving_door
+1263,rhinoceros,What are the properties of a rhinoceros?,rhinoceros
+1264,rhubarb,What are the properties of a rhubarb?,rhubarb
+1265,ribbon,What are the properties of a ribbon?,ribbon
+1266,rice,What are the properties of a rice?,rice
+1267,rickshaw,What are the properties of a rickshaw?,rickshaw
+1268,rifle,What are the properties of a rifle?,rifle
+1270,ring,What are the properties of a ring?,ring
+1272,road sign,What are the properties of a road sign?,road_sign
+1274,robe,What are the properties of a robe?,robe
+1275,robot,What are the properties of a robot?,robot
+1276,rock,What are the properties of a rock?,rock
+1277,rocket,What are the properties of a rocket?,rocket
+1278,rocking chair,What are the properties of a rocking chair?,rocking_chair
+1279,rocking horse,What are the properties of a rocking horse?,rocking_horse
+1280,roll,What are the properties of a roll?,roll
+1281,roller,What are the properties of a roller (garden tool)?,roller
+1282,roller coaster,What are the properties of a roller coaster?,roller_coaster
+1283,rollerblade,What are the properties of a rollerblade?,rollerblade
+1284,rollerskate,What are the properties of a rollerskate?,rollerskate
+1285,rolling pin,What are the properties of a rolling pin?,rolling_pin
+1286,roof rack,What are the properties of a roof rack?,roof_rack
+1287,rooster,What are the properties of a rooster?,rooster
+1288,root,What are the properties of a root?,root
+1289,rope,What are the properties of a rope?,rope
+1290,rosary,What are the properties of a rosary?,rosary
+1291,rose,What are the properties of a rose?,rose
+1292,roulette wheel,What are the properties of a roulette wheel?,roulette_wheel
+1293,router,What are the properties of a router?,router
+1294,rubber band,What are the properties of a rubber band?,rubber_band
+1295,ruby,What are the properties of a ruby?,ruby
+1296,rudder,What are the properties of a rudder?,rudder
+1297,rug,What are the properties of a rug?,rug
+1298,ruler,What are the properties of a ruler?,ruler
+1299,rust,What are the properties of a rust?,rust
+1301,safety pin,What are the properties of a safety pin?,safety_pin
+1302,saffron,What are the properties of a saffron?,saffron
+1303,sail,What are the properties of a sail?,sail
+1304,sailboat,What are the properties of a sailboat?,sailboat
+1305,salad,What are the properties of a salad?,salad
+1306,salami,What are the properties of a salami?,salami
+1307,saltshaker,What are the properties of a saltshaker?,saltshaker
+1308,sand,What are the properties of a sand?,sand
+1309,sandal,What are the properties of a sandal?,sandal
+1310,sandbag,What are the properties of a sandbag?,sandbag
+1311,sandbox,What are the properties of a sandbox?,sandbox
+1312,sandcastle,What are the properties of a sandcastle?,sandcastle
+1313,sandpaper,What are the properties of a sandpaper?,sandpaper
+1314,sandwich,What are the properties of a sandwich?,sandwich
+1315,sarcophagus,What are the properties of a sarcophagus?,sarcophagus
+1316,sardine,"What are the properties of a sardine (fish, seafood, canned fish)?",sardine
+1317,satellite,What are the properties of a satellite?,satellite
+1318,satellite dish,What are the properties of a satellite dish?,satellite_dish
+1319,sauce,What are the properties of a sauce?,sauce
+1320,saucer,What are the properties of a saucer?,saucer
+1321,sauerkraut,What are the properties of a sauerkraut?,sauerkraut
+1322,sausage,What are the properties of a sausage?,sausage
+1323,saw,What are the properties of a saw?,saw
+1324,sawhorse,What are the properties of a sawhorse?,sawhorse
+1325,saxophone,What are the properties of a saxophone?,saxophone
+1326,scaffold,What are the properties of a scaffold?,scaffold
+1327,scaffolding,What are the properties of a scaffolding?,scaffolding
+1329,scallion,What are the properties of a scallion?,scallion
+1330,scallop,What are the properties of a scallop?,scallop
+1331,scalpel,What are the properties of a scalpel?,scalpel
+1333,scarecrow,What are the properties of a scarecrow?,scarecrow
+1334,scarf,What are the properties of a scarf?,scarf
+1335,school bus,What are the properties of a school bus?,school_bus
+1336,scissors,What are the properties of scissors?,scissors
+1337,scone,What are the properties of a scone?,scone
+1340,scoreboard,What are the properties of a scoreboard?,scoreboard
+1341,scorpion,What are the properties of a scorpion?,scorpion
+1342,scrabble,What are the properties of a scrabble?,scrabble
+1343,scrambled egg,What are the properties of a scrambled egg?,scrambled_egg
+1344,scraper,What are the properties of a scraper?,scraper
+1345,screw,What are the properties of a screw?,screw
+1346,screwdriver,What are the properties of a screwdriver?,screwdriver
+1347,scuba,What are the properties of a scuba?,scuba
+1348,sea urchin,What are the properties of a sea urchin?,sea_urchin
+1349,seafood,What are the properties of a seafood?,seafood
+1350,seagull,What are the properties of a seagull?,seagull
+1351,seahorse,What are the properties of a seahorse?,seahorse
+1352,seal,What are the properties of a seal?,seal
+1353,seaplane,What are the properties of a seaplane?,seaplane
+1354,seatbelt,What are the properties of a seatbelt?,seatbelt
+1355,seaweed,What are the properties of a seaweed?,seaweed
+1356,seed,What are the properties of a seed?,seed
+1357,seesaw,What are the properties of a seesaw?,seesaw
+1358,seismograph,What are the properties of a seismograph?,seismograph
+1359,sequin,What are the properties of a sequin?,sequin
+1360,sewage,What are the properties of a sewage?,sewage
+1361,sewing kit,What are the properties of a sewing kit?,sewing_kit
+1362,sewing machine,What are the properties of a sewing machine?,sewing_machine
+1363,shaker,What are the properties of a shaker?,shaker
+1364,shark,What are the properties of a shark?,shark
+1365,shaving cream,What are the properties of a shaving cream?,shaving_cream
+1366,shawl,What are the properties of a shawl?,shawl
+1367,shears,What are the properties of shears?,shears
+1369,sheep,What are the properties of a sheep?,sheep
+1370,sheet,What are the properties of a sheet (bedding)?,sheet
+1371,shelf,What are the properties of a shelf?,shelf
+1372,shield,What are the properties of a shield?,shield
+1373,ship,What are the properties of a ship?,ship
+1374,shirt,What are the properties of a shirt?,shirt
+1375,shoe,What are the properties of a shoe?,shoe
+1376,shoe polish,What are the properties of a shoe polish?,shoe_polish
+1377,shoehorn,What are the properties of a shoehorn?,shoehorn
+1378,shoelace,What are the properties of a shoelace?,shoelace
+1379,shopping basket,What are the properties of a shopping basket?,shopping_basket
+1380,shopping cart,What are the properties of a shopping cart?,shopping_cart
+1381,shortbread,What are the properties of a shortbread?,shortbread
+1382,shorts,What are the properties of shorts?,shorts
+1384,shovel,What are the properties of a shovel?,shovel
+1385,shower,What are the properties of a shower?,shower
+1386,shower cap,What are the properties of a shower cap?,shower_cap
+1387,shower curtain,What are the properties of a shower curtain?,shower_curtain
+1388,showerhead,What are the properties of a showerhead?,showerhead
+1389,shredder,What are the properties of a shredder?,shredder
+1390,shrimp,What are the properties of a shrimp?,shrimp
+1391,shuffleboard,What are the properties of a shuffleboard?,shuffleboard
+1392,shutter,"What are the properties of a shutter (window covering, window accessory)?",shutter
+1393,sickle,What are the properties of a sickle?,sickle
+1395,sifter,What are the properties of a sifter?,sifter
+1396,silicone,What are the properties of a silicone?,silicone
+1397,silverware,What are the properties of a silverware?,silverware
+1398,sim card,What are the properties of a sim card?,sim_card
+1399,sink,What are the properties of a sink?,sink
+1401,skateboard,What are the properties of a skateboard?,skateboard
+1402,skeleton,What are the properties of a skeleton?,skeleton
+1404,ski,What are the properties of a ski?,ski
+1405,ski boots,What are the properties of ski boots?,ski_boots
+1406,ski lift,What are the properties of a ski lift?,ski_lift
+1407,ski pole,What are the properties of a ski pole?,ski_pole
+1408,skin,What are the properties of a skin?,skin
+1409,skirt,What are the properties of a skirt?,skirt
+1410,skull,What are the properties of a skull?,skull
+1411,skunk,What are the properties of a skunk?,skunk
+1412,sled,What are the properties of a sled?,sled
+1413,sledgehammer,What are the properties of a sledgehammer?,sledgehammer
+1414,sleeping bag,What are the properties of a sleeping bag?,sleeping_bag
+1415,slicer,What are the properties of a slicer?,slicer
+1416,slide,What are the properties of a slide?,slide
+1417,slime,What are the properties of a slime?,slime
+1419,slingshot,What are the properties of a slingshot?,slingshot
+1420,slipper,What are the properties of a slipper?,slipper
+1422,slot machine,What are the properties of a slot machine?,slot_machine
+1423,sloth,What are the properties of a sloth?,sloth
+1424,slug,What are the properties of a slug?,slug
+1425,smoke alarm,What are the properties of a smoke alarm?,smoke_alarm
+1426,smoothie,What are the properties of a smoothie?,smoothie
+1427,snack,What are the properties of a snack?,snack
+1428,snail,What are the properties of a snail?,snail
+1429,snake,What are the properties of a snake?,snake
+1430,snorkel,What are the properties of a snorkel?,snorkel
+1431,snow,What are the properties of a snow?,snow
+1432,snowball,What are the properties of a snowball?,snowball
+1433,snowboard,What are the properties of a snowboard?,snowboard
+1434,snowman,What are the properties of a snowman?,snowman
+1435,snowmobile,What are the properties of a snowmobile?,snowmobile
+1436,snowplow,What are the properties of a snowplow?,snowplow
+1437,snowshoe,What are the properties of a snowshoe?,snowshoe
+1438,snowsuit,What are the properties of a snowsuit?,snowsuit
+1439,soap,What are the properties of a soap?,soap
+1440,soccer ball,What are the properties of a soccer ball?,soccer_ball
+1441,sock,What are the properties of a sock?,sock
+1442,soda,What are the properties of a soda?,soda
+1443,soda fountain,What are the properties of a soda fountain?,soda_fountain
+1444,sofa bed,What are the properties of a sofa bed?,sofa_bed
+1445,solar panel,What are the properties of a solar panel?,solar_panel
+1446,soldering iron,What are the properties of a soldering iron?,soldering_iron
+1447,sombrero,What are the properties of a sombrero?,sombrero
+1448,sonogram,What are the properties of a sonogram?,sonogram
+1449,sorbet,What are the properties of a sorbet?,sorbet
+1450,souffle,What are the properties of a souffle?,souffle
+1451,soup,What are the properties of a soup?,soup
+1452,soy sauce,What are the properties of a soy sauce?,soy_sauce
+1453,space shuttle,What are the properties of a space shuttle?,space_shuttle
+1454,spacesuit,What are the properties of a spacesuit?,spacesuit
+1455,spaghetti,What are the properties of spaghetti?,spaghetti
+1456,spam,What are the properties of a spam?,spam
+1457,spareribs,What are the properties of spareribs?,spareribs
+1458,spark plug,What are the properties of a spark plug?,spark_plug
+1459,sparkler,What are the properties of a sparkler?,sparkler
+1460,spatula,What are the properties of a spatula?,spatula
+1461,speaker,What are the properties of a speaker?,speaker
+1462,spear,What are the properties of a spear?,spear
+1463,speedboat,What are the properties of a speedboat?,speedboat
+1464,speedometer,What are the properties of a speedometer?,speedometer
+1465,spider,What are the properties of a spider?,spider
+1466,spider web,What are the properties of a spider web?,spider_web
+1467,spinach,What are the properties of a spinach?,spinach
+1468,splinter,What are the properties of a splinter?,splinter
+1469,sponge,What are the properties of a sponge?,sponge
+1470,spool,What are the properties of a spool?,spool
+1471,spoon,What are the properties of a spoon?,spoon
+1472,spout,What are the properties of a spout?,spout
+1473,spring roll,What are the properties of a spring roll?,spring_roll
+1474,springboard,What are the properties of a springboard?,springboard
+1475,sprinkler,What are the properties of a sprinkler?,sprinkler
+1476,sprouts,What are the properties of sprouts?,sprouts
+1477,spur,What are the properties of a spur?,spur
+1478,squash,What are the properties of a squash?,squash
+1479,squeegee,What are the properties of a squeegee?,squeegee
+1480,squid,What are the properties of a squid?,squid
+1481,squirrel,What are the properties of a squirrel?,squirrel
+1482,squirt gun,What are the properties of a squirt gun?,squirt_gun
+1483,stained glass,What are the properties of a stained glass?,stained_glass
+1484,stair,What are the properties of a stair?,stair
+1485,stake,What are the properties of a stake?,stake
+1486,stalagmite,What are the properties of a stalagmite?,stalagmite
+1488,staple gun,What are the properties of a staple gun?,staple_gun
+1489,stapler,What are the properties of a stapler?,stapler
+1490,star fruit,What are the properties of a star fruit?,star_fruit
+1491,starfish,What are the properties of a starfish?,starfish
+1492,station wagon,What are the properties of a station wagon?,station_wagon
+1493,statue,What are the properties of a statue?,statue
+1494,steak,What are the properties of a steak?,steak
+1495,steamroller,What are the properties of a steamroller?,steamroller
+1496,steering wheel,What are the properties of a steering wheel?,steering_wheel
+1497,stem,What are the properties of a stem?,stem
+1498,step stool,What are the properties of a step stool?,step_stool
+1499,stereo,What are the properties of a stereo?,stereo
+1500,stethoscope,What are the properties of a stethoscope?,stethoscope
+1501,stew,What are the properties of a stew?,stew
+1502,stick,What are the properties of a stick (wood)?,stick
+1503,sticker,What are the properties of a sticker?,sticker
+1504,stiletto,What are the properties of a stiletto (shoe)?,stiletto
+1506,stingray,What are the properties of a stingray?,stingray
+1507,stir fry,What are the properties of a stir fry?,stir_fry
+1508,stirrup,What are the properties of a stirrup?,stirrup
+1509,stockings,What are the properties of stockings?,stockings
+1510,stomach,What are the properties of a stomach?,stomach
+1512,stopwatch,What are the properties of a stopwatch?,stopwatch
+1513,straightjacket,What are the properties of a straightjacket?,straightjacket
+1514,strainer,What are the properties of a strainer?,strainer
+1515,strap,"What are the properties of a strap (securing device, fastener)?",strap
+1516,strawberry,What are the properties of a strawberry?,strawberry
+1517,streetlight,What are the properties of a streetlight?,streetlight
+1518,stretcher,What are the properties of a stretcher?,stretcher
+1519,string cheese,What are the properties of a string cheese?,string_cheese
+1520,stroller,What are the properties of a stroller?,stroller
+1521,stuffing,What are the properties of a stuffing?,stuffing
+1522,stump,What are the properties of a stump?,stump
+1523,submarine,What are the properties of a submarine?,submarine
+1524,subway,What are the properties of a subway?,subway
+1525,sugar cube,What are the properties of a sugar cube?,sugar_cube
+1526,suit,What are the properties of a suit?,suit
+1527,suitcase,What are the properties of a suitcase?,suitcase
+1528,sundae,What are the properties of a sundae?,sundae
+1529,sundial,What are the properties of a sundial?,sundial
+1530,sunflower,What are the properties of a sunflower?,sunflower
+1531,sunglasses,What are the properties of sunglasses?,sunglasses
+1532,sunroof,What are the properties of a sunroof?,sunroof
+1533,surfboard,What are the properties of a surfboard?,surfboard
+1534,sushi,What are the properties of a sushi?,sushi
+1535,suspenders,What are the properties of suspenders?,suspenders
+1537,swan,What are the properties of a swan?,swan
+1538,sweater,What are the properties of a sweater?,sweater
+1539,sweatsuit,What are the properties of a sweatsuit?,sweatsuit
+1540,sweeper,What are the properties of a sweeper?,sweeper
+1541,sweet potato,What are the properties of a sweet potato?,sweet_potato
+1542,swimming pool,What are the properties of a swimming pool?,swimming_pool
+1543,swimsuit,What are the properties of a swimsuit?,swimsuit
+1544,swing,What are the properties of a swing?,swing
+1545,swing set,What are the properties of a swing set?,swing_set
+1546,switch,What are the properties of a switch?,switch
+1547,swizzle stick,What are the properties of a swizzle stick?,swizzle_stick
+1548,sword,What are the properties of a sword?,sword
+1549,swordfish,What are the properties of a swordfish?,swordfish
+1550,syringe,What are the properties of a syringe?,syringe
+1551,syrup,What are the properties of a syrup?,syrup
+1552,t-shirt,What are the properties of a t-shirt?,t-shirt
+1554,table,What are the properties of a table?,table
+1555,tablecloth,What are the properties of a tablecloth?,tablecloth
+1556,tablet,What are the properties of a tablet (electronic device)?,tablet
+1558,tackle,What are the properties of a tackle (fishing equipment)?,tackle
+1559,taco,What are the properties of a taco?,taco
+1560,tadpole,What are the properties of a tadpole?,tadpole
+1561,taffy,What are the properties of a taffy?,taffy
+1563,taillight,What are the properties of a taillight?,taillight
+1564,tamale,What are the properties of a tamale?,tamale
+1565,tambourine,What are the properties of a tambourine?,tambourine
+1567,tape measure,What are the properties of a tape measure?,tape_measure
+1568,tape recorder,What are the properties of a tape recorder?,tape_recorder
+1569,tapestry,What are the properties of a tapestry?,tapestry
+1570,tarantula,What are the properties of a tarantula?,tarantula
+1571,target,What are the properties of a target?,target
+1572,tarp,What are the properties of a tarp?,tarp
+1573,tattoo,What are the properties of a tattoo?,tattoo
+1574,taxi,What are the properties of a taxi?,taxi
+1575,tea,What are the properties of a tea?,tea
+1576,teabag,What are the properties of a teabag?,teabag
+1577,teacup,What are the properties of a teacup?,teacup
+1578,teapot,What are the properties of a teapot?,teapot
+1579,teddy bear,What are the properties of a teddy bear?,teddy_bear
+1581,teepee,What are the properties of a teepee?,teepee
+1582,telegraph,What are the properties of a telegraph?,telegraph
+1583,telephone pole,What are the properties of a telephone pole?,telephone_pole
+1584,telescope,What are the properties of a telescope?,telescope
+1585,television,What are the properties of a television?,television
+1586,tennis ball,What are the properties of a tennis ball?,tennis_ball
+1587,tent,What are the properties of a tent?,tent
+1588,terrarium,What are the properties of a terrarium?,terrarium
+1589,test tube,What are the properties of a test tube?,test_tube
+1590,thermometer,What are the properties of a thermometer?,thermometer
+1591,thermos,What are the properties of a thermos?,thermos
+1592,thermostat,What are the properties of a thermostat?,thermostat
+1593,thimble,What are the properties of a thimble?,thimble
+1594,thorn,What are the properties of a thorn?,thorn
+1595,thread,What are the properties of a thread?,thread
+1596,throne,What are the properties of a throne?,throne
+1597,thumb,What are the properties of a thumb?,thumb
+1598,thumbtack,What are the properties of a thumbtack?,thumbtack
+1599,tiara,What are the properties of a tiara?,tiara
+1600,tick,What are the properties of a tick?,tick
+1601,ticktacktoe,What are the properties of a ticktacktoe?,ticktacktoe
+1602,tie,What are the properties of a tie?,tie
+1603,tiger,What are the properties of a tiger?,tiger
+1605,timer,What are the properties of a timer?,timer
+1606,tinsel,What are the properties of a tinsel?,tinsel
+1607,tiramisu,What are the properties of a tiramisu?,tiramisu
+1608,toad,What are the properties of a toad?,toad
+1609,toast,What are the properties of a toast?,toast
+1610,toaster,What are the properties of a toaster?,toaster
+1611,toaster oven,What are the properties of a toaster oven?,toaster_oven
+1612,toe,What are the properties of a toe?,toe
+1613,toga,What are the properties of a toga?,toga
+1614,toilet,What are the properties of a toilet?,toilet
+1615,toilet paper,What are the properties of a toilet paper?,toilet_paper
+1616,tomato,What are the properties of a tomato?,tomato
+1617,tomato sauce,What are the properties of a tomato sauce?,tomato_sauce
+1618,tongs,What are the properties of tongs?,tongs
+1619,tongue,What are the properties of a tongue?,tongue
+1620,tool,What are the properties of a tool?,tool
+1621,toolbox,What are the properties of a toolbox?,toolbox
+1622,tooth,What are the properties of a tooth?,tooth
+1623,toothbrush,What are the properties of a toothbrush?,toothbrush
+1624,toothpaste,What are the properties of a toothpaste?,toothpaste
+1625,toothpick,What are the properties of a toothpick?,toothpick
+1626,top hat,What are the properties of a top hat?,top_hat
+1627,torch,What are the properties of a torch?,torch
+1628,torpedo,What are the properties of a torpedo?,torpedo
+1629,torso,What are the properties of a torso?,torso
+1630,tortellini,What are the properties of tortellini?,tortellini
+1631,tortilla,What are the properties of a tortilla?,tortilla
+1632,tostada,What are the properties of a tostada?,tostada
+1633,totem pole,What are the properties of a totem pole?,totem_pole
+1634,toucan,What are the properties of a toucan?,toucan
+1635,touchpad,What are the properties of a touchpad?,touchpad
+1636,towel,What are the properties of a towel?,towel
+1637,towel rack,What are the properties of a towel rack?,towel_rack
+1638,toy,What are the properties of a toy?,toy
+1639,tractor,What are the properties of a tractor?,tractor
+1640,traffic light,What are the properties of a traffic light?,traffic_light
+1641,trailer,What are the properties of a trailer?,trailer
+1642,train,What are the properties of a train?,train
+1643,train car,What are the properties of a train car?,train_car
+1644,train set,What are the properties of a train set?,train_set
+1645,trampoline,What are the properties of a trampoline?,trampoline
+1646,trap,What are the properties of a trap (hunting equipment)?,trap
+1647,trapdoor,What are the properties of a trapdoor?,trapdoor
+1648,trashcan,What are the properties of a trashcan?,trashcan
+1649,tray,What are the properties of a tray?,tray
+1650,treadmill,What are the properties of a treadmill?,treadmill
+1651,treasure,What are the properties of a treasure?,treasure
+1652,tree,What are the properties of a tree?,tree
+1653,tree trunk,What are the properties of a tree trunk?,tree_trunk
+1654,triangle,What are the properties of a triangle (musical instrument)?,triangle
+1655,tricycle,What are the properties of a tricycle?,tricycle
+1656,trident,What are the properties of a trident?,trident
+1657,trigger,What are the properties of a trigger?,trigger
+1658,tripod,What are the properties of a tripod?,tripod
+1660,trombone,What are the properties of a trombone?,trombone
+1661,trophy,What are the properties of a trophy?,trophy
+1662,trough,What are the properties of a trough?,trough
+1663,trowel,What are the properties of a trowel?,trowel
+1664,truck,What are the properties of a truck?,truck
+1665,trumpet,What are the properties of a trumpet?,trumpet
+1667,tuba,What are the properties of a tuba?,tuba
+1668,tube top,What are the properties of a tube top?,tube_top
+1669,tugboat,What are the properties of a tugboat?,tugboat
+1670,tulip,What are the properties of a tulip?,tulip
+1671,tumbleweed,What are the properties of a tumbleweed?,tumbleweed
+1672,tuning fork,What are the properties of a tuning fork?,tuning_fork
+1673,tupperware,What are the properties of a tupperware?,tupperware
+1674,turban,What are the properties of a turban?,turban
+1675,turbine,What are the properties of a turbine?,turbine
+1676,turf,What are the properties of a turf?,turf
+1677,turkey,What are the properties of a turkey?,turkey
+1678,turnstile,What are the properties of a turnstile?,turnstile
+1679,turntable,What are the properties of a turntable?,turntable
+1680,turtle,What are the properties of a turtle?,turtle
+1681,turtleneck,What are the properties of a turtleneck?,turtleneck
+1682,tuxedo,What are the properties of a tuxedo?,tuxedo
+1683,tweezers,What are the properties of tweezers?,tweezers
+1684,twig,What are the properties of a twig?,twig
+1685,typewriter,What are the properties of a typewriter?,typewriter
+1686,ukulele,What are the properties of an ukulele?,ukulele
+1687,umbrella,What are the properties of an umbrella?,umbrella
+1688,undershirt,What are the properties of an undershirt?,undershirt
+1689,underwear,What are the properties of an underwear?,underwear
+1690,unicycle,What are the properties of an unicycle?,unicycle
+1691,uniform,What are the properties of an uniform?,uniform
+1692,urinal,What are the properties of an urinal?,urinal
+1693,urn,What are the properties of an urn?,urn
+1694,vacuum,What are the properties of a vacuum?,vacuum
+1696,van,What are the properties of a van?,van
+1697,vase,What are the properties of a vase?,vase
+1698,vegetable,What are the properties of a vegetable?,vegetable
+1699,veil,What are the properties of a veil?,veil
+1700,velcro,What are the properties of a velcro?,velcro
+1701,vending machine,What are the properties of a vending machine?,vending_machine
+1702,vent,What are the properties of a vent?,vent
+1703,vest,What are the properties of a vest?,vest
+1704,vial,What are the properties of a vial?,vial
+1705,videocassette,What are the properties of a videocassette?,videocassette
+1706,videogame,What are the properties of a videogame?,videogame
+1707,viewfinder,What are the properties of a viewfinder?,viewfinder
+1708,violin,What are the properties of a violin?,violin
+1709,vise,What are the properties of a vise?,vise
+1710,visor,What are the properties of a visor?,visor
+1711,volleyball,What are the properties of a volleyball?,volleyball
+1712,vulture,What are the properties of a vulture?,vulture
+1713,wafer,What are the properties of a wafer?,wafer
+1714,waffle,What are the properties of a waffle?,waffle
+1715,waffle iron,What are the properties of a waffle iron?,waffle_iron
+1716,wagon,What are the properties of a wagon?,wagon
+1717,wall,What are the properties of a wall?,wall
+1718,wallet,What are the properties of a wallet?,wallet
+1719,wallpaper,What are the properties of a wallpaper?,wallpaper
+1720,walnut,What are the properties of a walnut?,walnut
+1721,walrus,What are the properties of a walrus?,walrus
+1722,wand,What are the properties of a wand?,wand
+1723,warthog,What are the properties of a warthog?,warthog
+1724,washboard,What are the properties of a washboard?,washboard
+1725,washcloth,What are the properties of a washcloth?,washcloth
+1726,washing machine,What are the properties of a washing machine?,washing_machine
+1727,wasp,What are the properties of a wasp?,wasp
+1728,watch,What are the properties of a watch?,watch
+1729,water bottle,What are the properties of a water bottle?,water_bottle
+1730,water cooler,What are the properties of a water cooler?,water_cooler
+1731,water filter,What are the properties of a water filter?,water_filter
+1733,water heater,What are the properties of a water heater?,water_heater
+1734,watering can,What are the properties of a watering can?,watering_can
+1735,watermelon,What are the properties of a watermelon?,watermelon
+1736,waterwheel,What are the properties of a waterwheel?,waterwheel
+1737,wax,What are the properties of a wax?,wax
+1738,wax paper,What are the properties of a wax paper?,wax_paper
+1739,weasel,What are the properties of a weasel?,weasel
+1740,weather vane,What are the properties of a weather vane?,weather_vane
+1741,webcam,What are the properties of a webcam?,webcam
+1742,wedding cake,What are the properties of a wedding cake?,wedding_cake
+1744,weed,What are the properties of a weed?,weed
+1745,wetsuit,What are the properties of a wetsuit?,wetsuit
+1746,whale,What are the properties of a whale?,whale
+1747,wheat,What are the properties of a wheat?,wheat
+1748,wheel,What are the properties of a wheel?,wheel
+1749,wheelbarrow,What are the properties of a wheelbarrow?,wheelbarrow
+1750,wheelchair,What are the properties of a wheelchair?,wheelchair
+1751,whip,What are the properties of a whip?,whip
+1752,whipped cream,What are the properties of a whipped cream?,whipped_cream
+1753,whisk,What are the properties of a whisk?,whisk
+1754,whistle,What are the properties of a whistle?,whistle
+1755,whiteboard,What are the properties of a whiteboard?,whiteboard
+1756,whoopee cushion,What are the properties of a whoopee cushion?,whoopee_cushion
+1757,wick,What are the properties of a wick?,wick
+1758,wig,What are the properties of a wig?,wig
+1759,wind chimes,What are the properties of wind chimes?,wind_chimes
+1760,window,What are the properties of a window?,window
+1761,windowsill,What are the properties of a windowsill?,windowsill
+1762,windshield,What are the properties of a windshield?,windshield
+1763,windshield wiper,What are the properties of a windshield wiper?,windshield_wiper
+1764,windsock,What are the properties of a windsock?,windsock
+1765,wine,What are the properties of a wine?,wine
+1766,wine bottle,What are the properties of a wine bottle?,wine_bottle
+1768,wineglass,What are the properties of a wineglass?,wineglass
+1770,wire,What are the properties of a wire?,wire
+1771,wire cutters,What are the properties of wire cutters?,wire_cutters
+1772,wok,What are the properties of a wok?,wok
+1773,wolf,What are the properties of a wolf?,wolf
+1774,woman,What are the properties of a woman?,woman
+1775,wood,What are the properties of a wood?,wood
+1776,wooden leg,What are the properties of a wooden leg?,wooden_leg
+1777,workbench,What are the properties of a workbench?,workbench
+1778,worm,What are the properties of a worm?,worm
+1779,wrap,What are the properties of a wrap (food)?,wrap
+1780,wrapping paper,What are the properties of a wrapping paper?,wrapping_paper
+1781,wreath,What are the properties of a wreath?,wreath
+1782,wreck,What are the properties of a wreck?,wreck
+1783,wrench,What are the properties of a wrench?,wrench
+1784,wrist,What are the properties of a wrist?,wrist
+1785,xylophone,What are the properties of a xylophone?,xylophone
+1786,yacht,What are the properties of a yacht?,yacht
+1787,yak,What are the properties of a yak?,yak
+1788,yarn,What are the properties of a yarn?,yarn
+1789,yo-yo,What are the properties of a yo-yo?,yo-yo
+1790,yogurt,What are the properties of a yogurt?,yogurt
+1791,yoke,What are the properties of a yoke?,yoke
+1792,yolk,What are the properties of a yolk?,yolk
+1793,zebra,What are the properties of a zebra?,zebra
+1794,zipper,What are the properties of a zipper?,zipper
+1795,zucchini,What are the properties of a zucchini?,zucchini
+1796,bat,What are the properties of a bat (animal)?,bat1
+1797,bat,What are the properties of a bat (sports equipment)?,bat2
+1798,baton,What are the properties of a baton (musical equipment)?,baton1
+1799,baton,What are the properties of a baton (weapon)?,baton2
+1801,baton,What are the properties of a baton (sports equipment)?,baton4
+1802,bow,What are the properties of a bow (hair accessory)?,bow1
+1803,bow,"What are the properties of a bow (weapon, hunting equipment)?",bow2
+1804,bow,"What are the properties of a bow (decoration, gift decoration)?",bow3
+1806,bracelet,What are the properties of a bracelet (jewelry)?,bracelet2
+1807,button,"What are the properties of a button (clothing accessory, clothing fastener)?",button1
+1808,button,What are the properties of a button (activator)?,button2
+1809,calf,"What are the properties of a calf (baby animal, animal)?",calf1
+1811,camera,"What are the properties of a camera (recording device, electronic device)?",camera1
+1812,camera,"What are the properties of a camera (camera accessory, photography equipment)?",camera2
+1813,chest,What are the properties of a chest (body part)?,chest1
+1814,chest,"What are the properties of a chest (furniture, storage)?",chest2
+1815,chicken,"What are the properties of a chicken (bird, animal, farm animal)?",chicken1
+1816,chicken,What are the properties of a chicken (fencing)?,chicken2
+1817,clipper,What are the properties of a clipper (garden tool)?,clipper1
+1818,clipper,What are the properties of a clipper (grooming tool)?,clipper2
+1819,crystal,"What are the properties of a crystal (rock, mineral, gemstone)?",crystal1
+1820,crystal,What are the properties of a crystal (fortune telling device)?,crystal2
+1821,file,What are the properties of a file (tool)?,file1
+1824,hook,"What are the properties of a hook (hardware, tool)?",hook2
+1826,juicer,What are the properties of a juicer (kitchen appliance)?,juicer2
+1827,mold,What are the properties of a mold (baking tool)?,mold1
+1828,mold,What are the properties of a mold (fungus)?,mold2
+1829,mouse,"What are the properties of a mouse (rodent, animal)?",mouse1
+1831,pepper,What are the properties of a pepper (vegetable)?,pepper1
+1832,pepper,What are the properties of a pepper (kitchen tool)?,pepper2
+1833,pipe,What are the properties of a pipe (smoking device)?,pipe1
+1834,pipe,What are the properties of a pipe (plumbing equipment)?,pipe2
+1835,punch,What are the properties of a punch (drink)?,punch1
+1837,rack,"What are the properties of a rack (storage equipment, furniture, storage)?",rack1
+1838,rack,What are the properties of a rack (furniture)?,rack2
+1840,screen,"What are the properties of a screen (mesh, barrier)?",screen2
+1841,shell,What are the properties of a shell (ammunition)?,shell1
+1842,shell,"What are the properties of a shell (animal part, exoskeleton)?",shell2
+1844,stamp,What are the properties of a stamp (postage)?,stamp1
+1845,stamp,"What are the properties of a stamp (craft supply, art supply)?",stamp2
+1847,stove,What are the properties of a stove (kitchen appliance)?,stove2
+1848,straw,"What are the properties of a straw (animal food, agricultural product)?",straw1
+1849,straw,What are the properties of a straw (drinking utensil)?,straw2
+1850,tank,What are the properties of a tank (military vehicle)?,tank1
+1851,tank,"What are the properties of a tank (container, storage)?",tank2
+1852,walker,"What are the properties of a walker (mobility device, medical equipment)?",walker1
+1853,walker,"What are the properties of a walker (baby equipment, baby toy)?",walker2
+0,aardvark,What are the properties of an aardvark (animal)?,aardvark
+1,acorn,What are the properties of an acorn (nut)?,acorn
+2,album,What are the properties of an album (book)?,album
+3,aluminum foil,"What are the properties of an aluminum foil (food packaging, food storage)?",aluminum_foil
+4,balance beam,What are the properties of a balance beam (gymnastics equipment)?,balance_beam
+5,bank,What are the properties of a bank (money storage container)?,bank
+6,banner,What are the properties of a banner (sign)?,banner
+7,baseball,What are the properties of a baseball (sports equipment)?,baseball
+8,basketball,What are the properties of a basketball (sports equipment)?,basketball
+9,bin,What are the properties of a bin (container)?,bin
+10,blind,What are the properties of a blind (window covering)?,blind
+11,blinder,What are the properties of a blinder (horse equipment)?,blinder
+12,boa,What are the properties of a boa (feather boa)?,boa
+13,board,"What are the properties of a board (building material, wood)?",board
+14,bolt,What are the properties of a bolt (hardware)?,bolt
+15,bongo,"What are the properties of a bongo (musical instrument, percussion instrument)?",bongo
+16,brush,"What are the properties of a brush (hair tool, grooming tool)?",brush
+17,bumper,What are the properties of a bumper (part of car)?,bumper
+18,cabinet,"What are the properties of a cabinet (storage, kitchen furniture)?",cabinet
+19,can,"What are the properties of a can (drink container, container)?",can
+20,cane,What are the properties of a cane (medical equipment)?,cane
+21,canvas,What are the properties of a canvas (art supply)?,canvas
+22,cape,What are the properties of a cape (clothing)?,cape
+23,car seat,What are the properties of a car seat (part of car)?,car_seat
+24,card,What are the properties of a card (game)?,card
+25,charger,What are the properties of a charger (electronic accessory)?,charger
+26,chip,"What are the properties of a chip (computer hardware, electronic component)?",chip
+27,cleat,"What are the properties of a cleat (shoe, sports equipment)?",cleat
+28,column,What are the properties of a column (architectural element)?,column
+29,crane,What are the properties of a crane (construction equipment)?,crane
+30,crate,"What are the properties of a crate (container, shipping accessory)?",crate
+31,cream,What are the properties of a cream (beauty product)?,cream
+32,crown,What are the properties of a crown (headwear)?,crown
+33,dolly,What are the properties of a dolly (moving equipment)?,dolly
+34,drumstick,What are the properties of a drumstick (musical equipment)?,drumstick
+35,dynamite,What are the properties of a dynamite (explosive)?,dynamite
+36,eclair,What are the properties of an eclair (pastry)?,eclair
+37,face mask,"What are the properties of a face mask (sports equipment, protective clothing)?",face_mask
+38,film,What are the properties of a film (film strip)?,film
+39,flipper,What are the properties of a flipper (swimming equipment)?,flipper
+40,frame,What are the properties of a frame (painting)?,frame
+41,garter,"What are the properties of a garter (clothing accessory, wedding accessory)?",garter
+42,glass,What are the properties of a glass (drinkware)?,glass
+43,globe,What are the properties of a globe (geography device)?,globe
+44,gourd,What are the properties of a gourd (vegetable)?,gourd
+45,grille,What are the properties of a grille (part of car)?,grille
+46,hairpin,What are the properties of a hairpin (hair accessory)?,hairpin
+47,handlebar,What are the properties of a handlebar (part of bicycle)?,handlebar
+48,hash,What are the properties of a hash (food)?,hash
+49,honeypot,"What are the properties of a honeypot (container, kitchen storage)?",honeypot
+50,iron,"What are the properties of an iron (household appliance, home appliance)?",iron
+51,jack,"What are the properties of a jack (car tool, tool)?",jack
+52,keyboard,What are the properties of a keyboard (musical instrument)?,keyboard
+53,lifesaver,"What are the properties of a lifesaver (flotation device, safety device)?",lifesaver
+54,mantle,What are the properties of a mantle (fireplace part)?,mantle
+55,mast,What are the properties of a mast (part of boat)?,mast
+56,mat,What are the properties of a mat (floor covering)?,mat
+57,mixer,What are the properties of a mixer (kitchen appliance)?,mixer
+58,moccasin,"What are the properties of a moccasin (shoe, footwear)?",moccasin
+59,mouthpiece,"What are the properties of a mouthpiece (sports equipment, protective sports gear)?",mouthpiece
+60,mullet,What are the properties of a mullet (hairstyle)?,mullet
+61,nail,"What are the properties of a nail (hardware, fastener)?",nail
+62,noisemaker,What are the properties of a noisemaker (party supply)?,noisemaker
+63,nutcracker,What are the properties of a nutcracker (kitchen tool)?,nutcracker
+64,organ,What are the properties of an organ (musical instrument)?,organ
+65,patch,What are the properties of a patch (clothing accessory)?,patch
+66,pin,What are the properties of a pin (sewing accessory)?,pin
+67,plate,What are the properties of a plate (dinnerware)?,plate
+68,poker,What are the properties of a poker (fireplace tool)?,poker
+69,polisher,What are the properties of a polisher (tool)?,polisher
+70,radiator,"What are the properties of a radiator (heating device, home appliance)?",radiator
+71,ramp,What are the properties of a ramp (handicap accessibility feature)?,ramp
+72,reel,What are the properties of a reel (film equipment)?,reel
+73,retainer,What are the properties of a retainer (dental device)?,retainer
+74,rim,What are the properties of a rim (tire rim)?,rim
+75,riser,"What are the properties of a riser (seat, stage equipment)?",riser
+76,roadsweeper,What are the properties of a roadsweeper (vehicle)?,roadsweeper
+77,saddle,What are the properties of a saddle (sports equipment)?,saddle
+78,scale,What are the properties of a scale (weight measurement tool)?,scale
+79,scanner,What are the properties of a scanner (office equipment)?,scanner
+80,scoop,"What are the properties of a scoop (kitchen tool, utensil)?",scoop
+81,scooter,"What are the properties of a scooter (vehicle, toy)?",scooter
+82,sheath,What are the properties of a sheath (knife accessory)?,sheath
+83,shoulder,What are the properties of a shoulder (body part)?,shoulder
+84,sidecar,What are the properties of a sidecar (motorcycle accessory)?,sidecar
+85,siren,What are the properties of a siren (alarm)?,siren
+86,skewer,What are the properties of a skewer (kitchen tool)?,skewer
+87,sling,What are the properties of a sling (arm sling)?,sling
+88,slot,What are the properties of a slot (hole)?,slot
+89,staple,What are the properties of a staple (office supply)?,staple
+90,stilt,"What are the properties of a stilt (walking device, toy)?",stilt
+91,stool,"What are the properties of a stool (furniture, chair, seat)?",stool
+92,swab,What are the properties of a swab (personal hygiene item)?,swab
+93,tab,"What are the properties of a tab (part of can, part of can)?",tab
+94,tack,"What are the properties of a tack (fastener, office supply)?",tack
+95,tag,What are the properties of a tag (label)?,tag
+96,tape,What are the properties of a tape (office supply)?,tape
+97,tee,What are the properties of a tee (golf equipment)?,tee
+98,tile,"What are the properties of a tile (building material, flooring)?",tile
+99,trolley,"What are the properties of a trolley (vehicle, public transportation)?",trolley
+100,trunk,"What are the properties of a trunk (storage, container)?",trunk
+101,valve,"What are the properties of a valve (plumbing equipment, plumbing hardware)?",valve
+102,water fountain,What are the properties of a water fountain (water dispenser)?,water_fountain
+103,wedge,What are the properties of a wedge (tool)?,wedge
+104,wine cooler,"What are the properties of a wine cooler (kitchen equipment, wine accessory)?",wine_cooler
+105,wing,What are the properties of a wing (part of airplane)?,wing
+106,baton,What are the properties of a baton (drum major)?,baton3
+107,bracelet,What are the properties of a bracelet (wristband)?,bracelet1
+108,calf,What are the properties of a calf (leg)?,calf2
+109,file,What are the properties of a file (card index)?,file2
+110,hook,What are the properties of a hook (door hook)?,hook1
+111,juicer,What are the properties of a juicer (citrus fruit squeezer)?,juicer1
+112,mouse,What are the properties of a mouse (computer mouse)?,mouse2
+113,punch,What are the properties of a punch (pliers)?,punch2
+114,screen,What are the properties of a screen (projection)?,screen1
+115,shell,What are the properties of a shell (nut shell)?,shell3
+116,stove,What are the properties of a stove (kitchen stove)?,stove1

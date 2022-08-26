@@ -7,6 +7,10 @@ from scipy.spatial.distance import squareform
 import math 
 from os.path import join as pjoin
 import os 
+import sys
+sys.path.append('..')
+from utils.correlation import vectorize_concepts
+
 
 DATA_DIR = os.getenv('DATA_DIR')
 
@@ -77,9 +81,13 @@ def load_behav():
     behv_sim = scipy.io.loadmat(pjoin(DATA_DIR, 'things/spose_similarity.mat'))['spose_sim']
     return behv_sim
 
-def load_dimension_labels():
-    labels = scipy.io.loadmat(pjoin(DATA_DIR, 'things/labels.mat'))['labels']
-    return [label[0][0] for label in labels]
+def load_dimension_labels(n_dimensions):
+    if n_dimensions == 49:
+        labels = scipy.io.loadmat(pjoin(DATA_DIR, f'things/labels_{n_dimensions}.mat'))['labels']
+        labels = [label[0][0] for label in labels]
+    elif n_dimensions == 66:
+        labels = open(pjoin(DATA_DIR, f'things/labels_{n_dimensions}.txt')).read().splitlines()
+    return labels
 
 def load_sorting():
     # Read things concept sorting
@@ -121,8 +129,8 @@ def generate_concepts_to_keep(gpt_df, mc_df=None, clsb_df=None, bert_df=None, st
             concepts_to_keep = concepts_to_keep.intersection(set(mc_df['concept_id']))
         if clsb_df is not None:
             concepts_to_keep = concepts_to_keep.intersection(set(clsb_df['concept_id']))
-        if bert_df is not None:
-            concepts_to_keep = concepts_to_keep.intersection(set(bert_df['concept_id']))
+        #if bert_df is not None:
+        #    concepts_to_keep = concepts_to_keep.intersection(set(bert_df['concept_id']))
 
     elif strategy == 'intersection_cslb_and_difference_mc':
         concepts_to_keep = concepts_to_keep.intersection(set(clsb_df['concept_id']))
@@ -175,9 +183,15 @@ def export_matched_data(gpt_df, mc_df, behv_sim, clsb_df):
     if clsb_df is not None:
         clsb_df.to_csv('%s/cslb_similarity_only_matching.csv' % data_dir, index=False)
 
-def load_dimension_embeddings():
+def load_dimension_embeddings(n_dimensions):
     concept_ids = list(load_sorting()['concept_id'])
-    dimensions = pd.read_csv(f'{DATA_DIR}/things/spose_embedding_49d_sorted.txt', sep=' ', header=None, names=load_dimension_labels(), index_col=False)
+    if n_dimensions == 49:
+        sep = ' '
+    else:
+        sep = '\t'
+    
+    dimensions = pd.read_csv(f'{DATA_DIR}/things/spose_embedding_{n_dimensions}d_sorted.txt', sep=sep, header=None, names=load_dimension_labels(n_dimensions), index_col=False)
+
     dimensions.index = concept_ids
     return dimensions
 
@@ -206,7 +220,7 @@ def load_bert(group_to_one_concept):
 
     return df
 
-def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_amount_runs_feature_occured_within_concept=2, strategy='intersection', group_to_one_concept=True, run_nr=1, duplicates=False):
+def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_amount_runs_feature_occured_within_concept=2, group_to_one_concept=True, run_nr=1, duplicates=False):
     gpt_df = load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, run_nr, duplicates)
     mc_df = None 
     clsb_df = None
@@ -216,23 +230,49 @@ def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_am
         clsb_df = load_cslb(group_to_one_concept)
 
     bert_df = load_bert(group_to_one_concept)
-
     sorting_df = load_sorting()
     behv_sim = load_behav()
 
-    #concepts_to_keep = ['accordion', 'ambulance']
-    if strategy:
-        concepts_to_keep = generate_concepts_to_keep(gpt_df, mc_df, clsb_df, strategy)
-        behv_sim = match_behv_sim(behv_sim, concepts_to_keep, sorting_df)
-        gpt_df = match_gpt(gpt_df, concepts_to_keep)
+    #if strategy:
+    #    concepts_to_keep = generate_concepts_to_keep(gpt_df, mc_df, clsb_df, strategy)
+    #    behv_sim = match_behv_sim(behv_sim, concepts_to_keep, sorting_df)
+    #    gpt_df = match_gpt(gpt_df, concepts_to_keep)
 
-        if mcrae:
-            mc_df = match_mc(mc_df, concepts_to_keep)
-        if clsb:
-            clsb_df = match_cslb(clsb_df, concepts_to_keep)
-
-    #export_matched_data(gpt_df, mc_df, behv_sim, clsb_df)
+    #    if mcrae:
+    #        mc_df = match_mc(mc_df, concepts_to_keep)
+    #    if clsb:
+    #        clsb_df = match_cslb(clsb_df, concepts_to_keep)
 
     return gpt_df, mc_df, behv_sim, clsb_df, sorting_df, bert_df
 
 
+def sort(df):
+    sorted_df = load_sorting().reset_index().set_index('concept_id')
+    df['concept_num'] = df.index.map(sorted_df['index'])
+    df = df.sort_values(by='concept_num')
+    df = df.drop('concept_num', axis=1)
+    return df
+
+def get_all_vectorized(gpt_df, cslb_df, mc_df, behv_sim, bert_df, vec = 'binary', intersection='intersection'):
+    gpt_vec = vectorize_concepts(gpt_df, load_sorting(), 'bla', vec)
+    cslb_vec = vectorize_concepts(cslb_df, load_sorting(), 'bla', vec)
+    mc_vec = vectorize_concepts(mc_df, load_sorting(), 'bla', vec)
+    #bert_vec = vectorize_concepts(bert_df, load_sorting(), 'bla', vec)
+
+    if vec == 'count':
+        cslb_vec = load_cslb_count_vec()
+
+    if intersection:
+        intersection_concepts = generate_concepts_to_keep(gpt_df, mc_df, cslb_df, bert_df, 'intersection')
+        gpt_vec = gpt_vec.loc[intersection_concepts]
+        cslb_vec = cslb_vec.loc[intersection_concepts]
+        mc_vec = mc_vec.loc[intersection_concepts]
+        #bert_vec = bert_vec.loc[intersection_concepts]
+        behv_sim = match_behv_sim(behv_sim, intersection_concepts, load_sorting())
+
+    gpt_vec = sort(gpt_vec)
+    cslb_vec = sort(cslb_vec)
+    mc_vec = sort(mc_vec)
+    #bert_vec = sort(bert_vec)
+    
+    return gpt_vec, cslb_vec, mc_vec, behv_sim
