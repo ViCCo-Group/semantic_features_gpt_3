@@ -1,14 +1,11 @@
 import argparse
-from encode import create_base_question, add_sentence_column
+from encode import add_sentence_column
 import numpy as np
 import pandas as pd 
 
 def write_train_df(df_train, filename):
     df_train = df_train[['concept', 'question', 'answer']]
     df_train.to_csv('output_data/things/%s.csv' % (filename), index=False)
-    #dfs = np.split_array(df_train, n_question)
-    #for i, df in enumerate(dfs):
-    #    df.to_csv('output_data/mcrae/%s_%s.csv' % (filename, i), index=False)
 
 def write_test_df(df_test, filename):
     df_test = df_test[['concept', 'feature']]
@@ -71,7 +68,7 @@ def encode(args):
         write_test_df(df_test, output_test_filename)
 
     # Train concepts with correct answers that will be used to initialize the context
-    df_train = add_sentence_column(df_train)
+    df_train = add_sentence_column(df_train, 20, True, '_')
     write_train_df(df_train, output_train_filename)
 
 parser = argparse.ArgumentParser()

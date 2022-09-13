@@ -94,7 +94,7 @@ def load_sorting():
     sorting_df = pd.read_csv(pjoin(DATA_DIR, 'things/unique_id.txt'), header=None, names=['concept_id'])
     return sorting_df
 
-def load_cslb(group_to_one_concept):
+def load_cslb(group_to_one_concept, remove_merged_features=False):
     cslb_df = pd.read_csv(pjoin(DATA_DIR, 'cslb/norms.dat'), sep='\t')
     cslb_df = cslb_df.rename(columns={'concept': 'concept_id', 'feature type': 'label'})
     cslb_df = cslb_df[['concept_id', 'feature', 'label']]
@@ -105,6 +105,8 @@ def load_cslb(group_to_one_concept):
     for row in mapping_df.itertuples():
         cslb_df.loc[cslb_df['concept_id'] == row.cslb_concept, 'concept_id'] = row.things_concept_id
 
+    if remove_merged_features:
+        cslb_df['feature'] = cslb_df['feature'].apply(lambda feature: feature.split('_')[0])
     return cslb_df 
 
 def load_cslb_count_vec():

@@ -1,0 +1,2001 @@
+index,concept_id,feature,name,source
+0,guitar,is played for entertainment,gpt_3_filtered_overlap,gpt
+1,touchpad,is a computer part,gpt_3_filtered,gpt
+2,airplane,used for passengers,mcrae,human
+3,panther,has claws,gpt_3_filtered_overlap,gpt
+4,radio,used for playing different stations,mcrae,human
+5,bra,made of cotton,cslb,human
+6,robe,does cover nightclothes,cslb,human
+7,rattlesnake,eats rodents,mcrae,human
+8,generator,has a switch,gpt_3_unfiltered,gpt
+9,raisin,is eaten in desserts,gpt_3_filtered_overlap,gpt
+10,turkey,is a mammal,gpt_3_filtered_overlap,gpt
+11,tomato,is grown in farms,gpt_3_filtered_overlap,gpt
+12,spear,is sharp,cslb,human
+13,snowman,lives in winter,gpt_3_unfiltered,gpt
+14,hatchet,is an axe,cslb,human
+15,basketball,is played in an indoor court,gpt_3_unfiltered,gpt
+16,mitten,is worn on the hand,gpt_3_filtered,gpt
+17,eel,has flesh,cslb,human
+18,cherry,is a fruit,cslb,human
+19,swan,is found in europe,gpt_3_filtered_overlap,gpt
+20,cow,is white,mcrae,human
+21,garbage_truck,is a truck,gpt_3_filtered,gpt
+22,marigold,does reproduce,cslb,human
+23,xylophone,has metal bars,gpt_3_filtered,gpt
+24,pumpkin,has a stalk,cslb,human
+25,umbrella,is made of plastic,gpt_3_filtered_overlap,gpt
+26,macaroni,has a skin,gpt_3_filtered,gpt
+27,gavel,makes a sound,gpt_3_filtered,gpt
+28,chain,is big,cslb,human
+29,hose,is made of plastic,gpt_3_filtered_overlap,gpt
+30,lobster,lives in water,gpt_3_filtered_overlap,gpt
+31,raisin,tastes good,gpt_3_filtered_overlap,gpt
+32,police_car,has sirens,gpt_3_filtered,gpt
+33,cream_cheese,is white in color,gpt_3_unfiltered,gpt
+34,cigarette,produces smoke,mcrae,human
+35,radish,has green leaves,cslb,human
+36,cigarette,does turn teeth yellow,cslb,human
+37,kite,is colourful,mcrae,human
+38,walrus,has large teeth,mcrae,human
+39,gumball,is colorful,gpt_3_filtered,gpt
+40,corn,is yellow,cslb,human
+41,mushroom,eaten by cooking,mcrae,human
+42,rollerskate,is footwear,cslb,human
+43,microwave,uses radiation,mcrae,human
+44,daisy,is yellow,cslb,human
+45,ice_cream,made of cream,cslb,human
+46,muffin,is made of butter,gpt_3_filtered,gpt
+47,grasshopper,makes chirping sounds,gpt_3_unfiltered,gpt
+48,wallet,is used to carry money and credit cards,gpt_3_unfiltered,gpt
+49,exhaust_pipe,is an exhaust pipe,gpt_3_unfiltered,gpt
+50,bean,is nutritious,mcrae,human
+51,bat1,is used to play baseball,gpt_3_filtered_overlap,gpt
+52,swing,is used for fun,gpt_3_filtered,gpt
+53,bagel,has calories,gpt_3_unfiltered,gpt
+54,grapefruit,is edible,mcrae,human
+55,bracelet2,is thin,mcrae,human
+56,wheelbarrow,has one wheel,cslb,human
+57,butter,is fatty,cslb,human
+58,pickle,a food,mcrae,human
+59,fire_alarm,is used to alert people about fire in buildings,gpt_3_unfiltered,gpt
+60,seaweed,is eaten in salads,gpt_3_filtered_overlap,gpt
+61,porcupine,does shoot spikes,cslb,human
+62,ladder,is a tool,cslb,human
+63,van,has tires,gpt_3_unfiltered,gpt
+64,vacuum,is used to clean ceilings,gpt_3_unfiltered,gpt
+65,crossbow,made of wood and string,cslb,human
+66,stereo,is electrical,mcrae,human
+67,tongs,is used to move food,gpt_3_unfiltered,gpt
+68,pumpkin,grows on the ground,gpt_3_filtered_overlap,gpt
+69,cherry,grows on trees,gpt_3_filtered_overlap,gpt
+70,rolls_royce,is pretty,cslb,human
+71,lip_balm,is used by applying,gpt_3_unfiltered,gpt
+72,eggplant,is exotic,gpt_3_filtered,gpt
+73,ambulance,has a red cross,gpt_3_filtered_overlap,gpt
+74,snowboard,is used on snow,gpt_3_filtered,gpt
+75,mouse1,an animal,mcrae,human
+76,cd_player,is found in bedrooms,gpt_3_unfiltered,gpt
+77,dolphin,eats fish,gpt_3_filtered_overlap,gpt
+78,crossbow,is used for protection,gpt_3_filtered_overlap,gpt
+79,grate,is used in fires,gpt_3_unfiltered,gpt
+80,oriole,is orange,mcrae,human
+81,stool,does support weight,cslb,human
+82,skillet,has a handle,mcrae,human
+83,hand,is on the hand,gpt_3_unfiltered,gpt
+84,wheat,is made into bread,gpt_3_filtered,gpt
+85,book,is written,cslb,human
+86,bra,is used for women,gpt_3_filtered_overlap,gpt
+87,alligator,does move,cslb,human
+88,paper_towel,is used to clean glass,gpt_3_filtered,gpt
+89,basin,made of metal,cslb,human
+90,butterfly,has scales,gpt_3_filtered_overlap,gpt
+91,leopard,does run,cslb,human
+92,satellite,is used to send messages,gpt_3_unfiltered,gpt
+93,playing_card,has a number on the back,gpt_3_unfiltered,gpt
+94,rifle,fires,mcrae,human
+95,brush,is used to groom dogs,gpt_3_filtered_overlap,gpt
+96,ring,is used to make a proposal,gpt_3_unfiltered,gpt
+97,pie,is eaten for lunch,gpt_3_filtered_overlap,gpt
+98,sweet_potato,has a hard skin,gpt_3_filtered,gpt
+99,umbrella,has skin,cslb,human
+100,dishwashing_liquid,cleans dishes,gpt_3_unfiltered,gpt
+101,slipper,is comfortable,gpt_3_filtered,gpt
+102,sandpaper,does DIY,cslb,human
+103,sewing_kit,has a piece of chalk,gpt_3_unfiltered,gpt
+104,mouse1,is gray,gpt_3_filtered_overlap,gpt
+105,medal,is round,mcrae,human
+106,shawl,is worn in india,gpt_3_filtered_overlap,gpt
+107,backscratcher,is used to scratch skin,gpt_3_unfiltered,gpt
+108,brick,is used in houses,gpt_3_filtered_overlap,gpt
+109,roadsweeper,has a broom to sweep the leaves from the road,gpt_3_unfiltered,gpt
+110,dressing_gown,is soft,cslb,human
+111,brick,has a length,gpt_3_filtered_overlap,gpt
+112,rat,has whiskers,mcrae,human
+113,goose,has a body,gpt_3_filtered_overlap,gpt
+114,gyroscope,has a round shape,gpt_3_filtered,gpt
+115,typewriter,has letters,mcrae,human
+116,skateboard,does skate,cslb,human
+117,urinal,is used by males,gpt_3_unfiltered,gpt
+118,rocking_chair,does swing,cslb,human
+119,lavender,is used to make sachets,gpt_3_unfiltered,gpt
+120,grille,is white,gpt_3_filtered,gpt
+121,harp,makes music,gpt_3_filtered_overlap,gpt
+122,whale,spouts water,mcrae,human
+123,chicken1,is edible,mcrae,human
+124,locket,has a chain,gpt_3_unfiltered,gpt
+125,spinach,is a plant,gpt_3_filtered_overlap,gpt
+126,teapot,is made by hand,gpt_3_unfiltered,gpt
+127,colander,made of metal,mcrae,human
+128,beanbag,is large,gpt_3_unfiltered,gpt
+129,sushi,has seaweed,gpt_3_filtered,gpt
+130,dessert,is high in sugar,gpt_3_unfiltered,gpt
+131,tack,is bent,gpt_3_filtered,gpt
+132,cap_(bottle),used on bottles,mcrae,human
+133,chair,has a seat,mcrae,human
+134,spear,is used by the army,gpt_3_filtered_overlap,gpt
+135,moped,does use fuel,cslb,human
+136,chandelier,made of glass,cslb,human
+137,cocoon,is a silk bag,gpt_3_filtered,gpt
+138,alligator,does kill prey,cslb,human
+139,spinach,has stems,gpt_3_filtered,gpt
+140,radish,comes in bunches,gpt_3_filtered_overlap,gpt
+141,tripod,has three legs,gpt_3_filtered_overlap,gpt
+142,rat,is hunted by people,gpt_3_filtered_overlap,gpt
+143,tractor,is yellow,mcrae,human
+144,espresso,has a brown color,gpt_3_unfiltered,gpt
+145,deer,hunted by people,mcrae,human
+146,paint,is used to color things,gpt_3_unfiltered,gpt
+147,tiger,has fur,cslb,human
+148,envelope,is used by the postal service,gpt_3_filtered_overlap,gpt
+149,tongs,is a kitchen utensil,cslb,human
+150,tripod,has a camera mount,gpt_3_unfiltered,gpt
+151,grenade,is explosive,gpt_3_filtered_overlap,gpt
+152,bathtub,is large,mcrae,human
+153,rifle,has a metal barrel,gpt_3_filtered_overlap,gpt
+154,praying_mantis,has an insect body,gpt_3_unfiltered,gpt
+155,oven,has a glass door,cslb,human
+156,beer,has a smell,gpt_3_filtered,gpt
+157,goblet,is made of water,gpt_3_filtered,gpt
+158,flea,bites,mcrae,human
+159,button,is flat,cslb,human
+160,scaffold,is made of metal,gpt_3_filtered,gpt
+161,leg,is worn on the lower body,cslb,human
+162,wheelchair,has brakes,cslb,human
+163,meatloaf,has gravy,gpt_3_filtered,gpt
+164,cucumber,is made of vegetables,gpt_3_filtered,gpt
+165,mulberry,is cooked,gpt_3_filtered,gpt
+166,eclair,is round,gpt_3_unfiltered,gpt
+167,robe,is a dress,gpt_3_filtered_overlap,gpt
+168,ravioli,is a traditional italian food,gpt_3_unfiltered,gpt
+169,bench,is found in workshops,cslb,human
+170,cd_player,is carried around,gpt_3_unfiltered,gpt
+171,stew,is cooked in a microwave,gpt_3_filtered,gpt
+172,cat,has eyes,mcrae,human
+173,javelin,is used in games,gpt_3_unfiltered,gpt
+174,shirt,is used for clothing,gpt_3_filtered_overlap,gpt
+175,whistle,does rattle,cslb,human
+176,go-kart,is an electric car,gpt_3_unfiltered,gpt
+177,birthday_cake,is eaten with a fork,gpt_3_filtered,gpt
+178,gorilla,has a latch,gpt_3_filtered_overlap,gpt
+179,mixer,used for making cakes,mcrae,human
+180,saxophone,is brass,gpt_3_filtered_overlap,gpt
+181,desk,has a flat surface,mcrae,human
+182,stool,is uncomfortable,cslb,human
+183,suit,is used for funerals,gpt_3_filtered,gpt
+184,bonnet,is removed,gpt_3_filtered,gpt
+185,raspberry,a fruit,mcrae,human
+186,pipe1,is cleaned,gpt_3_unfiltered,gpt
+187,bell_pepper,is a pepper,gpt_3_filtered,gpt
+188,pen,has an ink cartridge,gpt_3_filtered_overlap,gpt
+189,mushroom,is used for food,gpt_3_filtered_overlap,gpt
+190,envelope,is rectangular,cslb,human
+191,sandals,has buckles,cslb,human
+192,mattress,is used for sleep,gpt_3_unfiltered,gpt
+193,bag,has a shoulder strap,gpt_3_filtered_overlap,gpt
+194,rocking_horse,is used to rock,gpt_3_unfiltered,gpt
+195,file1,is used to smooth wood,gpt_3_unfiltered,gpt
+196,headband,is a jewelry,gpt_3_unfiltered,gpt
+197,spear,has a sharp tip,gpt_3_filtered_overlap,gpt
+198,trolley,is an object,gpt_3_filtered_overlap,gpt
+199,basement,has windows,mcrae,human
+200,train,goes fast,gpt_3_filtered_overlap,gpt
+201,door,used by opening,mcrae,human
+202,cookie_sheet,has a surface,gpt_3_filtered,gpt
+203,broom,is wooden,gpt_3_filtered_overlap,gpt
+204,drum,produces beats,mcrae,human
+205,skunk,has four legs,cslb,human
+206,cake,eaten at birthdays,mcrae,human
+207,pancake,is yellow,gpt_3_unfiltered,gpt
+208,club,is associated with trolls,cslb,human
+209,checkers,has pieces,gpt_3_filtered,gpt
+210,truck,has a driving seat,cslb,human
+211,fawn,is brown,mcrae,human
+212,whip,used on lions,mcrae,human
+213,starling,is black,cslb,human
+214,album,has unbound pages,gpt_3_unfiltered,gpt
+215,saxophone,is made of wood,gpt_3_filtered_overlap,gpt
+216,dishrag,has a shape of rectangle,gpt_3_unfiltered,gpt
+217,bread,is brown,mcrae,human
+218,desk,is made of metal,gpt_3_filtered_overlap,gpt
+219,wagon,has wheels,mcrae,human
+220,matchbox,is carried in a pocket,gpt_3_unfiltered,gpt
+221,fishnet_stockings,is worn,gpt_3_filtered,gpt
+222,radish,has a long root,gpt_3_filtered_overlap,gpt
+223,wallet,is brown,gpt_3_unfiltered,gpt
+224,coffee_pot,made of plastic,cslb,human
+225,giraffe,has long legs,mcrae,human
+226,magnet,is used to hold paper clips,gpt_3_unfiltered,gpt
+227,chipmunk,has a bushy tail,cslb,human
+228,seagull,is used for fishing,gpt_3_filtered_overlap,gpt
+229,termite,is disgusting,cslb,human
+230,garlic,is used to cook food,gpt_3_filtered_overlap,gpt
+231,bean,is eaten as a vegetable,gpt_3_filtered,gpt
+232,cow,is used to farm,gpt_3_filtered_overlap,gpt
+233,cigarette,is sold in stores,gpt_3_filtered_overlap,gpt
+234,globe,is used to teach,gpt_3_filtered,gpt
+235,leopard,has fangs,gpt_3_filtered_overlap,gpt
+236,silverware,is made of silver,gpt_3_unfiltered,gpt
+237,cucumber,is green,gpt_3_filtered_overlap,gpt
+238,harness,is worn by a person,gpt_3_filtered,gpt
+239,squid,has skin,gpt_3_filtered,gpt
+240,cherry,is used to cook,gpt_3_filtered_overlap,gpt
+241,moss,does grow,cslb,human
+242,jug,made of ceramic,cslb,human
+243,beaver,is used to make hats,gpt_3_filtered,gpt
+244,chipmunk,has sharp teeth,cslb,human
+245,whistle,is loud,mcrae,human
+246,bus,has windows,gpt_3_filtered_overlap,gpt
+247,tack,used for holding paper,mcrae,human
+248,stool_(furniture),used by sitting on,mcrae,human
+249,corkscrew,is hard,cslb,human
+250,iguana,has eyes,cslb,human
+251,chandelier,is heavy,mcrae,human
+252,parachute,has a shape of a cone,gpt_3_unfiltered,gpt
+253,wasp,is black,mcrae,human
+254,hose,is made of plastic,gpt_3_filtered_overlap,gpt
+255,unicycle,has brakes,gpt_3_filtered_overlap,gpt
+256,bear,has claws,mcrae,human
+257,headlight,has a beam,gpt_3_filtered,gpt
+258,otter,is white,gpt_3_filtered,gpt
+259,bug,is hairy,gpt_3_filtered,gpt
+260,scaffolding,has metal bars,gpt_3_filtered,gpt
+261,toaster,does toast bread,cslb,human
+262,screwdriver,has a long handle,gpt_3_filtered_overlap,gpt
+263,banjo,is used in country music,cslb,human
+264,rose,is cream coloured,cslb,human
+265,barge,is big,cslb,human
+266,star_fruit,is tasty,gpt_3_filtered,gpt
+267,pepper1,has stalks,gpt_3_filtered,gpt
+268,tripod,made of rubber,cslb,human
+269,napkin_ring,is found in kitchens,gpt_3_filtered,gpt
+270,bacon,is crispy,cslb,human
+271,frog,does live on land,cslb,human
+272,duck,does lay eggs,cslb,human
+273,blouse,has a hem,gpt_3_filtered_overlap,gpt
+274,lobster,eaten by boiling,mcrae,human
+275,cloak,is a coat,gpt_3_filtered,gpt
+276,potholder,is used to hold hot pans,gpt_3_unfiltered,gpt
+277,alligator,is long,gpt_3_filtered_overlap,gpt
+278,soup,has pepper,gpt_3_unfiltered,gpt
+279,duck,has a flat tail,gpt_3_filtered_overlap,gpt
+280,cassette,has an antenna,gpt_3_filtered,gpt
+281,parakeet,does fly,cslb,human
+282,mirror,is found in bedrooms,cslb,human
+283,fruitcake,comes in a box,gpt_3_filtered,gpt
+284,shawl,is a gift,gpt_3_filtered_overlap,gpt
+285,knee,is made of bone,gpt_3_filtered,gpt
+286,riser,has a front,gpt_3_filtered,gpt
+287,grate,is used to cover a fire,gpt_3_filtered,gpt
+288,cushion,is a bed,gpt_3_filtered_overlap,gpt
+289,basil,is edible,gpt_3_unfiltered,gpt
+290,videocassette,is used to record shows,gpt_3_unfiltered,gpt
+291,limousine,has long seats,cslb,human
+292,mirror,found in houses,mcrae,human
+293,stump,is part of a tree,gpt_3_unfiltered,gpt
+294,carousel,is for kids,gpt_3_unfiltered,gpt
+295,harness,is used to connect,gpt_3_unfiltered,gpt
+296,praying_mantis,is white,gpt_3_filtered,gpt
+297,wagon,carries things,gpt_3_filtered,gpt
+298,cockroach,flies,gpt_3_filtered_overlap,gpt
+299,cauliflower,tastes bitter,gpt_3_filtered_overlap,gpt
+300,cart,runs on petrol,gpt_3_filtered_overlap,gpt
+301,fork,is used to cut,gpt_3_filtered,gpt
+302,tent,is used in the jungle,gpt_3_filtered,gpt
+303,armchair,is manmade,cslb,human
+304,slime,is found in the ocean,gpt_3_filtered,gpt
+305,cannon,shoots rockets,gpt_3_filtered_overlap,gpt
+306,rock,has different colors,gpt_3_filtered_overlap,gpt
+307,hoe,used for farming,mcrae,human
+308,box,is light,cslb,human
+309,can,is reused,gpt_3_filtered,gpt
+310,helmet,is used in baseball,gpt_3_filtered_overlap,gpt
+311,submarine,does dive,cslb,human
+312,sledgehammer,is large,mcrae,human
+313,cushion,is comfortable,mcrae,human
+314,oak,is deciduous,cslb,human
+315,catalogue,is for buying things,cslb,human
+316,tambourine,made of metal,cslb,human
+317,owl,does hunt,cslb,human
+318,accordion,is red,gpt_3_filtered_overlap,gpt
+319,car,is black,gpt_3_filtered_overlap,gpt
+320,artichoke,is eaten in salad,cslb,human
+321,candy_bar,is used to make candy,gpt_3_filtered,gpt
+322,donkey,is Eeyore,cslb,human
+323,hairbrush,is used to brush hair in the evening,gpt_3_unfiltered,gpt
+324,buzzard,is a carnivore,cslb,human
+325,cantaloupe,tastes sweet,mcrae,human
+326,compass,is used for travel,gpt_3_filtered,gpt
+327,skyscraper,has windows,mcrae,human
+328,vegetable,comes in cans,gpt_3_filtered,gpt
+329,beehive,has honey,mcrae,human
+330,worm,is an animal,cslb,human
+331,grape,is red,cslb,human
+332,manhole,is a hole,gpt_3_filtered,gpt
+333,walrus,is dangerous,gpt_3_filtered_overlap,gpt
+334,earplug,is worn in the ear,gpt_3_filtered,gpt
+335,sink,is used to wash your face,gpt_3_unfiltered,gpt
+336,peacock,has beautiful feathers,cslb,human
+337,pulpit,is used in religious ceremonies,gpt_3_unfiltered,gpt
+338,penlight,has a cap,gpt_3_filtered,gpt
+339,wagon,made of metal,mcrae,human
+340,blouse,has sleeves,mcrae,human
+341,cat,lives in colonies,gpt_3_filtered,gpt
+342,cigar,is long,mcrae,human
+343,cat,eats,mcrae,human
+344,oven,used for cooking,mcrae,human
+345,pretzel,has a thin outer layer,gpt_3_unfiltered,gpt
+346,cloak,is comfortable,gpt_3_filtered_overlap,gpt
+347,pasta,is used for spaghetti,gpt_3_filtered,gpt
+348,dolphin,is smooth,mcrae,human
+349,anchor,has a rope,cslb,human
+350,stalagmite,is found in limestone,gpt_3_filtered,gpt
+351,skateboard,is fast,mcrae,human
+352,key,is used for car locks,gpt_3_unfiltered,gpt
+353,microwave,is useful,cslb,human
+354,typewriter,has an inside,gpt_3_filtered_overlap,gpt
+355,tangerine,is round,mcrae,human
+356,ketchup,tastes sweet,gpt_3_unfiltered,gpt
+357,scuba,is used to look at things,gpt_3_filtered,gpt
+358,tank1,used by armies,mcrae,human
+359,eyedropper,has a rubber bulb,gpt_3_unfiltered,gpt
+360,canoe,is used for water transportation,gpt_3_filtered_overlap,gpt
+361,fruitcake,contains alcohol,gpt_3_filtered,gpt
+362,yoyo,is handheld,cslb,human
+363,cauliflower,is found in gardens,gpt_3_filtered_overlap,gpt
+364,nail,has a shaft,cslb,human
+365,flower,is grown in greenhouses,gpt_3_unfiltered,gpt
+366,stove1,is made of metal,gpt_3_filtered,gpt
+367,hail,is dangerous,gpt_3_filtered,gpt
+368,coffin,made of fabric,cslb,human
+369,pants,eg - bell bottoms,mcrae,human
+370,caterpillar,is long,mcrae,human
+371,goose,lives in europe,gpt_3_filtered_overlap,gpt
+372,cigarette,has no filter,gpt_3_filtered_overlap,gpt
+373,goldfish,does live in cold water,cslb,human
+374,rocket,used by astronauts,mcrae,human
+375,tape_recorder,is portable,gpt_3_unfiltered,gpt
+376,buggy,has a hood,gpt_3_filtered_overlap,gpt
+377,rain_gauge,has an opening,gpt_3_filtered,gpt
+378,flea,is hard to kill,mcrae,human
+379,lollipop,is given to adults,gpt_3_unfiltered,gpt
+380,chest1,is used to keep things safe,gpt_3_filtered,gpt
+381,pencil,used for drawing,mcrae,human
+382,deer,an animal,mcrae,human
+383,robe,is made of cloth,gpt_3_filtered_overlap,gpt
+384,buckle,is a fruit,gpt_3_filtered_overlap,gpt
+385,chicken1,is found on farms,cslb,human
+386,ball,has a cover,gpt_3_filtered_overlap,gpt
+387,dolphin,is a carnivore,gpt_3_filtered_overlap,gpt
+388,dollhouse,is used for display,gpt_3_filtered,gpt
+389,hatchet,is made of steel,gpt_3_filtered_overlap,gpt
+390,housefly,a pest,mcrae,human
+391,boomerang,does fly,cslb,human
+392,gorilla,is aggressive,cslb,human
+393,tobacco,is addictive,cslb,human
+394,jeep,has four doors,gpt_3_filtered_overlap,gpt
+395,jukebox,is old - fashioned,gpt_3_filtered,gpt
+396,pillow,is covered in fabric,gpt_3_filtered_overlap,gpt
+397,wrist,has fingers,gpt_3_filtered,gpt
+398,taxi,is used to go places,gpt_3_filtered_overlap,gpt
+399,pine_tree,a coniferous,mcrae,human
+400,grenade,is used in war games,gpt_3_unfiltered,gpt
+401,sink,has water inside,gpt_3_filtered_overlap,gpt
+402,honeydew,eaten in fruit salads,mcrae,human
+403,roller_coaster,is thrilling,gpt_3_unfiltered,gpt
+404,waffle_iron,is a kitchen appliance,gpt_3_filtered,gpt
+405,coin,is used to gamble,gpt_3_filtered_overlap,gpt
+406,beard,is a facial hair,gpt_3_filtered,gpt
+407,wall,made of cement,mcrae,human
+408,accordion,is used in concerts,gpt_3_filtered_overlap,gpt
+409,shovel,has a sharp end,gpt_3_filtered_overlap,gpt
+410,tambourine,is used in bands,gpt_3_filtered,gpt
+411,dolphin,does squirt water,cslb,human
+412,crystal2,is associated with crystal balls,gpt_3_unfiltered,gpt
+413,pelican,does catch fish,cslb,human
+414,money,is used to pay for things,gpt_3_unfiltered,gpt
+415,lobster,lives in cold waters,gpt_3_unfiltered,gpt
+416,apron,made of plastic,cslb,human
+417,trowel,has a rectangular shape,gpt_3_filtered,gpt
+418,fondue,has a lid,gpt_3_filtered,gpt
+419,toy,makes noise,gpt_3_filtered,gpt
+420,flea,has a mouth,cslb,human
+421,bra,is worn with skirts,gpt_3_filtered_overlap,gpt
+422,rabbit,is white,gpt_3_filtered,gpt
+423,board_(black),requires cleaning,mcrae,human
+424,ambulance,is used to save lives,gpt_3_filtered_overlap,gpt
+425,church,used for praying,mcrae,human
+426,joystick,is used to control things,gpt_3_unfiltered,gpt
+427,pumpkin,is orange,mcrae,human
+428,carriage,made of wood,cslb,human
+429,banana,has a stalk,gpt_3_filtered_overlap,gpt
+430,water_filter,has a hole,gpt_3_filtered,gpt
+431,thermometer,is used in laboratories,gpt_3_filtered_overlap,gpt
+432,oar,is used for boats,gpt_3_filtered,gpt
+433,carousel,has a pole,gpt_3_filtered,gpt
+434,anchor,has a handle,gpt_3_filtered_overlap,gpt
+435,saxophone,makes sounds,gpt_3_filtered_overlap,gpt
+436,oil,is sold in grocery stores,gpt_3_filtered,gpt
+437,crow,squawks,mcrae,human
+438,eyeliner,is used to make your eyes look smaller,gpt_3_unfiltered,gpt
+439,ferris_wheel,is used for entertainment,gpt_3_filtered,gpt
+440,tomato,has a peel,gpt_3_filtered,gpt
+441,shorts,is worn on the legs,gpt_3_unfiltered,gpt
+442,hook2,has a shape of an oval,gpt_3_filtered,gpt
+443,cooler,is made of metal,gpt_3_filtered,gpt
+444,hydrant,is used for emergencies,gpt_3_unfiltered,gpt
+445,razor,is used to trim hair,gpt_3_filtered_overlap,gpt
+446,laser_pointer,is seen from a distance,gpt_3_filtered,gpt
+447,certificate,found on walls,mcrae,human
+448,scissors,has a point,gpt_3_filtered_overlap,gpt
+449,camel,used for transportation,mcrae,human
+450,wooden_leg,has an ankle,gpt_3_unfiltered,gpt
+451,drill,a tool,mcrae,human
+452,napkin,is used to clean the table,gpt_3_unfiltered,gpt
+453,lavender,is used for decoration,gpt_3_filtered,gpt
+454,hydrant,is a pipe,gpt_3_filtered,gpt
+455,flute,made of wood,mcrae,human
+456,chessboard,is used to play,gpt_3_unfiltered,gpt
+457,forklift,has a seat for the driver,gpt_3_unfiltered,gpt
+458,cello,a musical instrument,mcrae,human
+459,clam,is an animal,cslb,human
+460,blower,is used in the garden,gpt_3_filtered,gpt
+461,jacket,is brown,gpt_3_filtered_overlap,gpt
+462,mop,is a cleaning tool,cslb,human
+463,bedpost,has a round top,gpt_3_filtered,gpt
+464,woman,has a head,gpt_3_unfiltered,gpt
+465,radio,is used to talk on the phone,gpt_3_filtered_overlap,gpt
+466,dunebuggy,has 4 wheels,mcrae,human
+467,turkey,is bred,cslb,human
+468,frog,is found in ponds,gpt_3_filtered_overlap,gpt
+469,bottle,is used to store water,gpt_3_filtered_overlap,gpt
+470,chocolate,is a dessert,gpt_3_filtered,gpt
+471,groundhog,is brown,mcrae,human
+472,tongs,is used to grip,gpt_3_unfiltered,gpt
+473,slingshot,a weapon,mcrae,human
+474,dove,is released,cslb,human
+475,cloak,is made of metal,gpt_3_filtered_overlap,gpt
+476,tiger,is a mammal,cslb,human
+477,horseshoe,is black,gpt_3_unfiltered,gpt
+478,shrimp,lives in oceans,gpt_3_filtered_overlap,gpt
+479,cannon,has a chamber,gpt_3_filtered_overlap,gpt
+480,monkey,has a mouth,cslb,human
+481,chickpea,is used for hummus,gpt_3_unfiltered,gpt
+482,ferret,has a short body,gpt_3_filtered,gpt
+483,piano,has a sound,gpt_3_filtered_overlap,gpt
+484,bow_(weapon),is aimed at targets,cslb,human
+485,juice,has pulp of fruit or vegetable or both,gpt_3_unfiltered,gpt
+486,pear,has pips,cslb,human
+487,braid,is made of hair,gpt_3_unfiltered,gpt
+488,gherkin,is sliced,cslb,human
+489,dice,is numbered one to six,cslb,human
+490,jacket,is worn by people,gpt_3_filtered_overlap,gpt
+491,grapefruit,is eaten raw,gpt_3_filtered_overlap,gpt
+492,toast,is dry,gpt_3_filtered,gpt
+493,bell,makes a ringing sound,gpt_3_unfiltered,gpt
+494,tool,is used to paint,gpt_3_filtered,gpt
+495,beetle,has a stinger,gpt_3_filtered,gpt
+496,projector,has a lens,gpt_3_filtered_overlap,gpt
+497,carpet,is wall to wall,mcrae,human
+498,cougar,eats animals,mcrae,human
+499,cinnamon,is sold in grocery stores,gpt_3_filtered,gpt
+500,fur_coat,is found on animals,gpt_3_unfiltered,gpt
+501,radish,is used to make salads,gpt_3_unfiltered,gpt
+502,wasp,is dangerous,mcrae,human
+503,kite,eats meat,gpt_3_filtered_overlap,gpt
+504,mackerel,is oily,cslb,human
+505,bread,eaten as toast,mcrae,human
+506,hearing_aid,is a device,gpt_3_filtered,gpt
+507,puck,is used for games,gpt_3_filtered,gpt
+508,soap,is made of a chemical compound,gpt_3_unfiltered,gpt
+509,card,is used in rummy,gpt_3_unfiltered,gpt
+510,clothespin,is used for laundry,gpt_3_unfiltered,gpt
+511,oil,floats on water,gpt_3_filtered,gpt
+512,frog,has eyes,mcrae,human
+513,blowtorch,has a long handle,gpt_3_unfiltered,gpt
+514,skunk,is found in north america,gpt_3_unfiltered,gpt
+515,coyote,hunts,mcrae,human
+516,tangerine,is juicy,mcrae,human
+517,saddle,used for riding,mcrae,human
+518,coffee,is drunk,cslb,human
+519,brownie,is square,gpt_3_unfiltered,gpt
+520,blindfold,is used for hiding,gpt_3_unfiltered,gpt
+521,oven,is used to bake,gpt_3_filtered_overlap,gpt
+522,toucan,has wings,gpt_3_filtered,gpt
+523,doll,has a head,cslb,human
+524,bagpipes,has a bag of air,cslb,human
+525,walker1,is a wheelchair,gpt_3_filtered,gpt
+526,buggy,has horns,gpt_3_filtered_overlap,gpt
+527,surfboard,has fins,gpt_3_filtered_overlap,gpt
+528,cash_machine,has a keypad,gpt_3_unfiltered,gpt
+529,honeypot,is used to hold liquids,gpt_3_unfiltered,gpt
+530,squirt_gun,is a toy,gpt_3_unfiltered,gpt
+531,shield,is used to protect people,gpt_3_filtered_overlap,gpt
+532,porthole,has peel,gpt_3_unfiltered,gpt
+533,switch,is a part of a door,gpt_3_filtered,gpt
+534,radio,is found in,cslb,human
+535,bomb,does kill people,cslb,human
+536,tugboat,is useful,cslb,human
+537,loveseat,is small,gpt_3_unfiltered,gpt
+538,sandpaper,is used by carpenters,cslb,human
+539,train,has an engine,mcrae,human
+540,lime,is edible,gpt_3_filtered_overlap,gpt
+541,spoon,does stir,cslb,human
+542,funnel,is large,gpt_3_filtered,gpt
+543,salmon,has fins,mcrae,human
+544,sparrow,has thin legs,cslb,human
+545,broccoli,is tasty,cslb,human
+546,toad,is ugly,mcrae,human
+547,avocado,is high in fat,mcrae,human
+548,cage,is used to keep animals from escaping,gpt_3_unfiltered,gpt
+549,cape,is worn by men,gpt_3_filtered_overlap,gpt
+550,banana,is soft,mcrae,human
+551,bone,is found in the ground,gpt_3_filtered,gpt
+552,spoon,used for serving food,mcrae,human
+553,menu,has lists of foods,mcrae,human
+554,ratchet,is used in industry,gpt_3_unfiltered,gpt
+555,silicone,is used in cookery,gpt_3_unfiltered,gpt
+556,thermometer,is meteorological,cslb,human
+557,rat,has legs,gpt_3_filtered,gpt
+558,tent,is waterproof,mcrae,human
+559,waffle,is made of dough,gpt_3_unfiltered,gpt
+560,ball,is used in cricket,gpt_3_filtered_overlap,gpt
+561,apron,is bought at a store,gpt_3_filtered_overlap,gpt
+562,arm,made of metal,cslb,human
+563,gown,is worn,cslb,human
+564,goat,is hunted by lions,gpt_3_filtered_overlap,gpt
+565,star_fruit,has a core,gpt_3_filtered,gpt
+566,bus,has an engine,gpt_3_filtered,gpt
+567,breakfast,has bread,gpt_3_filtered,gpt
+568,match,is flammable,gpt_3_unfiltered,gpt
+569,tractor,is used for harvesting crops,gpt_3_filtered,gpt
+570,stapler,has a place to put paper in,gpt_3_unfiltered,gpt
+571,apron,is worn by people,gpt_3_filtered_overlap,gpt
+572,trousers,is worn on the lower body,cslb,human
+573,turnip,is crunchy,mcrae,human
+574,seashell,is bumpy,cslb,human
+575,swordfish,is not poisonous,gpt_3_filtered,gpt
+576,cup,used for baking,mcrae,human
+577,curry,is bought,gpt_3_filtered,gpt
+578,kaleidoscope,is fun to use,gpt_3_unfiltered,gpt
+579,sink,has a tap,gpt_3_filtered,gpt
+580,tiger,has claws,gpt_3_filtered_overlap,gpt
+581,ribbon,is made of cloth,gpt_3_unfiltered,gpt
+582,pitcher,is found in kitchens,gpt_3_filtered,gpt
+583,baby,has a stomach,gpt_3_filtered,gpt
+584,goose,is large,mcrae,human
+585,bus,does stop,cslb,human
+586,spirit_level,is straight,cslb,human
+587,knob,is a fruit,gpt_3_filtered,gpt
+588,sandwich,is small,gpt_3_unfiltered,gpt
+589,sandal,has soles,gpt_3_filtered,gpt
+590,grenade,is used by the military,gpt_3_filtered_overlap,gpt
+591,ambulance,has horns,gpt_3_filtered_overlap,gpt
+592,ruler,has a flat surface,gpt_3_filtered_overlap,gpt
+593,firewood,has a pointy end,gpt_3_unfiltered,gpt
+594,breadbox,is small,gpt_3_filtered,gpt
+595,bok_choy,is harvested,gpt_3_unfiltered,gpt
+596,dog,has nails,gpt_3_filtered_overlap,gpt
+597,silicone,is used for makeup,gpt_3_unfiltered,gpt
+598,beaver,does gnaw,cslb,human
+599,ashtray,has no filter,gpt_3_filtered_overlap,gpt
+600,saxophone,is used to make sounds,gpt_3_filtered_overlap,gpt
+601,cup,used for measuring,mcrae,human
+602,apron,is used to hold things,gpt_3_filtered_overlap,gpt
+603,eye,has an optic disc,cslb,human
+604,toad,is an amphibian,gpt_3_filtered_overlap,gpt
+605,kettle,is black,cslb,human
+606,hail,is frozen water,gpt_3_filtered,gpt
+607,necklace,made of diamonds,cslb,human
+608,thorn,has branches,gpt_3_filtered,gpt
+609,cart,is used in the country,gpt_3_filtered_overlap,gpt
+610,dog,is brown,gpt_3_unfiltered,gpt
+611,pelican,has a wingspan,gpt_3_unfiltered,gpt
+612,goat,eats hay,gpt_3_filtered_overlap,gpt
+613,stomach,is a bag,gpt_3_unfiltered,gpt
+614,cable,is white,gpt_3_filtered,gpt
+615,boy,is a relative of a girl,gpt_3_unfiltered,gpt
+616,honeycomb,comes from bees,gpt_3_unfiltered,gpt
+617,pepper2,eaten with food,mcrae,human
+618,denture,looks like real teeth,gpt_3_unfiltered,gpt
+619,deer,has a white tail,mcrae,human
+620,bracelet1,has a design,gpt_3_filtered,gpt
+621,remote_control,has an antenna,gpt_3_filtered,gpt
+622,toad,is green,cslb,human
+623,tiger,has fur,mcrae,human
+624,tyre,is burnt,cslb,human
+625,tapestry,has a story,gpt_3_unfiltered,gpt
+626,bow2,is used in hunting,gpt_3_unfiltered,gpt
+627,house,has rooms,mcrae,human
+628,dishwasher,has a filter,gpt_3_filtered_overlap,gpt
+629,scarecrow,is found in gardens,gpt_3_unfiltered,gpt
+630,oven,is used to heat food,gpt_3_filtered_overlap,gpt
+631,oil_tanker,is filled with men,cslb,human
+632,cabbage,has a large head,gpt_3_filtered_overlap,gpt
+633,teapot,is made of glass,gpt_3_unfiltered,gpt
+634,pineapple,is used for decoration,gpt_3_filtered_overlap,gpt
+635,ukulele,has six strings,gpt_3_unfiltered,gpt
+636,alligator,lives in the wild,gpt_3_filtered_overlap,gpt
+637,mug,is used to hold tea,gpt_3_unfiltered,gpt
+638,brush,has bristles,mcrae,human
+639,carrot,eaten by cooking,mcrae,human
+640,spider,is a bug,gpt_3_filtered_overlap,gpt
+641,canoe,a boat,mcrae,human
+642,pump,has an air chamber,gpt_3_unfiltered,gpt
+643,buckle,is found on shoes,cslb,human
+644,typewriter,has keys,mcrae,human
+645,thread,is used in sewing clothes,gpt_3_unfiltered,gpt
+646,jacket,is outer,gpt_3_filtered_overlap,gpt
+647,grapefruit,is nutritious,mcrae,human
+648,church,has seats,mcrae,human
+649,perch,lays eggs,mcrae,human
+650,pepper2,tastes hot/spicy,mcrae,human
+651,motorcycle,has 2 wheels,mcrae,human
+652,truck,is a vehicle,gpt_3_filtered_overlap,gpt
+653,tomato,a fruit,mcrae,human
+654,wine_cooler,is used to drink wine,gpt_3_filtered,gpt
+655,napkin,is soft,mcrae,human
+656,crystal2,has a cover,gpt_3_filtered,gpt
+657,spinach,has stalks,gpt_3_filtered_overlap,gpt
+658,ibuprofen,is for muscle pain,cslb,human
+659,ruler,is rectangular,gpt_3_unfiltered,gpt
+660,faucet,is used to wash clothes,gpt_3_unfiltered,gpt
+661,bear,is brown and white,gpt_3_filtered_overlap,gpt
+662,jeans,is tight,cslb,human
+663,moss,is soft,cslb,human
+664,canoe,is used to carry goods and people on water,gpt_3_unfiltered,gpt
+665,stereo,is found in the kitchen,gpt_3_unfiltered,gpt
+666,porcupine,is prickly,gpt_3_filtered_overlap,gpt
+667,candle,is found in homes,gpt_3_filtered_overlap,gpt
+668,crow,caws,mcrae,human
+669,road_sign,has an arrow on it,gpt_3_unfiltered,gpt
+670,broccoli,has green leaves,gpt_3_filtered,gpt
+671,blowgun,is made of wood,gpt_3_filtered,gpt
+672,whip,is used to ride,gpt_3_filtered_overlap,gpt
+673,tiger,is black,gpt_3_filtered_overlap,gpt
+674,crocodile,has strong jaws,cslb,human
+675,gyroscope,is used in space,gpt_3_filtered,gpt
+676,trap,has a lever,gpt_3_filtered,gpt
+677,centipede,has a body,cslb,human
+678,clarinet,is classical,cslb,human
+679,pickle,is nutritious,gpt_3_filtered,gpt
+680,tree_trunk,is used by trees,gpt_3_unfiltered,gpt
+681,cushion,has foam filling,mcrae,human
+682,onions,causes bad breath,mcrae,human
+683,ostrich,has a long neck,mcrae,human
+684,powder,has a taste,gpt_3_filtered,gpt
+685,turnip,is roasted,cslb,human
+686,hammock,has fabric,gpt_3_unfiltered,gpt
+687,umbrella,used for keeping dry,mcrae,human
+688,pig,is a pig,gpt_3_filtered_overlap,gpt
+689,grasshopper,has a long tongue,gpt_3_filtered_overlap,gpt
+690,ruler,is 1 foot long,mcrae,human
+691,raccoon,is in Pocahontas,cslb,human
+692,teepee,is used to hunt,gpt_3_unfiltered,gpt
+693,whip,has eyelashes,gpt_3_filtered_overlap,gpt
+694,seal,is eaten,gpt_3_filtered_overlap,gpt
+695,rhino,has four legs,cslb,human
+696,puppet,is inanimate,cslb,human
+697,gerbil,does squeak,cslb,human
+698,dolphin,is a mammal,cslb,human
+699,jeep,is fast,gpt_3_filtered_overlap,gpt
+700,rain_gauge,is an instrument,gpt_3_filtered,gpt
+701,patty,contains pepper,gpt_3_filtered,gpt
+702,mouse1,has a tail,cslb,human
+703,otter,has fur,mcrae,human
+704,worm,has no eyes,cslb,human
+705,flute,makes music,gpt_3_filtered_overlap,gpt
+706,trumpet,is played in marching bands,gpt_3_unfiltered,gpt
+707,wax,is used to seal,gpt_3_filtered,gpt
+708,tablet,has wi - fi connection,gpt_3_unfiltered,gpt
+709,platypus,is found in rivers,gpt_3_filtered_overlap,gpt
+710,mayonnaise,is mixed with tuna,cslb,human
+711,seal,eats fish,mcrae,human
+712,oar,is used for steering,gpt_3_filtered,gpt
+713,swing,swings,gpt_3_filtered,gpt
+714,cougar,a predator,mcrae,human
+715,whistle,is played by blowing into it,gpt_3_filtered,gpt
+716,water_cooler,is used for drinks,gpt_3_unfiltered,gpt
+717,cork,has a round shape,gpt_3_filtered_overlap,gpt
+718,airplane,has passengers,gpt_3_filtered,gpt
+719,clipboard,is rectangular,gpt_3_filtered,gpt
+720,doll,is a toy girl,cslb,human
+721,bark,is used for houses,gpt_3_unfiltered,gpt
+722,grapefruit,is pink,cslb,human
+723,cart,is used to carry passengers,gpt_3_filtered_overlap,gpt
+724,shed,used for storage,mcrae,human
+725,ambulance,is large,mcrae,human
+726,zebra,travels in herds,mcrae,human
+727,radish,has three leaves,gpt_3_filtered_overlap,gpt
+728,sail,has a rudder,gpt_3_unfiltered,gpt
+729,hydrant,has a hose pipe,gpt_3_filtered,gpt
+730,candle,is bought,gpt_3_filtered_overlap,gpt
+731,air_mattress,has a fan / blower,gpt_3_unfiltered,gpt
+732,eraser,has a point,gpt_3_unfiltered,gpt
+733,corn,a vegetable,mcrae,human
+734,butterfly,is delicate,gpt_3_filtered,gpt
+735,ruler,is used for drawing,cslb,human
+736,motorcycle,has an engine,mcrae,human
+737,navel,is where your umbilical cord was attached,gpt_3_unfiltered,gpt
+738,crowbar,is long,mcrae,human
+739,envelope,is white,mcrae,human
+740,boat,used on oceans,mcrae,human
+741,tortilla,is used for quesadillas,gpt_3_unfiltered,gpt
+742,gutter,is in the street,gpt_3_unfiltered,gpt
+743,napkin,is reused,gpt_3_filtered_overlap,gpt
+744,peacock,has feathers,mcrae,human
+745,radio,is electronic,gpt_3_filtered_overlap,gpt
+746,chandelier,found in dining rooms,mcrae,human
+747,apple,a fruit,mcrae,human
+748,pelican,is found in Africa,cslb,human
+749,faucet,used for dispensing water,mcrae,human
+750,garbage_truck,has a cabin,gpt_3_filtered,gpt
+751,plant,grows from a seed,gpt_3_filtered,gpt
+752,marble,is a ball,cslb,human
+753,moose,is big,cslb,human
+754,mat,is found in living rooms,gpt_3_filtered_overlap,gpt
+755,car_seat,has a seat belt,gpt_3_unfiltered,gpt
+756,riser,is used to sit and standing on,gpt_3_unfiltered,gpt
+757,prism,has three angles,gpt_3_unfiltered,gpt
+758,submarine,is made of steel,gpt_3_filtered_overlap,gpt
+759,pie,has a pastry,gpt_3_filtered_overlap,gpt
+760,tricycle,is red,mcrae,human
+761,pipe2,has connections,mcrae,human
+762,carriage,is used to carry goods,gpt_3_unfiltered,gpt
+763,guppy,lives in water,mcrae,human
+764,muff,protects hands from the cold,gpt_3_unfiltered,gpt
+765,tray,is used to hold things,gpt_3_filtered_overlap,gpt
+766,rock,is rough,cslb,human
+767,seal,has a long neck,gpt_3_filtered_overlap,gpt
+768,tomato,is used for food,gpt_3_filtered_overlap,gpt
+769,dress,has sleeves,cslb,human
+770,golf_club,is used to hit a ball,gpt_3_filtered,gpt
+771,skateboard,is hard to use,cslb,human
+772,makeup,is used for women,gpt_3_filtered,gpt
+773,pyramid,made by Egyptians,mcrae,human
+774,bassinet,is for babies,gpt_3_unfiltered,gpt
+775,goat,has hooves,gpt_3_filtered_overlap,gpt
+776,bow_(weapon),used for sports,mcrae,human
+777,cheese,is yellow,mcrae,human
+778,sheep,is meat,cslb,human
+779,antelope,is a male,gpt_3_unfiltered,gpt
+780,thermostat,has a sensor,gpt_3_unfiltered,gpt
+781,umbrella,is round,mcrae,human
+782,tape,is used to record sounds,gpt_3_unfiltered,gpt
+783,spear,is primitive,mcrae,human
+784,belt_buckle,is silver,gpt_3_filtered,gpt
+785,bikini,is colourful,cslb,human
+786,barn,has a hay loft,mcrae,human
+787,bone,is strong,cslb,human
+788,napkin,is white,mcrae,human
+789,ottoman,has a base,gpt_3_filtered,gpt
+790,firewood,burns for a long time,gpt_3_unfiltered,gpt
+791,rat,has teeth,mcrae,human
+792,ship,is big,cslb,human
+793,shield,is circular,cslb,human
+794,coat,is worn when cold,cslb,human
+795,peach,is associated with summer,cslb,human
+796,elephant,is big,cslb,human
+797,trunk,is used to store,gpt_3_unfiltered,gpt
+798,chicken1,is domestic,gpt_3_filtered_overlap,gpt
+799,ibuprofen,is for muscle pain,cslb,human
+800,clam,is eaten in summer,gpt_3_filtered_overlap,gpt
+801,brick,is solid,gpt_3_filtered,gpt
+802,dog,chases cats,mcrae,human
+803,nut,is brown,gpt_3_filtered,gpt
+804,caterpillar,is edible,gpt_3_filtered_overlap,gpt
+805,sardine,is a small fish,cslb,human
+806,road_sign,is used to drive on roads,gpt_3_unfiltered,gpt
+807,lamb,is food,cslb,human
+808,toad,lives in the grass,gpt_3_filtered_overlap,gpt
+809,snake,is an animal,gpt_3_filtered,gpt
+810,gorilla,has a tail,gpt_3_filtered_overlap,gpt
+811,margarita,has a lime wedge garnish,gpt_3_unfiltered,gpt
+812,beaver,has babies,gpt_3_filtered_overlap,gpt
+813,windsock,blows in the wind,gpt_3_unfiltered,gpt
+814,plaster_cast,is made out of plaster,gpt_3_unfiltered,gpt
+815,sling,is used for support,gpt_3_unfiltered,gpt
+816,hail,has seeds,gpt_3_filtered,gpt
+817,windsock,has a head,gpt_3_filtered,gpt
+818,gauze,is used to make clothes,gpt_3_filtered,gpt
+819,strawberry,has a leaf,gpt_3_filtered_overlap,gpt
+820,bra,has a back,gpt_3_filtered_overlap,gpt
+821,newspaper,has opinions,cslb,human
+822,torpedo,has skin,gpt_3_unfiltered,gpt
+823,bush,has many branches,gpt_3_unfiltered,gpt
+824,bow2,is a gun,gpt_3_unfiltered,gpt
+825,deer,has hooves,mcrae,human
+826,potato,eaten by cooking,mcrae,human
+827,desk,is used by children,gpt_3_filtered_overlap,gpt
+828,card_(greeting),has a message,mcrae,human
+829,plate,has a handle,gpt_3_filtered_overlap,gpt
+830,boomerang,is entertaining,cslb,human
+831,computer,is used in the office,gpt_3_unfiltered,gpt
+832,radio,used for playing AM,mcrae,human
+833,biscuit,is round,gpt_3_filtered_overlap,gpt
+834,windshield_wiper,is made of rubber,gpt_3_unfiltered,gpt
+835,turnstile,is used to enter,gpt_3_unfiltered,gpt
+836,orange,has sections,mcrae,human
+837,puck,has a black top,gpt_3_filtered,gpt
+838,vacuum,is used to clean cars,gpt_3_filtered,gpt
+839,pliers,has two legs,gpt_3_filtered_overlap,gpt
+840,squid,is a carnivore,gpt_3_filtered_overlap,gpt
+841,blouse,is a shirt,gpt_3_filtered_overlap,gpt
+842,cape,is long,mcrae,human
+843,pineapple,made of water,cslb,human
+844,hovercraft,is used by the army,gpt_3_filtered,gpt
+845,sauce,is served with meat,gpt_3_filtered,gpt
+846,pistol,is kept in holster,cslb,human
+847,cigar,is Cuban,cslb,human
+848,microwave,used for heating food,mcrae,human
+849,salmon,has skin,cslb,human
+850,almond,is eaten,gpt_3_filtered,gpt
+851,potato,is baked,cslb,human
+852,doll,is comforting,cslb,human
+853,rocket,is launched from a launcher,gpt_3_unfiltered,gpt
+854,tape_(scotch),used on presents,mcrae,human
+855,cape,has a hoodie,gpt_3_filtered_overlap,gpt
+856,railing,prevenes people from falling off the edge of a cliff,gpt_3_unfiltered,gpt
+857,bow3,has a red center,gpt_3_filtered,gpt
+858,nightingale,does fly,cslb,human
+859,tortoise,has scales,cslb,human
+860,boomerang,is aboriginal,cslb,human
+861,trousers,has cuffs,mcrae,human
+862,veil,is worn at parties,gpt_3_filtered_overlap,gpt
+863,gorilla,has long hair,gpt_3_unfiltered,gpt
+864,cucumber,has skin,mcrae,human
+865,olive,has a skin,gpt_3_filtered_overlap,gpt
+866,ostrich,lives in the desert,gpt_3_filtered_overlap,gpt
+867,locket,is worn on the neck,gpt_3_filtered,gpt
+868,twig,is used to make things,gpt_3_filtered,gpt
+869,pincushion,is used by tailors,gpt_3_unfiltered,gpt
+870,apron,worn by cooks,mcrae,human
+871,bath,has legs,cslb,human
+872,sardine,is silver,cslb,human
+873,garbage,is thrown out,gpt_3_filtered,gpt
+874,kiwi,is peeled,cslb,human
+875,rhubarb,is crunchy,gpt_3_filtered_overlap,gpt
+876,highchair,is used to eat meals,gpt_3_unfiltered,gpt
+877,gloves,does cover,cslb,human
+878,owl,lives in trees,mcrae,human
+879,station_wagon,is used to transport luggage,gpt_3_filtered,gpt
+880,skyscraper,owned by companies,mcrae,human
+881,handbrake,is on the floor,gpt_3_filtered,gpt
+882,minnow,lives in water,mcrae,human
+883,flamingo,lives in swamps,gpt_3_filtered_overlap,gpt
+884,manatee,is small,gpt_3_filtered,gpt
+885,licorice,is made of water,gpt_3_unfiltered,gpt
+886,bear,has a nose,gpt_3_filtered_overlap,gpt
+887,shower_cap,fits on the head,gpt_3_unfiltered,gpt
+888,saxophone,has a reed,gpt_3_filtered,gpt
+889,cake_mix,requires eggs,gpt_3_unfiltered,gpt
+890,canoe,has an engine,gpt_3_filtered_overlap,gpt
+891,squirrel,has a tail,cslb,human
+892,bison,is endangered,mcrae,human
+893,hamster,has a pointed nose,gpt_3_filtered_overlap,gpt
+894,carrot,is a root vegetable,cslb,human
+895,wallet,does store,cslb,human
+896,bolts,made of metal,mcrae,human
+897,crane,has a boom,gpt_3_unfiltered,gpt
+898,stiletto,has a sole,gpt_3_unfiltered,gpt
+899,headrest,is used to rest the head on,gpt_3_filtered,gpt
+900,blueberry,is juicy,mcrae,human
+901,trout,is tickled,cslb,human
+902,ski,has a pointy tip,gpt_3_unfiltered,gpt
+903,submarine,has a hatch,gpt_3_filtered_overlap,gpt
+904,blowtorch,is used with fire,gpt_3_unfiltered,gpt
+905,ambulance,does go on roads,cslb,human
+906,lightning_bug,has two wings,gpt_3_filtered,gpt
+907,ring,is a symbol,cslb,human
+908,humvee,is used by the military,gpt_3_filtered,gpt
+909,robe,made of terry cloth,mcrae,human
+910,brick,is made of clay,gpt_3_filtered_overlap,gpt
+911,tape,is a strip of paper,gpt_3_unfiltered,gpt
+912,guinea_pig,does need a run,cslb,human
+913,lava,has a rough texture,gpt_3_filtered,gpt
+914,pie,has a crust,cslb,human
+915,frame,has a gold frame,gpt_3_unfiltered,gpt
+916,armchair,is cushioned,cslb,human
+917,breadbox,is placed on a table,gpt_3_filtered,gpt
+918,dice,is fair,cslb,human
+919,castenets,made of metal,cslb,human
+920,bouquet,has flowers,gpt_3_filtered_overlap,gpt
+921,gorilla,is violent,mcrae,human
+922,screwdriver,is small,gpt_3_filtered_overlap,gpt
+923,peeler,is white,gpt_3_filtered,gpt
+924,scaffold,is made of wood,gpt_3_filtered,gpt
+925,shirt,worn on torso,mcrae,human
+926,coconut,is a nut,gpt_3_filtered_overlap,gpt
+927,rifle,is used by soldiers,gpt_3_filtered_overlap,gpt
+928,veil,is a piece of clothing,gpt_3_filtered,gpt
+929,pan,used for cooking,mcrae,human
+930,crocodile,a reptile,mcrae,human
+931,headband,is red,gpt_3_unfiltered,gpt
+932,fire,produces heat,gpt_3_filtered,gpt
+933,lemonade,is liquid,cslb,human
+934,lamppost,has a bulb,gpt_3_filtered,gpt
+935,brick,is used to pave roads,gpt_3_filtered_overlap,gpt
+936,taxi,has a light,cslb,human
+937,acorn,is nutritious,gpt_3_unfiltered,gpt
+938,doormat,is a mat,gpt_3_unfiltered,gpt
+939,butter,comes from milk,gpt_3_filtered,gpt
+940,toad,hops,gpt_3_filtered_overlap,gpt
+941,shell2,is made of material,gpt_3_filtered,gpt
+942,bok_choy,has flowers,gpt_3_unfiltered,gpt
+943,bayonet,used for killing,mcrae,human
+944,spoon,is cutlery,cslb,human
+945,gem,is found in caves,gpt_3_filtered,gpt
+946,saxophone,is gold,mcrae,human
+947,cake_mix,has different ingredients,gpt_3_unfiltered,gpt
+948,nose,is linked to the sense of taste,cslb,human
+949,dunebuggy,a car,mcrae,human
+950,cow,is a mammal,cslb,human
+951,gasket,is round,gpt_3_filtered,gpt
+952,shirt,is smart,cslb,human
+953,elephant,eats,mcrae,human
+954,cleat,is worn to run,gpt_3_filtered,gpt
+955,taxi,carries many people,gpt_3_filtered_overlap,gpt
+956,icemaker,requires electricity,gpt_3_filtered,gpt
+957,deodorant,is an item of clothing,gpt_3_unfiltered,gpt
+958,bagel,is made of flour,gpt_3_filtered,gpt
+959,brooch,is shaped like a leaf,gpt_3_unfiltered,gpt
+960,juicer2,is used to make juice from vegetables,gpt_3_unfiltered,gpt
+961,mink,is soft,mcrae,human
+962,crayon,has a name,gpt_3_filtered,gpt
+963,pie,is made of milk,gpt_3_filtered_overlap,gpt
+964,rudder,is used with a rudder stock,gpt_3_unfiltered,gpt
+965,roller_coaster,goes upside down,gpt_3_unfiltered,gpt
+966,otter,is used for experiments,gpt_3_filtered,gpt
+967,tie,different colours,mcrae,human
+968,tiger,is ferocious,mcrae,human
+969,hoe,is a tool,cslb,human
+970,meat_grinder,has different attachments,gpt_3_unfiltered,gpt
+971,beanie,has a bobble,gpt_3_unfiltered,gpt
+972,gong,does call people to dinner,cslb,human
+973,turkey,has a beard,gpt_3_filtered_overlap,gpt
+974,trough,has a flat bottom,gpt_3_unfiltered,gpt
+975,mushroom,is a plant,gpt_3_filtered,gpt
+976,wagon,has 4 wheels,mcrae,human
+977,frog,has a smooth skin,gpt_3_filtered,gpt
+978,pickle,is juicy,mcrae,human
+979,kettle,contains water,gpt_3_filtered_overlap,gpt
+980,bench,is long,mcrae,human
+981,lamp,has a flame,cslb,human
+982,flea,has claws,cslb,human
+983,pancake,is a batter food,gpt_3_unfiltered,gpt
+984,granite,is used to build roads,gpt_3_filtered,gpt
+985,machete,is used in the jungle,cslb,human
+986,flea,has antenna,cslb,human
+987,asparagus,grows on trees,gpt_3_filtered_overlap,gpt
+988,saxophone,made of metal,cslb,human
+989,pear,has pips,cslb,human
+990,goat,is used to eat,gpt_3_filtered_overlap,gpt
+991,glider,is used in sport,cslb,human
+992,car_seat,has a seat belt,gpt_3_unfiltered,gpt
+993,seal,is hunted for its meat,gpt_3_filtered_overlap,gpt
+994,jeep,has a hard top,gpt_3_filtered,gpt
+995,wok,has a curved body,gpt_3_filtered,gpt
+996,strainer,is made from metal,gpt_3_filtered_overlap,gpt
+997,balloon,is colourful,mcrae,human
+998,puppet,is a toy,gpt_3_unfiltered,gpt
+999,icepick,is used to climb,gpt_3_filtered,gpt
+1000,rhubarb,grows on bushes,gpt_3_filtered_overlap,gpt
+1001,handlebar,is used to brake,gpt_3_filtered,gpt
+1002,mashed_potato,is eaten with a knife,gpt_3_unfiltered,gpt
+1003,mallet,has a flat head,gpt_3_unfiltered,gpt
+1004,potpie,is eaten with a fork,gpt_3_filtered,gpt
+1005,robin,eats worms,mcrae,human
+1006,motorcycle,used by Hell's Angels,mcrae,human
+1007,tractor,has rubber tires,gpt_3_filtered_overlap,gpt
+1008,scorpion,has a stinger,gpt_3_filtered,gpt
+1009,hamburger,is eaten with your hands,gpt_3_unfiltered,gpt
+1010,centipede,is a predator,cslb,human
+1011,cymbal,has a loud sound,gpt_3_filtered,gpt
+1012,bridge,is big,cslb,human
+1013,cupboard,is rectangular,cslb,human
+1014,corn,is a fruit,gpt_3_filtered_overlap,gpt
+1015,zebra,has spots,gpt_3_unfiltered,gpt
+1016,olive,is eaten,gpt_3_filtered_overlap,gpt
+1017,microphone,is held in the hand,gpt_3_filtered,gpt
+1018,cow,makes noises,gpt_3_filtered,gpt
+1019,dish,made of plastic,mcrae,human
+1020,trumpet,is used to blow,gpt_3_filtered_overlap,gpt
+1021,chip,is black,gpt_3_filtered,gpt
+1022,cheetah,has fur,cslb,human
+1023,statue,has a crown,gpt_3_unfiltered,gpt
+1024,snowboard,is used for tricks,gpt_3_unfiltered,gpt
+1025,cabinet,has handles,mcrae,human
+1026,coffee,is used for espresso,gpt_3_unfiltered,gpt
+1027,tuna,is endangered,cslb,human
+1028,mackerel,hunted by people,mcrae,human
+1029,cheesecake,is yellow,gpt_3_unfiltered,gpt
+1030,cider,is fizzy,cslb,human
+1031,tennis_ball,has a diameter of six inches,gpt_3_unfiltered,gpt
+1032,barrel,made of wood,mcrae,human
+1033,escalator,is black,mcrae,human
+1034,avocado,is a green vegetable,gpt_3_unfiltered,gpt
+1035,mannequin,is used to display clothes in shops,gpt_3_unfiltered,gpt
+1036,radish,comes in bunches,gpt_3_filtered,gpt
+1037,tiger,does live in jungles,cslb,human
+1038,gondola,has a flat bottom,gpt_3_filtered,gpt
+1039,manatee,has a head,gpt_3_filtered,gpt
+1040,wafer,is made of sugar,gpt_3_filtered,gpt
+1041,hedge,grows wild,gpt_3_unfiltered,gpt
+1042,rocket,has flowers,gpt_3_filtered,gpt
+1043,llama,does walk,cslb,human
+1044,pie,has a crust,mcrae,human
+1045,rice,is eaten by cooking,gpt_3_filtered_overlap,gpt
+1046,bacon,is unsmoked,cslb,human
+1047,burrito,is made with tortillas,gpt_3_unfiltered,gpt
+1048,jersey,has short sleeves,gpt_3_filtered,gpt
+1049,hose,has different colors,gpt_3_filtered_overlap,gpt
+1050,sheath,is used to fight,gpt_3_filtered,gpt
+1051,thumb,is strong,cslb,human
+1052,bridge,does cross a river,cslb,human
+1053,grits,has different textures,gpt_3_unfiltered,gpt
+1054,whistle,is used to call people,gpt_3_filtered_overlap,gpt
+1055,cabbage,has a leaf,gpt_3_filtered_overlap,gpt
+1056,ball,is used in tennis,gpt_3_unfiltered,gpt
+1057,food_processor,is used by professionals,gpt_3_filtered,gpt
+1058,harness,is used to pull sleighs,gpt_3_filtered,gpt
+1059,maggot,is found in the ground,gpt_3_filtered,gpt
+1060,leotards,a tights,mcrae,human
+1061,jacket,has pockets,cslb,human
+1062,fire_pit,is used by campers,gpt_3_filtered,gpt
+1063,mantle,is worn to keep warm,gpt_3_unfiltered,gpt
+1064,desk,has drawers,gpt_3_filtered_overlap,gpt
+1065,hip,is held in ligaments,gpt_3_unfiltered,gpt
+1066,donkey,has 4 legs,mcrae,human
+1067,guitar,eg - acoustic,mcrae,human
+1068,raft,does race,cslb,human
+1069,wasp,has a long body,gpt_3_filtered_overlap,gpt
+1070,slippers,a footwear,mcrae,human
+1071,dates,is used for baking,cslb,human
+1072,lamb,is like a sheep,cslb,human
+1073,cheetah,has legs,cslb,human
+1074,shoe,is worn for fashion,gpt_3_filtered,gpt
+1075,potato,does sprout,cslb,human
+1076,butterfly,has wings,mcrae,human
+1077,spatula,is used in food preparation,cslb,human
+1078,strawberry,a fruit,mcrae,human
+1079,nacho,is eaten,gpt_3_filtered,gpt
+1080,poster,is found in offices,gpt_3_filtered,gpt
+1081,frisbee,has a rim,cslb,human
+1082,raft,is a boat,gpt_3_filtered_overlap,gpt
+1083,alligator,is slimy,gpt_3_filtered_overlap,gpt
+1084,tortilla,is eaten with beans,gpt_3_filtered,gpt
+1085,arrow,has a shaft,cslb,human
+1086,candy_bar,is american,gpt_3_unfiltered,gpt
+1087,ring,has a stone,gpt_3_filtered_overlap,gpt
+1088,seafood,is expensive,gpt_3_unfiltered,gpt
+1089,car,has a gearshift,gpt_3_filtered_overlap,gpt
+1090,hawk,has good eyesight,cslb,human
+1091,hippo,is found in Africa,cslb,human
+1092,freezer,used for storing meat,mcrae,human
+1093,red_carpet,is used in theater,gpt_3_filtered,gpt
+1094,snow,is slippery,gpt_3_filtered,gpt
+1095,goldfish,does grow,cslb,human
+1096,hose,sprays water,mcrae,human
+1097,dress,is used to cover the body,gpt_3_filtered,gpt
+1098,pickle,is green,mcrae,human
+1099,windowsill,is found on top of windows,gpt_3_unfiltered,gpt
+1100,furnace,has an on / off switch,gpt_3_unfiltered,gpt
+1101,plum,is used in pies,gpt_3_unfiltered,gpt
+1102,water_heater,is used to wash clothes,gpt_3_unfiltered,gpt
+1103,seal,lives in Arctic,mcrae,human
+1104,fridge,is rectangular,mcrae,human
+1105,spider,has a shell,gpt_3_filtered_overlap,gpt
+1106,umbrella,is used in the rain,gpt_3_filtered_overlap,gpt
+1107,telephone,is a mobile,cslb,human
+1108,perch,a fish,mcrae,human
+1109,pie,has a crust,cslb,human
+1110,cereal,has a bowl,gpt_3_filtered,gpt
+1111,scalpel,does slice,cslb,human
+1112,pedal,is oval,gpt_3_filtered,gpt
+1113,panther,is pink,cslb,human
+1114,ram,is hairy,gpt_3_filtered,gpt
+1115,spear,used for fishing,mcrae,human
+1116,dish,used for food,mcrae,human
+1117,walnut,a nut,mcrae,human
+1118,screwdriver,is hand held,mcrae,human
+1119,coin,is a small piece of metal,gpt_3_filtered_overlap,gpt
+1120,broccoli,is edible,gpt_3_filtered,gpt
+1121,pigeon,has claws,cslb,human
+1122,raft,carries many people,gpt_3_filtered_overlap,gpt
+1123,surfboard,does float,cslb,human
+1124,octopus,has eight legs,gpt_3_filtered_overlap,gpt
+1125,whistle,is used by police,cslb,human
+1126,spear,has a sharp point,cslb,human
+1127,robin,is brown,cslb,human
+1128,grape,is edible,gpt_3_filtered_overlap,gpt
+1129,refrigerator,is used to hold food,gpt_3_unfiltered,gpt
+1130,cucumber,is green,mcrae,human
+1131,television,is watched,cslb,human
+1132,nightingale,has wings,mcrae,human
+1133,skateboard,is used on roads,gpt_3_filtered_overlap,gpt
+1134,pine,is green,cslb,human
+1135,oven,has a handle,gpt_3_filtered_overlap,gpt
+1136,guitar,is made of plastic,gpt_3_filtered_overlap,gpt
+1137,spool,is used in sewing,gpt_3_filtered,gpt
+1138,fence,is used to keep things in,gpt_3_filtered_overlap,gpt
+1139,milkshake,is eaten with a spoon,gpt_3_filtered,gpt
+1140,houseboat,is cold,cslb,human
+1141,typewriter,is old fashioned,gpt_3_filtered_overlap,gpt
+1142,cockroach,is dirty,mcrae,human
+1143,panther,has sharp teeth,gpt_3_filtered_overlap,gpt
+1144,fox,is a carnivore,gpt_3_unfiltered,gpt
+1145,yoghurt,is thick,cslb,human
+1146,key,is used to open things,gpt_3_filtered_overlap,gpt
+1147,lion,is used to hunt,gpt_3_filtered_overlap,gpt
+1148,leech,is not dangerous,gpt_3_unfiltered,gpt
+1149,broccoli,is used to cook,gpt_3_filtered_overlap,gpt
+1150,scaffold,is used to raise objects,gpt_3_unfiltered,gpt
+1151,faucet,has a tap,gpt_3_filtered,gpt
+1152,cornucopia,has a curved shape,gpt_3_unfiltered,gpt
+1153,cassette,is a player,gpt_3_unfiltered,gpt
+1154,doorbell,is used to inform someone,gpt_3_unfiltered,gpt
+1155,meatball,is found in italian restaurants,gpt_3_unfiltered,gpt
+1156,hut,made by humans,mcrae,human
+1157,slot,has a door,gpt_3_unfiltered,gpt
+1158,slot,is used for entertainment,gpt_3_filtered,gpt
+1159,rabbit,is kept as a pet,gpt_3_filtered_overlap,gpt
+1160,trousers,does come in colours,cslb,human
+1161,kite,is small,gpt_3_filtered_overlap,gpt
+1162,tarantula,is a spider,cslb,human
+1163,raisin,is healthy,cslb,human
+1164,caviar,is eaten with crackers,gpt_3_filtered,gpt
+1165,raft,used by Tom Sawyer,mcrae,human
+1166,walrus,is hunted for its meat,gpt_3_filtered,gpt
+1167,envelope,different colours,mcrae,human
+1168,sled,used on snow,mcrae,human
+1169,platypus,does eat,cslb,human
+1170,duffel_bag,is a bag,gpt_3_filtered,gpt
+1171,dresser,used for storing clothing,mcrae,human
+1172,clarinet,made of metal,mcrae,human
+1173,centerpiece,has a bowl,gpt_3_unfiltered,gpt
+1174,ship,used for transportation,mcrae,human
+1175,birch,is deciduous,cslb,human
+1176,bolts,different sizes,mcrae,human
+1177,gorilla,has short legs,gpt_3_filtered_overlap,gpt
+1178,soup,has salt,gpt_3_unfiltered,gpt
+1179,lantern,produces light,gpt_3_filtered,gpt
+1180,daisy,is small,cslb,human
+1181,fridge,has racks,cslb,human
+1182,orange,is used to drink,gpt_3_filtered_overlap,gpt
+1183,knife,is used to cut,gpt_3_filtered_overlap,gpt
+1184,yacht,has a cabin,cslb,human
+1185,armor,has different parts,gpt_3_filtered,gpt
+1186,ant,is used for food,gpt_3_filtered_overlap,gpt
+1187,donkey,is a pet,gpt_3_unfiltered,gpt
+1188,falcon,an animal,mcrae,human
+1189,saxophone,is made of wood,gpt_3_filtered_overlap,gpt
+1190,train,does drive,cslb,human
+1191,pliers,is a lever,cslb,human
+1192,chest2,is used as a table,gpt_3_unfiltered,gpt
+1193,ruler,has inches,cslb,human
+1194,umbrella,does shelter,cslb,human
+1195,mustache,has a mouth,gpt_3_filtered,gpt
+1196,cockroach,is found in unhygienic conditions,cslb,human
+1197,burner,is used to boil,gpt_3_filtered,gpt
+1198,insole,is worn on the feet,gpt_3_filtered,gpt
+1199,carrot,has fiber,gpt_3_filtered_overlap,gpt
+1200,bouquet,is used for decoration,gpt_3_filtered_overlap,gpt
+1201,pulley,is used to lift heavy weights,gpt_3_unfiltered,gpt
+1202,toaster,is used for heating food,cslb,human
+1203,trolley,is used for work,gpt_3_filtered_overlap,gpt
+1204,furnace,has an exhaust pipe,gpt_3_filtered,gpt
+1205,tag,is thin,gpt_3_filtered,gpt
+1206,peppermint,has skin,gpt_3_filtered,gpt
+1207,glove,is knitted,mcrae,human
+1208,leggings,is worn in the winter,gpt_3_unfiltered,gpt
+1209,toilet_paper,is soft,gpt_3_unfiltered,gpt
+1210,overalls,is a clothing,gpt_3_unfiltered,gpt
+1211,laundry_basket,is used in the bedroom,gpt_3_filtered,gpt
+1212,braid,is used to make hairstyle,gpt_3_unfiltered,gpt
+1213,jacket,is fashionable,gpt_3_filtered_overlap,gpt
+1214,limousine,is a symbol,cslb,human
+1215,grenade,is used for military purposes,gpt_3_filtered_overlap,gpt
+1216,bucket,made of plastic,mcrae,human
+1217,goat,lives in mountains,mcrae,human
+1218,cardigan,is worn by girls,gpt_3_unfiltered,gpt
+1219,drain,used by connecting to pipes,mcrae,human
+1220,sleigh,is fun,mcrae,human
+1221,guacamole,comes in a bowl,gpt_3_unfiltered,gpt
+1222,eggplant,is edible,mcrae,human
+1223,shawl,worn by women,mcrae,human
+1224,rhubarb,is green,mcrae,human
+1225,grille,is made of plastic,gpt_3_filtered,gpt
+1226,sweeper,is small,gpt_3_unfiltered,gpt
+1227,cow,is female,gpt_3_filtered_overlap,gpt
+1228,carrot,has a top,mcrae,human
+1229,garage,part of a house,mcrae,human
+1230,razor,is used to cut hair on the head,gpt_3_filtered_overlap,gpt
+1231,armchair,is for reading,cslb,human
+1232,screwdriver,has a wooden handle,gpt_3_unfiltered,gpt
+1233,trombone,has a slide valve,mcrae,human
+1234,stair,is made of wood,gpt_3_filtered,gpt
+1235,asparagus,eaten by cooking,mcrae,human
+1236,roller,is made of metal,gpt_3_unfiltered,gpt
+1237,volleyball,is used for fun,gpt_3_unfiltered,gpt
+1238,sonogram,is a photograph,gpt_3_unfiltered,gpt
+1239,helicopter,is used in the navy,gpt_3_filtered_overlap,gpt
+1240,saxophone,is a woodwind instrument,gpt_3_filtered_overlap,gpt
+1241,knife,is used to cook,gpt_3_filtered_overlap,gpt
+1242,chain,has a pendant,gpt_3_filtered_overlap,gpt
+1243,bun,has a hole in the middle,gpt_3_unfiltered,gpt
+1244,reindeer,has a long nose,gpt_3_filtered,gpt
+1245,wheat,is a food,gpt_3_filtered,gpt
+1246,whisk,made of curved wires,cslb,human
+1247,olive,is red,mcrae,human
+1248,barbell,is solid,gpt_3_filtered,gpt
+1249,duckling,is yellow,gpt_3_filtered,gpt
+1250,strawberry,is used in desserts,gpt_3_unfiltered,gpt
+1251,guitar,is used for entertainment,gpt_3_filtered,gpt
+1252,sandbox,is used for children 's games,gpt_3_filtered,gpt
+1253,lavender,grows in england,gpt_3_unfiltered,gpt
+1254,notebook,is used with pens,gpt_3_unfiltered,gpt
+1255,spam,is eaten as spam,gpt_3_unfiltered,gpt
+1256,squirrel,has a tail,mcrae,human
+1257,bed,is used for rest,gpt_3_filtered,gpt
+1258,toad,has a long life,gpt_3_filtered_overlap,gpt
+1259,tulip,has an orange center,gpt_3_unfiltered,gpt
+1260,wand,is used to cast spells,cslb,human
+1261,pyramid,found in deserts,mcrae,human
+1262,robe,is like a dressing gown,cslb,human
+1263,rifle,has a barrel,mcrae,human
+1264,radish,is used for salads,gpt_3_filtered_overlap,gpt
+1265,shoes,has buckles,mcrae,human
+1266,oriole,lays eggs,mcrae,human
+1267,water_filter,is used in a house,gpt_3_unfiltered,gpt
+1268,raisin,tastes sweet,mcrae,human
+1269,chipmunk,lives in trees,gpt_3_filtered_overlap,gpt
+1270,bib,is available in different sizes,gpt_3_unfiltered,gpt
+1271,cart,used by pushing,mcrae,human
+1272,desk,is wooden,gpt_3_filtered_overlap,gpt
+1273,trombone,is silver,gpt_3_filtered,gpt
+1274,leopard,has four legs,cslb,human
+1275,copier,is used to fax,gpt_3_unfiltered,gpt
+1276,basement,used for storage,mcrae,human
+1277,ice-cream_cone,has a flat bottom,gpt_3_unfiltered,gpt
+1278,grille,has holes for air to pass through,gpt_3_unfiltered,gpt
+1279,starfish,lives in oceans,gpt_3_filtered,gpt
+1280,seahorse,is used in aquariums,gpt_3_unfiltered,gpt
+1281,bedpost,supports the mattress,gpt_3_filtered,gpt
+1282,mailbox,is used to mail letters,gpt_3_filtered,gpt
+1283,falcon,has talons,mcrae,human
+1284,scaffolding,has a platform,gpt_3_unfiltered,gpt
+1285,blanket,covers a bed,gpt_3_filtered,gpt
+1286,figurine,is a model,gpt_3_unfiltered,gpt
+1287,spade,is found on beaches,cslb,human
+1288,shrimp,is clear,cslb,human
+1289,ice,is made of water,gpt_3_filtered,gpt
+1290,housefly,is killed,mcrae,human
+1291,squirrel,is found in parks,cslb,human
+1292,cake,is yummy,gpt_3_filtered_overlap,gpt
+1293,trumpet,is played in orchestras,gpt_3_filtered_overlap,gpt
+1294,pliers,is held in the hand,gpt_3_filtered_overlap,gpt
+1295,badge,is attached,cslb,human
+1296,blouse,is light,cslb,human
+1297,macaroni,is a carbohydrate,gpt_3_filtered,gpt
+1298,cow,eaten as meat,mcrae,human
+1299,scoreboard,is used to play games,gpt_3_filtered,gpt
+1300,asparagus,is grown in fields,gpt_3_filtered_overlap,gpt
+1301,beaver,is used for coats,gpt_3_filtered_overlap,gpt
+1302,exhaust_pipe,is connected to a tractor,gpt_3_unfiltered,gpt
+1303,stick,is used in sports,gpt_3_filtered_overlap,gpt
+1304,blender,is used to make gravy,gpt_3_filtered_overlap,gpt
+1305,veil,protects the face,gpt_3_filtered_overlap,gpt
+1306,manatee,swims,gpt_3_filtered,gpt
+1307,shrimp,grows in the ocean,gpt_3_filtered_overlap,gpt
+1308,rope,used for securing,mcrae,human
+1309,trigger,is pulled by fingers,gpt_3_unfiltered,gpt
+1310,crossbow,is old fashioned,cslb,human
+1311,slug,is soft,gpt_3_filtered,gpt
+1312,celery,a vegetable,mcrae,human
+1313,thimble,made of plastic,mcrae,human
+1314,baton1,has a handle,gpt_3_filtered,gpt
+1315,gin,is drunk to loose all inhibitions,cslb,human
+1316,tweezers,is useful,cslb,human
+1317,subway,found in cities,mcrae,human
+1318,ruler,used for drawing,mcrae,human
+1319,pencil,is yellow,mcrae,human
+1320,pistol,has a chamber,cslb,human
+1321,guitar,is made of hard wood,gpt_3_filtered_overlap,gpt
+1322,iguana,is gray,gpt_3_filtered_overlap,gpt
+1323,amber,is yellow,gpt_3_filtered,gpt
+1324,peacock,is colourful,mcrae,human
+1325,oyster,is slimy,cslb,human
+1326,drawer,has handles,gpt_3_filtered,gpt
+1327,coleslaw,has a dressing,gpt_3_unfiltered,gpt
+1328,chicken1,is food,cslb,human
+1329,shutter,is a window accessory,gpt_3_filtered,gpt
+1330,clamp,a vice,mcrae,human
+1331,bear,is large,mcrae,human
+1332,mast,is strong,gpt_3_unfiltered,gpt
+1333,squid,is edible,mcrae,human
+1334,desk,is sat at,cslb,human
+1335,moth,is black and white in color,gpt_3_filtered_overlap,gpt
+1336,bouquet,is used in celebrations,gpt_3_filtered_overlap,gpt
+1337,tablet,is mobile,gpt_3_filtered,gpt
+1338,lipstick,has a lid,gpt_3_filtered,gpt
+1339,coach_(vehicle),is old,cslb,human
+1340,lion,is associated with lion king,gpt_3_unfiltered,gpt
+1341,touchpad,is part of a computer,gpt_3_filtered,gpt
+1342,cape,associated with Batman,mcrae,human
+1343,shotgun,a weapon,mcrae,human
+1344,compost,is used to grow food,gpt_3_unfiltered,gpt
+1345,bridge,used by cars,mcrae,human
+1346,gate,has different colors,gpt_3_filtered_overlap,gpt
+1347,cake,made of milk,cslb,human
+1348,boat,is a vehicle,gpt_3_filtered,gpt
+1349,hawk,eats rodents,mcrae,human
+1350,canoe,has paddles/is paddled,mcrae,human
+1351,duct,has a rough surface,gpt_3_filtered,gpt
+1352,veil,is a fabric,gpt_3_filtered,gpt
+1353,bag,is used to carry things,gpt_3_unfiltered,gpt
+1354,vacuum,is noisy,gpt_3_unfiltered,gpt
+1355,cheetah,does kill,cslb,human
+1356,dolphin,lives in oceans,mcrae,human
+1357,pin,pricks fingers,mcrae,human
+1358,can_opener,has a motor,gpt_3_filtered,gpt
+1359,coyote,a mammal,mcrae,human
+1360,juice,is made of juice,gpt_3_unfiltered,gpt
+1361,avocado,is eaten in salads,gpt_3_filtered_overlap,gpt
+1362,brandy,is set alight,cslb,human
+1363,jar,is made of plastic,gpt_3_filtered_overlap,gpt
+1364,butterfly,is used for pollination,gpt_3_filtered_overlap,gpt
+1365,sprinkler,has a long pipe,gpt_3_unfiltered,gpt
+1366,crouton,has a crunch,gpt_3_unfiltered,gpt
+1367,sardine,is a small fish,gpt_3_filtered_overlap,gpt
+1368,hot_tub,contains heat,gpt_3_unfiltered,gpt
+1369,trumpet,is played by blowing air into it,gpt_3_filtered_overlap,gpt
+1370,kettle,does make tea,cslb,human
+1371,brussels_sprouts,is found in shops,gpt_3_filtered,gpt
+1372,wrench,used for plumbing,mcrae,human
+1373,grenade,has a ring,gpt_3_filtered_overlap,gpt
+1374,porcupine,is used as a pet,gpt_3_filtered_overlap,gpt
+1375,bike,has a bell,mcrae,human
+1376,nut,contains oil,gpt_3_filtered,gpt
+1377,footrest,is long,gpt_3_unfiltered,gpt
+1378,bread,is white,mcrae,human
+1379,motorcycle,is loud,mcrae,human
+1380,mask,covers the eyes,gpt_3_unfiltered,gpt
+1381,jeans,is old,gpt_3_unfiltered,gpt
+1382,armour,worn for protection,mcrae,human
+1383,pantsuit,is made of wool,gpt_3_filtered,gpt
+1384,ottoman,has an inside,gpt_3_filtered,gpt
+1385,pony,has a long mane,gpt_3_filtered_overlap,gpt
+1386,crown,worn by kings,mcrae,human
+1387,window,does open and close,cslb,human
+1388,calf1,does drink,cslb,human
+1389,shirt,is worn to work,cslb,human
+1390,basket,made of wicker,mcrae,human
+1391,bouquet,is pretty,gpt_3_filtered_overlap,gpt
+1392,cello,made of wood,mcrae,human
+1393,cup,is made of metal,gpt_3_unfiltered,gpt
+1394,espresso,is drunk at night,gpt_3_unfiltered,gpt
+1395,dolphin,lives in seas,mcrae,human
+1396,calf1,has 4 hoofs,mcrae,human
+1397,cannon,is found on boats,cslb,human
+1398,calf1,is heavy,cslb,human
+1399,deer,is found in the mountains,gpt_3_filtered,gpt
+1400,cheese,is a food,gpt_3_filtered_overlap,gpt
+1401,goat,has a long neck,gpt_3_unfiltered,gpt
+1402,pickax,is used to build,gpt_3_filtered,gpt
+1403,charcoal,is used in fireworks,gpt_3_filtered,gpt
+1404,clay,is a material,gpt_3_unfiltered,gpt
+1405,piecrust,is used to make dough,gpt_3_filtered,gpt
+1406,zebra,is used for research,gpt_3_filtered_overlap,gpt
+1407,tool,is used to break things,gpt_3_filtered,gpt
+1408,goldfish,has a mouth,gpt_3_filtered_overlap,gpt
+1409,deckchair,is associated with summer,cslb,human
+1410,saxophone,is played with the fingers,gpt_3_filtered_overlap,gpt
+1411,sailboat,a boat,mcrae,human
+1412,flamethrower,is used to burn trash,gpt_3_unfiltered,gpt
+1413,blouse,has a yoke,gpt_3_filtered,gpt
+1414,snack,is used to relieve hunger,gpt_3_unfiltered,gpt
+1415,gurney,is found in the emergency department,gpt_3_unfiltered,gpt
+1416,confetti,is shiny,gpt_3_unfiltered,gpt
+1417,biscuit,made of butter,cslb,human
+1418,salami,comes in slices,gpt_3_filtered,gpt
+1419,tiger,is orange,gpt_3_unfiltered,gpt
+1420,loincloth,is worn on the waist,gpt_3_unfiltered,gpt
+1421,grapefruit,is eaten raw,gpt_3_filtered,gpt
+1422,ottoman,is used to store things,gpt_3_filtered,gpt
+1423,olive,is Mediterranean,cslb,human
+1424,bucket,is black,gpt_3_filtered,gpt
+1425,wooden_leg,is found on men,gpt_3_filtered,gpt
+1426,centipede,is thin,cslb,human
+1427,puppet,is black,gpt_3_filtered,gpt
+1428,hamster,has fur,cslb,human
+1429,potato,has roots,cslb,human
+1430,elephant,is dangerous,cslb,human
+1431,clipper2,is used to shear,gpt_3_unfiltered,gpt
+1432,airbag,is yellow,gpt_3_unfiltered,gpt
+1433,apron,is used by chefs,gpt_3_filtered_overlap,gpt
+1434,centerpiece,has candy,gpt_3_filtered,gpt
+1435,bracket,holds things,gpt_3_filtered,gpt
+1436,comb,has a flat surface,gpt_3_filtered_overlap,gpt
+1437,oven,has four legs,gpt_3_unfiltered,gpt
+1438,bus,has a bell,cslb,human
+1439,dishrag,has a texture,gpt_3_filtered,gpt
+1440,dagger,is hidden,gpt_3_filtered_overlap,gpt
+1441,glue,is used to glue,gpt_3_unfiltered,gpt
+1442,turf,is on the ground,gpt_3_unfiltered,gpt
+1443,goggles,does come in pairs,cslb,human
+1444,navel,is found on the belly,gpt_3_unfiltered,gpt
+1445,sequin,is found on clothing,gpt_3_unfiltered,gpt
+1446,tobacco,is used to make snuff,cslb,human
+1447,lips,has muscles,cslb,human
+1448,dresser,has a flat top,gpt_3_filtered_overlap,gpt
+1449,catapult,is used in combat,gpt_3_unfiltered,gpt
+1450,chapel,used for worshipping,mcrae,human
+1451,crumb,is a bread topping,gpt_3_unfiltered,gpt
+1452,fan_(appliance),used for blowing air,mcrae,human
+1453,rosary,has a pendant,gpt_3_filtered,gpt
+1454,lobster,has legs,gpt_3_unfiltered,gpt
+1455,bench,is made of cement,gpt_3_filtered_overlap,gpt
+1456,cheetah,has paws,cslb,human
+1457,cup,a mug,mcrae,human
+1458,icicle,has a pointed tip,gpt_3_filtered,gpt
+1459,warthog,is hunted for its tusks,gpt_3_unfiltered,gpt
+1460,rifle,is lethal,mcrae,human
+1461,chair,does swivel,cslb,human
+1462,seaweed,is in Chinese cookery,cslb,human
+1463,finger,is useful,cslb,human
+1464,brush,is used to clean hair,gpt_3_filtered,gpt
+1465,iguana,eats bugs,mcrae,human
+1466,football,has two poles,gpt_3_filtered_overlap,gpt
+1467,bullet,is small,gpt_3_filtered_overlap,gpt
+1468,pennicillin,does good,cslb,human
+1469,freezer,used for storing food,mcrae,human
+1470,rocking_chair,is associated with old people,cslb,human
+1471,vacuum,has colors,gpt_3_filtered,gpt
+1472,car,is a vehicle,gpt_3_filtered_overlap,gpt
+1473,canoe,used by Indians,mcrae,human
+1474,tractor,has wheels,gpt_3_filtered_overlap,gpt
+1475,wafer,is eaten by children,gpt_3_filtered,gpt
+1476,grain,is ground into flour,gpt_3_filtered,gpt
+1477,saucer,is breakable,mcrae,human
+1478,wax_paper,is not edible,gpt_3_filtered,gpt
+1479,star_fruit,has pulp,gpt_3_filtered,gpt
+1480,scuba,is used for water,gpt_3_unfiltered,gpt
+1481,hippo,is a herbivore,cslb,human
+1482,vending_machine,is operated by credit card,gpt_3_unfiltered,gpt
+1483,projector,is found in classrooms,gpt_3_filtered_overlap,gpt
+1484,jacket,is worn in the winter,gpt_3_filtered_overlap,gpt
+1485,ear,does make vibrations,cslb,human
+1486,coin,has a value,gpt_3_filtered_overlap,gpt
+1487,twig,has thorns,gpt_3_filtered,gpt
+1488,thermometer,is used to measure body temperature,gpt_3_filtered,gpt
+1489,catfish,has whiskers,mcrae,human
+1490,sorbet,comes in different flavors,gpt_3_filtered,gpt
+1491,nylons,has toes,mcrae,human
+1492,chandelier,is light,gpt_3_filtered_overlap,gpt
+1493,octopus,is a marine animal,gpt_3_filtered_overlap,gpt
+1494,exerciser,is used for rehabilitation,gpt_3_unfiltered,gpt
+1495,fox,eats small animals,gpt_3_filtered_overlap,gpt
+1496,sheep,used for wool,mcrae,human
+1497,chair,has a cushion,mcrae,human
+1498,branch,is a tree,gpt_3_unfiltered,gpt
+1499,wheelbarrow,made of metal,cslb,human
+1500,jug,is used to pour wine,gpt_3_unfiltered,gpt
+1501,sweater,is worn on top of clothes,gpt_3_filtered_overlap,gpt
+1502,bear,is wild,cslb,human
+1503,flute,makes sounds,gpt_3_filtered_overlap,gpt
+1504,gravy,is eaten with meat,gpt_3_filtered,gpt
+1505,eagle,does dive,cslb,human
+1506,caribou,has horns,mcrae,human
+1507,candle,is colourful,cslb,human
+1508,peas,is yellow,mcrae,human
+1509,raisin,tastes sweet,gpt_3_filtered_overlap,gpt
+1510,oak,has a trunk,cslb,human
+1511,cinnamon,is sold in small containers,gpt_3_unfiltered,gpt
+1512,football,is used to keep score,gpt_3_filtered_overlap,gpt
+1513,hovercraft,has a safety bar,gpt_3_filtered,gpt
+1514,mirror,used for showing reflections,mcrae,human
+1515,ibuprofen,is pink,cslb,human
+1516,cat,is black,cslb,human
+1517,spider,is found in gardens,gpt_3_filtered,gpt
+1518,seatbelt,is attached to the car,gpt_3_filtered,gpt
+1519,lettuce,has stems,gpt_3_filtered_overlap,gpt
+1520,sheep,a baby is a lamb,mcrae,human
+1521,chick,is fluffy,gpt_3_filtered,gpt
+1522,zebra,a horse,mcrae,human
+1523,lemon,used for juice,mcrae,human
+1524,robin,a bird,mcrae,human
+1525,cap,is made in factories,gpt_3_filtered,gpt
+1526,chili,has leaves,gpt_3_filtered,gpt
+1527,accordion,has strings,gpt_3_filtered_overlap,gpt
+1528,tuba,produces sound,mcrae,human
+1529,pillbox,has different colors,gpt_3_filtered,gpt
+1530,filter,is used to drink,gpt_3_filtered,gpt
+1531,bobsled,is used by two people,gpt_3_filtered,gpt
+1532,catapault,has a base,cslb,human
+1533,rooster,lives on farms,mcrae,human
+1534,desk,found in libraries,mcrae,human
+1535,horse,used for working,mcrae,human
+1536,swordfish,is found in schools,gpt_3_unfiltered,gpt
+1537,menu,has words on it,mcrae,human
+1538,marigold,has stamens,cslb,human
+1539,piano,is white,mcrae,human
+1540,spear,used for killing,mcrae,human
+1541,barrel,is found in cellars,cslb,human
+1542,umbrella,is made of metal,gpt_3_filtered,gpt
+1543,bell,made of brass,cslb,human
+1544,finch,sings,mcrae,human
+1545,bomb,has a timer,gpt_3_filtered_overlap,gpt
+1546,fawn,eats leaves,mcrae,human
+1547,sheep,is associated with easter,gpt_3_filtered_overlap,gpt
+1548,cloak,is big,cslb,human
+1549,bullet,has a taste,gpt_3_filtered_overlap,gpt
+1550,bag,made of material,mcrae,human
+1551,almond,has a taste,gpt_3_filtered,gpt
+1552,golf_club,has a ball,gpt_3_filtered,gpt
+1553,sundial,has a stand,gpt_3_unfiltered,gpt
+1554,velcro,is a fastener,gpt_3_unfiltered,gpt
+1555,board,is smooth,gpt_3_filtered,gpt
+1556,ball,is played with,gpt_3_filtered_overlap,gpt
+1557,strawberry,grows in fields,mcrae,human
+1558,highlighter,has a marker,gpt_3_filtered,gpt
+1559,seaweed,has leaves,gpt_3_filtered_overlap,gpt
+1560,oyster,is expensive,cslb,human
+1561,dumbwaiter,is used in houses,gpt_3_filtered,gpt
+1562,ox,has fur,cslb,human
+1563,shirt,is worn by people,gpt_3_unfiltered,gpt
+1564,poison,made of chemicals,cslb,human
+1565,hamster,eats plants,gpt_3_filtered_overlap,gpt
+1566,cockroach,has many legs,mcrae,human
+1567,sunflower,grows on plants,gpt_3_filtered,gpt
+1568,chair,has a back,mcrae,human
+1569,houseboat,is lived in,cslb,human
+1570,cellphone,has buttons,gpt_3_unfiltered,gpt
+1571,napkin,is used to clean your face,gpt_3_filtered_overlap,gpt
+1572,sledge,made of plastic,cslb,human
+1573,pedal,is round,gpt_3_filtered,gpt
+1574,chalk,is used in art,gpt_3_unfiltered,gpt
+1575,sledge,is pulled by dogs,cslb,human
+1576,duct,is sharp,gpt_3_unfiltered,gpt
+1577,taxi,has a trunk,gpt_3_unfiltered,gpt
+1578,brush,has bristles,mcrae,human
+1579,stroller,is used to keep babies safe,gpt_3_unfiltered,gpt
+1580,level,used for making straight lines,mcrae,human
+1581,hook2,used as a hand,mcrae,human
+1582,swan,is used for transportation,gpt_3_filtered_overlap,gpt
+1583,sewing_machine,is found in the country,gpt_3_filtered,gpt
+1584,limousine,is luxurious,cslb,human
+1585,subway,has a table,gpt_3_unfiltered,gpt
+1586,cookie_sheet,has a smooth surface,gpt_3_unfiltered,gpt
+1587,grapefruit,eaten by peeling,mcrae,human
+1588,hose,is plastic,gpt_3_filtered_overlap,gpt
+1589,coop,has a lock,gpt_3_unfiltered,gpt
+1590,avocado,is a vegetable,gpt_3_filtered_overlap,gpt
+1591,sauce,is used on pasta,gpt_3_filtered,gpt
+1592,baton3,is musical,gpt_3_filtered,gpt
+1593,chainsaw,is fast,cslb,human
+1594,mint,is aromatic,gpt_3_unfiltered,gpt
+1595,lantern,made of glass,mcrae,human
+1596,unicycle,is used for entertainment,gpt_3_filtered_overlap,gpt
+1597,helmet,is used in football,gpt_3_filtered_overlap,gpt
+1598,oriole,is black,mcrae,human
+1599,bow3,is a present decoration,gpt_3_unfiltered,gpt
+1600,garbage_truck,has a big mouth,gpt_3_unfiltered,gpt
+1601,aluminum_foil,is made of tin,gpt_3_filtered,gpt
+1602,spinach,has roots,gpt_3_filtered_overlap,gpt
+1603,honeydew,tastes good,mcrae,human
+1604,cape,is used by women,gpt_3_filtered_overlap,gpt
+1605,wooden_leg,has a peg leg,gpt_3_unfiltered,gpt
+1606,octopus,has eyes on stalks,gpt_3_filtered_overlap,gpt
+1607,beanie,is round,gpt_3_unfiltered,gpt
+1608,cordon_bleu,is blue,gpt_3_filtered,gpt
+1609,trumpet,is used for music,gpt_3_filtered_overlap,gpt
+1610,fawn,is soft,mcrae,human
+1611,octopus,lives in oceans,mcrae,human
+1612,rope,is used to tie,gpt_3_filtered_overlap,gpt
+1613,handcuff,is locked,gpt_3_unfiltered,gpt
+1614,van,a vehicle,mcrae,human
+1615,painting,is found in museums,gpt_3_filtered,gpt
+1616,budgie,a pet,mcrae,human
+1617,tractor,has two big wheels,cslb,human
+1618,pier,is large,mcrae,human
+1619,gourd,has a hard shell,gpt_3_filtered,gpt
+1620,raspberry,is used to make pies,gpt_3_filtered_overlap,gpt
+1621,rocket,is yellow,gpt_3_filtered_overlap,gpt
+1622,cloak,is worn,gpt_3_unfiltered,gpt
+1623,pincushion,has a sharp object,gpt_3_unfiltered,gpt
+1624,mushroom,is small,mcrae,human
+1625,whistle,is made of metal,gpt_3_filtered_overlap,gpt
+1626,nylons,a stockings,mcrae,human
+1627,fire,is hot,gpt_3_unfiltered,gpt
+1628,chicken1,is domesticated,gpt_3_filtered_overlap,gpt
+1629,mat,is used to carry things,gpt_3_filtered_overlap,gpt
+1630,barn,has stalls,mcrae,human
+1631,hose,has a round end,gpt_3_filtered,gpt
+1632,table,is a piece of furniture,gpt_3_filtered_overlap,gpt
+1633,toad,has legs,mcrae,human
+1634,scissors,has 2 blades,mcrae,human
+1635,pliers,has a metal head,gpt_3_filtered_overlap,gpt
+1636,snail,has a body,gpt_3_filtered_overlap,gpt
+1637,razor,has a handle,cslb,human
+1638,beaver,is found in America,cslb,human
+1639,polygraph,records lies,gpt_3_unfiltered,gpt
+1640,teacup,is made of ceramic,gpt_3_unfiltered,gpt
+1641,bagpipes,does make sound,cslb,human
+1642,cheese,is melted,gpt_3_filtered_overlap,gpt
+1643,chili,is served in restaurants,gpt_3_unfiltered,gpt
+1644,grenade,a weapon,mcrae,human
+1645,mushroom,grows underground,gpt_3_filtered_overlap,gpt
+1646,train,has a conductor,gpt_3_unfiltered,gpt
+1647,bicycle,is ridden,cslb,human
+1648,urinal,has a hole in the top,gpt_3_filtered,gpt
+1649,solar_panel,is made of cells,gpt_3_unfiltered,gpt
+1650,pencil,a utensil,mcrae,human
+1651,amber,is old,gpt_3_filtered,gpt
+1652,corkscrew,is found in drawers,gpt_3_filtered_overlap,gpt
+1653,antelope,is used for meat,gpt_3_filtered,gpt
+1654,bull,has horns,gpt_3_filtered,gpt
+1655,sword,is a blade,gpt_3_unfiltered,gpt
+1656,celery,is edible,gpt_3_filtered_overlap,gpt
+1657,skillet,found in kitchens,mcrae,human
+1658,violin,has ribs,gpt_3_unfiltered,gpt
+1659,spider,does move,cslb,human
+1660,clam,does nothing,cslb,human
+1661,mud,comes from the ground,gpt_3_filtered,gpt
+1662,ink,writes well,gpt_3_unfiltered,gpt
+1663,pastry,has nuts,gpt_3_filtered,gpt
+1664,hot-air_balloon,rises in the air,gpt_3_unfiltered,gpt
+1665,sweet_potato,is eaten,cslb,human
+1666,beaver,does build,cslb,human
+1667,biscuit,eaten with tea,mcrae,human
+1668,jacket,worn for the rain,mcrae,human
+1669,furnace,heats air,gpt_3_unfiltered,gpt
+1670,ring,is round,mcrae,human
+1671,thermometer,is a device,gpt_3_filtered_overlap,gpt
+1672,anchor,is heavy,mcrae,human
+1673,prune,has a sweet taste,gpt_3_filtered_overlap,gpt
+1674,book,is flat,gpt_3_unfiltered,gpt
+1675,pasta,has strings,gpt_3_filtered,gpt
+1676,boots,has heels,mcrae,human
+1677,ramp,is on stairs,gpt_3_unfiltered,gpt
+1678,motherboard,has a cd drive,gpt_3_filtered,gpt
+1679,wine,is consumed during holidays,gpt_3_unfiltered,gpt
+1680,budgie,chirps,mcrae,human
+1681,trombone,has a mouth-piece,mcrae,human
+1682,tank1,has a crew,gpt_3_filtered,gpt
+1683,mandarin,tastes sweet,mcrae,human
+1684,wheelbarrow,has garden equipment,cslb,human
+1685,monkey,is frightening,gpt_3_unfiltered,gpt
+1686,hoe,is used to cut vegetables,gpt_3_unfiltered,gpt
+1687,knitting,is used to make socks,gpt_3_filtered,gpt
+1688,skateboard,is thin,gpt_3_filtered_overlap,gpt
+1689,flute,has buttons,cslb,human
+1690,caramel,has a chewy texture,gpt_3_filtered,gpt
+1691,beanie,has ear flaps,gpt_3_filtered,gpt
+1692,hose,is white,gpt_3_filtered_overlap,gpt
+1693,birthday_cake,is for a birthday,gpt_3_unfiltered,gpt
+1694,toy,makes noises,gpt_3_filtered,gpt
+1695,celery,has small leaves,gpt_3_filtered_overlap,gpt
+1696,hose,is used by firemen,cslb,human
+1697,nail_polish,does pour,cslb,human
+1698,jelly_bean,has a shell,gpt_3_unfiltered,gpt
+1699,satchel,has a long strap,cslb,human
+1700,taffy,is made with butter,gpt_3_filtered,gpt
+1701,vacuum,has wheels,gpt_3_filtered,gpt
+1702,geranium,has a distinctive smell,cslb,human
+1703,blackberry,has thorns,gpt_3_filtered,gpt
+1704,casserole,is prepared with meat,gpt_3_unfiltered,gpt
+1705,flatiron,is a cooking utensil,gpt_3_unfiltered,gpt
+1706,collar,is used for dogs,gpt_3_unfiltered,gpt
+1707,plough,is a machine,cslb,human
+1708,scoreboard,is used in football games,gpt_3_unfiltered,gpt
+1709,breadbox,is a container,gpt_3_filtered,gpt
+1710,blanket,has different sizes,gpt_3_filtered,gpt
+1711,duck,is a water bird,gpt_3_filtered_overlap,gpt
+1712,beaver,does chew wood,cslb,human
+1713,spear,is used by hunters,gpt_3_filtered_overlap,gpt
+1714,swimsuit,made of different materials,mcrae,human
+1715,moth,is not edible,gpt_3_filtered_overlap,gpt
+1716,sausage,has different flavors,gpt_3_filtered,gpt
+1717,radio,is found in bedrooms,gpt_3_filtered_overlap,gpt
+1718,badger,is a carnivore,gpt_3_unfiltered,gpt
+1719,plate,made of china,mcrae,human
+1720,mouthpiece,is a mouth guard,gpt_3_unfiltered,gpt
+1721,moose,an animal,mcrae,human
+1722,whip,a weapon,mcrae,human
+1723,parsley,tastes bitter,gpt_3_filtered,gpt
+1724,plum,is eaten raw,cslb,human
+1725,bow_(weapon),is a weapon,cslb,human
+1726,fossil,is discovered by digging,gpt_3_unfiltered,gpt
+1727,swimsuit,different colours,mcrae,human
+1728,cork,made of cork,cslb,human
+1729,crayon,is used for children,gpt_3_unfiltered,gpt
+1730,nectarine,is juicy,mcrae,human
+1731,popcorn,has a flavor,gpt_3_filtered,gpt
+1732,paper_plate,is used to serve salad,gpt_3_unfiltered,gpt
+1733,bathtub,found in bathrooms,mcrae,human
+1734,biscuit,has a short shelf life,gpt_3_filtered,gpt
+1735,dogfood,is made of vegetables,gpt_3_filtered,gpt
+1736,rock,is irregular,cslb,human
+1737,coat,is a coat,gpt_3_filtered_overlap,gpt
+1738,helicopter,has rotating blades,cslb,human
+1739,peas,is boiled,cslb,human
+1740,birdcage,has four walls,gpt_3_filtered,gpt
+1741,crowbar,has a pointy end,gpt_3_filtered_overlap,gpt
+1742,blinder,has a hole in the center,gpt_3_unfiltered,gpt
+1743,dove,is grey,cslb,human
+1744,dishwasher,has a plug,gpt_3_filtered,gpt
+1745,seaweed,has different flavors,gpt_3_filtered_overlap,gpt
+1746,accordion,is played by pressing buttons,gpt_3_filtered,gpt
+1747,rhubarb,is crunchy,mcrae,human
+1748,whip,is a weapon,cslb,human
+1749,nail,has grooves,cslb,human
+1750,wick,has a flame,gpt_3_unfiltered,gpt
+1751,crane_(machine),used for moving things,mcrae,human
+1752,monkey,does live in groups,cslb,human
+1753,tree,has fruit,gpt_3_unfiltered,gpt
+1754,eucalyptus,is exotic,cslb,human
+1755,mustard,is a vegetable,gpt_3_filtered,gpt
+1756,turkey,is black,cslb,human
+1757,puffin,is aquatic,gpt_3_filtered,gpt
+1758,broccoli,has yellow flowers,gpt_3_filtered_overlap,gpt
+1759,revolver,is black,mcrae,human
+1760,hose,is flexible,cslb,human
+1761,splinter,has to pull it out,gpt_3_unfiltered,gpt
+1762,butterfly,is a pest,gpt_3_unfiltered,gpt
+1763,bellows,has pressurised air,cslb,human
+1764,eagle,is a brown bird,gpt_3_unfiltered,gpt
+1765,arm,has joints,cslb,human
+1766,hydrant,is red in color,gpt_3_filtered,gpt
+1767,banana,tastes good,gpt_3_unfiltered,gpt
+1768,cap,is American,cslb,human
+1769,barrel,is found in houses,gpt_3_filtered_overlap,gpt
+1770,knife,made of metal,mcrae,human
+1771,spider,has long legs,gpt_3_filtered,gpt
+1772,stove1,used for heating,mcrae,human
+1773,toaster,an appliance,mcrae,human
+1774,swan,lays eggs,mcrae,human
+1775,brandy,is drunk from a glass,cslb,human
+1776,jeans,is comfortable,mcrae,human
+1777,mullet,has a flat top,gpt_3_filtered,gpt
+1778,skunk,has a tail,mcrae,human
+1779,bottle,has a lid,mcrae,human
+1780,sorbet,is tasty,gpt_3_filtered,gpt
+1781,stork,eats fish,mcrae,human
+1782,carpet,is shag,mcrae,human
+1783,tumbleweed,is used for art,gpt_3_filtered,gpt
+1784,piano,is black,gpt_3_filtered_overlap,gpt
+1785,sink,clogs,mcrae,human
+1786,cellar,is dark,mcrae,human
+1787,rabbit,is found in south america,gpt_3_filtered_overlap,gpt
+1788,cart,is pulled by people,gpt_3_filtered,gpt
+1789,barn,used for animals,mcrae,human
+1790,saxophone,a musical instrument,mcrae,human
+1791,pumpkin,has a thin skin,gpt_3_unfiltered,gpt
+1792,bread,made of wheat,mcrae,human
+1793,raft,is used for transportation of people,gpt_3_filtered_overlap,gpt
+1794,walrus,swims,mcrae,human
+1795,brush,is small,gpt_3_filtered_overlap,gpt
+1796,goose,is hunted for food,gpt_3_filtered_overlap,gpt
+1797,flamingo,does stand on one leg,cslb,human
+1798,book,has pictures,mcrae,human
+1799,earmuffs,worn by children,mcrae,human
+1800,pliers,does turn,cslb,human
+1801,brussels_sprouts,grows on stalks,gpt_3_filtered,gpt
+1802,leotard,has a neckline,gpt_3_filtered,gpt
+1803,knot,is wood,gpt_3_filtered,gpt
+1804,french_horn,does make sound,cslb,human
+1805,corsage,has laces,gpt_3_filtered,gpt
+1806,giraffe,is a mammal,gpt_3_filtered_overlap,gpt
+1807,tomato,is made of fruit,gpt_3_unfiltered,gpt
+1808,bread,requires baking,mcrae,human
+1809,drink,has sugar in it,gpt_3_filtered,gpt
+1810,cookie_sheet,is used to cook cookies,gpt_3_filtered,gpt
+1811,crowbar,used by thieves,mcrae,human
+1812,watermelon,is striped,cslb,human
+1813,pyramid,is old,mcrae,human
+1814,lamb,is used to eat,gpt_3_filtered_overlap,gpt
+1815,tyre,is sold,cslb,human
+1816,sledge,is ridden,cslb,human
+1817,chair,is used for relaxation,gpt_3_filtered_overlap,gpt
+1818,crown,is worn by royalty,gpt_3_filtered,gpt
+1819,bead,has a hole on the side,gpt_3_unfiltered,gpt
+1820,cooker,has a grill,gpt_3_filtered,gpt
+1821,pepper2,a seasoning,mcrae,human
+1822,dictionary,is easy to use,cslb,human
+1823,modem,is electrical,gpt_3_unfiltered,gpt
+1824,fork,has four tines,gpt_3_filtered_overlap,gpt
+1825,grasshopper,has antennae,mcrae,human
+1826,carrot,has green leaves,gpt_3_filtered_overlap,gpt
+1827,harmonica,is played by blowing into it,gpt_3_unfiltered,gpt
+1828,license_plate,has a specific format,gpt_3_unfiltered,gpt
+1829,vent,is made of metal,gpt_3_filtered,gpt
+1830,wheelbarrow,is used to move things,gpt_3_filtered_overlap,gpt
+1831,wrapping_paper,is used for birthdays,gpt_3_unfiltered,gpt
+1832,flamingo,has a long beak,gpt_3_filtered_overlap,gpt
+1833,photo_booth,has a camera,gpt_3_unfiltered,gpt
+1834,pickle,tastes sweet,mcrae,human
+1835,cheetah,has whiskers,gpt_3_filtered_overlap,gpt
+1836,mouse1,is edible,gpt_3_unfiltered,gpt
+1837,radio,made of plastic,cslb,human
+1838,kite,has a frame,cslb,human
+1839,gorilla,is violent,mcrae,human
+1840,crocodile,eats animals,mcrae,human
+1841,polisher,is a tool,gpt_3_filtered,gpt
+1842,taxi,is used for transport,gpt_3_filtered_overlap,gpt
+1843,tennis_ball,is used for games,gpt_3_unfiltered,gpt
+1844,lettuce,eaten with dressings,mcrae,human
+1845,mask,made of wood,cslb,human
+1846,peeler,made of metal,cslb,human
+1847,steamroller,is used to flatten,gpt_3_filtered,gpt
+1848,fox,is red,mcrae,human
+1849,owl,does hoot,cslb,human
+1850,yoyo,is circular,cslb,human
+1851,pillow,is made of feathers,gpt_3_unfiltered,gpt
+1852,screwdriver,has a point,gpt_3_filtered_overlap,gpt
+1853,shoes,does keep feet warm,cslb,human
+1854,cow,eats grass,gpt_3_filtered,gpt
+1855,celery,is eaten in salads,gpt_3_filtered_overlap,gpt
+1856,slide,has a top,gpt_3_unfiltered,gpt
+1857,otter,has sharp teeth,gpt_3_filtered_overlap,gpt
+1858,fern,is used for ground cover,gpt_3_unfiltered,gpt
+1859,ruler,has a square shape,gpt_3_filtered,gpt
+1860,ostrich,has a long tail,gpt_3_filtered_overlap,gpt
+1861,electric_chair,is used for murder,gpt_3_filtered,gpt
+1862,washboard,is a device,gpt_3_filtered,gpt
+1863,pin,does pin on a wall,cslb,human
+1864,basket,used at Easter,mcrae,human
+1865,jackhammer,is used in cities,gpt_3_filtered,gpt
+1866,yoke,is an animal,gpt_3_unfiltered,gpt
+1867,cocktail,is a party drink,gpt_3_unfiltered,gpt
+1868,wasp,is scary,cslb,human
+1869,handkerchief,has laces,gpt_3_filtered,gpt
+1870,hoe,used for gardening,mcrae,human
+1871,rattle,is loud,gpt_3_filtered_overlap,gpt
+1872,whisk,is manual,cslb,human
+1873,goldfish,is yellow,gpt_3_filtered_overlap,gpt
+1874,cigar,is smelly,mcrae,human
+1875,revolving_door,has a glass window,gpt_3_unfiltered,gpt
+1876,revolver,requires bullets,mcrae,human
+1877,walrus,is big,cslb,human
+1878,scalpel,is used by doctors,cslb,human
+1879,bear,eats fish,mcrae,human
+1880,garlic,has a stem,gpt_3_unfiltered,gpt
+1881,owl,has wings,gpt_3_filtered_overlap,gpt
+1882,escalator,goes down,mcrae,human
+1883,spanner,has a handle,cslb,human
+1884,flute,is in an orchestra,cslb,human
+1885,olive,has a skin,gpt_3_unfiltered,gpt
+1886,rock,is used in homes,gpt_3_unfiltered,gpt
+1887,pyramid,has a point at the top,cslb,human
+1888,sheep,climbs,gpt_3_filtered_overlap,gpt
+1889,frame,has a hook on the back,gpt_3_unfiltered,gpt
+1890,spareribs,has bones,gpt_3_filtered,gpt
+1891,turnstile,has an entrance,gpt_3_filtered,gpt
+1892,submarine,is yellow,gpt_3_filtered_overlap,gpt
+1893,beets,is red,mcrae,human
+1894,snack,is high in fat,gpt_3_unfiltered,gpt
+1895,belt_buckle,is fastened with a belt,gpt_3_unfiltered,gpt
+1896,skirt,has a waistband,gpt_3_filtered_overlap,gpt
+1897,heron,has legs,cslb,human
+1898,flower,is an animal,gpt_3_unfiltered,gpt
+1899,cigarette,is smoked,gpt_3_filtered_overlap,gpt
+1900,saw,is modern,gpt_3_unfiltered,gpt
+1901,ant,lives in a colony,mcrae,human
+1902,lettuce,has a leafy top,gpt_3_unfiltered,gpt
+1903,sardine,is canned,gpt_3_filtered_overlap,gpt
+1904,knife,is used as a weapon,gpt_3_filtered_overlap,gpt
+1905,pig,has legs,mcrae,human
+1906,ring,has a design,gpt_3_filtered_overlap,gpt
+1907,place_mat,is a piece of cloth,gpt_3_unfiltered,gpt
+1908,gun,fires bullets,gpt_3_filtered_overlap,gpt
+1909,beetle,has a hard shell,cslb,human
+1910,air_conditioner,is used in bedrooms,gpt_3_filtered,gpt
+1911,beaver,has a small head,gpt_3_filtered_overlap,gpt
+1912,gerbil,is stupid,cslb,human
+1913,cabbage,grows from seeds,gpt_3_filtered_overlap,gpt
+1914,buggy,is used for recreational purposes,gpt_3_filtered_overlap,gpt
+1915,cleat,is used to play soccer,gpt_3_filtered,gpt
+1916,wallet,is brown,cslb,human
+1917,bow1,is a weapon,gpt_3_unfiltered,gpt
+1918,telephone,has numbers,mcrae,human
+1919,pickax,is used to dig holes,gpt_3_unfiltered,gpt
+1920,filing_cabinet,has handles,gpt_3_unfiltered,gpt
+1921,jellyfish,is unusual,cslb,human
+1922,leotards,worn for dancing,mcrae,human
+1923,skunk,has legs,mcrae,human
+1924,game,has a batter,gpt_3_unfiltered,gpt
+1925,granola,contains seeds,gpt_3_filtered,gpt
+1926,platypus,has a duck bill,gpt_3_filtered_overlap,gpt
+1927,nightgown,worn at night,mcrae,human
+1928,machete,is useful,cslb,human
+1929,gun,kills people,gpt_3_filtered_overlap,gpt
+1930,seed,has a hard covering,gpt_3_unfiltered,gpt
+1931,wire,is heated,gpt_3_filtered,gpt
+1932,balloon,floats,gpt_3_filtered_overlap,gpt
+1933,octopus,is used for pets,gpt_3_filtered_overlap,gpt
+1934,caviar,is salty,gpt_3_filtered,gpt
+1935,apron,is tight,gpt_3_filtered_overlap,gpt
+1936,grill,has a long handle,gpt_3_filtered,gpt
+1937,pigeon,is found in the city,gpt_3_filtered,gpt
+1938,rocket,is colourful,cslb,human
+1939,cabbage,a vegetable,mcrae,human
+1940,gold,is used to make things,gpt_3_filtered,gpt
+1941,canoe,is used to race,gpt_3_unfiltered,gpt
+1942,giraffe,lives in Africa,mcrae,human
+1943,ambulance,is fast,mcrae,human
+1944,shoes,made of cotton,cslb,human
+1945,cheese,used with food,mcrae,human
+1946,gate,is found on farms,gpt_3_filtered_overlap,gpt
+1947,calamari,has skin,gpt_3_unfiltered,gpt
+1948,blender,is a kitchen appliance,gpt_3_filtered_overlap,gpt
+1949,traffic_light,is rectangular,gpt_3_filtered,gpt
+1950,bin,is a receptacle,gpt_3_unfiltered,gpt
+1951,heart,has atria,cslb,human
+1952,motorcycle,is noisy,gpt_3_filtered_overlap,gpt
+1953,lamppost,has a post,gpt_3_filtered,gpt
+1954,scallop,is eaten,cslb,human
+1955,cockroach,has a head,gpt_3_filtered_overlap,gpt
+1956,mattress,is used to make beds,gpt_3_filtered,gpt
+1957,wine,has tannins,cslb,human
+1958,caribou,hunted by people,mcrae,human
+1959,bus,requires gasoline,gpt_3_filtered_overlap,gpt
+1960,lettuce,grows on trees,gpt_3_filtered_overlap,gpt
+1961,feather,is a part of a bird,gpt_3_unfiltered,gpt
+1962,fork,used with knives,mcrae,human
+1963,finger,is dextrous,cslb,human
+1964,snowmobile,is used by people,gpt_3_filtered,gpt
+1965,tyre,is sold,cslb,human
+1966,blender,used for chopping food,mcrae,human
+1967,hawk,is a bird of prey,gpt_3_filtered_overlap,gpt
+1968,slicer,is used to cut meat,gpt_3_unfiltered,gpt
+1969,kale,is sold at markets,gpt_3_unfiltered,gpt
+1970,thumb,does break,cslb,human
+1971,gate,has a lock,gpt_3_filtered_overlap,gpt
+1972,hyena,does eat,cslb,human
+1973,drawer,is a place to put things,gpt_3_filtered,gpt
+1974,barge,is slow,cslb,human
+1975,peach,is furry/fuzzy,mcrae,human
+1976,blender,is a kitchen appliance,cslb,human
+1977,goalpost,has goals,gpt_3_unfiltered,gpt
+1978,buckle,is used by animals,gpt_3_filtered_overlap,gpt
+1979,blueberry,is used for jam,gpt_3_filtered_overlap,gpt
+1980,hoodie,is associated with thugs,gpt_3_unfiltered,gpt
+1981,rickshaw,is a vehicle,gpt_3_filtered,gpt
+1982,porcupine,eats fruit,gpt_3_filtered_overlap,gpt
+1983,butter,is used to make dough,gpt_3_unfiltered,gpt
+1984,christmas_tree,has branches,gpt_3_unfiltered,gpt
+1985,nightshirt,is long,gpt_3_unfiltered,gpt
+1986,satchel,is a bag,cslb,human
+1987,projector,has a light inside,mcrae,human
+1988,badger,is found in the forest,gpt_3_unfiltered,gpt
+1989,bread,is round,gpt_3_filtered,gpt
+1990,pocketknife,is found in pockets,gpt_3_filtered,gpt
+1991,trout,is alive,cslb,human
+1992,music_box,is found in homes,gpt_3_filtered,gpt
+1993,radio,is connected to the internet,gpt_3_unfiltered,gpt
+1994,couch,furniture,mcrae,human
+1995,banjo,is musical,gpt_3_filtered_overlap,gpt
+1996,dress,is worn at funerals,gpt_3_filtered_overlap,gpt
+1997,mouse1,lives in walls,mcrae,human
+1998,pencil,made of lead,mcrae,human
+1999,rock,is used as a building material,gpt_3_filtered,gpt

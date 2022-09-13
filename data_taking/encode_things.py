@@ -8,9 +8,6 @@ def load_corpus_into_df():
 
 def write_df(df, output_dir):
     df = df[['concept', 'question', 'category', 'id']]
-    #dfs = np.array_split(df, 3)
-    #for i, df in enumerate(dfs):
-    #    df.to_csv('%s/concepts_%s.csv' % (output_dir, i), index=False)
     df.to_csv('%s/concepts.csv' % (output_dir), index=False)
 
 def sort_by_uniqueness(df):

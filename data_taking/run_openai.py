@@ -30,8 +30,8 @@ def write_to_output(output_filename, answers, first_df, header=False):
 
 def run():
     data_path = './encoded_answers_openai.csv'
-    train_dir = './train'
-    retrival_path = './output_data/things/concepts/all_concepts.csv'
+    train_dir = 'data/train/cslb'
+    retrival_path = './data/things/all_concepts.csv'
     retrieval_df = pd.read_csv(retrival_path)
     first_df = True 
 
@@ -56,6 +56,8 @@ def run():
                 answers_df = answers_df.replace('\n','', regex=True)
                 write_to_output(data_path, answers_df, first_df)
                 first_df = False
+            break
+        break
 
 if __name__ == '__main__':
     run()
