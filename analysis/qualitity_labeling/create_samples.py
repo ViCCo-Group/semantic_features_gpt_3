@@ -70,7 +70,7 @@ for comb in combs:
     all_samples_person2 = pd.concat([all_samples_person2, sample])
 
     # Features that are unique for the labeller
-    n_samples = 300
+    n_samples = 200
 
     sample1 = df.sample(n_samples, replace=False)
     all_samples_person1 = pd.concat([all_samples_person1, sample1])

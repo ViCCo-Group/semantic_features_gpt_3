@@ -9,14 +9,22 @@ import random
 def load_cslb():
     return pd.read_csv('data/cslb/norms.dat', sep='\t')[['concept', 'feature']]
 
+def load_things_concepts():
+    return set(pd.read_csv('data/things/Wordlist_ratings-Final.csv')['Word'])
+
 def write_train_trial_dfs(df, n_trials):
     df = df[['concept', 'question', 'answer']]
     trial_dfs = np.array_split(df, n_trials)
     for i, trial_df in enumerate(trial_dfs):
-        trial_df.to_csv(f'data/train/cslb/train_{str(i+1)}.csv', index=False)
+        trial_df.to_csv(f'data/priming_examples/cslb/train_{str(i+1)}.csv', index=False)
 
 def generate_random_concepts(df, n_concepts):
-    concepts = random.sample(set(df['concept']), n_concepts)
+    cslb_concepts = set(df['concept'])
+    print(len(cslb_concepts))
+    cslb_concepts = cslb_concepts.difference(load_things_concepts())
+    print(cslb_concepts)
+
+    concepts = random.sample(cslb_concepts, n_concepts)
     return concepts
 
 def create_sub_df(df, concepts):

@@ -29,7 +29,7 @@ def join_to_string(values):
 def load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, run_nr, duplicates):
     # Read GPT3 features
     #gpt_df = pd.read_csv('../output_data/things/decoded_answers.csv')
-    gpt_df = pd.read_csv(f'{DATA_DIR}/gpt_3_feature_norm/decoded_answers.csv')
+    gpt_df = pd.read_csv(f'{DATA_DIR}/gpt_3_feature_norm/mcrae_priming/decoded_answers.csv')
     #gpt_df = gpt_df[gpt_df['run_nr'] == run_nr]
     gpt_df = gpt_df.rename(columns={'decoded_feature': 'feature'})
 
@@ -112,7 +112,7 @@ def load_cslb(group_to_one_concept, remove_merged_features=False):
 def load_cslb_count_vec():
     df = pd.read_csv(f'{DATA_DIR}/cslb/feature_matrix.dat', header=0, sep='\t')
     df = df.rename(columns={'Vectors': 'concept_id'})
-    mapping_df = pd.read_csv('./evaluation/mapping.csv')
+    mapping_df = pd.read_csv(f'{DATA_DIR}/mapping.csv')
     for row in mapping_df.itertuples():
         df.loc[df['concept_id'] == row.cslb_concept, 'concept_id'] = row.things_concept_id
     df = df.set_index('concept_id')
