@@ -1,0 +1,1501 @@
+index,concept_id,feature,judgment
+0,timer,has different colors,
+1,toe,has nails,1
+2,alligator,is dangerous,1
+3,butterfly,is beautiful,1
+4,hatchet,is used by lumberjacks,1
+5,mouth,has a floor,2
+6,sword,is used by men,2
+7,motorcycle,has a seatbelt,3
+8,bowl,is used to mix,1
+9,vacuum,is electrical,1
+10,spoon,does contain,2
+11,manhole,is used for access,1
+12,wrench,used for tightening,1
+13,waterwheel,is used to make electricity,1
+14,celery,is a vegetable,1
+15,koala,is nocturnal,1
+16,mink,is brown,1
+17,hare,a rabbit,1
+18,frog,eats insects,1
+19,rollerskate,has a boot,2
+20,drapes,used for privacy,1
+21,flute,has a hole in the middle,2
+22,truck,is used to carry goods,1
+23,parakeet,a pet,1
+24,cork,is brown,1
+25,hamburger,contains lettuce,2
+26,rifle,is an object,1
+27,robe,is worn in cold weather,1
+28,ball,is used to play with children,2
+29,outlet,is used to cook,3
+30,bolts,is like a nail,1
+31,pyramid,is a tomb for a pharaoh,1
+32,swimsuit,is made of silk,3
+33,hamburger,is cooked in an oven,3
+34,cucumber,is edible,1
+35,possum,is gray in color,1
+36,jeep,has a radio,2
+37,pallet,is used to store things,1
+38,detonator,is round,2
+39,tongs,is used by women,2
+40,penguin,cannot fly,1
+41,coach_(vehicle),has six wheels,2
+42,leotards,worn for exercising,2
+43,flute,has holes,1
+44,microscope,has a tube,2
+45,shoes,has toes,3
+46,whistle,has a hole,2
+47,fawn,has a tail,1
+48,parakeet,is loud,1
+49,oak,used as home by animals,2
+50,python,an animal,1
+51,water_filter,is used for water,1
+52,hornet,is an animal,1
+53,ambulance,is used by sick people,1
+54,crowbar,is found in toolboxes,1
+55,brush,used on hair,1
+56,cork,is used in the bath,3
+57,coral,is a mineral,3
+58,cabbage,is green,1
+59,squirrel,is small,1
+60,apple,is smooth,1
+61,rattlesnake,is dangerous,1
+62,guitar,used in bands,1
+63,bucket,is used for water,1
+64,cow,is large,1
+65,mulch,is used to protect plants,1
+66,lantern,used for camping,1
+67,clipper2,is an electrical appliance,2
+68,collar,is made of fabric,1
+69,boat,holds many people,1
+70,goat,does live on mountains,2
+71,eel,has a long snout,2
+72,sugar_cube,is made of crystallized sugar,1
+73,garlic,is used as a seasoning,1
+74,sultana,is used in puddings,1
+75,pine_needle,is part of a tree,1
+76,swimsuit,worn at beaches,1
+77,pigeon,has wings,1
+78,cat,has sharp teeth,1
+79,mushroom,is tasty,1
+80,wig,is used for hair,1
+81,eagle,is used in the army,3
+82,banjo,is yellow,3
+83,can,is used for drinks,1
+84,star_fruit,is crunchy,2
+85,parking_meter,is used to pay fines,1
+86,broccoli,tastes good,1
+87,cat,has claws,1
+88,gel,is used to clean dishes,1
+89,star_fruit,has pulp,1
+90,thermos,is made of glass,3
+91,dryer,dries your clothes,1
+92,basket,is used to carry things,1
+93,rhubarb,is used for jam,1
+94,knife,is sharp,1
+95,tuxedo,has buttons on its jacket,1
+96,buckle,found on belts,1
+97,badge,is used for identification,1
+98,shark,is found in the water,1
+99,skirt,has pleats,1
+100,hippo,has legs,1
+101,cactus,has seeds,2
+102,pepper_mill,is black,2
+103,goat,produces milk,2
+104,scorpion,is black,2
+105,forklift,is used for work,1
+106,apple_tree,has apples,1
+107,ostrich,has legs,1
+108,hummingbird,has wings,1
+109,shoes,has laces,1
+110,banner,used for advertising,1
+111,duck,is used by hunters,3
+112,pelican,has a wingspan,2
+113,playing_card,is a tool,3
+114,skateboard,does come in colours,2
+115,ladder,has a bottom,2
+116,centrifuge,is cylindrical,2
+117,robin,has feathers,1
+118,curling_iron,is found in bathrooms,2
+119,monkey,does share,2
+120,cheetah,lives in Africa,1
+121,glasses,is used to drink water,1
+122,foot,does smell,2
+123,cottage,used for living in,1
+124,mouse1,has a name,2
+125,chair,is used for meetings,2
+126,bee,lives in colonies,1
+127,ambulance,drives on roads,1
+128,pretzel,is covered with salt,1
+129,burrito,is eaten with tortillas,1
+130,tulip,is bulb,1
+131,grain,is used to bake bread,1
+132,necklace,is worn for special occasions,2
+133,crowbar,used for breaking things,2
+134,videogame,has a main character,1
+135,olive,a vegetable,1
+136,rice,is tasty,1
+137,cake,is made of sugar,2
+138,tangerine,has sections,1
+139,brick,is a mineral,3
+140,pony,has a long mane,1
+141,spider,has eyes,1
+142,window,is rectangular in shape,1
+143,doll,used by girls,2
+144,brick,has a texture,1
+145,car,is useful,1
+146,car,has windscreen wipers,2
+147,ant,is strong,2
+148,slot,is made of metal,1
+149,stool_(furniture),made of wood,1
+150,mug,is circular,1
+151,car,has a roof,1
+152,cherry,is used for dessert,2
+153,limousine,has an inside,1
+154,mayonnaise,made of butter,3
+155,skunk,is a rodent,3
+156,turnip,a vegetable,1
+157,duck,is meat,2
+158,wineglass,is used to drink white wine,2
+159,camel,has fur,1
+160,penguin,does live in Antarctica,1
+161,mink,used for fur,1
+162,couch,has a back rest,1
+163,leech,lives in ponds,1
+164,puddle,is deep,3
+165,squirrel,climbs trees,1
+166,broccoli,is nutritious,1
+167,freezer,is an appliance,1
+168,shawl,is for women,2
+169,quesadilla,is a food,1
+170,squid,is aquatic,1
+171,nightingale,is noisy,1
+172,zebra,is found on farms,3
+173,rifle,has a trigger,1
+174,cheetah,is a runner,1
+175,football,is not touched with your hands,1
+176,anchor,is used in ships,2
+177,guitar,is an instrument,1
+178,doorstop,is shaped like a triangle,1
+179,bee,is striped,1
+180,lawnmower,is electric,1
+181,flask,is used to store things,1
+182,vulture,flies,1
+183,donkey,makes noises,1
+184,chair,used with tables,1
+185,radish,has a white center,1
+186,ketchup,is made of tomatoes,1
+187,crown,is used by royalty,1
+188,biscuit,contains milk,3
+189,ox,has long fur,2
+190,shoes,is worn,1
+191,swimsuit,is used to tan,2
+192,lightbulb,has a cord,3
+193,test_tube,has a wide mouth,3
+194,fir,is alive,2
+195,boot,is used to keep warm,1
+196,rocket,has a shape,1
+197,coconut,has a hard shell,1
+198,seahorse,swims fast,3
+199,trolley,is used to carry luggage,1
+200,ship,is used for passengers,1
+201,budgie,has wings,1
+202,quill,is used to write by hand,1
+203,lanyard,is a string,1
+204,grape,is red,2
+205,can_opener,is found in kitchens,1
+206,rake,has a long handle,1
+207,horse,is beautiful,1
+208,stick,is a piece of wood,1
+209,jackhammer,is used to pound nails,3
+210,boa,is worn for decoration,1
+211,rake,has a long handle,1
+212,lettuce,is crunchy,1
+213,horse,is beautiful,1
+214,iguana,is a reptile,1
+215,telephone,does receive calls,1
+216,olive,is round in shape,1
+217,thermos,is used in the army,2
+218,pudding,has a smooth texture,1
+219,sandwich,has a crust,1
+220,car,has doors,1
+221,fern,is ancient,1
+222,basket,is used to wash clothes,2
+223,badge,is used in guides,2
+224,blender,is used to make soup,2
+225,frame,is on the wall,1
+226,robe,has a hood,2
+227,turkey,a bird,1
+228,chain,is worn by prisoners,2
+229,swing,is an outdoor toy,1
+230,candle,is found in homes,1
+231,razor,is used on the face,1
+232,herring,is oily,2
+233,cheese,is white,2
+234,bathtub,found in bathrooms,1
+235,ostrich,has two legs,1
+236,barrel,is found in cellars,1
+237,bank,has a lock,2
+238,pin,is small,1
+239,guitar,has a long neck,1
+240,scallion,is green,1
+241,honey,is used for medical purposes,2
+242,octopus,is slimy,1
+243,antenna,is used for internet,2
+244,whip,used on animals,1
+245,ant,does nest,2
+246,octopus,is a sea creature,1
+247,wine,is for special occasions,1
+248,torpedo,is guided,1
+249,cheetah,is hunted by lions,3
+250,jar,is used to contain liquids,2
+251,beets,has leaves,1
+252,target,is used in games,2
+253,pistol,used for shooting,1
+254,trout,does swim,1
+255,tiramisu,has cream on top,1
+256,squid,is an aquatic animal,1
+257,grater,is thin,1
+258,snail,is small,1
+259,chandelier,found in dining rooms,1
+260,ostrich,has a beak,1
+261,dish,used for eating,1
+262,hutch,made of metal,2
+263,poodle,is short,2
+264,cigarette_butt,has no odor,3
+265,reindeer,runs fast,2
+266,boxing_gloves,has a thumb hole,2
+267,bear,lives in the wild,1
+268,tray,has a flat bottom,1
+269,ice_cream,has a cone,2
+270,doorstop,is used to hold doors open,1
+271,carnation,has roots,1
+272,crocodile,is an animal,1
+273,broccoli,tastes bad,3
+274,jacket,is used to keep warm,1
+275,harp,is made of wood,1
+276,bra,worn for supporting breasts,1
+277,whistle,used for alerting,1
+278,guacamole,is made from tomatoes,3
+279,kite,is used for children,2
+280,pin,is small,1
+281,goat,has fur,1
+282,fir,does grow,1
+283,stew,has noodles,3
+284,trapdoor,is made of different materials,2
+285,bamboo,is used to make houses,2
+286,bracelet2,made of silver,2
+287,weather_vane,has a ball at the end,3
+288,soup,is warm,1
+289,gopher,an animal,1
+290,canoe,used by 2 people,2
+291,cereal,is found in a box,1
+292,power_line,makes sparks,2
+293,donkey,produces milk,2
+294,chandelier,made of crystal,2
+295,hard_disk,has a storage capacity of one tb,2
+296,guacamole,contains pepper,2
+297,toilet,is white,2
+298,toothpick,is hard,1
+299,boat,is a ship,1
+300,pistol,made of metal,1
+301,cape,made of cloth,1
+302,cap_(hat),worn by men,2
+303,deer,lives in wilderness,1
+304,sparrow,an animal,1
+305,record_player,is used for vinyl records,1
+306,piglet,has three toes on each foot,2
+307,recorder,has a soft edge,3
+308,fire_hydrant,is used for parking,3
+309,key,is small,1
+310,gown,is elegant,1
+311,goldfish,an animal,1
+312,coconut,has a shell,1
+313,chute,has a curve,2
+314,harmonica,is used to make music,1
+315,catapault,has a string,2
+316,knife,is shiny,2
+317,television,has programmes,1
+318,starling,is a small bird,1
+319,vegetable,grows from seeds,1
+320,yarn,is a material,1
+321,saxophone,is gold,1
+322,castenets,is decorative,2
+323,splinter,comes from a tree,1
+324,meatloaf,is eaten with vegetables,1
+325,spanner,has a shaped end,1
+326,wasp,has legs,1
+327,flip_flop,has a flat sole,1
+328,shrimp,is low in fat,2
+329,saucer,eg - flying saucer,2
+330,fox,has a thick coat of fur,1
+331,cushion,found on couches,1
+332,porcupine,is small,2
+333,harmonica,plays music on it,2
+334,basketball,is used by players,1
+335,catalogue,does display,1
+336,raisin,is used to bake,1
+337,corn,tastes sweet,1
+338,tiger,is wild,1
+339,leggings,is transparent,3
+340,daisy,does smell,2
+341,owl,has a beak,1
+342,airbag,is worn on the chest,3
+343,toothpick,is associated with food,1
+344,tongs,is used to grab hot items,1
+345,rattlesnake,lives in deserts,1
+346,tuxedo,looks good,1
+347,cider,made of pears,2
+348,gyro,is made of beef,1
+349,raisin,is black,1
+350,hamster,has hands,1
+351,cilantro,has a pungent taste,1
+352,lobster,is a delicacy,1
+353,peg,does pinch,3
+354,seaweed,is used to make tea,3
+355,projector,has wires,2
+356,pie,has a pastry shell,2
+357,hyacinth,has little flowers,1
+358,basket,is found in the country,2
+359,lion,has teeth,1
+360,book,is a container,3
+361,dart,is used to shoot,1
+362,tomato,is round,1
+363,mouse1,a rodent,1
+364,airplane,used for travel,1
+365,jellyfish,is found in the sea,1
+366,wheel,is used for transportation,1
+367,bra,is sexy,1
+368,grapefruit,is a citrus fruit,1
+369,pan,made of metal,1
+370,toad,has feet,1
+371,onions,eg - spanish,3
+372,wasp,is gray,3
+373,cod,has gills,1
+374,rake,made of metal,2
+375,shawl,made of wool,2
+376,noodle,is thin,1
+377,guinea_pig,eats grass,1
+378,gun,is used to kill animals,1
+379,luggage,is used to pack clothes,1
+380,calf1,has skin,1
+381,baton1,is cylindrical,1
+382,ostrich,eats bugs,1
+383,spider,has a hard shell,3
+384,diamond,is expensive,1
+385,trout,a fish,1
+386,taco,has a filling,1
+387,chipmunk,has a short tail,1
+388,crayon,has a name,3
+389,curtain,made of material,1
+390,bone,is porous,3
+391,window,is stained,2
+392,toast,is consumed with coffee,2
+393,kangaroo,has long legs,2
+394,motorcycle,travels on roads,1
+395,shawl,is used as a blanket,2
+396,frisbee,is for children,2
+397,dunebuggy,has 4 wheels,1
+398,police_car,is used for public transportation,3
+399,breadbox,is used to store rolls of bread,2
+400,switch,is used to control lights,1
+401,bureau,found in bedrooms,3
+402,shawl,is a piece of clothing,1
+403,rolls_royce,is big,1
+404,bra,is used to push up breasts,1
+405,sock,does smell,2
+406,ladle,is used to cook,2
+407,baklava,is eaten for breakfast,2
+408,bean,is brown,2
+409,wheel,is used for vehicles,1
+410,lion,a carnivore,1
+411,brussel_sprouts,is tasty,1
+412,stick,has a knot,3
+413,crepe,is eaten for dessert,2
+414,jelly,is eaten with ice cream,2
+415,spareribs,has a bone sticking out of them,1
+416,chandelier,has a frame,2
+417,chicken2,makes sounds,1
+418,peas,is soft,1
+419,branch,is long,1
+420,olive,has a stem,2
+421,peach,is used to snack,2
+422,caterpillar,is a worm,3
+423,screwdriver,found in toolboxes,1
+424,pepper2,tastes hot/spicy,1
+425,tie,worn around neck,1
+426,potato,has green leaves,1
+427,trumpet,a musical instrument,1
+428,leek,is used to cook,1
+429,perch,tastes good,1
+430,pepper2,is used to chop food,3
+431,wrench,made of metal,1
+432,rice,is fried,2
+433,hippo,is funny,3
+434,hawk,is a bird,1
+435,pony,is fast,2
+436,headlight,is near the front of the car,2
+437,recorder,made of wood,2
+438,oyster,does cling to rocks,1
+439,trident,is used for protection,3
+440,dart,is thrown by hand,1
+441,butterfly,flies,1
+442,muzzle,has a strap,2
+443,microwave,heats food,1
+444,microscope,is expensive,1
+445,bra,has no straps,3
+446,gum,is pink,2
+447,plug_(electric),used for appliances,1
+448,grasshopper,is an insect,1
+449,mouse1,is used for research,1
+450,hot-water_bottle,is used to warm up the room,3
+451,cabinet,is moved,3
+452,trout,has fins,1
+453,garlic,grows in gardens,2
+454,bagpipe,is played by blowing air into it,1
+455,grapefruit,is eaten as a vegetable,3
+456,boxing_gloves,is large,1
+457,television,has a wire,1
+458,flute,is used for classical music,1
+459,ostrich,has eyes,1
+460,mixer,is electrical,1
+461,platypus,lays eggs,1
+462,zucchini,has seeds,1
+463,screen1,is used for business,2
+464,basket,does hang,2
+465,submarine,is associated with navies,1
+466,headlight,is blue,3
+467,taxi,has an engine,2
+468,card_(greeting),is colourful,1
+469,beaver,is a herbivore,1
+470,shawl,is worn on the shoulders,1
+471,camel,has big feet,3
+472,earmuffs,is useful,1
+473,toe,does break,2
+474,television,is for games,3
+475,flypaper,is used in homes,1
+476,parsley,has small leaves,1
+477,hot_tub,is used by people,1
+478,kilt,is worn by men,1
+479,screwdriver,is used with screws,1
+480,goat,does eat plants,1
+481,goat,eats grass,1
+482,tyre,does grip surface,2
+483,sledgehammer,is used to break stones,1
+484,snowplow,is used for snow removal,1
+485,celery,has a stalk,1
+486,peacock,different colours,1
+487,sparkler,is used to decorate,3
+488,eraser,is used for school work,1
+489,machete,is found in gardens,2
+490,strainer,is long,3
+491,memory_stick,is used by plugging into a computer,1
+492,cow,lives in grasslands,1
+493,giraffe,is tall,1
+494,mask,is laughing,3
+495,guitar,creates music,1
+496,flamingo,has long legs,1
+497,plug,has a flat surface,3
+498,cake,is soft,1
+499,pineapple,is crunchy,1
+500,bank,has safety features,1
+501,leopard,is used by hunters,3
+502,furnace,is used to cook,2
+503,spoon,used for liquids,1
+504,cabbage,is eaten by cooking,2
+505,drain,is used to wash clothes,2
+506,wheelchair,is transport,2
+507,gate,is used to enter and exit,1
+508,peacock,is a colorful bird,1
+509,lamb,is eaten,1
+510,spam,is round,3
+511,doorknocker,is used in houses,1
+512,shopping_basket,is used in supermarkets,1
+513,weather_vane,is shiny,2
+514,foot,is strong,2
+515,robe,is worn under clothes,3
+516,avocado,is a food,1
+517,coyote,a dog,1
+518,videocassette,requires players,1
+519,balloon,is used at parties,1
+520,sandals,is worn on feet,1
+521,wand,is black,2
+522,sheet,covers the body,3
+523,glove,is used to play baseball,1
+524,coat,is big,1
+525,plate,used for putting food on,1
+526,fishnet_stockings,has a black pattern,1
+527,duck,has a beak,1
+528,shawl,different colours,1
+529,rocket,flies in the air,1
+530,oven,made of metal,1
+531,mushroom,is white,2
+532,bassinet,is folded,2
+533,parakeet,is exotic,1
+534,elbow,is hurt,2
+535,dollhouse,is used to play with children,1
+536,nose,is on a face,1
+537,wrench,used for tightening,1
+538,gin,is a drink,1
+539,tape_recorder,is a piece of technology,1
+540,sprinkler,makes a lot of water,1
+541,grasshopper,has wings,1
+542,corkscrew,made of metal,1
+543,incense,is used for ceremonial purposes,1
+544,piano,has keys,1
+545,grenade,kills people,1
+546,spider,has a long tail,3
+547,cane,is medical,2
+548,pistachio,is nutritious,1
+549,wrench,is heavy,1
+550,windshield,is made of metal,3
+551,bookshelf,holds books,1
+552,cork,is found in boats,3
+553,recorder,does make music,1
+554,bulletproof_vest,is used in war,1
+555,prune,is old,2
+556,bottle_opener,is used by men,2
+557,brick,is hard,1
+558,rock,is small,2
+559,bungee,is used to jump off cliffs,1
+560,latch,comes in pairs,2
+561,swimsuit,is used for sports,1
+562,mouse1,has feet,1
+563,stove,is used in cooking,1
+564,generator,is used for power,1
+565,limousine,has a large engine,2
+566,artichoke,has thorns,2
+567,ready_meal,requires heating up,3
+568,gravy,is made of vegetables,2
+569,fern,has spores,2
+570,tank1,is used to transport supplies,1
+571,encyclopaedia,has spines,2
+572,boots,is brown,2
+573,catapault,has a base,1
+574,fence,is used to keep things in and out,1
+575,wagon,is old fashioned,1
+576,lab_coat,has sleeves,1
+577,tugboat,is used to move boats,1
+578,mattress,is made of fabric,2
+579,garlic,has an aroma,1
+580,file2,is used to keep important papers,1
+581,salad,is eaten cold,1
+582,hoe,is used to kill animals,2
+583,pickle,is eaten in hot dogs,1
+584,camel,is domesticated,1
+585,cork,is a piece of wood,1
+586,jeans,made of denim,1
+587,penguin,lays eggs,1
+588,espresso,has a color,2
+589,doily,is decorative,1
+590,raft,made of wood,1
+591,doll,is male or female,2
+592,football,is made of material,2
+593,banana,is small,2
+594,ram,lives in the wild,1
+595,videogame,is a computer game,1
+596,stick,is found in forests,1
+597,chisel,requires a hammer,1
+598,jeep,is used to transport goods,1
+599,ladder,is long,1
+600,gravy,has a salty taste,1
+601,car_seat,has different shapes,2
+602,land_rover,is used in army,1
+603,hyacinth,does smell,1
+604,cannon,is heavy,1
+605,screen1,is a shape,2
+606,spider,is large,3
+607,thumb,is used to hold,2
+608,necklace,is used for jewelry,2
+609,projector,used for enlarging pictures,1
+610,cork,used for sealing wine bottles,1
+611,skyscraper,has many floors,1
+612,perch,lays eggs,2
+613,camisole,has straps,1
+614,bread,made of flour,1
+615,egg,is associated with easter,1
+616,rocket,is red,2
+617,grenade,used by the military,1
+618,beaver,symbol of Canada,1
+619,hotplate,is used for heating,1
+620,cabbage,is green,1
+621,screen1,has different uses,1
+622,grasshopper,has legs,1
+623,cup,different colours,1
+624,toga,is long,1
+625,rocket,has a nose,1
+626,cigar,is used for parties,2
+627,rope,is used by sailors,1
+628,parka,is warm,1
+629,lantern,is electrical,1
+630,dragonfly,has big eyes,1
+631,ship,floats,1
+632,torch,is used to light up the night,1
+633,eel,has a sharp nose,1
+634,cherry,grows in gardens,1
+635,cruise_ship,has a gym,2
+636,beehive,has bees in it,1
+637,rocking_chair,is a chair,1
+638,duffel_bag,is used for men,2
+639,penguin,lays eggs,1
+640,tongs,is used by women,2
+641,colander,a utensil,1
+642,squid,is squashy,1
+643,chipmunk,has teeth,1
+644,elephant,has a trunk,1
+645,llama,is a mammal,1
+646,rice,is boiled,1
+647,cloak,made of leather,2
+648,brochure,is a document,1
+649,blimp,flies,1
+650,tray,is for parties,2
+651,cage,is used to transport animals,1
+652,pillow,is white,2
+653,coconut,grows in trees,1
+654,bowl,found in kitchens,1
+655,earmuffs,worn in cold temperatures,1
+656,mushroom,is brown,1
+657,loincloth,has a fringe,2
+658,gift,has a ribbon,1
+659,tent,is a house,2
+660,mint,has seeds,2
+661,wall,found in houses,1
+662,barnacle,is edible,2
+663,sweet_potato,has a long stem,3
+664,brass_knuckles,is dangerous,1
+665,tambourine,is made of metal,1
+666,brussels_sprouts,is crunchy,1
+667,chalice,is used in religious ceremonies,1
+668,rat,does live in sewers,1
+669,rattlesnake,has a tongue,1
+670,bark,has different thicknesses,2
+671,rolling_pin,is used to flatten,1
+672,buckle,is an orange,3
+673,housefly,a pest,1
+674,jelly,is soft,1
+675,swab,has a long handle,2
+676,peanut_butter,is used to make sandwiches,1
+677,accordion,is played by italians,2
+678,zebra,has stripes,1
+679,moth,has a thorax,2
+680,bucket,has a lid,3
+681,vacuum,is used to clean walls,3
+682,cape,is worn at night,2
+683,tablet,is a phone,3
+684,cloud,is seen at night,3
+685,bellows,is kept in museums,2
+686,rollerskate,is used in sport,1
+687,duck,is edible,1
+688,waffle,is eaten with syrup,1
+689,mask,is used in sports,2
+690,chair,used by sitting on,1
+691,caterpillar,is small,1
+692,cow,used for producing milk,1
+693,wrapping_paper,has a border,2
+694,radio,is used for sports,2
+695,steering_wheel,has a wheel in the center,2
+696,potato,has different colors,2
+697,tuba,is played by a musician,1
+698,stool_(furniture),has a cushion,2
+699,cobra,is lethal,1
+700,brick,made of stone,1
+701,cardboard,is used to make shelters,2
+702,shrimp,has eyes,1
+703,airbag,has a steering wheel,3
+704,kettle,used for boiling water,1
+705,menu,made of paper,1
+706,wand,has powers,1
+707,tugboat,has a motor,1
+708,lemon,has a rind,1
+709,owl,is nocturnal,1
+710,banner,is red,2
+711,tangerine,grows on trees,1
+712,hoe,is used to cultivate ground,1
+713,parakeet,has feathers,1
+714,jug,has no lid,1
+715,blackberry,has a leaf,1
+716,apple,has skin,1
+717,platypus,is a carnivore,1
+718,grapefruit,is a fruit,1
+719,sword,is dangerous,1
+720,ring,is a symbol of love,1
+721,cushion,is used to sleep,1
+722,sim_card,has a name,3
+723,cello,is mournful,2
+724,trousers,is smart,2
+725,bag,different colours,1
+726,doily,has lace on it,1
+727,skunk,lives on farms,3
+728,daffodil,does reproduce,1
+729,rattle,has a bell,2
+730,rhino,is a mammal,1
+731,amplifier,has an input and output jack,1
+732,canoe,has a bottom,2
+733,go-kart,has a seat for one person,1
+734,dresser,is traditional,1
+735,lobster,a crustacean,1
+736,eyepiece,is used to read,1
+737,celery,is stringy,1
+738,sea_urchin,has a hard shell,3
+739,dryer,has a top,2
+740,ham,is used in cooking,1
+741,tuba,has different sizes,2
+742,heart,has muscles,1
+743,piano,is played with the hands,1
+744,piano,is played at home,2
+745,seaweed,is an animal,3
+746,card,has a border,2
+747,sock,is plain,2
+748,meat_grinder,is used to cook meat,1
+749,spam,comes from pigs,1
+750,doorknob,made of brass,2
+751,torso,has a back,2
+752,folder,has a tab,2
+753,falcon,an animal,1
+754,alligator,has glaring eyes,1
+755,valium,is a pill,1
+756,menu,used for ordering food,1
+757,spinach,a vegetable,1
+758,worm,is an insect,1
+759,heron,is an animal,1
+760,duck,does float,1
+761,limousine,is big,1
+762,windsock,is a tube,2
+763,pizza,has vegetables,1
+764,brownie,has a crispy top,1
+765,hip,is where the thigh and trunk meet,1
+766,suit,is worn at funerals,1
+767,iron,has a cord to plug in,1
+768,ball,is used to play games,1
+769,gorilla,does swing,1
+770,nectarine,has skin,1
+771,snail,is used to eat vegetables,3
+772,nut,has a shell,1
+773,veil,made of lace,2
+774,grinder,is used for meat,1
+775,broccoli,is found in supermarkets,1
+776,penguin,lives in cold climates,1
+777,raccoon,is a scavenger,1
+778,banjo,is round,1
+779,ostrich,has a beak,1
+780,dress,has a skirt,1
+781,rain_gauge,is used to measure water,1
+782,rope,used for climbing,1
+783,cheese,is blue,2
+784,rolling_pin,has a round shape,1
+785,van,has 4 wheels,1
+786,bear,has fur,1
+787,cork,is wood,1
+788,gourd,has a skin,1
+789,mouse1,does squeak,1
+790,meerkat,has hair,1
+791,biscuit,is small,1
+792,lifesaver,is used to boat,2
+793,gumball,has different colors,1
+794,puppy,is domestic,1
+795,celery,is a leafy green,3
+796,oak,is strong,1
+797,bike,eg - ten speed,1
+798,shell3,is used to make instruments,2
+799,headdress,has decorations,1
+800,dishwasher,does save effort,1
+801,flagpole,is used to show respect,2
+802,platypus,is found near water,1
+803,tugboat,has a captain,1
+804,squirt_gun,is found in supermarkets,1
+805,trousers,is comfortable,1
+806,crown,has jewels,1
+807,brownie,is a cake,2
+808,rocking_chair,is used in the garden,2
+809,buckle,has a prong,1
+810,curtain,covers windows,1
+811,potato,made of carbohydrate,1
+812,guitar,is played by adults,2
+813,lion,lives in zoos,2
+814,jam,is strawberry,2
+815,rice,has a hull,2
+816,watermelon,is a fruit,1
+817,robe,has a hood,1
+818,jacket,is used for protection,2
+819,pistol,is dangerous,1
+820,rattle,is a percussion instrument,1
+821,nail_polish,is made of liquid,2
+822,eggshell,has a small hole,3
+823,cap_(bottle),made of plastic,1
+824,orchid,does photosynthesise,1
+825,chipmunk,has a large head,1
+826,guinea_pig,is warm,2
+827,eel,lives in water,1
+828,wagon,has a covering,2
+829,whip,is used on horses,1
+830,mixer,is used to cook,1
+831,hose,is used for cleaning,1
+832,flamingo,has thin legs,1
+833,copier,is used to send faxes,1
+834,pistachio,is eaten as a dessert,1
+835,starling,flies,1
+836,bank,has windows,2
+837,lid,is the top of a container,1
+838,cabbage,is grown in gardens,1
+839,flashlight,has different colors,2
+840,dolphin,has fins,1
+841,thimble,is small,1
+842,lumber,is a building material,1
+843,onion,has rings,2
+844,fern,grows in forests,1
+845,scoreboard,has different colors,2
+846,sailboat,is red,2
+847,saddle,has a back,2
+848,hot_chocolate,is a sweet drink,1
+849,lizard,has sharp teeth,3
+850,hole,is made of mud,3
+851,pillow,is used to sit on,2
+852,vent,is used to prevent heat build - up,1
+853,trumpet,is played by blowing,1
+854,wren,is found in gardens,1
+855,stair,has a railing,1
+856,rose,is used for tea,2
+857,bagel,is made of wheat,1
+858,cauliflower,is eaten in winter,2
+859,beaver,does eat,1
+860,cage,is used to keep things in,1
+861,crowbar,is used to break things open,1
+862,van,has wheels,1
+863,napkin,is soft,1
+864,pier,used for boats,1
+865,ravioli,is cooked in boiling water,1
+866,cork,is used to seal things,1
+867,puffin,is a wild animal,1
+868,coffee_filter,is used to strain liquids,1
+869,quesadilla,is served with salsa and guacamole,1
+870,pie,has a top,1
+871,roadsweeper,has four wheels,1
+872,willow,does need water,1
+873,corkscrew,used for opening wine bottles,1
+874,dessert,is a sweet treat,1
+875,sunflower,is annual,1
+876,pogo_stick,is long,1
+877,chair,has armrests,1
+878,test_tube,is used to store chemicals,1
+879,sandpaper,is used to write,3
+880,sword,is sharp,1
+881,spout,pours water,1
+882,pineapple,has a ring,2
+883,rocket,made by N.A.S.A.,1
+884,oyster,does filter feed,1
+885,cantaloupe,tastes good,1
+886,porcupine,lives in forests,1
+887,panther,likes to eat meat,1
+888,oriole,has feathers,1
+889,cello,is played with a bow,1
+890,parsley,is found in gardens,1
+891,boat,made of wood,1
+892,sandwich,has pastrami,1
+893,bean,is soft,1
+894,owl,has a beak,1
+895,jacket,made of fabric,1
+896,tuxedo,is worn at the opera,1
+897,camisole,made of cotton,1
+898,rifle,is used to kill people,1
+899,coat,is worn to cover body,2
+900,nectarine,tastes sweet,1
+901,brussel_sprouts,is tasty,1
+902,doorstop,is used to prevent doors from slamming,2
+903,helmet,is used for sports,1
+904,camisole,worn on torso,2
+905,typewriter,has keys,1
+906,mast,is a long piece of wood,1
+907,camel,has a long tongue,2
+908,chair,is found in homes,1
+909,hummingbird,has beak,1
+910,stove1,is rectangular,1
+911,mink_(coat),worn by rich people,1
+912,worm,is white,3
+913,pistol,used for wounding,1
+914,cloak,is used to protect the body,2
+915,racehorse,comes in first place,1
+916,ravioli,is delicious,1
+917,typewriter,has a paper holder,1
+918,unicycle,has spokes,1
+919,harp,is large,1
+920,muffin,has chocolate chips,1
+921,kingfisher,made of bones,1
+922,telescope,has a mount,1
+923,wall,found in rooms,1
+924,cash_register,has a screen,3
+925,ostrich,is big,1
+926,cedar,has needles,1
+927,surfboard,is found in the water,1
+928,lantern,is made of wood,3
+929,reel,is used to videoe,1
+930,bolo_tie,is a tie,1
+931,chickadee,has feet,1
+932,fireplace,has wood,1
+933,pepper1,is used in cooking,1
+934,speaker,is made of wood,2
+935,bonnet,has a motor,2
+936,blowfish,has a beak,3
+937,grain,is used to bake bread,1
+938,basement,found below ground,1
+939,bra,is comfortable,2
+940,streetlight,has an inside,3
+941,airbag,is used to save lives,1
+942,bulletin_board,is used to post,2
+943,wheelbarrow,is used to move heavy things,1
+944,bug,is brown,2
+945,dragonfly,is edible,2
+946,crayon,has a tip,1
+947,taxi,has different colors,2
+948,cat,has eyes,1
+949,screwdriver,is any size,1
+950,inkwell,has a plug,3
+951,beaker,is used by chemists,1
+952,pine,is prickly,1
+953,kite,is found at the beach,1
+954,binder,is used to keep papers in order,1
+955,pliers,is used by plumbers,1
+956,throne,has arms,1
+957,bumper,is used for protection,1
+958,scarf,is made of wool,1
+959,scooter,has an engine,1
+960,pliers,is made of steel,1
+961,lamb,has a coat,2
+962,onions,causes bad breath,1
+963,cigarette,has tobacco,1
+964,herring,has eyes,1
+965,pigeon,does bob its head,1
+966,helicopter,has four wheels,3
+967,lettuce,has flowers,2
+968,building,used for residences,1
+969,cheese,smells distinct,1
+970,chest2,has a door,2
+971,snail,is a pest,1
+972,washcloth,is made of different materials,1
+973,whale,is found in the sea,1
+974,bowl,has depth,2
+975,banner,is attached to poles,1
+976,wheelchair,is folded up,1
+977,arm,is part of the human body,1
+978,bat1,is an animal,1
+979,bat1,is used to hunt,3
+980,goldfish,is red,3
+981,bed,has a blanket,1
+982,apple,is eaten by cooking,3
+983,sofa,used for watching television,1
+984,pipe1,made of bone,2
+985,jug,has a mouth,1
+986,seahorse,is a fish,1
+987,visor,is used by soldiers,2
+988,grasshopper,lives in gardens,1
+989,raincoat,is used for water,1
+990,clay,contains minerals,1
+991,memory_stick,has different sizes,1
+992,harp,made of wood,1
+993,swing_set,is dangerous,2
+994,propeller,is used for transportation,1
+995,sim_card,is used with a cell phone,1
+996,trident,is a spear,1
+997,cart,has a seat belt,3
+998,broccoli,is nutritious,1
+999,broom,is associated with witches,1
+1000,biscuit,has butter,2
+1001,sweet_potato,has a skin,1
+1002,cantaloupe,a melon,1
+1003,combination_lock,is made of plastic,2
+1004,paper_bag,is used to carry food,1
+1005,jar,has a label,1
+1006,sticker,has a taste,3
+1007,yak,has long eyelashes,2
+1008,cot,is used for children,2
+1009,measuring_cup,is used to measure water,1
+1010,horse,does walk,1
+1011,highlighter,has a tip,1
+1012,sardine,is eaten for lunch,2
+1013,rose,is prickly,1
+1014,parking_meter,has a ticket dispenser,1
+1015,warthog,has an elongated snout,1
+1016,hippo,does eat,1
+1017,kneepad,is used by wrestlers,1
+1018,bridge,does cross a road,2
+1019,hawk,is strong,1
+1020,stingray,swims in the water,1
+1021,raisin,is eaten with coffee,2
+1022,potato,is eaten in pies,1
+1023,juice,is cold,1
+1024,motorcycle,is ridden on the road,1
+1025,envelope,is used to send,1
+1026,bow2,is red,2
+1027,vulture,is ugly,1
+1028,shoes,made of material,1
+1029,revolver,is used by the military,2
+1030,clamp,made of metal,1
+1031,avocado,tastes sweet,3
+1032,handle,has screws,2
+1033,ostrich,lives on farms,1
+1034,flip_flop,is worn by children,2
+1035,chimp,climbs,1
+1036,buggy,has 4 wheels,1
+1037,jumpsuit,is worn by motorcyclists,2
+1038,wasp,found in summer,1
+1039,apron,is used to carry stuff,3
+1040,comb,is used to make hair look neat,1
+1041,sellotape,does lose sticking ability,2
+1042,buggy,used by pushing,1
+1043,mirror,different sizes,1
+1044,turtle,an amphibian,1
+1045,newspaper,has features,2
+1046,lamb,is an animal,1
+1047,peach,is used for juice,2
+1048,trolley,used on tracks,1
+1049,drum,has a skin,2
+1050,life_jacket,is worn over clothes,1
+1051,mayonnaise,is used to flavour food,3
+1052,radish,has a thick skin,2
+1053,pug,has a curly tail,1
+1054,spear,is thrust,1
+1055,woman,has a face,1
+1056,lasagna,is eaten as food,1
+1057,raccoon,is black,3
+1058,chain,is used for dog leads,2
+1059,camel,is like a cow,3
+1060,bed,used for sleeping,1
+1061,flea,is annoying,1
+1062,pear,comes in bunches,3
+1063,bolt,is a hardware item,1
+1064,seagull,is white,1
+1065,saddle,used on horses,1
+1066,barrel,is made of wood,1
+1067,card_(greeting),made of paper,1
+1068,lamb,is an animal,1
+1069,beetle,flies backwards,2
+1070,pistol,has a barrel,2
+1071,lamb,is a pet,2
+1072,carnation,is popular,1
+1073,coin,made of silver,2
+1074,spinach,has flowers,2
+1075,gun,used for crimes,1
+1076,centipede,is green,1
+1077,avocado,is eaten,1
+1078,chute,is fun,1
+1079,pita,has a filling of cheese,1
+1080,gown,is fancy,1
+1081,thimble,is a sewing tool,1
+1082,perch,a fish,1
+1083,teddy_bear,has a smile,1
+1084,eggshell,is recycled,2
+1085,fishing_pole,is used in the sea,1
+1086,saucer,is round,1
+1087,prune,has a pit,1
+1088,speedboat,has a windscreen,2
+1089,hash,has oil,2
+1090,carpet,found on floors,1
+1091,engine,has propellers,2
+1092,spider,is black,2
+1093,pig,has a tail,1
+1094,harmonica,is used in jazz music,1
+1095,microphone,is sound,2
+1096,hawk,eats rodents,1
+1097,raspberry,is small,1
+1098,onion,has a strong flavour,1
+1099,elbow,moves the arm,2
+1100,weather_vane,is used to show wind direction,1
+1101,barn,is red,1
+1102,lantern,does come from China,2
+1103,encyclopaedia,is heavy,1
+1104,taxi,has passengers,1
+1105,sparrow,an animal,1
+1106,pepper_mill,has a long handle,1
+1107,lasagna,is a food,1
+1108,pearl,is used for jewelry,1
+1109,microscope,is used to study small things,1
+1110,cream_cheese,is white in color,1
+1111,cheetah,has black spots,1
+1112,limousine,is a car,1
+1113,cap,is made of plastic,1
+1114,clarinet,a musical instrument,1
+1115,cart,has a flat bed,1
+1116,hammock,has a net,2
+1117,tank1,has treads,1
+1118,grater,is used for cheese,1
+1119,projector,is rectangular,1
+1120,snowplow,is found on trucks,2
+1121,sorbet,is a smoothie,3
+1122,boa,is a carnivore,1
+1123,land_rover,is off road,1
+1124,tripod,is used to take photos,1
+1125,hood,is made out of cloth,2
+1126,carpet,is soft,1
+1127,credit_card,is a form of money,1
+1128,armchair,is for one person,1
+1129,ear,has flesh,1
+1130,turkey,lives on farms,2
+1131,calf1,is young,1
+1132,hot-air_balloon,is used in the sky,1
+1133,necklace,is worn by girls,1
+1134,nose,has a beak,3
+1135,brush,is made of plastic,1
+1136,bouquet,is a bunch,1
+1137,sink,made of metal,3
+1138,rock,is black,2
+1139,tank,does roll,1
+1140,drill,is electrical,1
+1141,tiger,is a big cat,1
+1142,envelope,different colours,1
+1143,yolk,has a hard shell,3
+1144,blueberry,grows in bushes,1
+1145,helmet,worn on motorcycles,1
+1146,raspberry,is eaten raw,1
+1147,worm,is slimy,1
+1148,dish,is used to store food,1
+1149,raft,is used for transport,1
+1150,bell_pepper,has a flavor,1
+1151,brush,is used on animals,1
+1152,toolbox,is portable,1
+1153,trumpet,has a mouth-piece,1
+1154,cigarette,produces smoke,1
+1155,mixer,used for making cakes,1
+1156,trunk,is used to keep things in,1
+1157,fan,is yellow,3
+1158,rhubarb,has green leaves,1
+1159,dove,is pretty,1
+1160,straw1,is fed to animals,1
+1161,walnut,is brown,1
+1162,milkshake,has chocolate,2
+1163,telephone,has a dial,1
+1164,triangle,is black,2
+1165,straightjacket,is used for discipline,2
+1166,pole,is used to climb poles,3
+1167,container,is made of glass,2
+1168,bomb,has different sizes,2
+1169,grater,has holes,1
+1170,jelly,is red,2
+1171,nutcracker,has a wooden handle,2
+1172,hash,is illegal in some countries,1
+1173,ginger,has a strong taste,1
+1174,crab,has six legs,1
+1175,pelican,has a beak,1
+1176,cougar,has a long tail,1
+1177,computer,is used to write letters,2
+1178,certificate,is a document,1
+1179,balloon,is round,1
+1180,toilet,is found in bathrooms,1
+1181,tape_(scotch),is sticky,1
+1182,flute,is musical,1
+1183,apron,is used by cooks,1
+1184,cockroach,lives in the ground,2
+1185,chandelier,is used in bedrooms,2
+1186,rocket,is heavy,1
+1187,cedar,grows in forests,1
+1188,crayon,has a color,1
+1189,filing_cabinet,has a label,2
+1190,crane,is used to build buildings,1
+1191,saw,has a metal blade,1
+1192,bus,holds many people,1
+1193,coffeemaker,is an appliance,1
+1194,pipe2,is used for air,2
+1195,shopping_basket,is rectangular,1
+1196,raincoat,is used in rainy weather,1
+1197,axe,has a sharp blade,1
+1198,necklace,is used to decorate the neck,1
+1199,shortbread,has a base,1
+1200,tree_trunk,is white,3
+1201,parakeet,has a beak,1
+1202,napkin,used for cleaning,2
+1203,shoe_polish,is used with shoe polish sticks,2
+1204,drill,has a drill bit,1
+1205,pitchfork,has a stick,1
+1206,frisbee,is white,2
+1207,ostrich,lays eggs,1
+1208,ice-cream_cone,has a soft texture,3
+1209,hawk,has legs,1
+1210,eraser,is shaped like a cylinder,2
+1211,drum,has a hole,2
+1212,hole,has a shape of an oval,2
+1213,missile,requires fuel,2
+1214,bean,has a shell,2
+1215,tray,is used to serve drinks,1
+1216,turtle,lives in the sea,1
+1217,tricycle,is used to transport goods,2
+1218,menu,has ink,2
+1219,skirt,is worn for formal occasions,1
+1220,string_cheese,is found in a box,1
+1221,banjo,is used in country music,1
+1222,otter,has legs,1
+1223,coconut,has an eye,2
+1224,camcorder,is used to make movies,1
+1225,doorknob,is a household item,2
+1226,catapult,a weapon,1
+1227,palm_tree,is found near the sea,1
+1228,leotards,is colourful,2
+1229,bomb,has a fuse,1
+1230,prawn,is fished,1
+1231,raspberry,is sweet,1
+1232,tarantula,is an invertebrate,1
+1233,hoe,is used to make holes in the ground,1
+1234,train,travels on tracks,1
+1235,tray,has different shapes and sizes,1
+1236,rocking_chair,has four legs,2
+1237,trombone,is in an orchestra,1
+1238,textbook,has questions,1
+1239,honeycomb,is comb - shaped,3
+1240,goose,has feathers,1
+1241,grapefruit,is round,1
+1242,mail,is a piece of paper,2
+1243,rattle,is used for entertainment,1
+1244,rocking_horse,is used to pretend,2
+1245,houseboat,is small,2
+1246,magpie,does make sound,1
+1247,truck,has a driver 's seat,1
+1248,saxophone,is played with your mouth,2
+1249,camisole,worn under shirts,1
+1250,tomato,is grown in gardens,1
+1251,spinach,has a stem,2
+1252,tea,has sugar,2
+1253,quiche,is made with flour,1
+1254,chain,is used for discipline,2
+1255,kettle,is a metal object,2
+1256,rat,is a pet,2
+1257,oak,is brown,1
+1258,trumpet,does make music,1
+1259,chip,has a logo on it,2
+1260,tent,is made of material,1
+1261,rope,has different lengths,1
+1262,thermometer,is a medical instrument,1
+1263,ruler,has a flat edge,3
+1264,bikini,is made of spandex,1
+1265,bow_(weapon),used for archery,1
+1266,parakeet,has wings,1
+1267,eyepiece,has a size,1
+1268,bow_(weapon),a weapon,1
+1269,crane,is yellow,1
+1270,stick,has bark,1
+1271,cart,used by pushing,1
+1272,foam,is white,1
+1273,biscuit,is edible,1
+1274,grape,used for raisins,2
+1275,penguin,has wings,1
+1276,frog,is eaten,1
+1277,tank1,is used for transportation of soldiers,2
+1278,bowler_hat,is worn on the head,1
+1279,piano,is made of wood,1
+1280,bok_choy,is eaten cooked,1
+1281,fox,is a pet,3
+1282,scoreboard,is a sign,1
+1283,pony,has hair,1
+1284,strainer,is used for pasta,1
+1285,donkey,has long ears,2
+1286,tuxedo,is made of wool,2
+1287,box,is a container,1
+1288,rat,is a pet,2
+1289,rifle,has a safety catch,1
+1290,surfboard,is fast,1
+1291,pulpit,has no organs,2
+1292,prune,tastes sweet,1
+1293,parrot,has colorful feathers,1
+1294,tarantula,has fur,1
+1295,violin,is long,2
+1296,bench,is used to sit on in parks,1
+1297,camel,has long legs,1
+1298,javelin,is used for sport,1
+1299,church,is quiet,1
+1300,faucet,used for regulating,1
+1301,robe,found in bathrooms,1
+1302,grapevine,is found in vineyards,1
+1303,cheese,is soft,1
+1304,cookie_sheet,has a flat bottom,1
+1305,videocassette,is erased,2
+1306,peach,is juicy,1
+1307,bellows,does blow,1
+1308,hammer,is used to drive in nails,1
+1309,bucket,is a container,1
+1310,souffle,is soft,1
+1311,spareribs,has ribs,1
+1312,bullet,has a cartridge,1
+1313,ruler,is used in schools,1
+1314,ant,has 6 legs,1
+1315,key,has a loop,1
+1316,firecracker,has a trigger,1
+1317,mango,is yellowish green,1
+1318,cigar,is used to smoke tobacco,1
+1319,nose,does breathe,1
+1320,pistol,is heavy,1
+1321,turkey,is domesticated,1
+1322,oatmeal,is cooked on the stove,1
+1323,carrot,is long,1
+1324,manhole,is used to cover manholes in the street,3
+1325,pepper2,has a hole,3
+1326,branch,is flexible,2
+1327,kettle,is black,2
+1328,tugboat,made of plastic,3
+1329,bullet,is small,1
+1330,stick,is a vegetable,3
+1331,basement,used for storage,1
+1332,earring,is used by women,1
+1333,goalpost,has two uprights,2
+1334,metronome,is made of plastic,2
+1335,crane,has wheels,3
+1336,racehorse,runs fast,1
+1337,dog,eats,1
+1338,speedboat,is light,1
+1339,drill,is useful,1
+1340,hearse,is used for the dead,1
+1341,chandelier,is ornate,1
+1342,blinder,is found on the head,2
+1343,badge,has a shiny surface,1
+1344,javelin,has a sharp point,1
+1345,sunflower,has a centre,1
+1346,nose,does breathe,1
+1347,melon,is eaten in salads,1
+1348,tackle,is used for bait,1
+1349,harp,is used for classical music,1
+1350,revolving_door,has a frame,2
+1351,piecrust,has a filling,2
+1352,turntable,is used in homes,1
+1353,house,has doors,1
+1354,hyena,has a tail,1
+1355,exhaust_pipe,is used for the exhaust system,1
+1356,trolley,is used to move goods,1
+1357,biscuit,has eggs,1
+1358,spear,is dangerous,1
+1359,housefly,is black,1
+1360,clamp,used for surgery,1
+1361,umbrella,has ribs,2
+1362,hammer,is used to make furniture,1
+1363,cape,is red,2
+1364,fork,has a point,2
+1365,rock,has a smooth surface,3
+1366,strainer,is like a sieve,1
+1367,seal,is a sea animal,1
+1368,potato,has different sizes,1
+1369,sauce,has a yellow color,2
+1370,speaker,is portable,1
+1371,tuna,is fast,2
+1372,sardine,is eaten by humans,1
+1373,crystal_ball,is used by holding and looking into to tell the future,1
+1374,apple,grows in the summer,1
+1375,monkey,is brown,1
+1376,jeep,has a windshield,1
+1377,horn,makes noise,1
+1378,parka,a jacket,1
+1379,plunger,is made of hard plastic,1
+1380,seagull,has eyes,1
+1381,cup,is filled with liquid,1
+1382,staple,has a pointy end,1
+1383,urn,made of metal,2
+1384,pocketknife,is used for wood,2
+1385,copier,makes copies,1
+1386,crayfish,has eyes,1
+1387,coconut,has a stalk,2
+1388,crowbar,is a weapon,1
+1389,mailbox,is a container,2
+1390,turtle,is an animal,1
+1391,truck,is green,2
+1392,nut,is found in the ground,2
+1393,apple,tastes good,1
+1394,faucet,is used to clean dishes,1
+1395,clam,is found in sand,1
+1396,hedgehog,is found in forests,1
+1397,bed,has a frame,1
+1398,mug,is used to drink tea,1
+1399,inhaler,is used to inhale medication,1
+1400,dolphin,lives in the ocean,1
+1401,shark,has a long nose,3
+1402,chair,used by sitting on,1
+1403,souffle,is made from eggs,1
+1404,chisel,has a flat blade,1
+1405,magpie,does squeak,1
+1406,walker1,is used by people,1
+1407,clam,is an animal,1
+1408,shovel,is used for planting trees,1
+1409,dollhouse,has furniture,1
+1410,sandal,is made in china,2
+1411,cup,made of china,1
+1412,pillow,has filling,1
+1413,ant,lives in ground,1
+1414,rifle,used for killing,1
+1415,wheelchair,is used by old people,1
+1416,trousers,has 2 legs,1
+1417,trident,is used to stab,1
+1418,tattoo,is used by soldiers,2
+1419,carrot,is round,2
+1420,hummingbird,has a short lifespan,1
+1421,pipe1,is associated with gangsters,1
+1422,motorcycle,has a frame,1
+1423,emerald,a birth stone,2
+1424,granite,comes from mines,1
+1425,chimp,walks,1
+1426,missile,is launched,1
+1427,tripod,is used to take pictures and videos in the dark,2
+1428,squid,is a carnivore,1
+1429,taxi,is used to carry passengers,1
+1430,rhubarb,is eaten as dessert,1
+1431,cigar,is thin,1
+1432,calf1,is found on farms,1
+1433,tortoise,does crawl,1
+1434,lamb,has curly hair,1
+1435,grapefruit,is bitter,1
+1436,combination_lock,is used to open doors,3
+1437,cage,is made of metal,1
+1438,cardinal,is found in africa,1
+1439,seahorse,does swim upright,1
+1440,margarita,contains alcohol,1
+1441,fridge,is cool,1
+1442,petal,has a top,1
+1443,cilantro,is used by chefs,1
+1444,tights,does come in colours,1
+1445,pigeon,is eaten,2
+1446,ironing_board,is used by women,2
+1447,grenade,is used for fighting,1
+1448,trousers,does cover legs,1
+1449,parsley,does flavour,1
+1450,blouse,a shirt,1
+1451,peas,is a seed,1
+1452,key,is gold,2
+1453,mouse1,likes cheese,1
+1454,beehive,found in trees,1
+1455,sugar,is white,1
+1456,brush,is used to make hair look good,1
+1457,coleslaw,is a vegetable,2
+1458,camel,a mammal,1
+1459,shovel,has an end,1
+1460,potpie,has a flaky crust,1
+1461,taco,has a spicy filling,1
+1462,lip_balm,is used in cold weather,1
+1463,curb,is found in towns,1
+1464,tortilla,is used for mexican food,1
+1465,slide,is found on playgrounds,1
+1466,shrimp,is pink,1
+1467,bucket,is made of different materials,1
+1468,nectarine,is red,2
+1469,ambulance,does go on roads,1
+1470,shawl,does wrap around,1
+1471,marmalade,is made from raspberries,3
+1472,veil,is used for prayer,1
+1473,peach,tastes sweet,1
+1474,nacho,is triangular,1
+1475,duck,migrates,1
+1476,jacket,is worn by people,1
+1477,tongs,is not expensive,1
+1478,mongoose,is found in africa,1
+1479,gorilla,is largest,1
+1480,camel,does carry,1
+1481,cigarette_butt,has a value,2
+1482,thimble,is worn on the finger,1
+1483,flute,is thin,1
+1484,wrench,used for loosening bolts,1
+1485,thermometer,has a case,1
+1486,lamb,is a farm animal,1
+1487,chandelier,is hung from the ceiling,1
+1488,freezer,has ice inside,1
+1489,oak,is slow-growing,1
+1490,shotgun,is a gun,1
+1491,shed,found outdoors,1
+1492,caterpillar,has a hard shell,3
+1493,sultana,is food,1
+1494,screwdriver,is useful,1
+1495,eagle,is used to fly,1
+1496,chair,has four legs,1
+1497,raspberry,is soft,1
+1498,caramel,has cream,3
+1499,cake,is eaten at celebrations,1
