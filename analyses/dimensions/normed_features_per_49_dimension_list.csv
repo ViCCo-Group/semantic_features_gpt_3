@@ -1,0 +1,981 @@
+feature,weight,dimension
+has a handle,3.424325681761534,made of metal / artificial / hard
+is made of metal,2.818780396174552,made of metal / artificial / hard
+is made of wood,0.7617188485104056,made of metal / artificial / hard
+has a blade,0.6921740639972475,made of metal / artificial / hard
+has a lid,0.5452722517043267,made of metal / artificial / hard
+is a tool,0.4578417409803909,made of metal / artificial / hard
+is metal,0.4376641666086362,made of metal / artificial / hard
+is made of plastic,0.4278776881332722,made of metal / artificial / hard
+has a hole,0.3901195394260948,made of metal / artificial / hard
+is sharp,0.3803920582975314,made of metal / artificial / hard
+has wheels,0.3295249215678929,made of metal / artificial / hard
+is used to cut,0.31271161615808185,made of metal / artificial / hard
+is a machine,0.3055095943110573,made of metal / artificial / hard
+is used to cook,0.2772684904784599,made of metal / artificial / hard
+is heavy,0.25365106743445875,made of metal / artificial / hard
+has a point,0.24909578950442918,made of metal / artificial / hard
+has buttons,0.2473678918442761,made of metal / artificial / hard
+has a door,0.24534415212938454,made of metal / artificial / hard
+is used in the kitchen,0.24511973580607743,made of metal / artificial / hard
+is used for construction,0.24326835692635673,made of metal / artificial / hard
+is sweet,3.8374158953692925,food-related / eating-related / kitchen-related
+is a food,2.7262610971243584,food-related / eating-related / kitchen-related
+is edible,2.5266228969181963,food-related / eating-related / kitchen-related
+is round,1.9678559428619575,food-related / eating-related / kitchen-related
+has seeds,1.9019932220919027,food-related / eating-related / kitchen-related
+is a fruit,1.7337720629334537,food-related / eating-related / kitchen-related
+is made of flour,1.658426151542964,food-related / eating-related / kitchen-related
+is a vegetable,1.6104325954381777,food-related / eating-related / kitchen-related
+tastes good,1.6028212746385775,food-related / eating-related / kitchen-related
+is used to cook,1.511726131407038,food-related / eating-related / kitchen-related
+is green,1.464203221944222,food-related / eating-related / kitchen-related
+is cooked,1.1753130649015506,food-related / eating-related / kitchen-related
+has leaves,1.1654204507715447,food-related / eating-related / kitchen-related
+is made of sugar,1.0231483306421516,food-related / eating-related / kitchen-related
+is yellow,1.010255680238263,food-related / eating-related / kitchen-related
+grows on trees,1.002205535066834,food-related / eating-related / kitchen-related
+is made of meat,0.9119992764530682,food-related / eating-related / kitchen-related
+is brown,0.8967681803384431,food-related / eating-related / kitchen-related
+has a shell,0.859263211807074,food-related / eating-related / kitchen-related
+is baked,0.8302375363687786,food-related / eating-related / kitchen-related
+is an animal,6.018144603810285,animal-related / organic
+is a mammal,5.19838995022014,animal-related / organic
+has a tail,4.250488625402523,animal-related / organic
+has fur,3.0881605071100724,animal-related / organic
+has a long tail,2.8088517133865696,animal-related / organic
+is brown,2.610022687213174,animal-related / organic
+is small,2.400783297846155,animal-related / organic
+has wings,2.3892409900003666,animal-related / organic
+has four legs,2.2669627599076447,animal-related / organic
+is a bird,1.9537151042963805,animal-related / organic
+is large,1.9204295728740346,animal-related / organic
+has a beak,1.7282963328101015,animal-related / organic
+has claws,1.593152883412073,animal-related / organic
+has feathers,1.500788928841604,animal-related / organic
+is furry,1.275801803200192,animal-related / organic
+lives in water,1.2738991938290996,animal-related / organic
+has a long neck,1.250769018762242,animal-related / organic
+is black,1.15072696359631,animal-related / organic
+lives in africa,1.1463287792287884,animal-related / organic
+has horns,1.093241042559965,animal-related / organic
+is worn by women,2.124697310455174,clothing-related / fabric / covering
+is made of cotton,2.0697516010476775,clothing-related / fabric / covering
+is worn by men,1.9467567864412598,clothing-related / fabric / covering
+has a collar,1.6233346159925888,clothing-related / fabric / covering
+is made of wool,1.4372695841844563,clothing-related / fabric / covering
+has buttons,1.4334119161376686,clothing-related / fabric / covering
+is made of leather,1.3396756428426038,clothing-related / fabric / covering
+has a zipper,1.3226663857449374,clothing-related / fabric / covering
+is white,1.1842919210335334,clothing-related / fabric / covering
+has sleeves,1.0788102507704784,clothing-related / fabric / covering
+has pockets,0.9621491135399406,clothing-related / fabric / covering
+has different colors,0.8556284431077191,clothing-related / fabric / covering
+is made of cloth,0.8387961079851374,clothing-related / fabric / covering
+has a hood,0.8035804221857601,clothing-related / fabric / covering
+is a piece of clothing,0.7585144959856374,clothing-related / fabric / covering
+is worn on the head,0.7381469422342,clothing-related / fabric / covering
+is soft,0.7255894257643373,clothing-related / fabric / covering
+has a strap,0.6009563426397386,clothing-related / fabric / covering
+is worn for warmth,0.5959325904349798,clothing-related / fabric / covering
+is made of fabric,0.5797262104282103,clothing-related / fabric / covering
+is made of wood,2.226832662302829,furniture-related / household-related / artifact
+has a door,1.219200357670501,furniture-related / household-related / artifact
+has a handle,1.1547038698887233,furniture-related / household-related / artifact
+has a lid,1.0112572903276547,furniture-related / household-related / artifact
+is used to sleep,0.9389262373891936,furniture-related / household-related / artifact
+is rectangular,0.8172150288958867,furniture-related / household-related / artifact
+has a frame,0.7096449664475393,furniture-related / household-related / artifact
+is white,0.6983912795104641,furniture-related / household-related / artifact
+is soft,0.6638362091582829,furniture-related / household-related / artifact
+is used for storage,0.5806799151944906,furniture-related / household-related / artifact
+has drawers,0.5730830909761812,furniture-related / household-related / artifact
+is used to sit,0.5068559687560442,furniture-related / household-related / artifact
+has buttons,0.5055628378532716,furniture-related / household-related / artifact
+is used to clean,0.4822056708573055,furniture-related / household-related / artifact
+is a piece of furniture,0.4784121145632448,furniture-related / household-related / artifact
+has a mattress,0.45759441724818867,furniture-related / household-related / artifact
+is used in the kitchen,0.44407339599111806,furniture-related / household-related / artifact
+is used to rest,0.43116132317415934,furniture-related / household-related / artifact
+has a lock,0.43083223037072094,furniture-related / household-related / artifact
+is made of cotton,0.43049339576605283,furniture-related / household-related / artifact
+is green,5.474427619659636,plant-related / green
+has leaves,5.120271075615061,plant-related / green
+has seeds,3.2141541555800894,plant-related / green
+is a vegetable,2.8279053221186037,plant-related / green
+is a plant,2.474631660782106,plant-related / green
+has a stem,2.21957788614507,plant-related / green
+is a fruit,2.1903180434726934,plant-related / green
+is edible,2.1330416056799706,plant-related / green
+has flowers,2.0401214657639164,plant-related / green
+grows on trees,1.629427214652138,plant-related / green
+grows in gardens,1.570050140140522,plant-related / green
+is red,1.3349295810352173,plant-related / green
+is yellow,1.2111920358980854,plant-related / green
+is small,1.0737648518168985,plant-related / green
+is a herb,1.0653941266673808,plant-related / green
+is eaten raw,1.0231219745927436,plant-related / green
+is used in cooking,1.015898769594837,plant-related / green
+is sweet,0.9974277690225474,plant-related / green
+is a flower,0.9417788618675313,plant-related / green
+has branches,0.8534737367259766,plant-related / green
+is made of wood,1.6676595459047765,outdoors-related
+has leaves,1.0809290618467673,outdoors-related
+is green,0.8504411975512111,outdoors-related
+is made of metal,0.7907367809839525,outdoors-related
+is a plant,0.7299959982845914,outdoors-related
+is tall,0.6858552219574832,outdoors-related
+has branches,0.624007580293513,outdoors-related
+has a handle,0.5620804449184691,outdoors-related
+is long,0.5314228093444768,outdoors-related
+is large,0.5294541613923653,outdoors-related
+has a blade,0.5232748627230425,outdoors-related
+has flowers,0.5036211871655076,outdoors-related
+is heavy,0.4522623969593152,outdoors-related
+is used for construction,0.4443566444887216,outdoors-related
+has a door,0.44400600015254355,outdoors-related
+is made of stone,0.4099306392180976,outdoors-related
+has a roof,0.395159096173624,outdoors-related
+has bark,0.3875290324640916,outdoors-related
+is used to garden,0.3557999133946083,outdoors-related
+is a tree,0.31597427051823535,outdoors-related
+has wheels,3.550372366142953,transportation / motorized / dynamic
+is used for transportation,3.3151413742409153,transportation / motorized / dynamic
+is a vehicle,2.2652832609029794,transportation / motorized / dynamic
+has seats,2.2504777848873703,transportation / motorized / dynamic
+has a motor,2.088008006129513,transportation / motorized / dynamic
+is large,1.9348947632391338,transportation / motorized / dynamic
+has a steering wheel,1.6358570166207407,transportation / motorized / dynamic
+is made of metal,1.39724968824556,transportation / motorized / dynamic
+has a seat,1.3694452165381785,transportation / motorized / dynamic
+has a door,1.2415568934875905,transportation / motorized / dynamic
+has four wheels,1.2378104613576415,transportation / motorized / dynamic
+has an engine,1.2314428209964818,transportation / motorized / dynamic
+is fast,1.1112357504181227,transportation / motorized / dynamic
+has a driver,0.9005042406378032,transportation / motorized / dynamic
+has a roof,0.8077772615757293,transportation / motorized / dynamic
+is used to race,0.7615466342074554,transportation / motorized / dynamic
+is a car,0.7217044891577933,transportation / motorized / dynamic
+has windows,0.7123854851841955,transportation / motorized / dynamic
+is used to transport people,0.7063367645145047,transportation / motorized / dynamic
+has brakes,0.48033825118851003,transportation / motorized / dynamic
+is made of wood,5.058706265020227,wood-related / brownish
+is brown,1.0009430215611719,wood-related / brownish
+has a handle,0.8526406890319391,wood-related / brownish
+is hard,0.5095667139743326,wood-related / brownish
+is used for storage,0.4906351675583001,wood-related / brownish
+is rectangular,0.46209051135011026,wood-related / brownish
+is long,0.45988720500259994,wood-related / brownish
+has a top,0.4121261938122311,wood-related / brownish
+has bark,0.4050349840449109,wood-related / brownish
+has branches,0.3982307124511302,wood-related / brownish
+has drawers,0.3876725141297901,wood-related / brownish
+is wooden,0.36532630236989516,wood-related / brownish
+has a flat surface,0.34811646356266945,wood-related / brownish
+is used for construction,0.347825371250249,wood-related / brownish
+is used to make furniture,0.3393847587907929,wood-related / brownish
+is used to build,0.3327555035098666,wood-related / brownish
+is used for building houses,0.3195845228401378,wood-related / brownish
+has a door,0.27816690276377654,wood-related / brownish
+is heavy,0.27104573207524646,wood-related / brownish
+has legs,0.26692996196388824,wood-related / brownish
+is worn by women,1.905270208629788,body part-related
+is worn by men,1.7084565525330737,body part-related
+has a collar,1.3693839960163956,body part-related
+has buttons,1.2052619874033463,body part-related
+is made of cotton,1.104555327993138,body part-related
+has sleeves,0.9010861137864445,body part-related
+has a zipper,0.835396198887316,body part-related
+has pockets,0.7170623617506037,body part-related
+is used to walk,0.6517032161227234,body part-related
+has hair,0.6217335213685171,body part-related
+has a hood,0.5888618407610628,body part-related
+is made of wool,0.5502377561377751,body part-related
+is a piece of clothing,0.5461135913683144,body part-related
+is a mammal,0.5086518728368881,body part-related
+is a body part,0.49390212730742167,body part-related
+has a joint,0.4814859529960016,body part-related
+is worn for warmth,0.43711394288529665,body part-related
+is long,0.40534797243432164,body part-related
+is part of the body,0.40166336513749706,body part-related
+is worn on the body,0.3995439186328872,body part-related
+is colorful,1.7601754000259366,colorful
+is made of plastic,0.8342722698260534,colorful
+is sweet,0.7764438230048302,colorful
+is round,0.7426586244545219,colorful
+is red,0.5682405873286447,colorful
+has different colors,0.5615245713685565,colorful
+is made of paper,0.538898203385816,colorful
+is a toy,0.5309800572498671,colorful
+is used for decoration,0.4958122152073785,colorful
+is made of sugar,0.4533492981491521,colorful
+is used for fun,0.41997457182738207,colorful
+is used for entertainment,0.3791535050995601,colorful
+is small,0.3731999987213688,colorful
+is used by children,0.36501804406942684,colorful
+is used to paint,0.34467758397914355,colorful
+is used to draw,0.32778465166445114,colorful
+is made of cotton,0.31505195927236274,colorful
+has a string,0.29858813699060954,colorful
+is used to write,0.2908207684136855,colorful
+has a cap,0.2715510994957,colorful
+is made of wood,1.2444619949781823,valuable / special occasion-related
+is used for decoration,0.9902639173820559,valuable / special occasion-related
+is made of metal,0.8804267034255209,valuable / special occasion-related
+is made of glass,0.8045841990594305,valuable / special occasion-related
+is made of gold,0.6680545920347807,valuable / special occasion-related
+is shiny,0.5502059778334268,valuable / special occasion-related
+has a base,0.5172827081464317,valuable / special occasion-related
+is an instrument,0.45185269566985786,valuable / special occasion-related
+is musical,0.40455576675505844,valuable / special occasion-related
+is worn by women,0.38782573791396624,valuable / special occasion-related
+is worn by men,0.38109389856949494,valuable / special occasion-related
+is a musical instrument,0.3770802630626869,valuable / special occasion-related
+is worn on the head,0.37095901089594746,valuable / special occasion-related
+has a chain,0.36699294938796767,valuable / special occasion-related
+has jewels,0.3555565727282137,valuable / special occasion-related
+has a face,0.355248581651766,valuable / special occasion-related
+is made of stone,0.35261136150669997,valuable / special occasion-related
+has numbers,0.33974493585359833,valuable / special occasion-related
+is used to play music,0.28934421788052206,valuable / special occasion-related
+is colorful,0.26670994983036656,valuable / special occasion-related
+has a screen,2.2121091942011555,electronic / technology
+has buttons,2.1476901507292103,electronic / technology
+is a machine,1.2626822403317435,electronic / technology
+is electronic,1.0165053893401221,electronic / technology
+has numbers,0.8645517763671491,electronic / technology
+has a lens,0.8143377494841,electronic / technology
+is used for communication,0.7725622801722817,electronic / technology
+is a device,0.741314603726392,electronic / technology
+is made of plastic,0.7324169174594344,electronic / technology
+has a keyboard,0.7051462652115211,electronic / technology
+is used to play music,0.6368160481583659,electronic / technology
+has speakers,0.6290361962882458,electronic / technology
+is electrical,0.6013135774974593,electronic / technology
+is used to listen to music,0.5859280436727534,electronic / technology
+is used for entertainment,0.5852335253635895,electronic / technology
+is used to take pictures,0.5777000691793459,electronic / technology
+has a battery,0.576463477162606,electronic / technology
+has a motor,0.5750834060246968,electronic / technology
+is black,0.5675370474049479,electronic / technology
+has a wire,0.5518385224994563,electronic / technology
+is made of wood,1.8210294815654149,sport-related / recreational activity-related
+is used for sports,1.060933733583956,sport-related / recreational activity-related
+is used for fun,1.043756532512886,sport-related / recreational activity-related
+is made of leather,1.0433261827180642,sport-related / recreational activity-related
+is made of plastic,0.9084824322317453,sport-related / recreational activity-related
+has a seat,0.8572576981639624,sport-related / recreational activity-related
+is used for exercise,0.8268864573938818,sport-related / recreational activity-related
+is made of rubber,0.7667559020025179,sport-related / recreational activity-related
+is used for transportation,0.7580728911105213,sport-related / recreational activity-related
+has wheels,0.7068739973098839,sport-related / recreational activity-related
+is used by children,0.6885342072777285,sport-related / recreational activity-related
+is long,0.6593257442019145,sport-related / recreational activity-related
+has a strap,0.6185923234752138,sport-related / recreational activity-related
+has a net,0.6065187209713472,sport-related / recreational activity-related
+is used in sports,0.5942272148906856,sport-related / recreational activity-related
+is used to play,0.5489240415457375,sport-related / recreational activity-related
+is round,0.5075404126885865,sport-related / recreational activity-related
+is a toy,0.4696357629868411,sport-related / recreational activity-related
+is used to play games,0.4343601731975135,sport-related / recreational activity-related
+is used to walk,0.41599926667295867,sport-related / recreational activity-related
+is round,3.5793047702204825,disc-shaped / round
+has a hole in the middle,1.0940997961099241,disc-shaped / round
+has a lid,0.9446883766400314,disc-shaped / round
+has a handle,0.7921955286473308,disc-shaped / round
+has a rim,0.5966952986681584,disc-shaped / round
+has numbers,0.5965215498720862,disc-shaped / round
+is made of metal,0.5884173461304987,disc-shaped / round
+has a hole,0.5742802015350079,disc-shaped / round
+is sweet,0.5201695397675117,disc-shaped / round
+has a needle,0.4714577430787483,disc-shaped / round
+is made of flour,0.4406851387524013,disc-shaped / round
+has a dial,0.39059092351217134,disc-shaped / round
+is made of plastic,0.37909087058238944,disc-shaped / round
+is made of glass,0.364917684815514,disc-shaped / round
+is used to cook,0.3457317463778097,disc-shaped / round
+has a crust,0.341242002564597,disc-shaped / round
+is used to play music,0.29025729933361094,disc-shaped / round
+is used to tell time,0.28514719270435873,disc-shaped / round
+is a food,0.27262040030553836,disc-shaped / round
+is shiny,0.27058483904915825,disc-shaped / round
+has a handle,6.6948353102858915,tool-related
+has a blade,2.744103984354279,tool-related
+is made of metal,2.0539535660676593,tool-related
+is sharp,2.0216935577582147,tool-related
+is long,1.6402523080650866,tool-related
+is a tool,1.4602274474822197,tool-related
+is used to cut,1.4586738626320606,tool-related
+has a point,1.12569695955524,tool-related
+has a head,1.0977593077975731,tool-related
+is made of wood,0.9727924108427399,tool-related
+has a long handle,0.9179266516625939,tool-related
+has a sharp edge,0.8388881925580318,tool-related
+has a wooden handle,0.5472402298416086,tool-related
+is used to clean,0.5420491666156761,tool-related
+is used to cut wood,0.509593892673935,tool-related
+is used for construction,0.4930751598189441,tool-related
+is used to dig,0.4839064752254566,tool-related
+has a tip,0.48373733845206246,tool-related
+is used to garden,0.48040103919076454,tool-related
+is a weapon,0.4651182209861513,tool-related
+is small,1.4575630769780363,many small things / course pattern
+is round,1.4242682533303226,many small things / course pattern
+is edible,0.9262668699641844,many small things / course pattern
+is sweet,0.7815369352145827,many small things / course pattern
+has a shell,0.7003033722758576,many small things / course pattern
+is made of metal,0.6861208584349301,many small things / course pattern
+has a hole in the middle,0.6357908842292179,many small things / course pattern
+has a hole,0.6257268005106411,many small things / course pattern
+has seeds,0.6196756700687148,many small things / course pattern
+is a fruit,0.6039815830408375,many small things / course pattern
+is a food,0.4950904151241149,many small things / course pattern
+is a vegetable,0.4832951982926564,many small things / course pattern
+is shiny,0.4760677822300037,many small things / course pattern
+is hard,0.4471428543131867,many small things / course pattern
+grows on trees,0.4318712223620592,many small things / course pattern
+is made of plastic,0.35946434040628805,many small things / course pattern
+tastes good,0.33336614128312547,many small things / course pattern
+has a point,0.3305932283822792,many small things / course pattern
+is brown,0.32874618984456205,many small things / course pattern
+is a nut,0.3269531335530601,many small things / course pattern
+is used to write,1.7590604732889992,paper-related / thin / flat / text-related
+is made of paper,1.7217856713522992,paper-related / thin / flat / text-related
+is rectangular,1.4414986481256973,paper-related / thin / flat / text-related
+has a screen,0.8824959724534263,paper-related / thin / flat / text-related
+has a cover,0.79216030255686,paper-related / thin / flat / text-related
+is flat,0.7210350412103115,paper-related / thin / flat / text-related
+is made of wood,0.7162794062711266,paper-related / thin / flat / text-related
+is made of plastic,0.7060010614248693,paper-related / thin / flat / text-related
+has numbers,0.7039354358807006,paper-related / thin / flat / text-related
+has a picture,0.6478313994224545,paper-related / thin / flat / text-related
+has buttons,0.625555350721685,paper-related / thin / flat / text-related
+has a frame,0.5606086640295589,paper-related / thin / flat / text-related
+has pages,0.5309421382898909,paper-related / thin / flat / text-related
+is black,0.4767596768180198,paper-related / thin / flat / text-related
+has lines,0.46624802542356647,paper-related / thin / flat / text-related
+is used to draw,0.456095336184097,paper-related / thin / flat / text-related
+is used in offices,0.43545198963390946,paper-related / thin / flat / text-related
+has a keyboard,0.4335449453989304,paper-related / thin / flat / text-related
+is thin,0.42545786136407415,paper-related / thin / flat / text-related
+has a lid,0.3759828168299211,paper-related / thin / flat / text-related
+has a lid,3.399733371926727,fluid-related / drink-related
+has a handle,3.3917399802350205,fluid-related / drink-related
+is made of glass,2.163748528660575,fluid-related / drink-related
+has a spout,1.686184504444042,fluid-related / drink-related
+is sweet,1.4467831068291988,fluid-related / drink-related
+is a drink,1.3478814731862225,fluid-related / drink-related
+is made of plastic,1.2903659109101744,fluid-related / drink-related
+is used to cook,0.9722699062906551,fluid-related / drink-related
+is used to drink,0.9463622735702787,fluid-related / drink-related
+is cold,0.9385184938542168,fluid-related / drink-related
+is a container,0.8967735165823414,fluid-related / drink-related
+is clear,0.7882910719000877,fluid-related / drink-related
+is white,0.7461583192790471,fluid-related / drink-related
+is used in the kitchen,0.5500400103447072,fluid-related / drink-related
+is a liquid,0.5022379191285424,fluid-related / drink-related
+is made of fruit,0.493042692020948,fluid-related / drink-related
+is made of milk,0.49232082571410185,fluid-related / drink-related
+is made of water,0.48375221508923383,fluid-related / drink-related
+has a bowl,0.47149631781699747,fluid-related / drink-related
+holds liquid,0.46716742105160863,fluid-related / drink-related
+is made of wood,3.098907794730391,long / thin
+is long,2.7810077859085336,long / thin
+has a handle,2.1397181263589635,long / thin
+is made of metal,1.110793104067247,long / thin
+has a point,0.9763977952747336,long / thin
+is thin,0.6802647463257366,long / thin
+is sharp,0.6326406208602195,long / thin
+has a tip,0.5452974065624455,long / thin
+is a weapon,0.49941517336562224,long / thin
+has a head,0.49603395046182264,long / thin
+has a long handle,0.48692342874735545,long / thin
+is an instrument,0.47090038512834886,long / thin
+is a stick,0.44656258854326875,long / thin
+is tall,0.425743566274898,long / thin
+has a pointy end,0.41353916555167536,long / thin
+has a mouthpiece,0.4043506874275373,long / thin
+is used to write,0.40180691977819166,long / thin
+has leaves,0.38563882211102973,long / thin
+is green,0.36950443946812994,long / thin
+is musical,0.3422064077801197,long / thin
+lives in water,1.8328213437435692,water-related / blue
+is an animal,1.7630982359422793,water-related / blue
+has a tail,1.489413122291614,water-related / blue
+is large,1.4591277795657505,water-related / blue
+has fins,1.100172025931789,water-related / blue
+is a fish,1.0780121665997697,water-related / blue
+is used to swim,1.0453491781398476,water-related / blue
+is used for transportation,0.9764019291008157,water-related / blue
+is used for fishing,0.975781139752422,water-related / blue
+lives in the sea,0.9712027747898782,water-related / blue
+has a motor,0.8811320809716381,water-related / blue
+lives in the ocean,0.8015124056333953,water-related / blue
+is a mammal,0.7910938586280272,water-related / blue
+has a beak,0.7793443019446593,water-related / blue
+has a shell,0.7549143421680822,water-related / blue
+has gills,0.7416504871689492,water-related / blue
+has scales,0.7042424129283973,water-related / blue
+is a boat,0.6919988764008109,water-related / blue
+is used for water,0.6185714664251989,water-related / blue
+is gray,0.5898556747598102,water-related / blue
+is brown,1.6809779678497059,powdery / fine-scale pattern
+is hard,1.2608067014611555,powdery / fine-scale pattern
+is green,1.0149333121348012,powdery / fine-scale pattern
+is small,0.9795995558750623,powdery / fine-scale pattern
+is edible,0.940539513797451,powdery / fine-scale pattern
+has a shell,0.7699720971281658,powdery / fine-scale pattern
+has leaves,0.727395362156222,powdery / fine-scale pattern
+is a plant,0.6518230137884662,powdery / fine-scale pattern
+grows on trees,0.6328273407858924,powdery / fine-scale pattern
+is a vegetable,0.5170283263948433,powdery / fine-scale pattern
+is a food,0.4993381353450258,powdery / fine-scale pattern
+is a rock,0.4928498825041382,powdery / fine-scale pattern
+is used to cook,0.4769586149321625,powdery / fine-scale pattern
+has seeds,0.47666396936711075,powdery / fine-scale pattern
+is used in cooking,0.465707887114213,powdery / fine-scale pattern
+is white,0.43891752855904054,powdery / fine-scale pattern
+is found in the ground,0.42833547579548004,powdery / fine-scale pattern
+is a mineral,0.3812994255585499,powdery / fine-scale pattern
+is shiny,0.3735163268996169,powdery / fine-scale pattern
+is round,0.3430560070189901,powdery / fine-scale pattern
+is red,3.229364515743896,red
+is sweet,1.3680951021272976,red
+has seeds,0.8744785589086915,red
+is a fruit,0.8693873479236838,red
+is juicy,0.49161976862597706,red
+has a stem,0.44638097147402944,red
+is colorful,0.4361717546423022,red
+is made of sugar,0.3876161999070764,red
+is round,0.3610508378292878,red
+has a nozzle,0.35952352890440376,red
+is made of plastic,0.3376832260193301,red
+is a flower,0.3357185434182449,red
+is made of fruit,0.3348110589344414,red
+has wheels,0.32942155223778047,red
+has leaves,0.2931013035942559,red
+is used to put out fires,0.2919792337197363,red
+is edible,0.25369284316689245,red
+has a seat,0.23903775786609943,red
+has a cap,0.2374946980026576,red
+tastes sweet,0.22378593731164034,red
+is used for decoration,1.248002855718609,feminine (stereotypically) / decorative
+is worn by women,1.1866336441324217,feminine (stereotypically) / decorative
+has a stem,1.0541615117476804,feminine (stereotypically) / decorative
+is a flower,1.0524074158772334,feminine (stereotypically) / decorative
+has petals,0.960576518562922,feminine (stereotypically) / decorative
+is colorful,0.8960872906259958,feminine (stereotypically) / decorative
+is sweet,0.8483044907509807,feminine (stereotypically) / decorative
+is shiny,0.8419066100300441,feminine (stereotypically) / decorative
+is red,0.8029733237540246,feminine (stereotypically) / decorative
+has leaves,0.7914012384866339,feminine (stereotypically) / decorative
+is made of gold,0.6689493996900464,feminine (stereotypically) / decorative
+is used by women,0.5879046472092431,feminine (stereotypically) / decorative
+has flowers,0.5285552051815106,feminine (stereotypically) / decorative
+is a plant,0.5133219041070453,feminine (stereotypically) / decorative
+has a chain,0.4971425816986874,feminine (stereotypically) / decorative
+has different colors,0.4874311821604401,feminine (stereotypically) / decorative
+has a clasp,0.4824953864730321,feminine (stereotypically) / decorative
+is pink,0.4610483138031709,feminine (stereotypically) / decorative
+is small,0.44044766474356445,feminine (stereotypically) / decorative
+is pretty,0.4371080468837402,feminine (stereotypically) / decorative
+is white,2.2943749796052417,bathroom-related / sanitary
+is used to clean,1.8135509622997514,bathroom-related / sanitary
+is made of plastic,1.4529031390768257,bathroom-related / sanitary
+has a handle,1.3314872406268554,bathroom-related / sanitary
+is soft,0.5658352223667192,bathroom-related / sanitary
+is used by women,0.5374805699451219,bathroom-related / sanitary
+is used for washing,0.5284497527204721,bathroom-related / sanitary
+is used in bathrooms,0.5071790120226496,bathroom-related / sanitary
+is used to clean teeth,0.466594906818258,bathroom-related / sanitary
+is a liquid,0.4314845036129984,bathroom-related / sanitary
+is sticky,0.4309760758789088,bathroom-related / sanitary
+is used to wash dishes,0.41596246928162306,bathroom-related / sanitary
+has bristles,0.40747639575679967,bathroom-related / sanitary
+has a lid,0.3992181303090745,bathroom-related / sanitary
+is used to clean floors,0.3683019567479759,bathroom-related / sanitary
+has a drain,0.36056560760747014,bathroom-related / sanitary
+is used to wash clothes,0.32473687102860416,bathroom-related / sanitary
+is used to bathe,0.3167859000889691,bathroom-related / sanitary
+has a spout,0.3009701144197217,bathroom-related / sanitary
+is used to brush teeth,0.30064738109083955,bathroom-related / sanitary
+is black,1.6639946165823243,black / noble
+has a lens,0.8140805278651065,black / noble
+is used to write,0.7897016270288617,black / noble
+is made of leather,0.6267381625610027,black / noble
+is made of glass,0.5734976570031055,black / noble
+has buttons,0.5338037631744831,black / noble
+is used to take pictures,0.437863991850744,black / noble
+has a screen,0.43202967741245163,black / noble
+is worn by men,0.42259932990549515,black / noble
+is used by women,0.3977191470750215,black / noble
+is made of plastic,0.35488205215026314,black / noble
+has a heel,0.3431666783240421,black / noble
+is worn by women,0.3213261183289262,black / noble
+has a cap,0.3124159525457578,black / noble
+has a battery,0.294791792742192,black / noble
+has a brush,0.26614673929103916,black / noble
+has a strap,0.2594495997562614,black / noble
+has a sole,0.25502890549769597,black / noble
+is brown,0.25223941530622973,black / noble
+is used to write letters,0.23946460478014459,black / noble
+is made of metal,2.20254493343698,weapon / danger-related / violence
+is a weapon,1.7776118132647571,weapon / danger-related / violence
+has a handle,1.7585732409047594,weapon / danger-related / violence
+is dangerous,1.656903067411404,weapon / danger-related / violence
+has a trigger,1.3680411520495976,weapon / danger-related / violence
+is used to hunt,1.3007334203489602,weapon / danger-related / violence
+is used to kill people,1.278980701527649,weapon / danger-related / violence
+is sharp,1.169683543110575,weapon / danger-related / violence
+is used for protection,1.1276129779534336,weapon / danger-related / violence
+is used for war,1.1004427626506068,weapon / danger-related / violence
+is used to kill,1.0953729214046581,weapon / danger-related / violence
+has a blade,1.0865542910518227,weapon / danger-related / violence
+is used in war,0.9376690738762358,weapon / danger-related / violence
+has a barrel,0.8119202263586025,weapon / danger-related / violence
+is used to fight,0.7772610198517578,weapon / danger-related / violence
+is heavy,0.7404783237498123,weapon / danger-related / violence
+is long,0.6635202577049621,weapon / danger-related / violence
+is used to shoot,0.6005956898367684,weapon / danger-related / violence
+is made of leather,0.5971281310870488,weapon / danger-related / violence
+is used to cut,0.5698048814879134,weapon / danger-related / violence
+is made of wood,3.4540564514044747,musical instrument-related / noise-related
+is an instrument,3.147823518179309,musical instrument-related / noise-related
+is musical,2.724583372136633,musical instrument-related / noise-related
+is a musical instrument,2.544805037519671,musical instrument-related / noise-related
+is used to play music,2.0706048698693724,musical instrument-related / noise-related
+is used for music,2.02290261670316,musical instrument-related / noise-related
+has a mouthpiece,1.9843512750566779,musical instrument-related / noise-related
+has strings,1.7957669359669834,musical instrument-related / noise-related
+has keys,1.573821229552229,musical instrument-related / noise-related
+is played by musicians,1.0174821318282077,musical instrument-related / noise-related
+has a bell,0.9471536635317725,musical instrument-related / noise-related
+is long,0.9213991195201803,musical instrument-related / noise-related
+is used by musicians,0.8975758235145773,musical instrument-related / noise-related
+has a handle,0.8373210350069078,musical instrument-related / noise-related
+is used in orchestras,0.8345714908394728,musical instrument-related / noise-related
+is used to make music,0.7298853311080216,musical instrument-related / noise-related
+has a hole,0.712587823196009,musical instrument-related / noise-related
+is loud,0.6863287376186399,musical instrument-related / noise-related
+has frets,0.6679392250738508,musical instrument-related / noise-related
+has a body,0.6541287698443129,musical instrument-related / noise-related
+has wings,3.3356931991844694,sky-related / flying-related / floating-related
+is a bird,2.2812051983566195,sky-related / flying-related / floating-related
+flies,1.98274094065165,sky-related / flying-related / floating-related
+has a beak,1.8003087614870945,sky-related / flying-related / floating-related
+has feathers,1.6106801927035488,sky-related / flying-related / floating-related
+is large,1.2366680240675132,sky-related / flying-related / floating-related
+is used for transportation,1.0572581628561095,sky-related / flying-related / floating-related
+is used to fly,1.0025751312667188,sky-related / flying-related / floating-related
+is colorful,0.9570572745136001,sky-related / flying-related / floating-related
+has a tail,0.9518512952456719,sky-related / flying-related / floating-related
+has a long neck,0.7326035595295031,sky-related / flying-related / floating-related
+is fast,0.6145005022794323,sky-related / flying-related / floating-related
+is an animal,0.6137275781973012,sky-related / flying-related / floating-related
+has a cockpit,0.5659722507372545,sky-related / flying-related / floating-related
+has a long beak,0.5117941632629717,sky-related / flying-related / floating-related
+has an engine,0.4868778937231203,sky-related / flying-related / floating-related
+is tall,0.4747936003127419,sky-related / flying-related / floating-related
+has a long tail,0.473738458466151,sky-related / flying-related / floating-related
+has a motor,0.45489228677197985,sky-related / flying-related / floating-related
+has a pilot,0.40692392094436136,sky-related / flying-related / floating-related
+is round,6.010070476882402,spherical / ellipsoid / rounded / voluminous
+is a fruit,2.581600427633739,spherical / ellipsoid / rounded / voluminous
+has seeds,2.2365734472715664,spherical / ellipsoid / rounded / voluminous
+is sweet,2.1273258266194386,spherical / ellipsoid / rounded / voluminous
+is edible,1.64708784685167,spherical / ellipsoid / rounded / voluminous
+grows on trees,1.6145652064212135,spherical / ellipsoid / rounded / voluminous
+is yellow,1.504634515827211,spherical / ellipsoid / rounded / voluminous
+is red,1.4343852996132183,spherical / ellipsoid / rounded / voluminous
+is small,1.4098522701952696,spherical / ellipsoid / rounded / voluminous
+is juicy,0.9459511454488712,spherical / ellipsoid / rounded / voluminous
+has a hole in the middle,0.8742172446624318,spherical / ellipsoid / rounded / voluminous
+is white,0.8722932934290948,spherical / ellipsoid / rounded / voluminous
+is hard,0.8541767745538268,spherical / ellipsoid / rounded / voluminous
+has a stem,0.8036447626426821,spherical / ellipsoid / rounded / voluminous
+has a shell,0.7530942208541478,spherical / ellipsoid / rounded / voluminous
+has a hole,0.6552088603666193,spherical / ellipsoid / rounded / voluminous
+is made of rubber,0.6375118083675364,spherical / ellipsoid / rounded / voluminous
+is a vegetable,0.6216237224626959,spherical / ellipsoid / rounded / voluminous
+is heavy,0.6069585456914337,spherical / ellipsoid / rounded / voluminous
+tastes good,0.5664189755952707,spherical / ellipsoid / rounded / voluminous
+has leaves,1.2533370288744692,repetitive
+is green,1.1611046432912113,repetitive
+is a plant,0.9007374555491605,repetitive
+is thin,0.780441532446229,repetitive
+has flowers,0.5798276892027967,repetitive
+is edible,0.5414050278589717,repetitive
+is long,0.5034176017138301,repetitive
+is used for decoration,0.4729031269191597,repetitive
+is a vegetable,0.4058706812340293,repetitive
+is shiny,0.35991132560493594,repetitive
+is made of wool,0.35237784314394766,repetitive
+is a food,0.33849892808610305,repetitive
+has seeds,0.3278186864883794,repetitive
+has a stem,0.3228347928438827,repetitive
+is used to make clothes,0.3179379079728398,repetitive
+has a hole,0.3156397990883584,repetitive
+is made of flour,0.2982940819710848,repetitive
+is used to sew,0.2914340861164153,repetitive
+has branches,0.2883240621451546,repetitive
+is sharp,0.27281217076635383,repetitive
+is white,1.3662484049106367,flat / patterned
+has a pattern,1.0301830361238493,flat / patterned
+is soft,0.9114139306053031,flat / patterned
+has a frame,0.7113779987552973,flat / patterned
+is thin,0.6144931105369232,flat / patterned
+has different colors,0.6056498705812636,flat / patterned
+is made of paper,0.5446162790678545,flat / patterned
+is rectangular,0.5432949552940822,flat / patterned
+is made of cotton,0.5274131833561074,flat / patterned
+is flat,0.5084384375141648,flat / patterned
+has a hole,0.44809174378704286,flat / patterned
+is sticky,0.3950851261876508,flat / patterned
+is used to wrap food,0.338811380203068,flat / patterned
+is used to sleep,0.3359086270450592,flat / patterned
+is made of wool,0.33238287518170345,flat / patterned
+is a game,0.3212763112248768,flat / patterned
+has a design,0.315673584854853,flat / patterned
+is used in bathrooms,0.3137078176168011,flat / patterned
+is made of rubber,0.30644430550809393,flat / patterned
+is hard,0.3011311202725676,flat / patterned
+is white,5.086659031767789,white
+is cold,1.1552757875324506,white
+is sweet,1.091541474048633,white
+is soft,0.8466718463832288,white
+is made of sugar,0.5720660564364268,white
+is a mammal,0.5543514551219484,white
+has fur,0.5114063462349945,white
+is fluffy,0.44713684343438276,white
+is used to sleep,0.44665020570374037,white
+is made of snow,0.43217260828112675,white
+is made of water,0.422286113254671,white
+is made of ice,0.4130422600693209,white
+has a collar,0.36506158108271697,white
+is a dog,0.3320691740262919,white
+is made of milk,0.3300344719436348,white
+is made of cotton,0.3208578774548413,white
+is a dessert,0.3171014804353237,white
+is worn by women,0.29991572900426855,white
+is an animal,0.2978628861314645,white
+is frozen,0.2976027965352114,white
+is white,2.588107174484182,thin / flat
+is made of paper,1.5827594106116862,thin / flat
+is made of plastic,1.253230267120728,thin / flat
+is thin,1.2292555555822267,thin / flat
+is soft,0.7804615352854768,thin / flat
+has a handle,0.7745431045799256,thin / flat
+is made of cotton,0.7491636792813501,thin / flat
+is used to clean,0.6225390573717091,thin / flat
+is used to wrap food,0.43286229935383186,thin / flat
+is disposable,0.39982873572693256,thin / flat
+is used to cook,0.39161432213033454,thin / flat
+has a cover,0.38623109815292506,thin / flat
+is used to write,0.3574875839483051,thin / flat
+is used to wipe,0.3240986318304728,thin / flat
+is recycled,0.3159667262017497,thin / flat
+is used to wrap,0.3118767051924859,thin / flat
+is rectangular,0.3105496989123224,thin / flat
+is used to sleep,0.30818804034006775,thin / flat
+is used in the kitchen,0.3043874441449735,thin / flat
+is used to store food,0.2823543845773663,thin / flat
+has wings,3.5456383422648177,disgusting / bugs
+is small,3.027409097884599,disgusting / bugs
+is an insect,2.653542901612399,disgusting / bugs
+lives in water,2.2605627260877488,disgusting / bugs
+is an animal,2.1296017860497853,disgusting / bugs
+has six legs,1.997715213064158,disgusting / bugs
+has antennae,1.949068634086755,disgusting / bugs
+has a shell,1.732819166391494,disgusting / bugs
+is a bug,1.6618130454852027,disgusting / bugs
+flies,1.6078409299033714,disgusting / bugs
+is slimy,1.5964873996011153,disgusting / bugs
+is black,1.4685598709054413,disgusting / bugs
+has a tail,1.3516212445348192,disgusting / bugs
+has eyes,1.191971997891002,disgusting / bugs
+is brown,1.191815442015001,disgusting / bugs
+has scales,1.1836033078936676,disgusting / bugs
+is green,1.1509870544226781,disgusting / bugs
+is a fish,1.1433131824810796,disgusting / bugs
+has legs,1.074859978319657,disgusting / bugs
+has a long body,1.0714644687505004,disgusting / bugs
+is long,1.3161739534597758,string-related
+is made of leather,0.8714958701587447,string-related
+has a chain,0.8194670201690273,string-related
+is made of metal,0.6955460563714282,string-related
+has a buckle,0.637889815945081,string-related
+is thin,0.5770668863612686,string-related
+is worn around the neck,0.5688641252456554,string-related
+has a clasp,0.5463971297152671,string-related
+is used to hold things together,0.5170239642914952,string-related
+is made of gold,0.5045652490605306,string-related
+is elastic,0.501202014773509,string-related
+is worn by women,0.4532573801678873,string-related
+has a hook,0.4180278307468246,string-related
+is made of rubber,0.4017438333246766,string-related
+is flexible,0.3816458834983685,string-related
+has a loop,0.37711971829863045,string-related
+is worn on the head,0.35074098749408344,string-related
+is used to tie things together,0.348813187130941,string-related
+is made of rope,0.34475325766469594,string-related
+is used to jump,0.33356933766576763,string-related
+is made of leather,1.327545066686771,arms/legs/skin-related
+is used to walk,1.297626875018391,arms/legs/skin-related
+has a heel,1.2823897317753017,arms/legs/skin-related
+has a sole,1.2450036135041374,arms/legs/skin-related
+has a joint,0.8261347776968255,arms/legs/skin-related
+has toes,0.8223828968489084,arms/legs/skin-related
+is worn by women,0.8038928742685966,arms/legs/skin-related
+is a body part,0.8038036210033858,arms/legs/skin-related
+has a nail,0.7698965237616145,arms/legs/skin-related
+has a strap,0.6616729571925462,arms/legs/skin-related
+has a bone,0.6449495415688032,arms/legs/skin-related
+is worn on the foot,0.6002999283748829,arms/legs/skin-related
+has a thumb,0.5828095868086595,arms/legs/skin-related
+has skin,0.5254220092418026,arms/legs/skin-related
+is a joint,0.4621379997030785,arms/legs/skin-related
+has bones,0.442030447926778,arms/legs/skin-related
+has laces,0.44038881690964726,arms/legs/skin-related
+has fingers,0.4155553136781179,arms/legs/skin-related
+is worn on the feet,0.4111933386697864,arms/legs/skin-related
+is used to point,0.409988613931756,arms/legs/skin-related
+is made of glass,2.097175692968217,shiny / transparent
+is clear,1.7707002881260883,shiny / transparent
+is shiny,1.4121414670371861,shiny / transparent
+is transparent,1.0853460840636098,shiny / transparent
+is a rock,0.933224975553095,shiny / transparent
+has a lens,0.8695619340879579,shiny / transparent
+is hard,0.7905649475974296,shiny / transparent
+is precious,0.7833092602044752,shiny / transparent
+is round,0.7474012728072856,shiny / transparent
+is expensive,0.6783081362452085,shiny / transparent
+is used for jewelry,0.6582780548968431,shiny / transparent
+is a gemstone,0.5680819835200381,shiny / transparent
+is a precious stone,0.5540555621710529,shiny / transparent
+is cold,0.5395859499192424,shiny / transparent
+is a gem,0.43347341685438706,shiny / transparent
+is made of water,0.39465615340547044,shiny / transparent
+is used in jewelry,0.38327978842458044,shiny / transparent
+is used to read,0.3825650277795997,shiny / transparent
+is valuable,0.38141621428102024,shiny / transparent
+is used for decoration,0.34932761255258826,shiny / transparent
+has a handle,1.5408100878586284,construction-related / physical work-related
+is used for construction,1.0786942488676776,construction-related / physical work-related
+is made of metal,0.9774247268914924,construction-related / physical work-related
+has wheels,0.922753244063169,construction-related / physical work-related
+has a motor,0.7161368140758599,construction-related / physical work-related
+is large,0.6259004448280578,construction-related / physical work-related
+is a machine,0.5946807079943139,construction-related / physical work-related
+is used for storage,0.5346790237295344,construction-related / physical work-related
+has a door,0.5330071548958412,construction-related / physical work-related
+is heavy,0.4731704417625037,construction-related / physical work-related
+has a long handle,0.45743449967323707,construction-related / physical work-related
+has a blade,0.4549723065714114,construction-related / physical work-related
+is used to clean,0.4418934910316899,construction-related / physical work-related
+is used to build,0.39067059796595516,construction-related / physical work-related
+is a tool,0.35964475669437285,construction-related / physical work-related
+has a lid,0.3547863706596355,construction-related / physical work-related
+is used in the kitchen,0.32426041302575115,construction-related / physical work-related
+is used to store things,0.3228567104569602,construction-related / physical work-related
+is dangerous,0.3202094308213516,construction-related / physical work-related
+is made of plastic,0.3159244755485604,construction-related / physical work-related
+is used to cook,1.7231807203119165,fire-related / heat-related
+is dangerous,1.3581406011245796,fire-related / heat-related
+is used for heating,1.2638672318583473,fire-related / heat-related
+has a flame,0.9704893896891618,fire-related / heat-related
+is hot,0.926703908647966,fire-related / heat-related
+burns,0.9189745184524966,fire-related / heat-related
+is used for lighting,0.8712353244479127,fire-related / heat-related
+is made of metal,0.8676859616068877,fire-related / heat-related
+is used to cook food,0.8616712552730172,fire-related / heat-related
+is used to smoke,0.738208941638675,fire-related / heat-related
+has a filter,0.5794484389020503,fire-related / heat-related
+has a switch,0.5616746795727505,fire-related / heat-related
+has a lid,0.543209848130098,fire-related / heat-related
+is used to light fires,0.5136481547126382,fire-related / heat-related
+has a fuse,0.5089837248941906,fire-related / heat-related
+is smoked,0.5020054552670219,fire-related / heat-related
+has a trigger,0.49965350962458854,fire-related / heat-related
+is explosive,0.49435829952153953,fire-related / heat-related
+is red,0.49332310323654016,fire-related / heat-related
+is used to kill people,0.4677405904538868,fire-related / heat-related
+is worn on the head,2.153001726451506,head-related / face-related
+has a lens,0.9058931590528283,head-related / face-related
+is worn by women,0.8242120350988366,head-related / face-related
+has hair,0.7579497954713252,head-related / face-related
+is worn by men,0.7568746874162893,head-related / face-related
+is black,0.7387474474041176,head-related / face-related
+is made of plastic,0.7361042487192755,head-related / face-related
+has a strap,0.6547253423165809,head-related / face-related
+is worn on the face,0.6377792209522619,head-related / face-related
+has a brim,0.6356631215324648,head-related / face-related
+is used by women,0.5128936279736029,head-related / face-related
+has a nose,0.5098246217161486,head-related / face-related
+has a mouth,0.49851985857482445,head-related / face-related
+is used for protection,0.49156820435992415,head-related / face-related
+has a crown,0.4531014699673553,head-related / face-related
+is a hat,0.44572220764168813,head-related / face-related
+has eyes,0.43886857611478247,head-related / face-related
+is used for hair,0.4382520540802186,head-related / face-related
+covers the head,0.4236837190011933,head-related / face-related
+has teeth,0.3617645339931971,head-related / face-related
+is made of wood,3.385242396898176,beams-related
+is made of metal,1.4760065826249367,beams-related
+is long,0.9078132587520875,beams-related
+is tall,0.6954329992807964,beams-related
+has a door,0.6456051018425922,beams-related
+has a frame,0.5307313098551077,beams-related
+is used to climb,0.5298968884200096,beams-related
+has a top,0.5075739673266584,beams-related
+is used for construction,0.49576131087418907,beams-related
+has seats,0.49531238847443754,beams-related
+has steps,0.4880536646809518,beams-related
+has a platform,0.446154073648652,beams-related
+has a net,0.42453057408858874,beams-related
+has a crossbar,0.39500151212963747,beams-related
+has strings,0.3856627995315307,beams-related
+has a ladder,0.3849606745581456,beams-related
+has a bar,0.3525308376334531,beams-related
+is used for communication,0.3203656409507599,beams-related
+is a pole,0.3128601327628392,beams-related
+has wheels,0.3049361549569769,beams-related
+has wheels,3.50921404384341,seating-related / put things on top
+has a seat,3.0298519462389066,seating-related / put things on top
+is made of wood,2.214506487123952,seating-related / put things on top
+is used for transportation,1.864999380522633,seating-related / put things on top
+is a vehicle,1.1701577588865975,seating-related / put things on top
+has a handle,0.9631953997860725,seating-related / put things on top
+has seats,0.9195640041593043,seating-related / put things on top
+is used to sit,0.8432215348347298,seating-related / put things on top
+is used to walk,0.8129077899084329,seating-related / put things on top
+is used for fun,0.7988245807770948,seating-related / put things on top
+has handles,0.7534258940123517,seating-related / put things on top
+is used for babies,0.7269945090759862,seating-related / put things on top
+has a back,0.6792769900145069,seating-related / put things on top
+is made of metal,0.6423540626348996,seating-related / put things on top
+is used for exercise,0.6373901569491021,seating-related / put things on top
+has a steering wheel,0.6346584193584407,seating-related / put things on top
+has a motor,0.5738173087812524,seating-related / put things on top
+is used by children,0.5653127433581878,seating-related / put things on top
+is used to sleep,0.5566287971442248,seating-related / put things on top
+has brakes,0.5413691797103874,seating-related / put things on top
+has a lid,4.638782796007483,container-related / hollow
+has a handle,4.590444231257011,container-related / hollow
+is made of plastic,1.8508788958258955,container-related / hollow
+is made of wood,1.7364862580511704,container-related / hollow
+is used for storage,1.5469601217257185,container-related / hollow
+has a door,1.4217618938496264,container-related / hollow
+is a container,1.4171925691578233,container-related / hollow
+has wheels,1.385727023564415,container-related / hollow
+is rectangular,1.0290712748574156,container-related / hollow
+is large,1.0206352495749458,container-related / hollow
+has handles,0.9673355669109684,container-related / hollow
+is made of metal,0.9651120207241131,container-related / hollow
+is used to store things,0.824773436731319,container-related / hollow
+has a lock,0.6833669124197991,container-related / hollow
+has a bottom,0.6679424245883989,container-related / hollow
+is used to carry things,0.6217365734597651,container-related / hollow
+is used to store food,0.5961633929396476,container-related / hollow
+has drawers,0.5956483434035059,container-related / hollow
+has a spout,0.5557323187933085,container-related / hollow
+has a roof,0.531804737770001,container-related / hollow
+is made of plastic,1.5385775640314812,child-related / toy-related
+is small,1.5226453819572545,child-related / toy-related
+is used for babies,1.4707247333503974,child-related / toy-related
+is a toy,1.445317553081952,child-related / toy-related
+has eyes,1.054473502802976,child-related / toy-related
+has arms,1.0192914674624909,child-related / toy-related
+is used by children,0.8996582411498693,child-related / toy-related
+is used by babies,0.8933530336701416,child-related / toy-related
+has legs,0.8820162448670803,child-related / toy-related
+has a face,0.8646665631681512,child-related / toy-related
+has wheels,0.8320006621068688,child-related / toy-related
+has a head,0.8130961179014619,child-related / toy-related
+is used to play,0.8024488595612019,child-related / toy-related
+has a mouth,0.7796400113681946,child-related / toy-related
+is used for children,0.7636755188790278,child-related / toy-related
+has a body,0.715548131467778,child-related / toy-related
+has hair,0.6789567304909001,child-related / toy-related
+is made of wood,0.6573564427880405,child-related / toy-related
+is cute,0.6566259389026998,child-related / toy-related
+is colorful,0.649113822094845,child-related / toy-related
+has a lid,1.0050308787804327,medicine-related
+is used by doctors,0.9838911045186098,medicine-related
+is white,0.9319409565306493,medicine-related
+is made of plastic,0.9160924206080763,medicine-related
+is made of glass,0.6362731365759782,medicine-related
+is used in hospitals,0.6123157345653015,medicine-related
+is small,0.6071418528622154,medicine-related
+has wheels,0.555663887005988,medicine-related
+has a tube,0.47714167373325317,medicine-related
+has bandages,0.4224090302336549,medicine-related
+is clear,0.41233120647163,medicine-related
+is used to walk,0.3934095162745855,medicine-related
+has a needle,0.37411096868343297,medicine-related
+is medical,0.3611053512599864,medicine-related
+is hard,0.3429620678352755,medicine-related
+has a cap,0.3314379410805791,medicine-related
+is used to swim,0.3206628217788038,medicine-related
+is used for emergencies,0.3203736658264873,medicine-related
+has a strap,0.3012873292929923,medicine-related
+is a container,0.29432033883768455,medicine-related
+is made of metal,2.074616893847844,has grating
+has a hole,2.013622807381909,has grating
+has a handle,2.0131824127729274,has grating
+is used to cook,0.7631003545273267,has grating
+is made of plastic,0.5315904873281578,has grating
+is made of wood,0.4771699175092712,has grating
+has a frame,0.436913039610843,has grating
+has a door,0.43283907025264334,has grating
+is made of wire,0.40987829811600385,has grating
+is used for heating,0.40466797504491114,has grating
+has a pipe,0.38347745215964385,has grating
+is sticky,0.37629741207526113,has grating
+has a fan,0.3189898356751374,has grating
+has a bar,0.2971497999192821,has grating
+is used to cool,0.2960665992734669,has grating
+is used in the kitchen,0.28016356639262846,has grating
+is made of silk,0.2800370499574191,has grating
+is used to cook food,0.26735856583096684,has grating
+is used to kill flies,0.26350991558516235,has grating
+is a barrier,0.2569376719436105,has grating
+is used for decoration,0.9907120757513176,handicraft-related
+is made of wool,0.8124921439522645,handicraft-related
+is used to sew,0.7929571171067243,handicraft-related
+is made of cotton,0.7732131060838414,handicraft-related
+is white,0.6359824018954194,handicraft-related
+has a pattern,0.5686403432631415,handicraft-related
+is thin,0.5445527830349909,handicraft-related
+is made of paper,0.4687290226063232,handicraft-related
+has leaves,0.45803452786353127,handicraft-related
+is used to make clothes,0.42246831559256315,handicraft-related
+is soft,0.384559709954548,handicraft-related
+has flowers,0.37912321030750434,handicraft-related
+is worn on the wrist,0.3698781041159763,handicraft-related
+has a hole in the middle,0.36734421787396787,handicraft-related
+is used for lighting,0.3605216283617102,handicraft-related
+is a flower,0.33803687296724505,handicraft-related
+has a picture,0.3264165940965813,handicraft-related
+is made of flowers,0.31799963188233776,handicraft-related
+is round,0.3039084007939761,handicraft-related
+has a stem,0.29628836912978407,handicraft-related
+has a handle,0.7798749526128264,cylindrical / conical
+is round,0.6124745913244514,cylindrical / conical
+is used for lighting,0.5719106863711788,cylindrical / conical
+is made of plastic,0.49843329490684907,cylindrical / conical
+is long,0.4639170873598326,cylindrical / conical
+is yellow,0.4320285677995137,cylindrical / conical
+has a string,0.4175931550200359,cylindrical / conical
+is made of cotton,0.40805311370155983,cylindrical / conical
+has a flame,0.3576252705666448,cylindrical / conical
+is thin,0.3507864827611894,cylindrical / conical
+is a toy,0.33015271036227195,cylindrical / conical
+burns,0.3209327539398051,cylindrical / conical
+has a hole in the middle,0.3097820977511393,cylindrical / conical
+has a base,0.3085136040519092,cylindrical / conical
+is made of wood,0.29186560727524036,cylindrical / conical
+has a mirror,0.26560717398582373,cylindrical / conical
+is loud,0.26461452500650134,cylindrical / conical
+has a hole,0.26105352463415854,cylindrical / conical
+is made of wax,0.2552415544920972,cylindrical / conical
+is made of flour,0.2546577966958755,cylindrical / conical

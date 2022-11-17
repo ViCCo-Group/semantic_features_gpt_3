@@ -9,7 +9,7 @@ from os.path import join as pjoin
 import os 
 import sys
 sys.path.append('..')
-from utils.correlation import vectorize_concepts
+from utils.vectorization import vectorize_concepts
 
 
 DATA_DIR = os.getenv('DATA_DIR')

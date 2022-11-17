@@ -1,0 +1,7 @@
+To further investivate the quality of the produced features, human reviewers were asked to judge the plausibility of human and GPT-3 produced features.
+A high amount of sensible features would indicate that GPT-3 generated features 
+For this, two participants classified the feature-concept pairs from the GPT-3, McRae and CSLB feature norms into three categories.
+First, whether they were sensible and commonly known, e.g. \emph{dog - is an animal}. 
+Second, whether they were sensible and not commonly used, e.g. {oak - used as home by animals} and third, whether they were not sensible, e.g. {hamburger - is cooked in an oven}.
+The results show a high amount of sensible feature-concept pairs from human created feature norms where the McRae feature norm is judged as more sensible than the CSLB feature norm.
+Features from the GPT-3 feature norm result in a lower amount of sensible feature-concept pairs but 
