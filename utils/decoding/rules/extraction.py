@@ -1,5 +1,5 @@
 from copy import deepcopy
-import helper
+import utils.decoding.helper as helper
 import spacy
 nlp = spacy.load('en_core_web_sm')
 

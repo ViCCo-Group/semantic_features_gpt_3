@@ -31,15 +31,20 @@ pip install -r requirements.txt
 |   |── vectorization                           # Create feature-concept matrices
 ```
 
-### Data generation
+### Feature generation
 To generate features with GPT-3, you need an API token from OpenAI.
 ```
+cd scripts/data_taking
 OPENAI_API_KEY python run_openai.py
 ```
 
 ### Decoding
 ```
+cd scripts/decoding
+python decode.py
 ```
 
 ### Evaluation
 To reproduce the analyses and figures, you can run the notebooks in the analysis directory.
+
+## Citation

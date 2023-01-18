@@ -1,4 +1,4 @@
-import helper
+import utils.decoding.helper as helper
 import spacy
 import mlconjug3
 import json 

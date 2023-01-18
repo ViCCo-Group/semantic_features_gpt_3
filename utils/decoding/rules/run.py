@@ -1,6 +1,6 @@
 from rules import clean, extraction, transform
 from copy import deepcopy
-import helper
+import semantic_features_gpt_3.utils.decoding.helper as helper
 
 def transform_feature(feature, concept_id):
     rules = [
