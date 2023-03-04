@@ -24,7 +24,6 @@ def noun_is_singular(noun):
     inflect = word.engine()
     return inflect.singular_noun(noun) is False
 
-
 def word_is_noun(tagged_word):
     if tagged_word.tag_.startswith('NN'):
         return True

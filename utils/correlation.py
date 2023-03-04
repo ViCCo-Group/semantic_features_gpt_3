@@ -1,14 +1,10 @@
-from pandas.io.parsers import read_csv
-import scipy.io
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import pandas as pd
 import numpy as np 
 from scipy.spatial.distance import squareform
 import math 
-import matplotlib.pyplot as plt
+import pandas as pd 
 
-def get_similiarity_vector(df_vec, name):
+def get_similiarity_vector(df_vec, name=""):
     # Build cosine similarity matrices of features and flatten triangular part
     #data_dir = './evaluation/check_data'
     pred_sim_matrix = cosine_similarity(df_vec, df_vec)
@@ -20,7 +16,7 @@ def calc_semi_partial_correlation(r_12, r_13, r_23):
     semipartial_23 = (r_12 - (r_13*r_23)) / (math.sqrt(1-(r_23 ** 2)))
     return semipartial_23 
 
-def calc_correlation(gpt_vec, mc_vec, behv_sim, cslb_vec, bert_vec):
+def calc_correlation(gpt_vec, mc_vec, behv_sim, cslb_vec):
     r_gpt_behav, r_cslb_behav, r_mc_behav, r_gpt_mc, r_cslb_gpt = None, None, None, None, None
     
     gpt_sim = get_similiarity_vector(gpt_vec, 'gpt')
@@ -84,9 +80,17 @@ def calc_correlation(gpt_vec, mc_vec, behv_sim, cslb_vec, bert_vec):
         shared_variance = (r_cslb_behav ** 2) - (explained_variance_cslb ** 2)
         print('shared variance between McRae and CSLB: {:.4f}'.format(shared_variance))
 
-    if bert_vec is not None:
-        bert_sim = get_similiarity_vector(bert_vec, 'bert')
-        r_bert_mc = np.corrcoef(bert_sim, behv_sim)[1][0]
-        print('Correlation {} and {}: {:.4f}'.format('BERT', 'THINGs', r_bert_mc))
-
     return r_gpt_behav, r_cslb_behav, r_mc_behav, r_gpt_mc, r_cslb_gpt
+
+
+def calc_correlation2(feature_norms_vec, things_similarity, method='pearson'):
+    values = {
+        "THINGS": squareform(things_similarity, force='tovector', checks=False)
+    }    
+
+    for name, feature_norm_vec in feature_norms_vec.items():
+        similarity_vector = get_similiarity_vector(feature_norm_vec)
+        values[name] = similarity_vector
+
+    return pd.DataFrame(values).corr(method)
+

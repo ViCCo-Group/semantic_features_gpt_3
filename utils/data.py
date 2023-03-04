@@ -1,16 +1,8 @@
 import scipy.io
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
-import numpy as np 
-from scipy.spatial.distance import squareform
 import math 
 from os.path import join as pjoin
 import os 
-import sys
-sys.path.append('..')
-from utils.vectorization import vectorize_concepts
-
 
 DATA_DIR = os.getenv('DATA_DIR')
 
@@ -26,11 +18,12 @@ def similarity_join(values):
 def join_to_string(values):
     return ';'.join(values)
 
-def load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, run_nr, duplicates):
+def load_things():
+    return pd.read_csv(f'{DATA_DIR}/things/Wordlist_ratings-Final.csv')
+
+def load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, duplicates):
     # Read GPT3 features
-    #gpt_df = pd.read_csv('../output_data/things/decoded_answers.csv')
     gpt_df = pd.read_csv(f'{DATA_DIR}/gpt_3_feature_norm/mcrae_priming/decoded_answers.csv')
-    #gpt_df = gpt_df[gpt_df['run_nr'] == run_nr]
     gpt_df = gpt_df.rename(columns={'decoded_feature': 'feature'})
 
     # keep features with 2 run occurence
@@ -118,7 +111,7 @@ def load_cslb_count_vec():
     df = df.set_index('concept_id')
     return df
 
-def generate_concepts_to_keep(gpt_df, mc_df=None, clsb_df=None, bert_df=None, strategy='intersection'):
+def generate_concepts_to_keep(gpt_df, mc_df=None, clsb_df=None, strategy='intersection'):
     concepts_to_keep = set(gpt_df['concept_id'])
 
     if strategy == 'exclusive_gpt_concepts':
@@ -131,9 +124,6 @@ def generate_concepts_to_keep(gpt_df, mc_df=None, clsb_df=None, bert_df=None, st
             concepts_to_keep = concepts_to_keep.intersection(set(mc_df['concept_id']))
         if clsb_df is not None:
             concepts_to_keep = concepts_to_keep.intersection(set(clsb_df['concept_id']))
-        #if bert_df is not None:
-        #    concepts_to_keep = concepts_to_keep.intersection(set(bert_df['concept_id']))
-
     elif strategy == 'intersection_cslb_and_difference_mc':
         concepts_to_keep = concepts_to_keep.intersection(set(clsb_df['concept_id']))
         concepts_to_keep = concepts_to_keep.difference(set(mc_df['concept_id']))
@@ -153,9 +143,15 @@ def generate_concepts_to_keep(gpt_df, mc_df=None, clsb_df=None, bert_df=None, st
         if gpt_df is not None:
             concepts_to_keep = concepts_to_keep.difference(set(gpt_df['concept_id']))
 
-
     print('Amount of concepts to keep: %s' % str(len(concepts_to_keep)))
     return concepts_to_keep
+
+def generate_concepts_to_keep2(feature_norms):
+    concepts_to_keep = set(feature_norms[feature_norms.keys()[0]]['concept_id'])
+    for name, feature_norm in feature_norms.items():
+        concepts_to_keep = concepts_to_keep.intersection(set(feature_norm['concept_id']))
+    return concepts_to_keep
+
 
 def match_behv_sim(behv_sim, concepts_to_keep, sorting_df):
     concept_positions_to_keep = [sorting_df.index[sorting_df['concept_id'] == concept].tolist()[0] for concept in concepts_to_keep]
@@ -222,8 +218,8 @@ def load_bert(group_to_one_concept):
 
     return df
 
-def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_amount_runs_feature_occured_within_concept=2, group_to_one_concept=True, run_nr=1, duplicates=False):
-    gpt_df = load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, run_nr, duplicates)
+def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_amount_runs_feature_occured_within_concept=2, group_to_one_concept=True, duplicates=False):
+    gpt_df = load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, duplicates)
     mc_df = None 
     clsb_df = None
     if mcrae:
@@ -231,22 +227,9 @@ def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_am
     if clsb:
         clsb_df = load_cslb(group_to_one_concept)
 
-    bert_df = load_bert(group_to_one_concept)
-    sorting_df = load_sorting()
     behv_sim = load_behav()
 
-    #if strategy:
-    #    concepts_to_keep = generate_concepts_to_keep(gpt_df, mc_df, clsb_df, strategy)
-    #    behv_sim = match_behv_sim(behv_sim, concepts_to_keep, sorting_df)
-    #    gpt_df = match_gpt(gpt_df, concepts_to_keep)
-
-    #    if mcrae:
-    #        mc_df = match_mc(mc_df, concepts_to_keep)
-    #    if clsb:
-    #        clsb_df = match_cslb(clsb_df, concepts_to_keep)
-
-    return gpt_df, mc_df, behv_sim, clsb_df, sorting_df, bert_df
-
+    return gpt_df, mc_df, behv_sim, clsb_df
 
 def sort(df):
     sorted_df = load_sorting().reset_index().set_index('concept_id')
@@ -255,26 +238,3 @@ def sort(df):
     df = df.drop('concept_num', axis=1)
     return df
 
-def get_all_vectorized(gpt_df, cslb_df, mc_df, behv_sim, bert_df, vec = 'binary', intersection='intersection'):
-    gpt_vec = vectorize_concepts(gpt_df, load_sorting(), 'bla', vec)
-    cslb_vec = vectorize_concepts(cslb_df, load_sorting(), 'bla', vec)
-    mc_vec = vectorize_concepts(mc_df, load_sorting(), 'bla', vec)
-    #bert_vec = vectorize_concepts(bert_df, load_sorting(), 'bla', vec)
-
-    if vec == 'count':
-        cslb_vec = load_cslb_count_vec()
-
-    if intersection:
-        intersection_concepts = generate_concepts_to_keep(gpt_df, mc_df, cslb_df, bert_df, 'intersection')
-        gpt_vec = gpt_vec.loc[intersection_concepts]
-        cslb_vec = cslb_vec.loc[intersection_concepts]
-        mc_vec = mc_vec.loc[intersection_concepts]
-        #bert_vec = bert_vec.loc[intersection_concepts]
-        behv_sim = match_behv_sim(behv_sim, intersection_concepts, load_sorting())
-
-    gpt_vec = sort(gpt_vec)
-    cslb_vec = sort(cslb_vec)
-    mc_vec = sort(mc_vec)
-    #bert_vec = sort(bert_vec)
-    
-    return gpt_vec, cslb_vec, mc_vec, behv_sim

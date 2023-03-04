@@ -1,0 +1,17 @@
+hot
+warm
+cold
+heavy
+spicy
+tasteless
+sour
+acidic
+loud
+noisy
+smelly
+tasty
+sweet
+salty
+unsalted
+salted
+bitter

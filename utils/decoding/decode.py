@@ -1,10 +1,4 @@
-import argparse
-
 import pandas as pd
-from nltk.corpus import wordnet as wn
-from nltk.corpus import stopwords  
-from datasketch import MinHash, MinHashLSH
-from nltk import ngrams
 import spacy 
 import numpy as np
 import concurrent.futures

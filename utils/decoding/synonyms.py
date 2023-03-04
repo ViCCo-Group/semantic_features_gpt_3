@@ -1,7 +1,6 @@
 import utils.decoding.helper as helper
 import spacy
 nlp = spacy.load('en_core_web_sm')
-from collections import defaultdict
 from nltk.corpus import wordnet
 import pandas as pd
 
