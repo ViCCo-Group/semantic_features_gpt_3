@@ -34,17 +34,22 @@ pip install -r requirements.txt
 ### Feature generation
 To generate features with GPT-3, you need an API token from OpenAI.
 ```
-cd scripts/data_taking
-OPENAI_API_KEY python run_openai.py
+cd bin
+OPENAI_API_KEY python create_feature_norm.py --output_dir=. --train_dir=train --retrival_path=priming.csv
 ```
 
 ### Decoding
 ```
-cd scripts/decoding
-python decode.py
+cd bin
+python decode.py --answers=feature_norm_from_gpt.csv --output=. --parallel
 ```
 
 ### Evaluation
 To reproduce the analyses and figures, you can run the notebooks in the analysis directory.
 
 ## Citation
+
+
+OPENAI_API_KEY python create_feature_norm.py --output_dir=../data/gpt_3_feature_norm/cslb_priming --train_dir=../data/priming_examples/cslb --retrival_path=../data/things/all_concepts.csv
+
+python decode.py --answers=../data/gpt_3_feature_norm/cslb_priming/encoded_answers_from_openai.csv --output=../data/gpt_3_feature_norm/cslb_priming --parallel

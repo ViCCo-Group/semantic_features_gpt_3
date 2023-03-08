@@ -1,9 +1,5 @@
 
-from utils.vectorization import vectorize_concepts
-from utils.data import load_things, load_gpt, load_cslb, load_sorting, load_cslb_count_vec, load_mcrae, generate_concepts_to_keep, match_behv_sim, load_behav
-
-def get_categories():
-    things_df = load_things()
+def get_categories(things_df):
     animal = ['moose', 'cow', 'alligator', 'bear', 'beaver', 'camel', 'cheetah', 'chipmunk', 'deer', 'dog', 'donkey', 'elephant', 'frog', 'giraffe', 'gorilla', 'goat', 'fox', 'hamster', 'hyena', 'horse', 'iguana', 'lamb', 'leopard', 'lion', 'otter', 'panther', 'pig', 'platypus', 'rabbit', 'raccoon', 'rat', 'sheep', 'skunk', 'squirrel', 'tiger', 'toad', 'zebra', 'rattlesnake', 'bat1', 'seal', 'cat', 'pony', 'calf1', 'mouse1', 'porcupine']
     clothing = ['jeans', 'helmet', 'cloak', 'apron', 'swimsuit', 'sweater', 'scarf', 'robe', 'jacket', 'dress', 'bra', 'blouse', 'belt', 'coat', 'shirt']
     bird = ['eagle', 'flamingo', 'hawk', 'ostrich', 'owl', 'pelican', 'penguin', 'pigeon', 'seagull', 'swan', 'chicken1', 'turkey', 'goose', 'duck']

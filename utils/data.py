@@ -111,67 +111,6 @@ def load_cslb_count_vec():
     df = df.set_index('concept_id')
     return df
 
-def generate_concepts_to_keep(gpt_df, mc_df=None, clsb_df=None, strategy='intersection'):
-    concepts_to_keep = set(gpt_df['concept_id'])
-
-    if strategy == 'exclusive_gpt_concepts':
-        if mc_df is not None:
-            concepts_to_keep = concepts_to_keep.difference(set(mc_df['concept_id']))
-        if clsb_df is not None:
-            concepts_to_keep = concepts_to_keep.difference(set(clsb_df['concept_id']))
-    elif strategy == 'intersection':
-        if mc_df is not None:
-            concepts_to_keep = concepts_to_keep.intersection(set(mc_df['concept_id']))
-        if clsb_df is not None:
-            concepts_to_keep = concepts_to_keep.intersection(set(clsb_df['concept_id']))
-    elif strategy == 'intersection_cslb_and_difference_mc':
-        concepts_to_keep = concepts_to_keep.intersection(set(clsb_df['concept_id']))
-        concepts_to_keep = concepts_to_keep.difference(set(mc_df['concept_id']))
-    elif strategy == 'intersection_mc_and_difference_cslb':
-        concepts_to_keep = concepts_to_keep.intersection(set(mc_df['concept_id']))
-        concepts_to_keep = concepts_to_keep.difference(set(clsb_df['concept_id']))
-    elif strategy == 'exclusive_cslb_concepts':
-        concepts_to_keep = set(clsb_df['concept_id'])
-        if mc_df is not None:
-            concepts_to_keep = concepts_to_keep.difference(set(mc_df['concept_id']))
-        if gpt_df is not None:
-            concepts_to_keep = concepts_to_keep.difference(set(gpt_df['concept_id']))
-    elif strategy == 'exclusive_mc_concepts':
-        concepts_to_keep = set(mc_df['concept_id'])
-        if clsb_df is not None:
-            concepts_to_keep = concepts_to_keep.difference(set(clsb_df['concept_id']))
-        if gpt_df is not None:
-            concepts_to_keep = concepts_to_keep.difference(set(gpt_df['concept_id']))
-
-    print('Amount of concepts to keep: %s' % str(len(concepts_to_keep)))
-    return concepts_to_keep
-
-def generate_concepts_to_keep2(feature_norms):
-    concepts_to_keep = set(feature_norms[feature_norms.keys()[0]]['concept_id'])
-    for name, feature_norm in feature_norms.items():
-        concepts_to_keep = concepts_to_keep.intersection(set(feature_norm['concept_id']))
-    return concepts_to_keep
-
-
-def match_behv_sim(behv_sim, concepts_to_keep, sorting_df):
-    concept_positions_to_keep = [sorting_df.index[sorting_df['concept_id'] == concept].tolist()[0] for concept in concepts_to_keep]
-    concept_positions_to_keep = sorted(concept_positions_to_keep)
-    behv_sim_matched = behv_sim[concept_positions_to_keep, :]
-    behv_sim_matched = behv_sim_matched[:, concept_positions_to_keep]
-    return behv_sim_matched
-
-def match_mc(mc_df, concepts_to_keep):
-    mc_df = mc_df[mc_df['concept_id'].isin(concepts_to_keep)]
-    return mc_df
-
-def match_gpt(gpt_df, concepts_to_keep):
-    gpt_df = gpt_df[gpt_df['concept_id'].isin(concepts_to_keep)]
-    return gpt_df
-
-def match_cslb(cslv_df, concepts_to_keep):
-    cslv_df = cslv_df[cslv_df['concept_id'].isin(concepts_to_keep)]
-    return cslv_df
-
 def export_matched_data(gpt_df, mc_df, behv_sim, clsb_df):
     data_dir = './evaluation/check_data'
     gpt_df.to_csv('%s/gpt_norms_only_matching.csv' % data_dir, index=False)
@@ -216,25 +155,5 @@ def load_bert(group_to_one_concept):
     if group_to_one_concept:
         df = df.groupby('concept_id', as_index=False).agg({'feature': join_to_string})
 
-    return df
-
-def load_data(mcrae=False, clsb=False, min_amount_runs_feature_occured=2, min_amount_runs_feature_occured_within_concept=2, group_to_one_concept=True, duplicates=False):
-    gpt_df = load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, duplicates)
-    mc_df = None 
-    clsb_df = None
-    if mcrae:
-        mc_df = load_mcrae(group_to_one_concept, duplicates)
-    if clsb:
-        clsb_df = load_cslb(group_to_one_concept)
-
-    behv_sim = load_behav()
-
-    return gpt_df, mc_df, behv_sim, clsb_df
-
-def sort(df):
-    sorted_df = load_sorting().reset_index().set_index('concept_id')
-    df['concept_num'] = df.index.map(sorted_df['index'])
-    df = df.sort_values(by='concept_num')
-    df = df.drop('concept_num', axis=1)
     return df
 
