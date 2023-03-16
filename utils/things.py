@@ -37,11 +37,11 @@ def sort_vec(df):
     return df
 
 
-def get_all_vectorized(feature_norms, behv_sim, vec = 'binary'):
+def get_all_vectorized(feature_norms, behv_sim, vec = 'binary', strategy=None):
     feature_norms_vec = {}
     sorting = load_sorting()
 
-    intersection_concepts = generate_concepts_to_keep(feature_norms)
+    intersection_concepts = generate_concepts_to_keep(feature_norms, strategy)
     behv_sim = match_behv_sim(behv_sim, intersection_concepts, load_sorting())
 
     for name, feature_norm in feature_norms.items():

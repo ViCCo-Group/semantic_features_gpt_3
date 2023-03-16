@@ -81,6 +81,7 @@ def decode_batch(answers_df, batch_nr, lemmatize):
         decoded_feature_list, batch_rules_changes = split_and_decode_answer(answer, concept_id, row.run_nr, lemmatize)
         decoded_rows += decoded_feature_list
         rules_changes += batch_rules_changes
+    print(f'Batch {batch_nr} done')
     return decoded_rows, rules_changes
 
 def filter_two_occ(run_nrs):
@@ -92,16 +93,22 @@ def decode_answers(answers_df, lemmatize, parallel, keep_duplicates_per_concept,
     rules_changes = []
 
     if parallel:
-        n = 8
+        n = 60
         dfs = np.array_split(answers_df, n)
         with concurrent.futures.ProcessPoolExecutor(max_workers=n) as executor:
             future = [executor.submit(decode_batch, df, i, lemmatize) for i, df in enumerate(dfs)]
             for future in concurrent.futures.as_completed(future):
-                result = future.result()
+                print('Get result')
+                try:
+                    result = future.result()
+                except Exception as exc:
+                    print(exc)
                 decoded_rows += result[0]
                 rules_changes += result[1]
     else:
         decoded_rows, rules_changes = decode_batch(answers_df, 1, lemmatize)
+    
+    print('Decoding done')
     df = pd.DataFrame(decoded_rows)
 
     # Drop duplicates of a feature within a concept and within a run -> same as when one human would write a feature twice 
@@ -117,6 +124,7 @@ def decode_answers(answers_df, lemmatize, parallel, keep_duplicates_per_concept,
     #amount_all_features = df['decoded_feature'].shape[0]
     #df['feature_frequency'] = df['decoded_feature'].groupby(df['decoded_feature']).transform(lambda features: len(features) / amount_all_features * 100)
 
+    print('Find synonyms')
     df = find_synonyms(df, output_dir)
 
     return df, rules_changes

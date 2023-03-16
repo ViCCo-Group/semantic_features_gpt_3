@@ -200,7 +200,7 @@ def replace_plural_be_have(feature):
 def replace_british(feature):
     list_of_words = helper.tokenize(feature)
 
-    with open('./british_to_american.json') as vocab_file:
+    with open('../data/british_to_american.json') as vocab_file:
         vocab = json.load(vocab_file)
     
     for british_word in vocab:
