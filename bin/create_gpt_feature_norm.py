@@ -8,18 +8,56 @@ def authenticate():
     # Load your API key from an environment variable or secret management service
     openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def make_request(text, model):
-    if model == 'gpt-3.5-turbo' or model == 'gpt-3.5-turbo-0301':
+def make_request(train_df, model, question):
+    print(model)
+    if model == 'gpt-3.5-turbo' or model == 'gpt-3.5-turbo-0301' or model == 'gpt-4':
+        questions = []
+        priming = []
+        train_df = train_df[:3]
+        for row in train_df.itertuples():
+            questions.append(row.question)
+            priming.append(row.answer)
+        
+        questions.append(question)
+
         messages = [{
             "role": "user",
-            "content": text
-        }]
-        response = openai.ChatCompletion.create(model=model, messages=messages, temperature=0.5, frequency_penalty=0.33, max_tokens=70)
+            "content": questions[0]
+        }, 
+        {
+            "role": "assistant",
+            "content": priming[0]
+        }, 
+        {
+            "role": "user",
+            "content": questions[1]
+        }, 
+        {
+            "role": "assistant",
+            "content": priming[1]
+        }, 
+        {
+            "role": "user",
+            "content": questions[2]
+        }, 
+        {
+            "role": "assistant",
+            "content": priming[2]
+        }, 
+         
+        {
+            "role": "user",
+            "content": questions[3]
+        },
+        ]
+        response = openai.ChatCompletion.create(model=model, messages=messages, temperature=0.5, frequency_penalty=0.33, max_tokens=70, n=1)
         response_text = response['choices'][0]['message']['content']
     else:
-        pass
-        #response = openai.Completion.create(engine=model, prompt=text, temperature=0.5, frequency_penalty=0.33, max_tokens=70)
-        #response_text = response['choices'][0]['text']
+        priming_text = generate_train_sentence(train_df)
+        text = priming_text + '\n%s' % question
+
+        response = openai.Completion.create(engine=model, prompt=text, temperature=0.5, frequency_penalty=0.33, max_tokens=70, n=1)
+        response_text = response['choices'][0]['text']
     return response_text
 
 
@@ -66,20 +104,19 @@ def run(args):
         jobs.append(job)
 
     # create jobs
-    for train_file_name in os.listdir(train_dir):
+    for train_file_name in os.listdir(train_dir)[:10]:
         print(f'Check {train_file_name}')
         run_nr = int(train_file_name.split('_')[1].split('.')[0])
         train_df = pd.read_csv('%s/%s' % (train_dir, train_file_name))
-        train_text = generate_train_sentence(train_df)
         for row in retrieval_df.itertuples():
             if not (((current_answers_saved.concept_id == row.id) & (current_answers_saved.run_nr == run_nr)).any()): 
                 question = row.question
-                text = train_text + '\n%s' % question
                 job = {
-                        'text': text,
+                        'train_df': train_df,
                         'run_nr': run_nr,
                         'concept': row.concept,
-                        'concept_id': row.id
+                        'concept_id': row.id,
+                        'question': question
                 }
                 job_queue.put(job)
             else:
@@ -108,13 +145,15 @@ def escape_answer(text):
     return text.replace('\n', '').replace('"', '""')
 
 def worker(i, job_queue, output_queue, model):
+    print(f'start worker {i}')
     while 1:
         job = job_queue.get()
         if job == 'kill':
             break
 
-        text = job['text']
-        answer = make_request(text, model)
+        train_df = job['train_df']
+        question = job['question']
+        answer = make_request(train_df, model, question)
         answer = escape_answer(answer)
         job['answer'] = answer
         output_queue.put(job)

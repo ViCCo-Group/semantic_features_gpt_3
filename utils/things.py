@@ -5,7 +5,7 @@ import math
 import pandas as pd 
 from utils.correlation import get_similiarity_vector
 from utils.vectorization import vectorize_concepts
-from utils.data import load_cslb_count_vec, load_sorting
+from utils.data import load_cslb_count_vec, load_sorting, load_behav
 from utils.feature_norms import generate_concepts_to_keep 
 
 def match_behv_sim(behv_sim, concepts_to_keep, sorting_df):
@@ -37,12 +37,12 @@ def sort_vec(df):
     return df
 
 
-def get_all_vectorized(feature_norms, behv_sim, vec = 'binary', strategy=None):
+def get_all_vectorized(feature_norms, concept_ids, vec = 'binary'):
     feature_norms_vec = {}
     sorting = load_sorting()
+    behav_sim = load_behav()
 
-    intersection_concepts = generate_concepts_to_keep(feature_norms, strategy)
-    behv_sim = match_behv_sim(behv_sim, intersection_concepts, load_sorting())
+    behv_sim = match_behv_sim(behav_sim, concept_ids, load_sorting())
 
     for name, feature_norm in feature_norms.items():
         feature_norm_vec = vectorize_concepts(feature_norm, sorting, vec)
@@ -50,7 +50,7 @@ def get_all_vectorized(feature_norms, behv_sim, vec = 'binary', strategy=None):
         if vec == 'count' and name == 'CSLB':
             feature_norm_vec = load_cslb_count_vec()
         
-        feature_norm_vec = feature_norm_vec.loc[intersection_concepts]
+        feature_norm_vec = feature_norm_vec.loc[concept_ids]
         feature_norms_vec[name] = sort_vec(feature_norm_vec)
         
     return feature_norms_vec, behv_sim

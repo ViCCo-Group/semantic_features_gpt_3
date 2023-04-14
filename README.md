@@ -50,6 +50,32 @@ To reproduce the analyses and figures, you can run the notebooks in the analysis
 ## Citation
 
 
-OPENAI_API_KEY python create_feature_norm.py --output_dir=../data/gpt_3_feature_norm/cslb_priming --train_dir=../data/priming_examples/cslb --retrival_path=../data/things/all_concepts.csv
+OPENAI_API_KEY python create_feature_norm.py --output_dir=. --train_dir=../data/priming_examples/cslb --retrival_path=../data/gpt_3_feature_norm/generation_questions/only_things_concepts.csv --model=davinci
 
-python decode.py --answers=../data/gpt_3_feature_norm/cslb_priming/encoded_answers_from_openai.csv --output=../data/gpt_3_feature_norm/cslb_priming --parallel
+python decode.py --answers=../data/gpt_3_feature_norm/mcrae_priming/gpt4/encoded_answers_openai.csv --output=../data/gpt_3_feature_norm/mcrae_priming/gpt4 --parallel
+
+rs
+
+## Prices
+Prompting - 350 Tokens
+Completion - 70 Tokens 
+
+GPT-4
+0.03 pro Prompt 
+0.06 fuer completion 
+
+10 Runs - 317
+317 x 10 x 350 tokens / 1000 * 0.03 = 33
+317 x 10 x 70 token / 1000 * 0.06 = 13
+
+30 Runs - 317
+317 x 10 x 350 tokens / 1000 * 0.03 = 200
+317 x 10 x 70 token / 1000 * 0.06 = 39
+
+GPT-3
+0.02 pro 1000 Prompt 
+
+30 Runs
+317 x 420 x 30 / 1000 * 0.02 = 80
+
+

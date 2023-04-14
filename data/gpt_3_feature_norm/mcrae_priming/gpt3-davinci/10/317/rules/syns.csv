@@ -1,0 +1,298 @@
+,decoded_feature,syn_feature
+0,is an automobile,is a car
+1,is a citrus,is citrus
+2,is a creature,is an animal
+3,is deer,is a deer
+4,is fish,is a fish
+5,is fruit,is a fruit
+6,is furniture,is a furniture
+7,is a herb,is an herb
+8,is an herbivore,is a herbivore
+9,is a metal,is metal
+10,is a mollusc,is a mollusk
+11,is a paper,is paper
+12,is rodents,is a rodent
+13,is scavenger,is a scavenger
+14,is a wood,is wood
+15,is used as a decoration,is used as an ornament
+16,is used as a seasoning,is used as a flavoring
+17,is used as a food,is used as food
+18,is used for fruits,is used as a fruit
+19,is used for garnishes,is used as a garnish
+20,is used as a pet,is used for pets
+21,is used as a salad,is used for salad
+22,is used as a support,is used for support
+23,is used for vegetables,is used as a vegetable
+24,is used as weapons,is used as a weapon
+25,is used for medicine,is used as medicine
+26,is used at home,is used in homes
+27,is used at parks,is used in parks
+28,is used at parties,is used for parties
+29,is used at restaurants,is used in restaurants
+30,is used for a camera,is used for cameras
+31,is used on animals,is used for animals
+32,is used for battle,is used for engagement
+33,is used on belts,is used for belts
+34,is used in boats,is used for boats
+35,is used in a building,is used for buildings
+36,is used for cakes,is used in cakes
+37,is used in carpentry,is used for carpentry
+38,is used in cars,is used for cars
+39,is used for ceremony,is used for ceremonies
+40,is used for kids,is used for children
+41,is used for concerts,is used in concerts
+42,is used in construction,is used for construction
+43,is used for crime,is used for crimes
+44,is used for decorations,is used for decoration
+45,is used for dessert,is used for desserts
+46,is used for drinks,is used in drinks
+47,is used for experiments,is used in experiments
+48,is used for style,is used for fashion
+49,is used on floors,is used for floors
+50,is used in food,is used for food
+51,is used in games,is used for games
+52,is used in a house,is used for houses
+53,is used for jams,is used for jam
+54,is used for jazz,is used in jazz
+55,is used in juice,is used for juice
+56,is used in magic,is used for magic
+57,is used in movies,is used for movies
+58,is used in music,is used for music
+59,is used on paper,is used for paper
+60,is used for pies,is used in pies
+61,is used for rain,is used for the rain
+62,is used for rescues,is used for rescue
+63,is used for roads,is used on roads
+64,is used for salads,is used in salads
+65,is used in sandwiches,is used for sandwiches
+66,is used for school,is used in school
+67,is used in science,is used for science
+68,is used on ships,is used for ships
+69,is used in soup,is used for soup
+70,is used for sport,is used for sports
+71,is used in sushi,is used for sushi
+72,is used for the army,is used in the army
+73,is used for the face,is used on the face
+74,is used in the military,is used for the military
+75,is used for the winter,is used in the winter
+76,is used in transportation,is used for transportation
+77,is used for warfare,is used for war
+78,is used in the water,is used for water
+79,is used in the woods,is used for wood
+80,is used in a band,is used in bands
+81,is used in a bedroom,is used in bedrooms
+82,is used in a fight,is used in battle
+83,is used in battles,is used in fights
+84,is used in the garden,is used in gardens
+85,is used in kitchens,is used in the kitchen
+86,is used in the office,is used in offices
+87,is used in the orchestra,is used in orchestras
+88,is used in rain,is used in the rain
+89,is used on the sea,is used in the sea
+90,is used in zoos,is used in the zoo
+91,is used in warfare,is used in war
+92,is used on water,is used in water
+93,is big,is large
+94,is crisp,is sharp
+95,is cunning,is cute
+96,is used to bend wire,is used to bend wires
+97,is used to carry fruits,is used to carry fruit
+98,is used to flavor foods,is used to flavor food
+99,is used to hold papers,is used to hold paper
+100,is used to make jams,is used to make jam
+101,is used to make pies,is used to make pie
+102,is used to smooth metal,is used to smooth metals
+103,is used to take temperature,is used to take temperatures
+104,is used to make magic,is used to do magic
+105,is used to hold animals,is used to keep animals
+106,is made from logs,is made from a log
+107,is made from a tree,is made from trees
+108,is made of apple,is made from apples
+109,is made of bark,is made from bark
+110,is made from brass,is made of brass
+111,is made from canvas,is made of canvas
+112,is made from clay,is made of clay
+113,is made from cloth,is made of cloth
+114,is made from copper,is made of copper
+115,is made from cotton,is made of cotton
+116,is made from dough,is made of dough
+117,is made from flour,is made of flour
+118,is made from flowers,is made of flowers
+119,is made from fruit,is made of fruit
+120,is made from glass,is made of glass
+121,is made from gold,is made of gold
+122,is made from leather,is made of leather
+123,is made from metal,is made of metal
+124,is made from milk,is made of milk
+125,is made from paper,is made of paper
+126,is made from plastic,is made of plastic
+127,is made from porcelain,is made of porcelain
+128,is made from rice,is made of rice
+129,is made from rubber,is made of rubber
+130,is made from sand,is made of sand
+131,is made from silk,is made of silk
+132,is made from steel,is made of steel
+133,is made from tobacco,is made of tobacco
+134,is made of twigs,is made from twigs
+135,is made from wax,is made of wax
+136,is made from wheat,is made of wheat
+137,is made of willow,is made from willow
+138,is made from wood,is made of wood
+139,is made from wool,is made of wool
+140,is made of crystal,is made of crystals
+141,is made of fiber,is made of fibers
+142,has a bark,has bark
+143,has no battery,has a battery
+144,has blades,has a blade
+145,has blankets,has a blanket
+146,has a blubber,has blubber
+147,has borders,has a border
+148,has a branch,has branches
+149,has buckles,has a buckle
+150,has a button,has buttons
+151,has cabins,has a cabin
+152,has a candle,has candles
+153,has a clasps,has a clasp
+154,has a claw,has claws
+155,has collars,has a collar
+156,has color,has a color
+157,has a crystal,has crystals
+158,has dials,has a dial
+159,has diamonds,has a diamond
+160,has doors,has a door
+161,has a drawer,has drawers
+162,has a eraser,has an eraser
+163,has a feather,has feathers
+164,has a fin,has fins
+165,has flaps,has a flap
+166,has flesh,has a flesh
+167,has a flipper,has flippers
+168,has a flower,has flowers
+169,has a foot,has feet
+170,has fringe,has a fringe
+171,has a fuel,has fuel
+172,has a grit,has grit
+173,has a gun,has guns
+174,has hammers,has a hammer
+175,has a hand,has hands
+176,has handles,has a handle
+177,has handlebars,has a handlebar
+178,has hatches,has a hatch
+179,has a hole,has holes
+180,has hoods,has a hood
+181,has hooks,has a hook
+182,has a horn,has horns
+183,has humps,has a hump
+184,has a husk,has a stalk
+185,has a jewel,has jewels
+186,has a juice,has juice
+187,has a kernel,has kernels
+188,has a key,has keys
+189,has a knob,has knobs
+190,has a knot,has knots
+191,has a lace,has a laces
+192,has lenses,has a lens
+193,has masts,has a mast
+194,has mattresses,has a mattress
+195,has mirrors,has a mirror
+196,has no motor,has a motor
+197,has nails,has a nail
+198,has a parachute,has parachutes
+199,has a passenger,has passengers
+200,has patterns,has a pattern
+201,has warheads,has a payload
+202,has peel,has a peel
+203,has periscopes,has a periscope
+204,has pillows,has a pillow
+205,has pits,has a pit
+206,has a pocket,has pockets
+207,has a post,has posts
+208,has a prong,has prongs
+209,has propellers,has a propeller
+210,has a rattle,has rattles
+211,has reeds,has a reed
+212,has rind,has a rind
+213,has a root,has roots
+214,has a rotor,has rotors
+215,has a sail,has sails
+216,has a scale,has scales
+217,has screws,has a screw
+218,has a seat,has seats
+219,has no seeds,has a seed
+220,has shells,has a shell
+221,has siphons,has a siphon
+222,has a skeleton,has no skeleton
+223,has a skin,has skin
+224,has slots,has a slot
+225,has spines,has a spine
+226,has a stave,has staves
+227,has a strap,has straps
+228,has straw,has a straw
+229,has string,has a string
+230,has a stripe,has stripes
+231,has a talon,has talons
+232,has taste,has a taste
+233,has texture,has a texture
+234,has tips,has a tip
+235,has a tire,has tires
+236,has trunks,has a trunk
+237,has a tusk,has a tusks
+238,has value,has a value
+239,has a waistline,has a waist
+240,has no wheels,has a wheel
+241,has a window,has windows
+242,has a wing,has wings
+243,has wingspan,has a wingspan
+244,has a wire,has wires
+245,has an antenna,has antenna
+246,has an arrow,has arrows
+247,has engines,has an engine
+248,has an explosive,has explosives
+249,has antennas,has antennae
+250,has no eyes,has eyes
+251,has husks,has stalks
+252,has laces,has lace
+253,has no legs,has legs
+254,has no sleeves,has sleeves
+255,has no teeth,has teeth
+256,has papers,has paper
+257,causes injuries,causes injury
+258,eats antelope,eats antelopes
+259,eats fruits,eats fruit
+260,eats grasses,eats grass
+261,heats the food,heats food
+262,holds liquids,holds liquid
+263,makes a nest,makes nests
+264,makes a noise,makes noise
+265,makes sound,makes a sound
+266,requires drivers,requires a driver
+267,tells time,tells the time
+268,keeps people,holds people
+269,needs water,requires water
+270,has a big bell,has a large bell
+271,has a big body,has a large body
+272,has a large mouth,has a big mouth
+273,comes in boxes,comes in a box
+274,comes in cans,comes in a can
+275,fits on fingers,fits on the finger
+276,floats on the water,floats on water
+277,grows in a garden,grows in gardens
+278,grows in the spring,grows in spring
+279,grows on a bush,grows on bushes
+280,grows on a plant,grows on plants
+281,grows on stalks,grows on a stalk
+282,grows on a vine,grows on vines
+283,lives in cages,lives in a cage
+284,lives in a colony,lives in colonies
+285,lives in a hole,lives in holes
+286,lives in a house,lives in houses
+287,lives in a nest,lives in nests
+288,lives in the city,lives in cities
+289,lives in deserts,lives in the desert
+290,lives in the forest,lives in forests
+291,lives in gardens,lives in the garden
+292,lives in grass,lives in the grass
+293,lives in oceans,lives in the ocean
+294,lives in the sewers,lives in sewers
+295,lives in soil,lives in the soil
+296,lives in the water,lives in water

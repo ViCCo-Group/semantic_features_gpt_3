@@ -21,9 +21,9 @@ def join_to_string(values):
 def load_things():
     return pd.read_csv(f'{DATA_DIR}/things/Wordlist_ratings-Final.csv')
 
-def load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, duplicates, priming, model):
+def load_gpt(min_amount_runs_feature_occured, group_to_one_concept, min_amount_runs_feature_occured_within_concept, duplicates, priming, model, number_runs, number_objects):
     # Read GPT3 features
-    gpt_df = pd.read_csv(f'{DATA_DIR}/gpt_3_feature_norm/{priming}/{model}/decoded_answers.csv')
+    gpt_df = pd.read_csv(f'{DATA_DIR}/gpt_3_feature_norm/{priming}/{model}/{number_runs}/{number_objects}/decoded_answers.csv')
     gpt_df = gpt_df.rename(columns={'decoded_feature': 'feature'})
 
     # keep features with 2 run occurence
