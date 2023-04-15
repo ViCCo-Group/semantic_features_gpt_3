@@ -93,7 +93,7 @@ def decode_answers(answers_df, lemmatize, parallel, keep_duplicates_per_concept,
     rules_changes = []
 
     if parallel:
-        n = 6
+        n = 30
         dfs = np.array_split(answers_df, n)
         with concurrent.futures.ProcessPoolExecutor(max_workers=n) as executor:
             future = [executor.submit(decode_batch, df, i, lemmatize) for i, df in enumerate(dfs)]

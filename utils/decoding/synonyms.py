@@ -208,7 +208,7 @@ def join_df(df, syns, output_dir):
         for feature, _ in group:
             rows.append({'decoded_feature': feature, 'syn_feature': max_feature})
     syn_df = pd.DataFrame(rows)
-    syn_df.to_csv(f'{output_dir}/rules/syns.csv')
+    #syn_df.to_csv(f'{output_dir}/rules/syns.csv')
     df = df.merge(syn_df, how='left', on='decoded_feature')
     df.loc[df['syn_feature'].isnull(), 'syn_feature'] = df['decoded_feature']
     df = df.drop(['decoded_feature'], axis=1)

@@ -104,6 +104,7 @@ def run(args):
         jobs.append(job)
 
     # create jobs
+    # TODO skip concept when used in priming
     for train_file_name in os.listdir(train_dir)[:10]:
         print(f'Check {train_file_name}')
         run_nr = int(train_file_name.split('_')[1].split('.')[0])
