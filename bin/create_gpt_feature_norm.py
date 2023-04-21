@@ -1,75 +1,12 @@
 import os
-import openai
+import sys
+sys.path.append('..')
+
 import pandas as pd 
 import argparse
 import multiprocessing as mp 
-
-def authenticate():
-    # Load your API key from an environment variable or secret management service
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-
-def make_request(train_df, model, question):
-    print(model)
-    if model == 'gpt-3.5-turbo' or model == 'gpt-3.5-turbo-0301' or model == 'gpt-4':
-        questions = []
-        priming = []
-        train_df = train_df[:3]
-        for row in train_df.itertuples():
-            questions.append(row.question)
-            priming.append(row.answer)
-        
-        questions.append(question)
-
-        messages = [{
-            "role": "user",
-            "content": questions[0]
-        }, 
-        {
-            "role": "assistant",
-            "content": priming[0]
-        }, 
-        {
-            "role": "user",
-            "content": questions[1]
-        }, 
-        {
-            "role": "assistant",
-            "content": priming[1]
-        }, 
-        {
-            "role": "user",
-            "content": questions[2]
-        }, 
-        {
-            "role": "assistant",
-            "content": priming[2]
-        }, 
-         
-        {
-            "role": "user",
-            "content": questions[3]
-        },
-        ]
-        response = openai.ChatCompletion.create(model=model, messages=messages, temperature=0.5, frequency_penalty=0.33, max_tokens=70, n=1)
-        response_text = response['choices'][0]['message']['content']
-    else:
-        priming_text = generate_train_sentence(train_df)
-        text = priming_text + '\n%s' % question
-
-        response = openai.Completion.create(engine=model, prompt=text, temperature=0.5, frequency_penalty=0.33, max_tokens=70, n=1)
-        response_text = response['choices'][0]['text']
-    return response_text
-
-
-def generate_train_sentence(train_df):
-    text = ''
-    train_df = train_df[:3]
-    for row in train_df.itertuples():
-        text += row.question
-        text += ' '
-        text += row.answer
-    return text
-
+from utils.norm_generation.claude import make_request as make_claude_request
+from utils.norm_generation.openai import make_request as make_openai_request
 
 def run(args):
     output_dir = args.output_dir
@@ -89,7 +26,7 @@ def run(args):
     manager = mp.Manager()
     output_queue = manager.Queue()    
     job_queue  = manager.Queue()  
-    n_jobs = 15 #mp.cpu_count()  
+    n_jobs = 2 #mp.cpu_count()  
     pool = mp.Pool(n_jobs)
 
     #put ouput listener to work first
@@ -110,18 +47,24 @@ def run(args):
         run_nr = int(train_file_name.split('_')[1].split('.')[0])
         train_df = pd.read_csv('%s/%s' % (train_dir, train_file_name))
         for row in retrieval_df.itertuples():
-            if not (((current_answers_saved.concept_id == row.id) & (current_answers_saved.run_nr == run_nr)).any()): 
-                question = row.question
-                job = {
+            concept_id = row.id
+            concept_run_already_sampled = (((current_answers_saved.concept_id == concept_id) & (current_answers_saved.run_nr == run_nr)).any())
+            concept_occurs_in_priming = concept_id in list(train_df[:3]['concept'])
+
+            if concept_run_already_sampled or concept_occurs_in_priming:
+                print(f'Skip {concept_id} - {run_nr}')
+                continue
+    
+            question = row.question
+            job = {
                         'train_df': train_df,
                         'run_nr': run_nr,
                         'concept': row.concept,
-                        'concept_id': row.id,
+                        'concept_id': concept_id,
                         'question': question
-                }
-                job_queue.put(job)
-            else:
-                print(f'Skip {row.concept} - {run_nr}')
+            }
+            job_queue.put(job)
+            
 
     for _ in jobs:
         job_queue.put('kill')
@@ -154,7 +97,7 @@ def worker(i, job_queue, output_queue, model):
 
         train_df = job['train_df']
         question = job['question']
-        answer = make_request(train_df, model, question)
+        answer = make_claude_request(train_df, model, question)
         answer = escape_answer(answer)
         job['answer'] = answer
         output_queue.put(job)

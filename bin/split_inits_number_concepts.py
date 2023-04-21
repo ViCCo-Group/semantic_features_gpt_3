@@ -11,8 +11,8 @@ from utils.decoding.decode import decode_answers
 
 
 paths = [
-    "../data/gpt_3_feature_norm/mcrae_priming/chatgpt-gpt3.5-turbo",
-    "../data/gpt_3_feature_norm/mcrae_priming/gpt3-davinci",
+    "../data/gpt_3_feature_norm/mcrae_priming/chatgpt-gpt3.5-turbo", # 1854 30
+    "../data/gpt_3_feature_norm/mcrae_priming/gpt3-davinci", # 1854 30
     "../data/gpt_3_feature_norm/mcrae_priming/gpt4", # 317 10
     "../data/gpt_3_feature_norm/cslb_priming/gpt3-davinci" # 1854 10
 ]
