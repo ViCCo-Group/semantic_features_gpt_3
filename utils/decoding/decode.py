@@ -14,14 +14,21 @@ def decode_answer_sentence(sentence):
     return features
 
 def split_answer_sentence(answer):
-    if '.What' in answer or '. What' in answer or '.what' in answer or '. what' in answer:
+    if '.What' in answer or '. What' in answer or '.what' in answer or '. what' in answer or '.' in answer:
         feature_sentence = answer.split('.')[0]
         features = feature_sentence.split(',')
     else:
         features = answer.split(',')
         # if . is missing, the feature could be stripped in the middle and make no sense
         features = features[:-1]
-    return features  
+
+    # Claude prepends "Here are the features:"" sometimes -> remove from first feature
+    if features:
+        first_feature = features[0]
+        if ":" in first_feature:
+            cleaned_first_feature = first_feature.split(':')[1]
+            features[0] = cleaned_first_feature
+    return features   
 
 def preprocess_feature(feature):
     feature = feature.strip()
@@ -99,10 +106,7 @@ def decode_answers(answers_df, lemmatize, parallel, keep_duplicates_per_concept,
             future = [executor.submit(decode_batch, df, i, lemmatize) for i, df in enumerate(dfs)]
             for future in concurrent.futures.as_completed(future):
                 print('Get result')
-                try:
-                    result = future.result()
-                except Exception as exc:
-                    print(exc)
+                result = future.result()
                 decoded_rows += result[0]
                 rules_changes += result[1]
     else:

@@ -2,11 +2,10 @@ import openai
 
 def generate_single_prime_sentence(train_df, question):
     priming_text = ''
-    train_df = train_df[:3]
-    for row in train_df.itertuples():
-        priming_text += row.question
+    for row in train_df:
+        priming_text += row[0]
         priming_text += ' '
-        priming_text += row.answer
+        priming_text += row[1]
 
     text = priming_text + '\n%s' % question
     return text
@@ -14,10 +13,9 @@ def generate_single_prime_sentence(train_df, question):
 def generate_chat_priming_messages(train_df, question):
     questions = []
     priming = []
-    train_df = train_df[:3]
-    for row in train_df.itertuples():
-        questions.append(row.question)
-        priming.append(row.answer)
+    for row in train_df:
+        questions.append(row[1])
+        priming.append(row[2])
         
     questions.append(question)
 

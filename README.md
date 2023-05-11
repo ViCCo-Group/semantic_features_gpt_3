@@ -4,6 +4,7 @@ This repository contains all needed code to generate, preprocess, norm and evalu
 ## Installation
 ```
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Project structure
@@ -49,12 +50,6 @@ To reproduce the analyses and figures, you can run the notebooks in the analysis
 
 ## Citation
 
-
-OPENAI_API_KEY python create_feature_norm.py --output_dir=. --train_dir=../data/priming_examples/cslb --retrival_path=../data/gpt_3_feature_norm/generation_questions/only_things_concepts.csv --model=davinci
-
-python decode.py --answers=../data/gpt_3_feature_norm/mcrae_priming/gpt4/encoded_answers_openai.csv --output=../data/gpt_3_feature_norm/mcrae_priming/gpt4 --parallel
-
-rs
 
 ## Prices
 Prompting - 350 Tokens

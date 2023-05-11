@@ -1,30 +1,28 @@
 import os
 import anthropic
 
-client = anthropic.Client(os.environ['ANTHROPIC_API_KEY'])
 
 def generate_single_prime_sentence(train_df, question):
     priming_text = f"{anthropic.HUMAN_PROMPT} Answer the last question. Use the same syntax."
-    train_df = train_df[:3]
-    for row in train_df.itertuples():
-        priming_text += ' ' + row.question
+    for row in train_df:
+        priming_text += ' ' + row[0]
         priming_text += ' '
-        priming_text += row.answer
+        priming_text += row[1]
 
     text = f"{priming_text} {question}{anthropic.AI_PROMPT}" # See Claude API reference for format
     return text
 
 def generate_chat_priming_messages(train_df, question):
-    train_df = train_df[:3]
     text = ""
-    for row in train_df.itertuples():
-        text += f"{anthropic.HUMAN_PROMPT} {row.question}"
-        text += f"{anthropic.AI_PROMPT} {row.answer}"
+    for row in train_df:
+        text += f"{anthropic.HUMAN_PROMPT} {row[0]}"
+        text += f"{anthropic.AI_PROMPT} {row[1]}"
 
     text += f"{anthropic.HUMAN_PROMPT} {question} {anthropic.AI_PROMPT}"
     return text
 
 def make_request(train_df, model, question):
+    client = anthropic.Client(os.environ['ANTHROPIC_API_KEY'])
     prompt = generate_single_prime_sentence(train_df, question)
 
     response = client.completion(

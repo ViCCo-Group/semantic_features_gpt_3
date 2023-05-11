@@ -26,7 +26,7 @@ def run(args):
     manager = mp.Manager()
     output_queue = manager.Queue()    
     job_queue  = manager.Queue()  
-    n_jobs = 2 #mp.cpu_count()  
+    n_jobs = 3 #mp.cpu_count()
     pool = mp.Pool(n_jobs)
 
     #put ouput listener to work first
@@ -41,11 +41,11 @@ def run(args):
         jobs.append(job)
 
     # create jobs
-    # TODO skip concept when used in priming
-    for train_file_name in os.listdir(train_dir)[:10]:
+    for run_nr in [1, 2, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 19, 20, 21, 26, 27, 28, 29, 30]: # TODO remaining  
+        train_file_name = f"train_{str(run_nr)}.csv"
         print(f'Check {train_file_name}')
-        run_nr = int(train_file_name.split('_')[1].split('.')[0])
         train_df = pd.read_csv('%s/%s' % (train_dir, train_file_name))
+
         for row in retrieval_df.itertuples():
             concept_id = row.id
             concept_run_already_sampled = (((current_answers_saved.concept_id == concept_id) & (current_answers_saved.run_nr == run_nr)).any())
@@ -56,8 +56,13 @@ def run(args):
                 continue
     
             question = row.question
+            
+            priming = []
+            for priming_example in train_df.itertuples():
+                priming.append([priming_example.question, priming_example.answer])
+
             job = {
-                        'train_df': train_df,
+                        'priming': priming,
                         'run_nr': run_nr,
                         'concept': row.concept,
                         'concept_id': concept_id,
@@ -95,9 +100,9 @@ def worker(i, job_queue, output_queue, model):
         if job == 'kill':
             break
 
-        train_df = job['train_df']
+        priming = job['priming']
         question = job['question']
-        answer = make_claude_request(train_df, model, question)
+        answer = make_claude_request(priming, model, question)
         answer = escape_answer(answer)
         job['answer'] = answer
         output_queue.put(job)

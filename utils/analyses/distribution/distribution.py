@@ -15,6 +15,7 @@ colors = {
 }
 
 def plot(hist, ax, confs):
+    print(hist)
     for value,count in hist.items():
         x = []
         y = []
@@ -64,4 +65,4 @@ def plot_bar(df, ax, title):
 
     ax.set_title(title, fontsize=fontsize)
     ax.set_xlabel('Feature label', fontsize=fontsize)
-    ax.tick_params(labelsize=12)
+    ax.tick_params(labelsize=20)

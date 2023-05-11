@@ -6,6 +6,6 @@ setup(
     author='Hannes Hansen',
     author_email='gward@python.net',
     scripts = ['bin/decode.py', 'bin/encoding.py'],
-    packages=['utils', 'utils.analyses', 'utils.decoding', 'utils.encoding'],
+    packages=['utils', 'utils.analyses', 'utils.decoding', 'utils.norm_generation'],
     install_requires=[],
 )
