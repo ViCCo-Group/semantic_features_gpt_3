@@ -30,7 +30,4 @@ feature_norms = {
 }
 
 all_things_concepts = list(feature_norms['GPT3-CSLB-10']['concept_id'].unique())
-feature_norms_vec, behav_sim_matched = get_all_vectorized(feature_norms, all_things_concepts, 'count')
-
-corr = calc_correlation(feature_norms_vec, behav_sim_matched)
-corr.style.background_gradient(cmap='coolwarm', axis=None).set_precision(3)
+run_things_analyses(feature_norms, all_things_concepts)

@@ -41,8 +41,9 @@ def run(args):
         jobs.append(job)
 
     # create jobs
-    for run_nr in [1, 2, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 19, 20, 21, 26, 27, 28, 29, 30]: # TODO remaining  
-        train_file_name = f"train_{str(run_nr)}.csv"
+    for run_nr in list(range(1,31)):  
+        run_nr = str(run_nr)
+        train_file_name = f"train_{run_nr}.csv"
         print(f'Check {train_file_name}')
         train_df = pd.read_csv('%s/%s' % (train_dir, train_file_name))
 

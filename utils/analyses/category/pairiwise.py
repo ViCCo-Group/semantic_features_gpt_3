@@ -88,11 +88,10 @@ def plot_violin(ax, sims_gpt, sims_cslb, sims_mc, categories):
     ax.plot([], c='#2C7BB6', label='CSLB')
     ax.plot([], c='#D7191C', label='GPT')
 
-    fontsize = 25
-    ax.legend(fontsize=fontsize)
+    ax.legend()
 
     ax.set_xticks(range(0, len(ticks) * 2, 2))
-    ax.set_xticklabels(ticks, fontsize=fontsize)
+    ax.set_xticklabels(ticks)
     ax.set_xlim(-2, len(ticks)*2)
-    ax.set_ylabel('within-between similarity', fontsize=fontsize)
-    ax.set_xlabel('category with number of concepts', fontsize=fontsize)
+    ax.set_ylabel('within-between similarity')
+    ax.set_xlabel('category with number of concepts')

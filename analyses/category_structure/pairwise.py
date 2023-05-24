@@ -14,7 +14,7 @@ from utils.things import match_behv_sim
 from utils.feature_norms import generate_concepts_to_keep
 from utils.analyses.category.category import get_categories
 from utils.analyses.category.pairiwise import calc_sim, plot_violin
-from utils.things import get_all_vectorized
+from utils.things import vectorize_filter_sort_feature_norms
 import pandas as pd
 import matplotlib.pyplot as plt 
 from sklearn.metrics.pairwise import cosine_similarity
@@ -33,13 +33,13 @@ feature_norms = {
     }
 
 intersection_concepts = generate_concepts_to_keep(feature_norms, 'intersection')
-feature_norms_vec, behav_sim_matched = get_all_vectorized(feature_norms, intersection_concepts, 'count')
+feature_norms_vec = vectorize_filter_sort_feature_norms(feature_norms, intersection_concepts, 'count')
 categories, _, _ = get_categories(intersection_concepts)
 sims_gpt, sims_cslb, sims_mc = calc_sim(feature_norms_vec['GPT3-davinci-McRae'], feature_norms_vec['CSLB'], feature_norms_vec['McRae'], categories)
 
 # TODO count/tfidf not wroking csbl mcrae
 
-fig, axes = plt.subplots(1,1, figsize=(33,5), sharex=True)
-plot_violin(axes, sims_gpt, sims_cslb, sims_mc, categories)
-plt.tight_layout()
-plt.savefig(pjoin(FIGURES_DIR, 'pairwise_similarities.svg'))
+import pickle
+with open('pairwirse.pkl', 'wb') as results:
+    pickle.dump({'gpt': sims_gpt, 'cslb': sims_cslb, 'mc': sims_mc, 'categories': categories}, results, protocol=pickle.HIGHEST_PROTOCOL)
+

@@ -36,21 +36,21 @@ def sort_vec(df):
     df = df.drop('concept_num', axis=1)
     return df
 
-
-def get_all_vectorized(feature_norms, concept_ids, vec = 'binary'):
+def vectorize_filter_sort_feature_norms(feature_norms, concept_ids, vec = 'binary'):
     feature_norms_vec = {}
-    sorting = load_sorting()
-    behav_sim = load_behav()
-
-    behv_sim = match_behv_sim(behav_sim, concept_ids, load_sorting())
 
     for name, feature_norm in feature_norms.items():
-        feature_norm_vec = vectorize_concepts(feature_norm, sorting, vec)
-
+        feature_norm_vec = vectorize_concepts(feature_norm, vec)
         if vec == 'count' and name == 'CSLB':
             feature_norm_vec = load_cslb_count_vec()
-        
         feature_norm_vec = feature_norm_vec.loc[concept_ids]
         feature_norms_vec[name] = sort_vec(feature_norm_vec)
-        
-    return feature_norms_vec, behv_sim
+
+    return feature_norms_vec
+
+def run_things_analyses(feature_norms, concept_ids):
+    behav_sim = load_behav()
+    behv_sim = match_behv_sim(behav_sim, concept_ids, load_sorting())
+    feature_norms_vec = vectorize_filter_sort_feature_norms(feature_norms, concept_ids, 'count')
+    corr = calc_correlation(feature_norms_vec, behav_sim_matched)
+    return corr

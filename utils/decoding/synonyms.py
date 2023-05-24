@@ -37,10 +37,10 @@ def find_candidates(features):
         if tagged_feature[0].lemma_ == 'be':
             # is a plant
             # are plants
-            if tagged_feature[1].tag_ == 'DT' and len(tagged_feature) == 3:
+            if len(tagged_feature) == 3 and tagged_feature[1].tag_ == 'DT':
                 noun = tagged_feature[2]
                 a_features.append((feature, noun.lemma_, count, noun.text))
-            elif helper.word_is_noun(tagged_feature[1]) and len(tagged_feature) == 2:
+            elif len(tagged_feature) == 2 and helper.word_is_noun(tagged_feature[1]):
                 noun = tagged_feature[1]
                 a_features.append((feature, noun.lemma_, count, noun.text))
         

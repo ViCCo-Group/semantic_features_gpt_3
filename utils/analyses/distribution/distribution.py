@@ -56,13 +56,8 @@ def get_confidence_interval(df):
     
 
 def plot_bar(df, ax, title):
-    fontsize = 25
     hist = df['label'].value_counts(dropna=False, normalize=True)
     hist = hist.apply(lambda value: value * 100)
     confs = get_confidence_interval(df)
-
     plot(hist, ax, confs)
-
-    ax.set_title(title, fontsize=fontsize)
-    ax.set_xlabel('Feature label', fontsize=fontsize)
-    ax.tick_params(labelsize=20)
+    ax.set_title(title)

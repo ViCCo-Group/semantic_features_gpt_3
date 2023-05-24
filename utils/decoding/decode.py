@@ -114,9 +114,11 @@ def decode_answers(answers_df, lemmatize, parallel, keep_duplicates_per_concept,
     
     print('Decoding done')
     df = pd.DataFrame(decoded_rows)
-
+    print(df)
+    
     # Drop duplicates of a feature within a concept and within a run -> same as when one human would write a feature twice 
     df = df.drop_duplicates(['concept_id', 'decoded_feature', 'run_nr'])
+    print(df)
 
     # Sum amount of runs where the feature occured
     df['amount_runs_feature_occured'] = df['run_nr'].groupby(df['decoded_feature']).transform(filter_two_occ)

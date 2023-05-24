@@ -12,8 +12,6 @@ import numpy as np
 import pandas as pd
 from collections import defaultdict
 from IPython.display import display
-
-
 from os.path import join as pjoin
 
 # Predicting human similarity judgements

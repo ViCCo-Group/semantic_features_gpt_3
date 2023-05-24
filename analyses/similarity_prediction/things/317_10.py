@@ -54,10 +54,7 @@ feature_norms = {
     'Claude-v1-McRae-10': load_gpt(1, group_to_one_concept, min_amount_runs_feature_occured_within_concept, duplicates, 'mcrae_priming', 'claude', 10, "test_concepts")
 }
 
-intersection_concepts = generate_concepts_to_keep(feature_norms, 'intersection')
-feature_norms_vec, behav_sim_matched = get_all_vectorized(feature_norms, intersection_concepts, 'count')
-
-corr = calc_correlation(feature_norms_vec, behav_sim_matched)
-corr.style.background_gradient(cmap='coolwarm', axis=None).set_precision(3)
+test_concepts = generate_concepts_to_keep(feature_norms, 'intersection')
+run_things_analyses(feature_norms, test_concepts)
 
 print(corr)

@@ -1,7 +1,7 @@
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 import pandas as pd 
 
-def vectorize_concepts(df, sorting_df, vectorizer):
+def vectorize_concepts(df, vectorizer):
     # Calculate Vectors of all concepts based on the features
     if vectorizer == 'binary':
         vectorizer = CountVectorizer(tokenizer=lambda feature_string: feature_string.split(';'), binary=True)
@@ -15,12 +15,6 @@ def vectorize_concepts(df, sorting_df, vectorizer):
     pred_count_df = pd.DataFrame(doc_term_matrix, 
                     columns=vectorizer.get_feature_names(), 
                     index=df['concept_id'])
-
-    if sorting_df is not None:
-        sorted_df = sorting_df.reset_index().set_index('concept_id')
-        pred_count_df['concept_num'] = pred_count_df.index.map(sorted_df['index'])
-        pred_count_df = pred_count_df.sort_values(by='concept_num')
-        pred_count_df = pred_count_df.drop('concept_num', axis=1)
 
     #for column in pred_count_df.columns:
     #    feature_frequency = df.loc[df['feature'] == column][0]

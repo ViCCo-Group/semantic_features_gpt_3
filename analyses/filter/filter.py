@@ -58,14 +58,10 @@ for i in range(1, 10):
 
     gpt_df_temp = gpt_df_temp.groupby('concept_id', as_index=False).agg({'feature': lambda x: ';'.join(x)})
 
-    feature_norm_vec = vectorize_concepts(gpt_df_temp, load_sorting(), 'count')
-    #feature_norm_vec = feature_norm_vec.loc[validation_concepts]
-    feature_norm_vec = sort_vec(feature_norm_vec)
     feature_norms = {
-        'GPT3-davinci-McRae': feature_norm_vec
+        'GPT3-davinci-McRae': gpt_df_temp
     }
-
-    corr = calc_correlation(feature_norms, behv_sim)
+    corr = run_things_analyses(feature_norms, validation_concepts)
     r_gpt_behav = corr['THINGS']['GPT3-davinci-McRae']
     r.append(r_gpt_behav)
 
