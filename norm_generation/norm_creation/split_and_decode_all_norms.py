@@ -6,7 +6,9 @@ os.environ['DATA_DIR'] = DATA_DIR
 
 import pandas as pd 
 from os.path import join as pjoin 
-from utils.decoding.decode import decode_answers
+
+from semantic_norm_generator.decoding.decode import decode_answers
+
 from utils.concepts import load_test_concepts, load_all_things_concepts, load_val_concepts
 
 

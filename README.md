@@ -46,7 +46,7 @@ python decode.py --answers=feature_norm_from_gpt.csv --output=. --parallel
 ```
 
 ### Evaluation
-To reproduce the analyses and figures, you can run the notebooks in the analysis directory.
+To reproduce the analyses and figures, you can run the notebooks and scripts in the analysis directory.
 
 ## Citation
 
