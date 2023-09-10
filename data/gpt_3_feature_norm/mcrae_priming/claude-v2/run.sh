@@ -1,0 +1,1 @@
+python -m semantic_norm_generator create --output_dir=. --train_dir=~/gpt3/semantic_features_gpt_3/data/gpt_3_feature_norm/mcrae_priming/priming_examples --retrieval_path=~/gpt3/semantic_features_gpt_3/data/gpt_3_feature_norm/generation_questions/all_concepts.csv --model_source=claude --model=claude-2 --number_runs=30 --number_of_parallel_jobs=3
